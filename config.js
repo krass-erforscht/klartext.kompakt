@@ -2,7 +2,7 @@
 module.exports = {
   NAME: 'tagesbild.kompakt',
   HANDLE: '@tagesbild.kompakt',
-  REPO: 'krass-erforscht/tagesbild-kompakt',
+  REPO: 'krass-erforscht/klartext.kompakt',
   // Eigener Name für den Instagram-Schlüssel, damit nie aus Versehen auf krass.erforscht (IG_TOKEN) gepostet wird
   TOKEN_VAR: 'KLARTEXT_IG_TOKEN',
   // Dunkles Nachrichten-Blau, Signalrot als Markenfarbe, Gelb für Zahlen

@@ -19,10 +19,10 @@ welches Format (Bilder, Video, beides) und welche Uhrzeit am besten ankommt (`sc
 
 ### 2. GitHub-Repository anlegen (Claude darf das nicht selbst)
 1. Auf https://github.com/new gehen (angemeldet als **krass-erforscht**).
-2. Repository name: **tagesbild-kompakt**, **Public** auswählen (Instagram muss die Bilder abrufen können), **kein** README, keine .gitignore, keine Lizenz.
+2. Repository name: **klartext.kompakt**, **Public** auswählen (Instagram muss die Bilder abrufen können), **kein** README, keine .gitignore, keine Lizenz.
 3. **Create repository** klicken.
 4. Claude Zugriff geben: https://github.com/apps/claude/installations/select_target → krass-erforscht → **Configure** →
-   unter „Repository access“ **tagesbild-kompakt** hinzufügen (oder „All repositories“) → **Save**.
+   unter „Repository access“ **klartext.kompakt** hinzufügen (oder „All repositories“) → **Save**.
 
 ### 3. Instagram-Schlüssel (Token) erzeugen
 1. https://developers.facebook.com → **Meine Apps** → deine App von krass.erforscht öffnen (oder **App erstellen** → „Andere“ → „Business“).
