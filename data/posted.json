@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "2026-10-28-elterngeld",
+    "postedAt": "2026-10-28T17:02:35.143Z",
+    "topic": "geld",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.deutschlandfunk.de/elterngeld-soll-erstmals-seit-einfuehrung-erhoeht-werden-102.html",
+    "sourceUrls": [
+      "https://www.deutschlandfunk.de/elterngeld-soll-erstmals-seit-einfuehrung-erhoeht-werden-102.html",
+      "https://www.zdfheute.de/politik/deutschland/elterngeld-reform-geld-aufteilung-erhoehung-100.html",
+      "https://www.spiegel.de/wirtschaft/soziales/elterngeld-soll-erstmals-steigen-a-0995227d-8248-45e8-9062-6dbcb76de5f8",
+      "https://www.tagesschau.de/inland/innenpolitik/elterngeld-bezugsdauer-prien-100.html"
+    ],
+    "mediaId": "17914858173285161",
+    "format": "bilder",
+    "reelMediaId": "18287937421295699"
+  }
+]
