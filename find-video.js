@@ -1,5 +1,5 @@
 // Sucht frei nutzbare Videos, die zeigen, was der Post beschreibt:
-//   node find-video.js "<englischer Suchbegriff>" <post-id>
+//   node find-video.js "<englischer Suchbegriff>" <post-id> [--weltraum]
 //   node find-video.js --url <direkte-mp4-adresse> <post-id> --credit "<Urheber>" --license "<CC BY 4.0 …>" --page <quelle>
 //     (für Videos, die bei der Recherche gefunden wurden, z. B. Zusatzmaterial einer Open-Access-Studie unter CC BY)
 // Quellen: NASA (gemeinfrei), ESA/Webb, ESA/Hubble und ESO (CC BY 4.0), Wikimedia Commons (freie Lizenzen).
@@ -73,7 +73,13 @@ async function commons(q, max) {
 
 // Lädt ein Video, prüft die Länge und legt einen Bogen mit 6 Standbildern daneben
 async function fetchCandidate(c, file) {
-  const res = await fetch(c.url, { headers: UA });
+  // Wikimedia bremst bei vielen Anfragen (429): kurz warten und bis zu zweimal neu versuchen
+  let res;
+  for (let i = 0; i < 3; i++) {
+    res = await fetch(c.url, { headers: UA, signal: AbortSignal.timeout(120000) });
+    if (res.status !== 429) break;
+    await sleep(10000 * (i + 1));
+  }
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   if (+res.headers.get('content-length') > MAX_BYTES) throw new Error('zu groß');
   fs.writeFileSync(file, Buffer.from(await res.arrayBuffer()));
@@ -101,7 +107,9 @@ async function fetchCandidate(c, file) {
     found = [{ url: manual, title: 'manuell', credit, license, page: page || manual }];
   } else {
     const [q] = args; id = args[1];
-    for (const [src, max] of [[nasa, 2], [webb, 2], [hubble, 1], [eso, 1], [commons, 3]]) {
+    // Nachrichten: zuerst Wikimedia Commons (Orte, Gegenstände, Ereignisse), mit --weltraum die Weltraum-Archive
+    const space = args.includes('--weltraum');
+    for (const [src, max] of space ? [[nasa, 2], [webb, 2], [hubble, 1], [eso, 1], [commons, 2]] : [[commons, 5], [nasa, 2]]) {
       try { found.push(...await src(q, max)); } catch (e) { console.error(`${src.name}: ${e.message}`); }
     }
   }

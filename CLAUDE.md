@@ -47,9 +47,20 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
    - Titelbild nach `images/<post-id>.jpg`, `image` (file, credit, short, license, page, symbolbild) eintragen. Weitere Folien mit eigenen Fotos wie bei krass.erforscht
      (`<post-id>-2` …, `"position"` so wählen, dass das Motiv oben sichtbar ist). Dasselbe Foto höchstens auf zwei Folien
      (`render.js` setzt das Titelbild automatisch nur auf zwei Folien, die übrigen ohne eigenes Foto bleiben schlicht; besser: für jede Folie ein eigenes passendes Foto suchen).
-6b. **Video:** `node find-video.js "<englischer Begriff>" <post-id>` und Websuche nach frei lizenzierten Videos (Wikimedia Commons, NASA, ESA, EU-Kommission
-   Audiovisual Service nur wenn ausdrücklich frei). Nur Public Domain, CC0, CC BY, CC BY-SA. **Niemals** YouTube, TikTok, Instagram, Nachrichtenseiten, Agenturen.
-   Symbolvideos mit `"symbolisch": true`. Danach `node format.js ja|nein` und das Ergebnis als `"format"` eintragen (ohne Video immer `bilder`).
+6b. **Video (bei jedem Post gründlich suchen, kurze Videos machen die Posts deutlich spannender):**
+   - `node find-video.js "<englischer Begriff>" <post-id>` (Wikimedia Commons, NASA; bei Weltraum-Themen mit `--weltraum` auch ESA/Webb, ESA/Hubble, ESO).
+     **Mindestens 3 Suchbegriffe:** das Ereignis selbst, der Ort/Gegenstand (z. B. „Bundestag“, „euro banknotes“, „ICE train“, „smartphone“), ein verwandtes Motiv.
+   - Zusätzlich per Websuche nach frei lizenzierten Videos zum Thema (Wikimedia Commons, Behörden mit ausdrücklich freier Lizenz).
+     Nur Public Domain, CC0, CC BY, CC BY-SA, und die Lizenz muss auf der Seite stehen. Dann `node find-video.js --url <mp4> <post-id> --credit … --license … --page …`.
+   - **Niemals** YouTube, TikTok, Instagram, Nachrichtenseiten, Agenturen oder Videos ohne klare freie Lizenz.
+   - Bei jedem Kandidaten den Bogen `videos/candidates/<post-id>-v<n>-frames.jpg` ansehen. Erste Wahl: zeigt genau das Ereignis.
+     Zweite Wahl: ein **Symbolvideo**, das zum Thema passt und nichts Falsches zeigt (Geldscheine bei einem Geld-Thema, fahrender Zug bei Bahn-News);
+     dann `"symbolisch": true`, es wird sichtbar als „Symbolvideo“ gekennzeichnet. Besten Abschnitt wählen (8–30 Sekunden).
+   - Gefunden: wie bei krass.erforscht nach `videos/<post-id>.mp4` (webm vorher mit ffmpeg umwandeln) und `"video"` eintragen
+     (`file, start, duration, credit, short, license, page, symbolisch, headline, captions`).
+   - **Format:** `node format.js ja` (Video gefunden) bzw. `nein`. Es testet `bilder`, `video` (echtes Video als Reel im Feed) und `zusammen`
+     (Karussell mit dem Video als zweiter Folie) gleich oft und nimmt danach zu 70 % das Format mit der höchsten Reichweite. So setzt sich von selbst durch,
+     wie Videos am besten ankommen. Ergebnis als `"format"` eintragen.
 7. **Post schreiben:** `posts/<YYYY-MM-DD>-<stichwort>.json` nach dem Muster von `beispiel/elterngeld.json`.
    - Felder: `id`, `date` (Zeitpunkt der Meldung, erscheint auf jeder Folie), `category` (Anzeigename, z. B. „Geld“), `topic` (= Schwerpunkt), `tone` (sachlich | ueberraschend | locker), `sources`.
    - 4–6 Folien: Titelfolie (die Nachricht in einem Satz), „Was ist passiert?“, „Was heißt das für dich?“, eine Zahl als `big`, Einordnung/„Wie geht es weiter?“, letzte Folie `cta`.
