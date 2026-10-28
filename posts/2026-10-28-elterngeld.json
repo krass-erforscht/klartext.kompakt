@@ -1,0 +1,31 @@
+{
+  "id": "2026-10-28-elterngeld",
+  "date": "2026-10-28T14:39:18Z",
+  "category": "Geld",
+  "topic": "geld",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    { "name": "Bundesfamilienministerium (laut ZDFheute und Deutschlandfunk)", "url": "https://www.deutschlandfunk.de/elterngeld-soll-erstmals-seit-einfuehrung-erhoeht-werden-102.html" },
+    { "name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/elterngeld-reform-geld-aufteilung-erhoehung-100.html" },
+    { "name": "Spiegel", "url": "https://www.spiegel.de/wirtschaft/soziales/elterngeld-soll-erstmals-steigen-a-0995227d-8248-45e8-9062-6dbcb76de5f8" },
+    { "name": "tagesschau", "url": "https://www.tagesschau.de/inland/innenpolitik/elterngeld-bezugsdauer-prien-100.html" }
+  ],
+  "image": {
+    "file": "images/2026-10-28-elterngeld.jpg",
+    "credit": "Friedrich Haag",
+    "short": "Foto: Friedrich Haag, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:One_stands_out_002_2025_01_01.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Geld", "title": "Elterngeld soll **zum ersten Mal** steigen" },
+    { "label": "Was ist passiert?", "title": "Mehr Geld **geplant**", "text": ["Das Familienministerium plant: Das Elterngeld soll erstmals seit der Einführung 2007 erhöht werden.", "Der Gesetzentwurf ist in der Abstimmung der Regierung. Beschlossen ist noch nichts."] },
+    { "label": "Was heißt das für dich?", "title": "Mindest- und **Höchstsatz** steigen", "text": ["Der Mindestbetrag soll von 300 auf **330 Euro** steigen. Der Höchstsatz von 1.800 auf **1.900 Euro**.", "Die geplante Kürzung von 14 auf 12 Monate ist vom Tisch."] },
+    { "label": "Die Zahl", "big": "–38 %", "title": "Kaufkraft seit 2007", "text": ["So viel Wert hat das Elterngeld laut einer Studie des Instituts der deutschen Wirtschaft verloren, weil es nie an die Preise angepasst wurde."] },
+    { "label": "Wie geht es weiter?", "title": "Noch **kein Gesetz**", "text": ["Der Entwurf muss noch abgestimmt werden. Wann die Reform gelten soll, ist offen."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Elterngeld soll erstmals seit 2007 steigen: Der Mindestbetrag von 300 auf 330 Euro, der Höchstsatz von 1.800 auf 1.900 Euro. Das plant laut Bundesfamilienministerium der Gesetzentwurf. Die Kürzung der Bezugsdauer ist vom Tisch. Beschlossen ist noch nichts.\n\nWie war das bei dir: Hat das Elterngeld gereicht? 👇\n\nQuellen: Bundesfamilienministerium (laut Deutschlandfunk, ZDFheute), Spiegel, tagesschau · Text mit KI erstellt\nSymbolbild. Foto: Friedrich Haag, CC BY-SA 4.0, via Wikimedia Commons\nMusik (Reel): „Rainbows“ von Kevin MacLeod (incompetech), CC BY 4.0\n#elterngeld #eltern #familie #nachrichten #geld"
+}
