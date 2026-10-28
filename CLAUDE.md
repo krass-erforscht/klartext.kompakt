@@ -45,7 +45,8 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
    - Symbolfotos mit erkennbaren Privatpersonen nur in neutralem Zusammenhang (nie bei Betrug, Schulden, Krankheit …).
    - Jeden Kandidaten ansehen. Lieber kein Foto als ein falsches; ohne Foto gibt es die dunkle Titelfolie.
    - Titelbild nach `images/<post-id>.jpg`, `image` (file, credit, short, license, page, symbolbild) eintragen. Weitere Folien mit eigenen Fotos wie bei krass.erforscht
-     (`<post-id>-2` …, `"position"` so wählen, dass das Motiv oben sichtbar ist). Dasselbe Foto höchstens auf zwei Folien.
+     (`<post-id>-2` …, `"position"` so wählen, dass das Motiv oben sichtbar ist). Dasselbe Foto höchstens auf zwei Folien
+     (`render.js` setzt das Titelbild automatisch nur auf zwei Folien, die übrigen ohne eigenes Foto bleiben schlicht; besser: für jede Folie ein eigenes passendes Foto suchen).
 6b. **Video:** `node find-video.js "<englischer Begriff>" <post-id>` und Websuche nach frei lizenzierten Videos (Wikimedia Commons, NASA, ESA, EU-Kommission
    Audiovisual Service nur wenn ausdrücklich frei). Nur Public Domain, CC0, CC BY, CC BY-SA. **Niemals** YouTube, TikTok, Instagram, Nachrichtenseiten, Agenturen.
    Symbolvideos mit `"symbolisch": true`. Danach `node format.js ja|nein` und das Ergebnis als `"format"` eintragen (ohne Video immer `bilder`).
@@ -65,6 +66,8 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
     Schlägt ein Video-Teil fehl: auf `bilder` zurückfallen, Fehler in `data/probleme.md`. Danach `data/posted.json` committen und pushen.
 11. **Selbst verbessern** (einmal am Tag, beim zweiten Post des Tages):
     - Rückblick: Was ist schiefgegangen oder war umständlich? `data/probleme.md` und `data/learnings.json` lesen: Welche Schwerpunkte, Töne, Formate, Uhrzeiten laufen gut?
+    - **Fehler aus dem heutigen Lauf haben Vorrang:** Was den Lauf aufgehalten hat (Skriptfehler, Quelle nicht erreichbar, Folie abgeschnitten),
+      wird als Erstes so behoben, dass es beim nächsten Lauf nicht wieder passiert.
     - **Montags** kurz im Netz nachsehen, ob sich bei Instagram etwas geändert hat (Algorithmus, Regeln, Schnittstelle).
     - **Höchstens eine** kleine, sinnvolle Verbesserung umsetzen (Code, Anleitung, Vorlage, neuer freier Feed oder Bildquelle). Vorher testen
       (heutigen Post neu rendern bzw. geändertes Skript ausführen). Klappt der Test nicht: `git checkout -- <datei>`. **Nie Dateien, Posts oder Daten löschen.**

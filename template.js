@@ -26,6 +26,7 @@ p{font-size:58px;line-height:1.3;margin:0}
 .cover,.cta{background:${C.dark};color:#fff}
 .cover .date,.cta .date{color:rgba(255,255,255,.7)}.cover .foot,.cta .foot{color:rgba(255,255,255,.7)}
 .cover .hl,.cta .hl{background:none;color:${C.mark};padding:0}
+.cta .foot{font-size:24px;line-height:1.3}
 .swipe{font-size:34px;font-weight:700;color:${C.mark}}
 .handle{font-weight:800;font-size:72px;color:${C.accent}}
 .credit{position:absolute;bottom:56px;right:90px;max-width:560px;text-align:right;font-size:24px;line-height:1.25;color:rgba(255,255,255,.78)}
@@ -44,7 +45,8 @@ p{font-size:58px;line-height:1.3;margin:0}
 const datum = post => new Date(post.date || Date.now()).toLocaleDateString('de-DE', { timeZone: 'Europe/Berlin', day: '2-digit', month: '2-digit', year: 'numeric' });
 
 function slideHtml(post, slide, i, n) {
-  const img = slide.image || post.image;
+  // Das Titelbild füllt nur Folien, die render.js dafür freigegeben hat (höchstens zwei), die übrigen bleiben ohne Foto
+  const img = slide.image || (slide.ohneTitelbild ? null : post.image);
   let cls = 'slide', body = '', foot = HANDLE, style = '';
   if (img?.dataUri) {
     cls += ' photo';

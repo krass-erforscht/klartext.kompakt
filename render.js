@@ -12,6 +12,9 @@ const { slideHtml } = require('./template');
     const ext = path.extname(img.file).slice(1).replace('jpg', 'jpeg');
     img.dataUri = `data:image/${ext};base64,` + fs.readFileSync(img.file).toString('base64');
   }
+  // Dasselbe Foto höchstens auf zwei Folien: das Titelbild nur auf der Titelfolie und der nächsten Folie ohne eigenes Foto
+  let titelbild = 0;
+  for (const s of post.slides) if (!s.image && post.image && ++titelbild > 2) s.ohneTitelbild = true;
   const outDir = path.join('out', post.id);
   fs.mkdirSync(outDir, { recursive: true });
   const browser = await launch();
@@ -21,10 +24,12 @@ const { slideHtml } = require('./template');
     // Schrift verkleinern, bis nichts mehr über den Rand ragt oder die Folie überläuft
     await page.evaluate(() => {
       const slide = document.querySelector('.slide');
-      // Der Textblock muss zwischen Kopfzeile (bis 130px) und Fußzeile (ab 1350-130px) passen, auch wenn er nach oben überläuft
+      // Der Textblock muss zwischen Kopfzeile (bis 130px) und Fußzeile passen, auch wenn er nach oben überläuft;
+      // die Fußzeile kann bei vielen Quellen zweizeilig sein, darum zählt ihre tatsächliche Oberkante
+      const footTop = Math.min(1350 - 130, slide.querySelector('.foot').getBoundingClientRect().top - 24);
       const blocks = () => [...slide.querySelectorAll('h2,p,.big,.swipe,.handle')].map(el => el.getBoundingClientRect());
       const tooBig = () => [...slide.querySelectorAll('h2,p,.big,.handle')].some(el => el.scrollWidth > el.clientWidth + 1) ||
-        blocks().some(r => r.top < 130 || r.bottom > 1350 - 130);
+        blocks().some(r => r.top < 130 || r.bottom > footTop);
       for (let k = 0; k < 30 && tooBig(); k++)
         slide.querySelectorAll('h2,p,.big,.handle').forEach(el => { el.style.fontSize = parseFloat(getComputedStyle(el).fontSize) * 0.95 + 'px'; });
     });
