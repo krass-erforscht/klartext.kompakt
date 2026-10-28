@@ -1,0 +1,19 @@
+{
+  "id": "beispiel-elterngeld",
+  "date": "2026-10-28T13:08:14Z",
+  "category": "Geld",
+  "topic": "geld",
+  "tone": "sachlich",
+  "sources": [
+    { "name": "tagesschau / ARD-Hauptstadtstudio", "url": "https://www.tagesschau.de/inland/innenpolitik/elterngeld-bezugsdauer-prien-100.html" }
+  ],
+  "slides": [
+    { "type": "cover", "label": "Geld", "title": "Elterngeld: Die Kürzung auf **12 Monate** soll doch nicht kommen" },
+    { "label": "Was ist passiert?", "title": "Weiter **14 Monate**", "text": ["Das Familienministerium plant laut einem Dokument, das dem ARD-Hauptstadtstudio vorliegt: Elterngeld soll weiter bis zu 14 Monate gezahlt werden."] },
+    { "label": "Der alte Plan", "title": "Erst sollte **gekürzt** werden", "text": ["Im Sommer stand im Entwurf: nur noch 12 Monate. Wäre nur ein Elternteil zu Hause geblieben, hätte es höchstens 9 Monate gegeben."] },
+    { "label": "So viel gibt es", "big": "300–1.800", "title": "Euro im Monat", "text": ["Das ist der Rahmen beim Elterngeld, seit es 2007 eingeführt wurde."] },
+    { "label": "Wichtig", "title": "Volle **14 Monate** nur zu zweit", "text": ["Dafür müssen beide Eltern jeweils mindestens 2 Monate übernehmen. Noch ist das ein Plan, kein beschlossenes Gesetz."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Elterngeld bleibt bei 14 Monaten: Die geplante Kürzung auf 12 Monate soll laut Familienministerium doch nicht kommen. Das geht aus einem Dokument hervor, das dem ARD-Hauptstadtstudio vorliegt. Beschlossen ist es noch nicht.\n\nWas meinst du: Sollten Väter mehr Elternzeit nehmen? 👇\n\nQuelle: tagesschau.de (ARD-Hauptstadtstudio) · Text mit KI erstellt\n#elterngeld #eltern #familie #nachrichten #elternzeit"
+}
