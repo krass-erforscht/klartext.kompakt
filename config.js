@@ -1,8 +1,8 @@
 // Name, Repository und Farben an einer Stelle. Wird der Account umbenannt, reicht eine Änderung hier.
 module.exports = {
-  NAME: 'klartext.kompakt',
-  HANDLE: '@klartext.kompakt',
-  REPO: 'krass-erforscht/klartext-kompakt',
+  NAME: 'tagesbild.kompakt',
+  HANDLE: '@tagesbild.kompakt',
+  REPO: 'krass-erforscht/tagesbild-kompakt',
   // Eigener Name für den Instagram-Schlüssel, damit nie aus Versehen auf krass.erforscht (IG_TOKEN) gepostet wird
   TOKEN_VAR: 'KLARTEXT_IG_TOKEN',
   // Dunkles Nachrichten-Blau, Signalrot als Markenfarbe, Gelb für Zahlen

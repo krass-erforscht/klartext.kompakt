@@ -1,4 +1,4 @@
-# klartext.kompakt – Ablauf pro Zeitfenster
+# tagesbild.kompakt – Ablauf pro Zeitfenster
 
 Instagram-Account mit aktuellen Nachrichten, kurz und verständlich erklärt, auf Deutsch. **Zwei Karussell-Posts pro Tag.**
 Gleiches System wie krass.erforscht, aber für Nachrichten. Grundregel: **Es darf nichts kosten.** Keine kostenpflichtigen APIs, keine bezahlten Bilder.
@@ -8,7 +8,7 @@ auch wenn sie „überall“ zu sehen sind. Nachrichten-Fakten dürfen übernomm
 Vor jedem `node`-Befehl: `export NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt NODE_NO_WARNINGS=1`
 
 Der Instagram-Schlüssel heißt hier **`KLARTEXT_IG_TOKEN`** (nicht `IG_TOKEN`, der gehört zu krass.erforscht).
-`publish.js` und `comments.js` prüfen, dass der Schlüssel zu @klartext.kompakt gehört, und brechen sonst ab.
+`publish.js` und `comments.js` prüfen, dass der Schlüssel zu @tagesbild.kompakt gehört, und brechen sonst ab.
 Name, Repository, Farben, Schwerpunkte und Töne stehen zentral in `config.js`.
 
 ## Ablauf

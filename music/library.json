@@ -24,8 +24,8 @@
     "mood": "nuetzlich",
     "file": "music/files/incompetech-Kevin_MacLeod-Pinball_Spring_160.mp3",
     "seconds": 171,
-    "used": 0,
-    "lastUsed": null
+    "used": 1,
+    "lastUsed": "2026-10-28T16:26:21.446Z"
   },
   {
     "source": "incompetech",
@@ -80,6 +80,34 @@
     "mood": "nuetzlich",
     "file": "music/files/Internet_Archive-Various-Chill_Music.mp3",
     "seconds": 592,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Motivator",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Motivator.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Motivator.mp3",
+    "seconds": 238,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "With Regards",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/With%20Regards.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-With_Regards.mp3",
+    "seconds": 178,
     "used": 0,
     "lastUsed": null
   }

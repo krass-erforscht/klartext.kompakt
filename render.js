@@ -23,10 +23,10 @@ const { slideHtml } = require('./template');
       const slide = document.querySelector('.slide');
       // Der Textblock muss zwischen Kopfzeile (bis 130px) und Fußzeile (ab 1350-130px) passen, auch wenn er nach oben überläuft
       const blocks = () => [...slide.querySelectorAll('h2,p,.big,.swipe,.handle')].map(el => el.getBoundingClientRect());
-      const tooBig = () => [...slide.querySelectorAll('h2,p,.big')].some(el => el.scrollWidth > el.clientWidth + 1) ||
+      const tooBig = () => [...slide.querySelectorAll('h2,p,.big,.handle')].some(el => el.scrollWidth > el.clientWidth + 1) ||
         blocks().some(r => r.top < 130 || r.bottom > 1350 - 130);
       for (let k = 0; k < 30 && tooBig(); k++)
-        slide.querySelectorAll('h2,p,.big').forEach(el => { el.style.fontSize = parseFloat(getComputedStyle(el).fontSize) * 0.95 + 'px'; });
+        slide.querySelectorAll('h2,p,.big,.handle').forEach(el => { el.style.fontSize = parseFloat(getComputedStyle(el).fontSize) * 0.95 + 'px'; });
     });
     await page.screenshot({ path: path.join(outDir, `${i + 1}.jpg`), type: 'jpeg', quality: 90 });
   }

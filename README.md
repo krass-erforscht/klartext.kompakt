@@ -1,4 +1,4 @@
-# klartext.kompakt
+# tagesbild.kompakt
 
 Aktuelle Nachrichten, kurz und verständlich erklärt. Instagram, zwei Posts pro Tag, automatisch erstellt mit Claude.
 Gleiches System wie [krass.erforscht](https://github.com/krass-erforscht/krass-erforscht): Nachrichten sammeln, Fakten prüfen,
@@ -12,23 +12,23 @@ welches Format (Bilder, Video, beides) und welche Uhrzeit am besten ankommt (`sc
 
 ### 1. Instagram-Account anlegen
 1. In der Instagram-App: Profil → oben auf deinen Namen → **Konto hinzufügen** → **Neues Konto erstellen**.
-2. Benutzername **klartext.kompakt** (falls vergeben: anderen wählen und Claude Bescheid sagen, der Name steht nur in `config.js`).
+2. Benutzername **tagesbild.kompakt** (falls vergeben: anderen wählen und Claude Bescheid sagen, der Name steht nur in `config.js`).
 3. Profilbild: `brand/profilbild.jpg` aus diesem Repository.
 4. Einstellungen → **Kontotyp und Tools** → **Zu professionellem Konto wechseln** → Kategorie „Nachrichten und Medien“ → **Creator**.
 5. Bio-Vorschlag: `Nachrichten, die dich betreffen – kurz erklärt. 2× täglich. Texte mit KI erstellt, Fakten aus seriösen Quellen.`
 
 ### 2. GitHub-Repository anlegen (Claude darf das nicht selbst)
 1. Auf https://github.com/new gehen (angemeldet als **krass-erforscht**).
-2. Repository name: **klartext-kompakt**, **Public** auswählen (Instagram muss die Bilder abrufen können), **kein** README, keine .gitignore, keine Lizenz.
+2. Repository name: **tagesbild-kompakt**, **Public** auswählen (Instagram muss die Bilder abrufen können), **kein** README, keine .gitignore, keine Lizenz.
 3. **Create repository** klicken.
 4. Claude Zugriff geben: https://github.com/apps/claude/installations/select_target → krass-erforscht → **Configure** →
-   unter „Repository access“ **klartext-kompakt** hinzufügen (oder „All repositories“) → **Save**.
+   unter „Repository access“ **tagesbild-kompakt** hinzufügen (oder „All repositories“) → **Save**.
 
 ### 3. Instagram-Schlüssel (Token) erzeugen
 1. https://developers.facebook.com → **Meine Apps** → deine App von krass.erforscht öffnen (oder **App erstellen** → „Andere“ → „Business“).
 2. **Anwendungsfälle** → **Anpassen** bei „Instagram-API“ → **API-Einrichtung mit Instagram-Login**.
-3. Bei „Zugriffsschlüssel generieren“ → **Konto hinzufügen** → mit **klartext.kompakt** anmelden → erlauben → **Token generieren** → kopieren.
-   (Falls dort „Instagram-Tester“ verlangt wird: unter App-Rollen → Rollen → Instagram-Tester → klartext.kompakt einladen und in der
+3. Bei „Zugriffsschlüssel generieren“ → **Konto hinzufügen** → mit **tagesbild.kompakt** anmelden → erlauben → **Token generieren** → kopieren.
+   (Falls dort „Instagram-Tester“ verlangt wird: unter App-Rollen → Rollen → Instagram-Tester → tagesbild.kompakt einladen und in der
    Instagram-App unter Einstellungen → Website-Berechtigungen → Apps und Websites → Einladungen annehmen.)
 4. In Claude Code: Umgebung **bearbeiten** → **Umgebungsvariablen** → neue Zeile `KLARTEXT_IG_TOKEN=<dein Token>` → speichern.
    **Wichtig:** nicht `IG_TOKEN` überschreiben, das ist der Schlüssel von krass.erforscht.

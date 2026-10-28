@@ -27,7 +27,7 @@ p{font-size:58px;line-height:1.3;margin:0}
 .cover .date,.cta .date{color:rgba(255,255,255,.7)}.cover .foot,.cta .foot{color:rgba(255,255,255,.7)}
 .cover .hl,.cta .hl{background:none;color:${C.mark};padding:0}
 .swipe{font-size:34px;font-weight:700;color:${C.mark}}
-.handle{font-weight:800;font-size:84px;color:${C.accent}}
+.handle{font-weight:800;font-size:72px;color:${C.accent}}
 .credit{position:absolute;bottom:56px;right:90px;max-width:560px;text-align:right;font-size:24px;line-height:1.25;color:rgba(255,255,255,.78)}
 
 /* Foto-Folien: Bild füllt die ganze Folie, ein dunkler Verlauf hält den Text lesbar */
