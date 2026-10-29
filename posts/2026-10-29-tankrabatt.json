@@ -1,0 +1,68 @@
+{
+  "id": "2026-10-29-tankrabatt",
+  "date": "2026-10-29T14:23:00Z",
+  "category": "Alltag",
+  "topic": "alltag",
+  "tone": "locker",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "tagesschau (WDR)",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/tankrabatt-entlastung-bilanz-100.html"
+    },
+    {
+      "name": "Stiftung Warentest (test.de)",
+      "url": "https://www.test.de/Hohe-Benzinpreise-Der-Tankrabatt-kommt-zurueck-am-1-Oktober-gehts-los-6338058-0/"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Alltag",
+      "title": "Tankrabatt: Kommen die **17 Cent** wirklich bei dir an?"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Vier Wochen **Tankrabatt**",
+      "text": [
+        "Seit dem 1. Oktober ist die Energiesteuer auf Sprit um 14 Cent pro Liter gesenkt. Mit der Mehrwertsteuer sind es 17 Cent. Jetzt wird Bilanz gezogen."
+      ]
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Kommt **nicht ganz** an",
+      "text": [
+        "Laut DIW kam bis Mitte Oktober knapp zwei Drittel des Rabatts bei den Autofahrern an. Das ifo Institut schätzt: Bei Benzin wurde er zuletzt nahezu ganz weitergegeben."
+      ]
+    },
+    {
+      "label": "Preis am 28. Oktober",
+      "big": "2,13 €",
+      "title": "kostet ein Liter Super im Schnitt",
+      "text": [
+        "Diesel lag bei 2,29 Euro. Der Rohölpreis ist zuletzt wieder gestiegen, unabhängig vom Rabatt."
+      ]
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Rabatt **bis Ende Dezember**",
+      "text": [
+        "Die Mineralölbranche sagt, der Rabatt komme voll an. Kritiker sehen das anders. Ab 2027 soll ein Spritpreisdeckel kommen, die Details sind noch offen."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Mehr davon?",
+      "title": "Nachrichten, die dich betreffen. Kurz erklärt."
+    }
+  ],
+  "caption": "Tankrabatt: Seit dem 1. Oktober sind es 17 Cent weniger pro Liter Sprit, zumindest auf dem Papier. Laut DIW kam bis Mitte Oktober knapp zwei Drittel bei den Autofahrern an, beim Benzin zuletzt fast alles (ifo). Der Rabatt gilt bis Ende Dezember, ab 2027 soll ein Spritpreisdeckel kommen.\n\nMerkst du den Tankrabatt an der Zapfsäule? 👇\n\nQuellen: tagesschau.de, test.de · Text mit KI erstellt\nFoto (Symbolbild): Harrison Keely, CC BY 4.0, via Wikimedia Commons\n#tankrabatt #spritpreise #benzin #nachrichten #autofahrer",
+  "image": {
+    "file": "images/2026-10-29-tankrabatt.jpg",
+    "credit": "Harrison Keely",
+    "short": "Harrison Keely / Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_modern_BP_gas_station_or_filling_station_in_the_United_States_05.jpg",
+    "symbolbild": true
+  }
+}

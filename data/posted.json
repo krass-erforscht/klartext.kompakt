@@ -15,22 +15,22 @@
     "format": "bilder",
     "reelMediaId": "18287937421295699",
     "stats": {
-      "reach": 9,
-      "likes": 1,
-      "comments": 1,
+      "reach": 15,
+      "likes": 5,
+      "comments": 5,
       "shares": 0,
       "saved": 0,
       "follows": 0
     },
     "reelStats": {
-      "reach": 9,
-      "likes": 0,
+      "reach": 10,
+      "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 9
+      "views": 10
     },
-    "statsAt": "2026-10-29T06:16:47.882Z"
+    "statsAt": "2026-10-29T17:16:16.148Z"
   },
   {
     "id": "2026-10-29-macbook-touch",
@@ -45,6 +45,23 @@
     ],
     "mediaId": "17915159901544425",
     "format": "bilder",
-    "reelMediaId": "18131054803744107"
+    "reelMediaId": "18131054803744107",
+    "stats": {
+      "reach": 89,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 88,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 97
+    },
+    "statsAt": "2026-10-29T17:16:16.709Z"
   }
 ]
