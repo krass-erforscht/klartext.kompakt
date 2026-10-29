@@ -63,5 +63,19 @@
       "views": 97
     },
     "statsAt": "2026-10-29T17:16:16.709Z"
+  },
+  {
+    "id": "2026-10-29-tankrabatt",
+    "postedAt": "2026-10-29T17:25:55.585Z",
+    "topic": "alltag",
+    "tone": "locker",
+    "sourceUrl": "https://www.tagesschau.de/wirtschaft/verbraucher/tankrabatt-entlastung-bilanz-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wirtschaft/verbraucher/tankrabatt-entlastung-bilanz-100.html",
+      "https://www.test.de/Hohe-Benzinpreise-Der-Tankrabatt-kommt-zurueck-am-1-Oktober-gehts-los-6338058-0/"
+    ],
+    "mediaId": "18132051958894399",
+    "format": "bilder",
+    "reelMediaId": "18183231667440314"
   }
 ]
