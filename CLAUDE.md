@@ -16,6 +16,8 @@ Name, Repository, Farben, Schwerpunkte und Töne stehen zentral in `config.js`.
 A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gesetzt ist):
    `node comments.js list`, dann pro Kommentar `node comments.js reply <id> "<text>"` oder `node comments.js skip <id>` (Regeln unten).
    Danach `data/answered.json` committen und pushen.
+   Meldet `comments.js` „nicht abrufbar“ (Instagram gibt Kommentare privater oder als Spam markierter Konten nicht heraus):
+   dem Nutzer in der Tagesnachricht kurz sagen, unter welchem Post er selbst nachsehen soll (Link), höchstens einmal pro Kommentar.
 0. **Zeitfenster prüfen:** `node slot.js <morgens|mittags|abends>` (das Fenster steht in der Aufgabe). Bei „NEIN“ hier aufhören.
    Nur wenn Kommentare beantwortet wurden, dem Nutzer kurz schreiben, wie viele; sonst keine Nachricht.
    Zwei Posts pro Tag in zwei von drei Fenstern (7:15, 12:15, 18:15 Uhr). Die ersten 30 Posts testen alle Fenster gleich oft, danach gewinnen die zwei besten.

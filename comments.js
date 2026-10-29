@@ -30,6 +30,11 @@ async function list() {
     for (const [format, mediaId] of [['Karussell', p.mediaId], ['Reel', p.reelMediaId]]) {
       if (!mediaId) continue;
       const r = await get(`${mediaId}/comments?fields=id,text,username,timestamp,replies{username}&limit=50`);
+      // Instagram gibt Kommentare mancher Konten (privat, als Spam eingestuft) nicht über die Schnittstelle heraus.
+      // Dann stimmt die Zahl nicht mit der Liste überein, und der Kommentar muss von Hand in der App angesehen werden.
+      const { comments_count: total = 0 } = await get(`${mediaId}?fields=comments_count,permalink`).then(m => (m.permalink && (p[`${format}Link`] = m.permalink), m));
+      const visible = (r.data || []).reduce((n, c) => n + 1 + (c.replies?.data?.length || 0), 0);
+      if (total > visible) console.error(`Hinweis: ${total - visible} Kommentar(e) unter ${p[`${format}Link`] || p.id} nicht abrufbar, bitte in der Instagram-App ansehen.`);
       for (const c of r.data || []) {
         if (done.includes(c.id) || c.username === me.username) continue;
         if (c.replies?.data?.some(x => x.username === me.username)) continue; // schon von Hand beantwortet
