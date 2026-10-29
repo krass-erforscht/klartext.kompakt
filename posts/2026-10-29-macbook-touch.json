@@ -1,0 +1,30 @@
+{
+  "id": "2026-10-29-macbook-touch",
+  "date": "2026-10-28T19:00:00Z",
+  "category": "Digital",
+  "topic": "digital",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    { "name": "SPIEGEL", "url": "https://www.spiegel.de/netzwelt/gadgets/macbook-apple-bringt-seinen-ersten-laptop-mit-touchscreen-heraus-a-1ec3b0eb-77ff-4ca5-8ae1-1e96e6c99bba" },
+    { "name": "t3n", "url": "https://t3n.de/news/apple-macbook-pro-touch-1770497/" },
+    { "name": "n-tv", "url": "https://www.n-tv.de/technik/Apple-praesentiert-nie-gewolltes-Macbook-id31469547.html" }
+  ],
+  "image": {
+    "file": "images/2026-10-29-macbook-touch.jpg",
+    "credit": "Armin Kleiner",
+    "short": "Armin Kleiner / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bologna,_Via_Rizzoli_16_(Apple_store).jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Digital", "title": "Apple bringt das erste **MacBook mit Touchscreen**" },
+    { "label": "Was ist passiert?", "title": "Der **Sinneswandel**", "text": ["Apple hat erstmals ein MacBook Pro vorgestellt, dessen Bildschirm man mit dem Finger bedienen kann. Jahrelang hatte der Konzern Touchscreens an Laptops abgelehnt."] },
+    { "label": "Früher", "title": "Einst **„ergonomisch furchtbar“**", "text": ["So soll Apple-Gründer Steve Jobs solche Geräte einmal genannt haben. Touchscreens gab es bei Apple bisher nur bei iPhone und iPad."] },
+    { "label": "Was ist neu?", "title": "Mehr als **Touch**", "text": ["Das Gerät bekommt die „Dynamic Island“ vom iPhone, einen helleren OLED-Bildschirm und ist bis zu 320 Gramm leichter als die Vorgänger."] },
+    { "label": "Was heißt das für dich?", "big": "3.299", "title": "Euro kostet es mindestens", "text": ["So viel kostet laut Medienberichten die 14-Zoll-Version. Apple richtet sich an Profis. Die Auslieferung soll ab dem 6. November starten."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "MacBook mit Touchscreen: Apple hat erstmals ein MacBook Pro vorgestellt, das man mit dem Finger bedienen kann. Der Konzern wollte das jahrelang nicht. Die 14-Zoll-Version soll ab 3.299 Euro kosten, die Auslieferung ab 6. November starten.\n\nWürdest du an deinem Laptop den Bildschirm antippen oder lieber bei Maus und Tastatur bleiben? 👇\n\nQuellen: SPIEGEL, t3n, n-tv · Text mit KI erstellt\nFoto (Symbolbild): Armin Kleiner, CC BY-SA 4.0, via Wikimedia Commons\n#macbook #apple #technik #nachrichten #laptop"
+}
