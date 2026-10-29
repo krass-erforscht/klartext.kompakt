@@ -31,5 +31,20 @@
       "views": 9
     },
     "statsAt": "2026-10-29T06:16:47.882Z"
+  },
+  {
+    "id": "2026-10-29-macbook-touch",
+    "postedAt": "2026-10-29T06:25:58.431Z",
+    "topic": "digital",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.spiegel.de/netzwelt/gadgets/macbook-apple-bringt-seinen-ersten-laptop-mit-touchscreen-heraus-a-1ec3b0eb-77ff-4ca5-8ae1-1e96e6c99bba",
+    "sourceUrls": [
+      "https://www.spiegel.de/netzwelt/gadgets/macbook-apple-bringt-seinen-ersten-laptop-mit-touchscreen-heraus-a-1ec3b0eb-77ff-4ca5-8ae1-1e96e6c99bba",
+      "https://t3n.de/news/apple-macbook-pro-touch-1770497/",
+      "https://www.n-tv.de/technik/Apple-praesentiert-nie-gewolltes-Macbook-id31469547.html"
+    ],
+    "mediaId": "17915159901544425",
+    "format": "bilder",
+    "reelMediaId": "18131054803744107"
   }
 ]
