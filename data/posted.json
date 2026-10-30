@@ -117,5 +117,19 @@
       "views": 144
     },
     "statsAt": "2026-10-30T11:21:31.586Z"
+  },
+  {
+    "id": "2026-10-30-zwergplanet",
+    "postedAt": "2026-10-30T11:30:24.199Z",
+    "topic": "welt",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.tagesschau.de/wissen/weltraum/zwergplanet-entdeckung-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wissen/weltraum/zwergplanet-entdeckung-100.html",
+      "https://www.zdfheute.de/video/panorama-neuer-zwergplanet-sonnensystem-100.html"
+    ],
+    "mediaId": "18120702535991253",
+    "format": "bilder",
+    "reelMediaId": "18102263282075928"
   }
 ]
