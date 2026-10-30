@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-30-novemberwetter",
+  "date": "2026-10-30T06:00:00Z",
+  "category": "Wetter",
+  "topic": "umwelt",
+  "tone": "sachlich",
+  "format": "video",
+  "sources": [
+    { "name": "tagesschau Wetter", "url": "https://www.tagesschau.de/wetter/deutschland/wettervorhersage-deutschland-100.html" },
+    { "name": "Deutschlandfunk Wetter", "url": "https://www.deutschlandfunk.de/ruhiges-zu-nebel-und-hochnebel-neigendes-hochdruckwetter-das-bis-zum-wochenende-anhaelt-136.html" },
+    { "name": "n-tv", "url": "https://www.n-tv.de/panorama/Zum-November-Start-macht-sich-der-Winter-breit-id31472424.html" }
+  ],
+  "video": {
+    "file": "videos/2026-10-30-novemberwetter.mp4",
+    "start": 0,
+    "duration": 20,
+    "credit": "NASA/KSC",
+    "short": "NASA/KSC, Public Domain",
+    "license": "Public Domain (NASA)",
+    "page": "https://images.nasa.gov/details/KSC-20200713-MH-JBS01-0001-Creative_Videography_Fog_Rolling_Over_VAB_Timelapse-3254205",
+    "symbolisch": true,
+    "headline": "Wetter zum **Wochenende**: Nebel, Wolken und kühler",
+    "captions": [
+      "Freitag: **Nebel** und Hochnebel, 7 bis 15 Grad",
+      "Samstag: oft trüb, teils etwas Regen, 7 bis 14 Grad",
+      "Sonntag: mehr Wolken als Sonne, **4 bis 13 Grad**",
+      "Schnee nur in **Hochlagen**, vor allem in den Alpen"
+    ]
+  },
+  "slides": [
+    { "type": "cover", "label": "Wetter", "title": "Zum Wochenende wird es **trüber** und kühler" },
+    { "label": "Was ist los?", "title": "**Nebel** am Freitag", "text": ["Laut tagesschau herrscht Hochdruckwetter. Im Norden und Osten bleibt es trüb, sonst gibt es Nebel und stellenweise Sonne."] },
+    { "label": "Die Temperaturen", "big": "4–13", "title": "Grad am Sonntag", "text": ["Am Freitag sind es noch 7 bis 15 Grad, am Samstag 7 bis 14 Grad."] },
+    { "label": "Und Schnee?", "title": "Nur in **Hochlagen**", "text": ["Schnee fällt laut tagesschau am Sonntag vor allem in den Alpen. In den Nächten gibt es wegen der Wolken oft nur selten Frost, so n-tv."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Wetter am Wochenende: Nebel, Wolken und kühlere Luft. Laut tagesschau bleibt es am Freitag trüb bis neblig (7 bis 15 Grad), am Samstag oft bewölkt (7 bis 14 Grad), am Sonntag gibt es mehr Wolken als Sonne bei 4 bis 13 Grad. Schnee fällt nur in Hochlagen, vor allem in den Alpen.\n\nWie startest du ins Novemberwetter: Mütze raus oder noch Herbstjacke? 👇\n\nQuellen: tagesschau.de, deutschlandfunk.de, n-tv.de · Text mit KI erstellt\nVideo (Symbolvideo, zeigt Nebel in Florida): NASA/KSC, Public Domain, via images.nasa.gov\n#wetter #nachrichten #nebel #november #wochenende"
+}
