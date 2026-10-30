@@ -1,0 +1,78 @@
+{
+  "id": "2026-10-30-zwergplanet",
+  "date": "2026-10-29T16:28:56Z",
+  "category": "Weltall",
+  "topic": "welt",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "tagesschau (ARD-Wissenschaftsredaktion)",
+      "url": "https://www.tagesschau.de/wissen/weltraum/zwergplanet-entdeckung-100.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/video/panorama-neuer-zwergplanet-sonnensystem-100.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-10-30-zwergplanet.jpg",
+    "credit": "Rubin Observatory/NOIRLab/NSF/AURA/B. Quint",
+    "short": "Rubin Observatory/NOIRLab/NSF/AURA/B. Quint, CC BY 4.0",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Vera_C._Rubin_Observatory,_iotw2229a_-_Night_Light.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Weltall",
+      "title": "Astronomen finden womöglich einen **neuen Zwergplaneten**"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Ein **Lichtfleck** wandert",
+      "text": [
+        "Auf Aufnahmen des Rubin-Observatoriums in Chile fiel ein kleiner Lichtpunkt auf, der über den Himmel wandert.",
+        "Astronomen halten ihn für einen möglichen Zwergplaneten mit dem Namen **2026 ED138**."
+      ]
+    },
+    {
+      "label": "Was ist das?",
+      "title": "Rund wie ein **Planet**",
+      "text": [
+        "Ein Zwergplanet hat so viel Masse, dass ihn die eigene Schwerkraft zur Kugel formt. Ein Asteroid ist dagegen oft unförmig wie eine Kartoffel.",
+        "Pluto zählt auch dazu."
+      ]
+    },
+    {
+      "label": "Die Zahl",
+      "big": "6.",
+      "title": "bekannter Zwergplanet",
+      "text": [
+        "Bisher kennt man fünf. Wäre der Fund bestätigt, wären es sechs. Er ist laut tagesschau wohl von Eis umgeben und **600 bis 1.500 Kilometer** groß."
+      ]
+    },
+    {
+      "label": "Warum erst jetzt?",
+      "title": "Im **Sternenmeer** versteckt",
+      "text": [
+        "Von der Erde aus wandert das Objekt vor einer sehr sternreichen Region der Milchstraße. Dort ging der schwache Punkt im Sternenlicht unter.",
+        "Seine Bahn liegt weiter außen als die von Pluto."
+      ]
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Noch **nicht bestätigt**",
+      "text": [
+        "Es ist bisher ein möglicher Zwergplanet. Erst weitere Beobachtungen zeigen, ob sich der Fund bestätigt."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Mehr davon?",
+      "title": "Nachrichten, die dich betreffen. Kurz erklärt."
+    }
+  ],
+  "caption": "Zwergplanet: Astronomen haben am Rand unseres Sonnensystems womöglich einen neuen entdeckt. Laut tagesschau und ZDFheute heißt der Kandidat 2026 ED138, ist wohl 600 bis 1.500 Kilometer groß und wäre erst der sechste bekannte Zwergplanet. Bestätigt ist der Fund noch nicht.\n\nWie findest du es, dass im Sonnensystem noch Neues auftaucht? 👇\n\nQuellen: tagesschau.de, zdfheute.de · Text mit KI erstellt\nFoto (Symbolbild, zeigt das Rubin-Observatorium, nicht den Zwergplaneten): Rubin Observatory/NOIRLab/NSF/AURA/B. Quint, CC BY 4.0, via Wikimedia Commons\n#zwergplanet #weltraum #astronomie #sonnensystem #nachrichten"
+}

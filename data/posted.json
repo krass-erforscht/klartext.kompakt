@@ -15,8 +15,8 @@
     "format": "bilder",
     "reelMediaId": "18287937421295699",
     "stats": {
-      "reach": 15,
-      "likes": 5,
+      "reach": 16,
+      "likes": 6,
       "comments": 5,
       "shares": 0,
       "saved": 0,
@@ -30,7 +30,7 @@
       "saved": 0,
       "views": 10
     },
-    "statsAt": "2026-10-30T06:19:36.794Z"
+    "statsAt": "2026-10-30T11:21:29.720Z"
   },
   {
     "id": "2026-10-29-macbook-touch",
@@ -47,8 +47,8 @@
     "format": "bilder",
     "reelMediaId": "18131054803744107",
     "stats": {
-      "reach": 105,
-      "likes": 1,
+      "reach": 106,
+      "likes": 2,
       "comments": 0,
       "shares": 0,
       "saved": 0,
@@ -62,7 +62,7 @@
       "saved": 0,
       "views": 113
     },
-    "statsAt": "2026-10-30T06:19:37.355Z"
+    "statsAt": "2026-10-30T11:21:30.480Z"
   },
   {
     "id": "2026-10-29-tankrabatt",
@@ -78,22 +78,22 @@
     "format": "bilder",
     "reelMediaId": "18183231667440314",
     "stats": {
-      "reach": 16,
-      "likes": 0,
+      "reach": 19,
+      "likes": 2,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "follows": 0
     },
     "reelStats": {
-      "reach": 15,
+      "reach": 16,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 15
+      "views": 17
     },
-    "statsAt": "2026-10-30T06:19:37.913Z"
+    "statsAt": "2026-10-30T11:21:31.128Z"
   },
   {
     "id": "2026-10-30-novemberwetter",
@@ -107,6 +107,15 @@
       "https://www.n-tv.de/panorama/Zum-November-Start-macht-sich-der-Winter-breit-id31472424.html"
     ],
     "mediaId": "18115748687027969",
-    "format": "video"
+    "format": "video",
+    "stats": {
+      "reach": 133,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 144
+    },
+    "statsAt": "2026-10-30T11:21:31.586Z"
   }
 ]
