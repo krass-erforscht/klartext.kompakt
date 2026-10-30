@@ -94,5 +94,19 @@
       "views": 15
     },
     "statsAt": "2026-10-30T06:19:37.913Z"
+  },
+  {
+    "id": "2026-10-30-novemberwetter",
+    "postedAt": "2026-10-30T06:31:56.303Z",
+    "topic": "umwelt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/wetter/deutschland/wettervorhersage-deutschland-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wetter/deutschland/wettervorhersage-deutschland-100.html",
+      "https://www.deutschlandfunk.de/ruhiges-zu-nebel-und-hochnebel-neigendes-hochdruckwetter-das-bis-zum-wochenende-anhaelt-136.html",
+      "https://www.n-tv.de/panorama/Zum-November-Start-macht-sich-der-Winter-breit-id31472424.html"
+    ],
+    "mediaId": "18115748687027969",
+    "format": "video"
   }
 ]
