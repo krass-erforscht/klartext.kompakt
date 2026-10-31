@@ -179,5 +179,19 @@
       "views": 36
     },
     "statsAt": "2026-10-31T17:16:23.389Z"
+  },
+  {
+    "id": "2026-10-31-inflation",
+    "postedAt": "2026-10-31T17:24:23.337Z",
+    "topic": "geld",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html",
+    "sourceUrls": [
+      "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html",
+      "https://www.tagesschau.de/wirtschaft/verbraucher/inflationsrate-deutschland-oktober-100.html"
+    ],
+    "mediaId": "18089392712295445",
+    "format": "bilder",
+    "reelMediaId": "18025252277861140"
   }
 ]
