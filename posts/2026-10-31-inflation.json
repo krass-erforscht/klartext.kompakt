@@ -1,0 +1,29 @@
+{
+  "id": "2026-10-31-inflation",
+  "date": "2026-10-30T14:08:00Z",
+  "category": "Geld",
+  "topic": "geld",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {"name": "Statistisches Bundesamt (Destatis)", "url": "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html"},
+    {"name": "tagesschau", "url": "https://www.tagesschau.de/wirtschaft/verbraucher/inflationsrate-deutschland-oktober-100.html"}
+  ],
+  "slides": [
+    {"type": "cover", "label": "Geld", "title": "Inflation sinkt im Oktober auf **2,8 Prozent**"},
+    {"label": "Was ist passiert?", "title": "Preise steigen **langsamer**", "text": ["Laut erster Schätzung des Statistischen Bundesamts lagen die Preise im Oktober 2,8 Prozent über dem Vorjahresmonat. Im September waren es noch 3,3 Prozent."]},
+    {"label": "Was heißt das für dich?", "title": "Sprit wird **billiger**", "text": ["Der Tankrabatt wirkt: Die Preise an den Zapfsäulen sind etwas gefallen. Energie ist trotzdem 12,2 Prozent teurer als vor einem Jahr, Lebensmittel nur 0,4 Prozent."]},
+    {"label": "Inflationsrate Oktober", "big": "2,8 %", "title": "Preisplus zum Vorjahr", "text": ["Ohne Energie und Nahrungsmittel liegt die Rate bei 2,1 Prozent. Experten hatten mit 3,0 Prozent gerechnet."]},
+    {"label": "Wie geht es weiter?", "title": "Noch **keine Entwarnung**", "text": ["Der Tankrabatt soll bis Ende Dezember gelten. Laut Bundesbank dürfte die Inflation Anfang 2027 wieder merklich steigen. Commerzbank-Chefvolkswirt Krämer erwartet über drei Prozent."]},
+    {"type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt."}
+  ],
+  "caption": "Inflation: Die Preise in Deutschland steigen langsamer. Im Oktober lag die Inflationsrate laut erster Schätzung des Statistischen Bundesamts bei 2,8 Prozent, nach 3,3 Prozent im September. Hauptgrund sind die gesunkenen Spritpreise durch den Tankrabatt. Ökonomen erwarten aber, dass sie Anfang 2027 wieder steigt.\n\nMerkst du an der Kasse, dass es günstiger wird? 👇\n\nQuellen: Statistisches Bundesamt, tagesschau.de · Text mit KI erstellt\nFoto (Symbolbild): Friedrich Haag, CC BY-SA 4.0, via Wikimedia Commons\n#inflation #preise #nachrichten #tankrabatt #verbraucher",
+  "image": {
+    "file": "images/2026-10-31-inflation.jpg",
+    "credit": "Friedrich Haag",
+    "short": "Friedrich Haag / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:One_stands_out_002_2025_01_01.jpg",
+    "symbolbild": true
+  }
+}

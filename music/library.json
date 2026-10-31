@@ -642,5 +642,47 @@
     "seconds": 144,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Song of the Volga Boatmen",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Song%20of%20the%20Volga%20Boatmen.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Song_of_the_Volga_Boatmen.mp3",
+    "seconds": 61,
+    "used": 1,
+    "lastUsed": "2026-10-31T17:22:49.795Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "Island Meet and Greet",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Island%20Meet%20and%20Greet.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Island_Meet_and_Greet.mp3",
+    "seconds": 217,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Miami Viceroy",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Miami%20Viceroy.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Miami_Viceroy.mp3",
+    "seconds": 268,
+    "used": 0,
+    "lastUsed": null
   }
 ]

@@ -1,6 +1,34 @@
 {
-  "aktualisiert": "2026-10-31T11:15:59.891Z",
+  "aktualisiert": "2026-10-31T17:16:23.408Z",
   "ranking": [
+    {
+      "gruppe": "thema:sport",
+      "posts": 1,
+      "punkte": 2.7,
+      "reichweite": 37,
+      "follower": 0
+    },
+    {
+      "gruppe": "ton:locker",
+      "posts": 1,
+      "punkte": 2.7,
+      "reichweite": 37,
+      "follower": 0
+    },
+    {
+      "gruppe": "uhrzeit:12",
+      "posts": 1,
+      "punkte": 2.7,
+      "reichweite": 37,
+      "follower": 0
+    },
+    {
+      "gruppe": "format:bilder",
+      "posts": 2,
+      "punkte": 2.29,
+      "reichweite": 72,
+      "follower": 0
+    },
     {
       "gruppe": "thema:digital",
       "posts": 1,
@@ -10,13 +38,6 @@
     },
     {
       "gruppe": "ton:ueberraschend",
-      "posts": 1,
-      "punkte": 1.87,
-      "reichweite": 107,
-      "follower": 0
-    },
-    {
-      "gruppe": "format:bilder",
       "posts": 1,
       "punkte": 1.87,
       "reichweite": 107,

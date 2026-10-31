@@ -30,7 +30,7 @@
       "saved": 0,
       "views": 11
     },
-    "statsAt": "2026-10-31T11:15:57.801Z"
+    "statsAt": "2026-10-31T17:16:18.143Z"
   },
   {
     "id": "2026-10-29-macbook-touch",
@@ -62,7 +62,7 @@
       "saved": 0,
       "views": 113
     },
-    "statsAt": "2026-10-31T11:15:58.403Z"
+    "statsAt": "2026-10-31T17:16:19.303Z"
   },
   {
     "id": "2026-10-29-tankrabatt",
@@ -93,7 +93,7 @@
       "saved": 0,
       "views": 17
     },
-    "statsAt": "2026-10-31T11:15:59.034Z"
+    "statsAt": "2026-10-31T17:16:20.877Z"
   },
   {
     "id": "2026-10-30-novemberwetter",
@@ -116,7 +116,7 @@
       "saved": 0,
       "views": 213
     },
-    "statsAt": "2026-10-31T11:15:59.341Z"
+    "statsAt": "2026-10-31T17:16:21.112Z"
   },
   {
     "id": "2026-10-30-zwergplanet",
@@ -147,7 +147,7 @@
       "saved": 0,
       "views": 22
     },
-    "statsAt": "2026-10-31T11:15:59.873Z"
+    "statsAt": "2026-10-31T17:16:22.130Z"
   },
   {
     "id": "2026-10-31-zverev",
@@ -161,6 +161,23 @@
     ],
     "mediaId": "18114321410332561",
     "format": "bilder",
-    "reelMediaId": "17893824216448266"
+    "reelMediaId": "17893824216448266",
+    "stats": {
+      "reach": 37,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 34,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 36
+    },
+    "statsAt": "2026-10-31T17:16:23.389Z"
   }
 ]
