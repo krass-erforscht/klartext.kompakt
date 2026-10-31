@@ -1,53 +1,53 @@
 {
-  "aktualisiert": "2026-10-30T11:21:31.608Z",
+  "aktualisiert": "2026-10-31T11:15:59.891Z",
   "ranking": [
     {
       "gruppe": "thema:digital",
       "posts": 1,
-      "punkte": 1.89,
-      "reichweite": 106,
+      "punkte": 1.87,
+      "reichweite": 107,
       "follower": 0
     },
     {
       "gruppe": "ton:ueberraschend",
       "posts": 1,
-      "punkte": 1.89,
-      "reichweite": 106,
+      "punkte": 1.87,
+      "reichweite": 107,
       "follower": 0
     },
     {
       "gruppe": "format:bilder",
       "posts": 1,
-      "punkte": 1.89,
-      "reichweite": 106,
+      "punkte": 1.87,
+      "reichweite": 107,
       "follower": 0
     },
     {
       "gruppe": "uhrzeit:7",
       "posts": 2,
-      "punkte": 1.7,
-      "reichweite": 120,
+      "punkte": 1.42,
+      "reichweite": 156,
       "follower": 0
     },
     {
       "gruppe": "thema:umwelt",
       "posts": 1,
-      "punkte": 1.5,
-      "reichweite": 133,
+      "punkte": 0.98,
+      "reichweite": 205,
       "follower": 0
     },
     {
       "gruppe": "ton:sachlich",
       "posts": 1,
-      "punkte": 1.5,
-      "reichweite": 133,
+      "punkte": 0.98,
+      "reichweite": 205,
       "follower": 0
     },
     {
       "gruppe": "format:video",
       "posts": 1,
-      "punkte": 1.5,
-      "reichweite": 133,
+      "punkte": 0.98,
+      "reichweite": 205,
       "follower": 0
     }
   ]

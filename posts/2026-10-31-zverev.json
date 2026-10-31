@@ -1,0 +1,20 @@
+{
+  "id": "2026-10-31-zverev",
+  "date": "2026-10-30T10:39:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "locker",
+  "sources": [
+    { "name": "Deutsche Welle", "url": "https://www.dw.com/de/tennis-star-zverev-erfüllt-sich-traum-von-nummer-eins/a-79805048" },
+    { "name": "Sportschau", "url": "https://www.sportschau.de/tennis/zverev-laesst-fery-in-wien-nicht-hauch-einer-chance,spielbericht-atp-wien-zverev-fery-100.html" }
+  ],
+  "slides": [
+    { "type": "cover", "label": "Sport", "title": "Alexander Zverev wird **Nummer 1** der Tennis-Welt" },
+    { "label": "Was ist passiert?", "title": "Der **Gipfel** ist erreicht", "text": ["Mit dem Einzug ins Viertelfinale in Wien löst Zverev den Italiener Jannik Sinner an der Spitze ab. In der neuen Weltrangliste steht er ab Montag, 2. November, ganz oben."] },
+    { "label": "Warum ist das besonders?", "big": "35", "title": "Jahre ist es her", "text": ["So lange ist es her, dass mit Boris Becker zuletzt ein deutscher Mann auf Platz 1 stand."] },
+    { "label": "Einordnung", "title": "Eine **Traumsaison**", "text": ["Zverev ist erst der 30. Spieler an der Spitze, seit es die Weltrangliste gibt (1973). Dieses Jahr holte er zudem den Titel bei den US Open."] },
+    { "label": "Wie geht es weiter?", "title": "Noch **zwei Ziele**", "text": ["Zverev will die ATP Finals in Turin gewinnen. Danach steht mit dem Davis Cup noch ein Teamwettbewerb an. In Wien spielt er jetzt im Halbfinale gegen Alex de Minaur."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich interessieren. Kurz erklärt." }
+  ],
+  "caption": "Alexander Zverev ist die neue Nummer 1 im Tennis! Mit dem Einzug ins Viertelfinale in Wien löst er Jannik Sinner ab und führt ab dem 2. November die Weltrangliste an. Zuletzt schaffte das 35 Jahre zuvor Boris Becker.\n\nWas meinst du: Schafft Zverev auch noch den Sieg bei den ATP Finals? 👇\n\nQuellen: Deutsche Welle, Sportschau · Text mit KI erstellt\n#zverev #tennis #sport #nachrichten #weltrangliste"
+}
