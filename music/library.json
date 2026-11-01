@@ -726,5 +726,61 @@
     "seconds": 242,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Village Consort",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Village%20Consort.mp3",
+    "mood": "witzig",
+    "file": "music/files/incompetech-Kevin_MacLeod-Village_Consort.mp3",
+    "seconds": 215,
+    "used": 1,
+    "lastUsed": "2026-11-01T17:20:27.048Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "Ambler",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ambler.mp3",
+    "mood": "witzig",
+    "file": "music/files/incompetech-Kevin_MacLeod-Ambler.mp3",
+    "seconds": 46,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Dvorak Polka",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dvorak%20Polka.mp3",
+    "mood": "witzig",
+    "file": "music/files/incompetech-Kevin_MacLeod-Dvorak_Polka.mp3",
+    "seconds": 105,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "Internet Archive",
+    "title": "Happy Background Music",
+    "artist": "earbuddy50",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "page": "https://archive.org/details/happy-background-music",
+    "url": "https://archive.org/download/happy-background-music/Advertime.mp3",
+    "mood": "witzig",
+    "file": "music/files/Internet_Archive-earbuddy50-Happy_Background_Music.mp3",
+    "seconds": 134,
+    "used": 0,
+    "lastUsed": null
   }
 ]

@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-01-gasspeicher",
+  "date": "2026-11-01T14:30:00Z",
+  "category": "Alltag",
+  "topic": "alltag",
+  "tone": "locker",
+  "format": "bilder",
+  "sources": [
+    { "name": "tagesschau", "url": "https://www.tagesschau.de/wirtschaft/energie/gasspeicher-vorgaben-ziel-verfehlt-100.html" },
+    { "name": "n-tv", "url": "https://www.n-tv.de/wirtschaft/Netzagentur-Chef-rechnet-mit-erheblich-hoeheren-Heizkosten-id31481181.html" },
+    { "name": "Deutsche Welle", "url": "https://www.dw.com/de/vorgaben-für-gasspeicher-füllstand-in-deutschland-verfehlt/a-79822308" }
+  ],
+  "slides": [
+    { "type": "cover", "label": "Alltag", "title": "Gasspeicher **nicht so voll** wie vorgeschrieben" },
+    { "label": "Was ist passiert?", "title": "Das Ziel wurde **verfehlt**", "text": ["Am 1. November sollten die deutschen Gasspeicher im Schnitt zu 70 Prozent gefüllt sein. Das ist gesetzlich vorgegeben. Erreicht wurde das nicht."] },
+    { "label": "Wie voll sind sie?", "big": "61,2 %", "title": "Füllstand heute", "text": ["So steht es laut tagesschau in den Daten der europäischen Plattform AGSI."] },
+    { "label": "Was heißt das für dich?", "title": "Versorgung **gesichert**", "text": ["Wirtschaftsministerium und Bundesnetzagentur sagen: Die Gasversorgung im Winter ist gesichert. Das Risiko einer Knappheit schätzt die Behörde als gering ein."] },
+    { "label": "Einordnung", "title": "Bei **extremer Kälte** knapp?", "text": ["Laut n-tv könnte es bei sehr großer Kälte Engpässe geben. Netzagentur-Chef Klaus Müller rechnet dort mit deutlich höheren Heizkosten."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Gasspeicher: Zum 1. November sollten die deutschen Speicher zu 70 Prozent gefüllt sein, laut tagesschau sind es nur rund 61,2 Prozent. Wirtschaftsministerium und Bundesnetzagentur sagen, die Versorgung im Winter sei trotzdem gesichert. Laut n-tv rechnet der Netzagentur-Chef aber mit deutlich höheren Heizkosten.\n\nHeizt du dieses Jahr anders als sonst? 👇\n\nQuellen: tagesschau, n-tv, Deutsche Welle · Text mit KI erstellt\n#gas #heizkosten #energie #nachrichten #winter"
+}

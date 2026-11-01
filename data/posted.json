@@ -30,7 +30,7 @@
       "saved": 0,
       "views": 11
     },
-    "statsAt": "2026-11-01T06:16:04.323Z"
+    "statsAt": "2026-11-01T17:16:41.464Z"
   },
   {
     "id": "2026-10-29-macbook-touch",
@@ -62,7 +62,7 @@
       "saved": 0,
       "views": 113
     },
-    "statsAt": "2026-11-01T06:16:04.943Z"
+    "statsAt": "2026-11-01T17:16:42.070Z"
   },
   {
     "id": "2026-10-29-tankrabatt",
@@ -93,7 +93,7 @@
       "saved": 0,
       "views": 17
     },
-    "statsAt": "2026-11-01T06:16:05.522Z"
+    "statsAt": "2026-11-01T17:16:42.684Z"
   },
   {
     "id": "2026-10-30-novemberwetter",
@@ -116,7 +116,7 @@
       "saved": 0,
       "views": 213
     },
-    "statsAt": "2026-11-01T06:16:06.113Z"
+    "statsAt": "2026-11-01T17:16:43.160Z"
   },
   {
     "id": "2026-10-30-zwergplanet",
@@ -147,7 +147,7 @@
       "saved": 0,
       "views": 24
     },
-    "statsAt": "2026-11-01T06:16:06.635Z"
+    "statsAt": "2026-11-01T17:16:43.686Z"
   },
   {
     "id": "2026-10-31-zverev",
@@ -163,7 +163,7 @@
     "format": "bilder",
     "reelMediaId": "17893824216448266",
     "stats": {
-      "reach": 83,
+      "reach": 112,
       "likes": 2,
       "comments": 0,
       "shares": 0,
@@ -171,14 +171,14 @@
       "follows": 0
     },
     "reelStats": {
-      "reach": 80,
+      "reach": 109,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 89
+      "views": 116
     },
-    "statsAt": "2026-11-01T06:16:07.197Z"
+    "statsAt": "2026-11-01T17:16:44.253Z"
   },
   {
     "id": "2026-10-31-inflation",
@@ -209,7 +209,7 @@
       "saved": 0,
       "views": 4
     },
-    "statsAt": "2026-11-01T06:16:07.799Z"
+    "statsAt": "2026-11-01T17:16:44.915Z"
   },
   {
     "id": "2026-11-01-zollgebuehr",
@@ -223,6 +223,23 @@
     ],
     "mediaId": "18105160193014083",
     "format": "bilder",
-    "reelMediaId": "17943586872368165"
+    "reelMediaId": "17943586872368165",
+    "stats": {
+      "reach": 174,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 171,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 193
+    },
+    "statsAt": "2026-11-01T17:16:45.544Z"
   }
 ]
