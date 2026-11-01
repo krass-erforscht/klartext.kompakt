@@ -684,5 +684,47 @@
     "seconds": 268,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Comfortable Mystery 2",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Comfortable%20Mystery%202.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Comfortable_Mystery_2.mp3",
+    "seconds": 54,
+    "used": 1,
+    "lastUsed": "2026-11-01T06:24:11.993Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "Sad Trio",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sad%20Trio.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Sad_Trio.mp3",
+    "seconds": 252,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Oh Holy Night",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Oh%20Holy%20Night.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Oh_Holy_Night.mp3",
+    "seconds": 242,
+    "used": 0,
+    "lastUsed": null
   }
 ]

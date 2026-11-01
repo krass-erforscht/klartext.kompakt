@@ -30,7 +30,7 @@
       "saved": 0,
       "views": 11
     },
-    "statsAt": "2026-10-31T17:16:18.143Z"
+    "statsAt": "2026-11-01T06:16:04.323Z"
   },
   {
     "id": "2026-10-29-macbook-touch",
@@ -47,7 +47,7 @@
     "format": "bilder",
     "reelMediaId": "18131054803744107",
     "stats": {
-      "reach": 107,
+      "reach": 108,
       "likes": 2,
       "comments": 0,
       "shares": 0,
@@ -55,14 +55,14 @@
       "follows": 0
     },
     "reelStats": {
-      "reach": 104,
+      "reach": 105,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "views": 113
     },
-    "statsAt": "2026-10-31T17:16:19.303Z"
+    "statsAt": "2026-11-01T06:16:04.943Z"
   },
   {
     "id": "2026-10-29-tankrabatt",
@@ -93,7 +93,7 @@
       "saved": 0,
       "views": 17
     },
-    "statsAt": "2026-10-31T17:16:20.877Z"
+    "statsAt": "2026-11-01T06:16:05.522Z"
   },
   {
     "id": "2026-10-30-novemberwetter",
@@ -116,7 +116,7 @@
       "saved": 0,
       "views": 213
     },
-    "statsAt": "2026-10-31T17:16:21.112Z"
+    "statsAt": "2026-11-01T06:16:06.113Z"
   },
   {
     "id": "2026-10-30-zwergplanet",
@@ -132,7 +132,7 @@
     "format": "bilder",
     "reelMediaId": "18102263282075928",
     "stats": {
-      "reach": 24,
+      "reach": 25,
       "likes": 1,
       "comments": 0,
       "shares": 0,
@@ -140,14 +140,14 @@
       "follows": 0
     },
     "reelStats": {
-      "reach": 21,
+      "reach": 22,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 22
+      "views": 24
     },
-    "statsAt": "2026-10-31T17:16:22.130Z"
+    "statsAt": "2026-11-01T06:16:06.635Z"
   },
   {
     "id": "2026-10-31-zverev",
@@ -163,22 +163,22 @@
     "format": "bilder",
     "reelMediaId": "17893824216448266",
     "stats": {
-      "reach": 37,
-      "likes": 1,
+      "reach": 83,
+      "likes": 2,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "follows": 0
     },
     "reelStats": {
-      "reach": 34,
-      "likes": 0,
+      "reach": 80,
+      "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 36
+      "views": 89
     },
-    "statsAt": "2026-10-31T17:16:23.389Z"
+    "statsAt": "2026-11-01T06:16:07.197Z"
   },
   {
     "id": "2026-10-31-inflation",
@@ -192,6 +192,23 @@
     ],
     "mediaId": "18089392712295445",
     "format": "bilder",
-    "reelMediaId": "18025252277861140"
+    "reelMediaId": "18025252277861140",
+    "stats": {
+      "reach": 5,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 3,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 4
+    },
+    "statsAt": "2026-11-01T06:16:07.799Z"
   }
 ]

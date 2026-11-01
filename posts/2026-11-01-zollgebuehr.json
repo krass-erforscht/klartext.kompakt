@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-01-zollgebuehr",
+  "date": "2026-11-01T06:00:00Z",
+  "category": "Digital",
+  "topic": "digital",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    { "name": "heise online", "url": "https://www.heise.de/news/Importpakete-2-Euro-zusaetzliche-Gebuehr-pro-Warenposition-11507130.html" },
+    { "name": "EU-Kommission", "url": "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en" }
+  ],
+  "image": {
+    "file": "images/2026-11-01-zollgebuehr.jpg",
+    "credit": "Raimond Spekking",
+    "short": "Raimond Spekking / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Fedex,_Boeing_777F,_N856FD_and_UPS,_Boeing_747-400F,_N574UP,_Cologne_Bonn_Airport-7172.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Digital", "title": "Ab heute: **2 Euro Gebühr** für Bestellungen aus Fernost" },
+    { "label": "Was ist passiert?", "title": "Die neue **Bearbeitungsgebühr**", "text": ["Seit dem 1. November gilt in der EU eine „Universelle Bearbeitungsgebühr“. Sie fällt bei Direktbestellungen aus Nicht-EU-Ländern an, etwa bei chinesischen Shops."] },
+    { "label": "Wie funktioniert das?", "big": "2 €", "title": "pro Warenposition", "text": ["Die Gebühr gilt nicht pro Paket, sondern für jede Position der Bestellung. Zahlen müssen sie laut heise die Händler oder Plattformen."] },
+    { "label": "Was heißt das für dich?", "title": "Kleinkram wird **teurer**", "text": ["Wer mehrere billige Teile direkt importiert, kann mehr zahlen. Zusammen mit dem seit Juli geltenden 3-Euro-Zoll pro Position kostet das laut heise bei 69 Euro Warenwert 15 Euro extra."] },
+    { "label": "Warum?", "title": "Die **Paketflut** bremsen", "text": ["2025 kamen laut EU-Kommission 5,9 Milliarden Kleinsendungen in die EU, viermal so viele wie 2022. Der Zoll soll besser kontrollieren können."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Zollgebühr: Seit dem 1. November gilt in der EU eine neue Bearbeitungsgebühr von 2 Euro pro Warenposition bei Direktbestellungen aus Nicht-EU-Ländern. Dazu kommt der seit Juli geltende 3-Euro-Zoll. Zahlen müssen die Händler oder Plattformen, es kann aber Bestellungen verteuern.\n\nBestellst du manchmal direkt in Fernost? Oder hat dich das schon abgeschreckt? 👇\n\nQuellen: heise online, EU-Kommission · Text mit KI erstellt\nFoto (Symbolbild): Raimond Spekking, CC BY-SA 4.0, via Wikimedia Commons\n#zoll #onlineshopping #nachrichten #temu #eu"
+}
