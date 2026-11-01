@@ -5,6 +5,8 @@ Gleiches System wie krass.erforscht, aber für Nachrichten. Grundregel: **Es dar
 **Nur frei lizenzierte Bilder, Videos und Musik.** Fotos und Videos von Nachrichtenseiten, Agenturen (dpa, Reuters, AP, Getty …) oder Social Media sind tabu,
 auch wenn sie „überall“ zu sehen sind. Nachrichten-Fakten dürfen übernommen werden, aber immer **in eigenen Worten**, nie Sätze abschreiben.
 
+Zuerst immer `git checkout main && git pull origin main` (Läufe starten oft auf losgelöstem HEAD, `git pull` scheitert sonst).
+
 Vor jedem `node`-Befehl: `export NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt NODE_NO_WARNINGS=1`
 
 Der Instagram-Schlüssel heißt hier **`KLARTEXT_IG_TOKEN`** (nicht `IG_TOKEN`, der gehört zu krass.erforscht).

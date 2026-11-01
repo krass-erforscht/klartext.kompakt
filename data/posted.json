@@ -241,5 +241,20 @@
       "views": 193
     },
     "statsAt": "2026-11-01T17:16:45.544Z"
+  },
+  {
+    "id": "2026-11-01-gasspeicher",
+    "postedAt": "2026-11-01T17:21:42.039Z",
+    "topic": "alltag",
+    "tone": "locker",
+    "sourceUrl": "https://www.tagesschau.de/wirtschaft/energie/gasspeicher-vorgaben-ziel-verfehlt-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wirtschaft/energie/gasspeicher-vorgaben-ziel-verfehlt-100.html",
+      "https://www.n-tv.de/wirtschaft/Netzagentur-Chef-rechnet-mit-erheblich-hoeheren-Heizkosten-id31481181.html",
+      "https://www.dw.com/de/vorgaben-für-gasspeicher-füllstand-in-deutschland-verfehlt/a-79822308"
+    ],
+    "mediaId": "18416817952082170",
+    "format": "bilder",
+    "reelMediaId": "18044458127836954"
   }
 ]
