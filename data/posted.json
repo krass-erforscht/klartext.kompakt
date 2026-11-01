@@ -210,5 +210,19 @@
       "views": 4
     },
     "statsAt": "2026-11-01T06:16:07.799Z"
+  },
+  {
+    "id": "2026-11-01-zollgebuehr",
+    "postedAt": "2026-11-01T06:25:20.059Z",
+    "topic": "digital",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.heise.de/news/Importpakete-2-Euro-zusaetzliche-Gebuehr-pro-Warenposition-11507130.html",
+    "sourceUrls": [
+      "https://www.heise.de/news/Importpakete-2-Euro-zusaetzliche-Gebuehr-pro-Warenposition-11507130.html",
+      "https://taxation-customs.ec.europa.eu/customs/eu-customs-reform_en"
+    ],
+    "mediaId": "18105160193014083",
+    "format": "bilder",
+    "reelMediaId": "17943586872368165"
   }
 ]
