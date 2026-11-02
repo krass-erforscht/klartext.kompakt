@@ -30,7 +30,7 @@
       "saved": 0,
       "views": 11
     },
-    "statsAt": "2026-11-01T17:16:41.464Z"
+    "statsAt": "2026-11-02T06:17:46.468Z"
   },
   {
     "id": "2026-10-29-macbook-touch",
@@ -62,7 +62,7 @@
       "saved": 0,
       "views": 113
     },
-    "statsAt": "2026-11-01T17:16:42.070Z"
+    "statsAt": "2026-11-02T06:17:47.334Z"
   },
   {
     "id": "2026-10-29-tankrabatt",
@@ -93,7 +93,7 @@
       "saved": 0,
       "views": 17
     },
-    "statsAt": "2026-11-01T17:16:42.684Z"
+    "statsAt": "2026-11-02T06:17:47.893Z"
   },
   {
     "id": "2026-10-30-novemberwetter",
@@ -116,7 +116,7 @@
       "saved": 0,
       "views": 213
     },
-    "statsAt": "2026-11-01T17:16:43.160Z"
+    "statsAt": "2026-11-02T06:17:48.201Z"
   },
   {
     "id": "2026-10-30-zwergplanet",
@@ -147,7 +147,7 @@
       "saved": 0,
       "views": 24
     },
-    "statsAt": "2026-11-01T17:16:43.686Z"
+    "statsAt": "2026-11-02T06:17:48.929Z"
   },
   {
     "id": "2026-10-31-zverev",
@@ -163,7 +163,7 @@
     "format": "bilder",
     "reelMediaId": "17893824216448266",
     "stats": {
-      "reach": 112,
+      "reach": 113,
       "likes": 2,
       "comments": 0,
       "shares": 0,
@@ -171,14 +171,14 @@
       "follows": 0
     },
     "reelStats": {
-      "reach": 109,
+      "reach": 110,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 116
+      "views": 117
     },
-    "statsAt": "2026-11-01T17:16:44.253Z"
+    "statsAt": "2026-11-02T06:17:49.593Z"
   },
   {
     "id": "2026-10-31-inflation",
@@ -209,7 +209,7 @@
       "saved": 0,
       "views": 4
     },
-    "statsAt": "2026-11-01T17:16:44.915Z"
+    "statsAt": "2026-11-02T06:17:50.216Z"
   },
   {
     "id": "2026-11-01-zollgebuehr",
@@ -225,7 +225,7 @@
     "format": "bilder",
     "reelMediaId": "17943586872368165",
     "stats": {
-      "reach": 174,
+      "reach": 175,
       "likes": 1,
       "comments": 0,
       "shares": 0,
@@ -233,14 +233,14 @@
       "follows": 0
     },
     "reelStats": {
-      "reach": 171,
+      "reach": 172,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 193
+      "views": 194
     },
-    "statsAt": "2026-11-01T17:16:45.544Z"
+    "statsAt": "2026-11-02T06:17:50.991Z"
   },
   {
     "id": "2026-11-01-gasspeicher",
@@ -255,6 +255,23 @@
     ],
     "mediaId": "18416817952082170",
     "format": "bilder",
-    "reelMediaId": "18044458127836954"
+    "reelMediaId": "18044458127836954",
+    "stats": {
+      "reach": 10,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 8,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 10
+    },
+    "statsAt": "2026-11-02T06:17:51.616Z"
   }
 ]

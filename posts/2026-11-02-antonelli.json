@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-02-antonelli",
+  "date": "2026-11-02T06:00:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    { "name": "Sportschau", "url": "https://www.sportschau.de/motorsport/formel1/antonelli-kroent-sich-zum-formel-1-weltmeister,gp-mexiko-antonelli-100.html" },
+    { "name": "ZDFheute", "url": "https://www.zdfheute.de/sport/formel-1-gp-mexiko-kimi-antonelli-100.html" },
+    { "name": "n-tv", "url": "https://www.n-tv.de/sport/formel1/Antonelli-kroent-sich-vorzeitig-zum-Formel-1-Weltmeister-id31482975.html" }
+  ],
+  "image": {
+    "file": "images/2026-11-02-antonelli.jpg",
+    "credit": "Yu Chu Chin",
+    "short": "Yu Chu Chin / Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_Formula_One_car_inside_Suria_KLCC_(DSCF0805).jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Sport", "title": "Kimi Antonelli ist mit 20 der **jüngste Formel-1-Weltmeister** aller Zeiten" },
+    { "label": "Was ist passiert?", "title": "Titel in **Mexiko**", "text": ["Beim Großen Preis von Mexiko wurde der Mercedes-Fahrer Dritter. Das reichte ihm, um sich schon vor dem Saisonende den WM-Titel zu sichern."] },
+    { "label": "Der Rekord", "title": "Vettel ist den **Rekord los**", "text": ["Antonelli war 20 Jahre und 68 Tage alt. Sebastian Vettel war bei seinem ersten Titel 2010 23 Jahre und 134 Tage alt."] },
+    { "label": "Die Saison", "big": "9", "title": "Siege in 19 Rennen", "text": ["Dazu kamen 16 Podiumsplätze. Es ist erst seine zweite Formel-1-Saison."] },
+    { "label": "Einordnung", "title": "Ein **Titel mit Geschichte**", "text": ["Er ist der erste italienische Weltmeister seit Alberto Ascari 1953. Für Mercedes ist es der erste Fahrertitel seit 2020."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Formel 1: Kimi Antonelli ist Weltmeister! Mit 20 Jahren und 68 Tagen löst der Mercedes-Fahrer Sebastian Vettel als jüngsten Champion ab. Beim Großen Preis von Mexiko reichte ihm Platz drei, vorzeitig nach 19 von 23 Rennen.\n\nWas meinst du: Wie lange hält so ein Rekord? 👇\n\nQuellen: sportschau.de, zdfheute.de, n-tv.de · Text mit KI erstellt\nBild: Symbolbild (Mercedes-Formel-1-Wagen, kein Foto vom Rennen). Foto: Yu Chu Chin, CC BY-SA 4.0, via Wikimedia Commons\n#formel1 #antonelli #weltmeister #nachrichten #sport"
+}
