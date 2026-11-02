@@ -305,5 +305,20 @@
       "views": 146
     },
     "statsAt": "2026-11-02T11:24:04.589Z"
+  },
+  {
+    "id": "2026-11-02-handyblitzer",
+    "postedAt": "2026-11-02T11:31:32.613Z",
+    "topic": "alltag",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.n-tv.de/politik/Bund-und-Laender-wollen-Einsatz-von-Handy-Blitzern-ausweiten-id31483710.html",
+    "sourceUrls": [
+      "https://www.n-tv.de/politik/Bund-und-Laender-wollen-Einsatz-von-Handy-Blitzern-ausweiten-id31483710.html",
+      "https://www.deutschlandfunk.de/bund-und-laender-wollen-einsatz-von-handy-blitzern-ermoeglichen-100.html",
+      "https://www.spiegel.de/mobilitaet/auto/handy-am-steuer-bund-und-laender-planen-bundesweiten-einsatz-von-handyblitzern-a-bab6a92e-70e2-4d6f-825d-0ed457c0a422"
+    ],
+    "mediaId": "17942367540389177",
+    "format": "bilder",
+    "reelMediaId": "18080041658421182"
   }
 ]
