@@ -273,5 +273,20 @@
       "views": 10
     },
     "statsAt": "2026-11-02T06:17:51.616Z"
+  },
+  {
+    "id": "2026-11-02-antonelli",
+    "postedAt": "2026-11-02T06:24:03.427Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.sportschau.de/motorsport/formel1/antonelli-kroent-sich-zum-formel-1-weltmeister,gp-mexiko-antonelli-100.html",
+    "sourceUrls": [
+      "https://www.sportschau.de/motorsport/formel1/antonelli-kroent-sich-zum-formel-1-weltmeister,gp-mexiko-antonelli-100.html",
+      "https://www.zdfheute.de/sport/formel-1-gp-mexiko-kimi-antonelli-100.html",
+      "https://www.n-tv.de/sport/formel1/Antonelli-kroent-sich-vorzeitig-zum-Formel-1-Weltmeister-id31482975.html"
+    ],
+    "mediaId": "18395193454229816",
+    "format": "bilder",
+    "reelMediaId": "18121070165068729"
   }
 ]
