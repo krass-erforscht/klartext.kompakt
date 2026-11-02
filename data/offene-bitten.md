@@ -2,4 +2,5 @@
 
 Was die App vom Nutzer braucht, seit wann, und wann zuletzt erinnert wurde.
 
-- seit 2026-10-28: GitHub-Repository klartext.kompakt anlegen und Claude Zugriff geben; danach GitHub Pages (Ordner /docs) für das Impressum einschalten (Anleitung in README.md).
+- 2026-10-28 (erledigt): Repository, Zugriff und Impressum-Seite sind eingerichtet.
+- seit 2026-11-02: (1) Meta-App auf „Live“ schalten, damit Kommentare abrufbar werden. (2) Kostenlosen Wikimedia-Schlüssel als WIKIMEDIA_TOKEN eintragen. Zuletzt erinnert: 2026-11-02.

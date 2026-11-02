@@ -9,6 +9,10 @@ const fs = require('fs'), path = require('path');
 const { execFileSync } = require('child_process');
 const { NAME, REPO } = require('./config');
 const UA = { 'User-Agent': `${NAME}/0.1 (Instagram-Nachrichtenseite; https://github.com/${REPO})` };
+// Wikimedia drosselt anonyme Anfragen von geteilten Cloud-Adressen stark (429). Mit einem kostenlosen persönlichen
+// Zugangsschlüssel (WIKIMEDIA_TOKEN, von api.wikimedia.org) gelten höhere Grenzen. Er geht nur an Wikimedia-Adressen.
+const hdr = url => process.env.WIKIMEDIA_TOKEN && /(^|\.)(wikimedia|wikipedia)\.org$/.test(new URL(url).hostname)
+  ? { ...UA, Authorization: `Bearer ${process.env.WIKIMEDIA_TOKEN}` } : UA;
 const DIR = 'videos/candidates';
 const MAX_BYTES = 150e6;
 const FREE_TEXT = /^(public domain|pd|cc0|cc by(-sa)? [0-9.]+)/i;
@@ -16,7 +20,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function getJson(url) {
   for (let i = 0; i < 3; i++) {
-    const res = await fetch(url, { headers: UA });
+    const res = await fetch(url, { headers: hdr(url) });
     if (res.status === 429 || res.status >= 500) { await sleep(3000 * (i + 1)); continue; }
     return res.json();
   }
@@ -76,7 +80,7 @@ async function fetchCandidate(c, file) {
   // Wikimedia bremst bei vielen Anfragen (429): kurz warten und bis zu zweimal neu versuchen
   let res;
   for (let i = 0; i < 3; i++) {
-    res = await fetch(c.url, { headers: UA, signal: AbortSignal.timeout(120000) });
+    res = await fetch(c.url, { headers: hdr(c.url), signal: AbortSignal.timeout(120000) });
     if (res.status !== 429) break;
     await sleep(10000 * (i + 1));
   }

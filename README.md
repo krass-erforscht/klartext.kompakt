@@ -44,3 +44,10 @@ Angeboten zusätzlich eine verantwortliche Person (§ 18 Abs. 2 MStV). Ohne Impr
 
 ### 5. Fertig melden
 Claude Bescheid sagen. Dann lädt Claude das Projekt hoch, richtet die drei geplanten Aufgaben (7:15, 12:15, 18:15 Uhr) ein und erstellt den ersten Post.
+
+### 5. Optional: Wikimedia-Schlüssel (kostenlos, für mehr Fotos und Videos)
+Wikimedia bremst Anfragen aus der Cloud oft aus („zu viele Anfragen“). Mit einem persönlichen Schlüssel gelten höhere Grenzen.
+1. Auf https://api.wikimedia.org ein kostenloses Wikimedia-Konto anlegen bzw. anmelden.
+2. Oben rechts auf deinen Namen → **API keys** → **Create key** → Typ **Personal API token** → Name z. B. „tagesbild“ → erstellen.
+3. Den **Access token** kopieren (nur einmal sichtbar).
+4. In Claude Code: Umgebung bearbeiten → Umgebungsvariablen → neue Zeile `WIKIMEDIA_TOKEN=<Token>` → speichern.

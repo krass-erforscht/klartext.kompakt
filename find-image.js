@@ -9,6 +9,10 @@
 const fs = require('fs');
 const { NAME, REPO } = require('./config');
 const UA = { 'User-Agent': `${NAME}/0.1 (Instagram-Nachrichtenseite; https://github.com/${REPO})` };
+// Wikimedia drosselt anonyme Anfragen von geteilten Cloud-Adressen stark (429). Mit einem kostenlosen persönlichen
+// Zugangsschlüssel (WIKIMEDIA_TOKEN, von api.wikimedia.org) gelten höhere Grenzen. Er geht nur an Wikimedia-Adressen.
+const hdr = url => process.env.WIKIMEDIA_TOKEN && /(^|\.)(wikimedia|wikipedia)\.org$/.test(new URL(url).hostname)
+  ? { ...UA, Authorization: `Bearer ${process.env.WIKIMEDIA_TOKEN}` } : UA;
 const FREE_INAT = new Set(['cc0', 'cc-by', 'cc-by-sa']);
 const FREE_TEXT = /^(public domain|pd|cc0|cc by(-sa)? [0-9.]+)/i;
 const FREE_URL = /creativecommons\.org\/(publicdomain|licenses\/by\/|licenses\/by-sa\/)/i;
@@ -17,7 +21,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 // Holt JSON und wartet bei Überlastung (429) kurz, bevor es erneut versucht
 async function getJson(url, tries = 3) {
   for (let i = 0; i < tries; i++) {
-    const res = await fetch(url, { headers: UA, signal: AbortSignal.timeout(30000) });
+    const res = await fetch(url, { headers: hdr(url), signal: AbortSignal.timeout(30000) });
     if (res.status === 429 || res.status === 503) { await sleep(3000 * (i + 1)); continue; }
     return res.json();
   }
@@ -163,8 +167,8 @@ async function loc(q, taxon, max) {
   for (const img of found) {
     const file = `images/candidates/${id}-${result.length + 1}.jpg`;
     try {
-      let res = await fetch(img.url, { headers: UA, signal: AbortSignal.timeout(30000) });
-      if (res.status === 429) { await sleep(8000); res = await fetch(img.url, { headers: UA, signal: AbortSignal.timeout(30000) }); }
+      let res = await fetch(img.url, { headers: hdr(img.url), signal: AbortSignal.timeout(30000) });
+      if (res.status === 429) { await sleep(8000); res = await fetch(img.url, { headers: hdr(img.url), signal: AbortSignal.timeout(30000) }); }
       if (!res.ok || !/^image\//.test(res.headers.get('content-type') || '')) throw new Error(res.status);
       fs.writeFileSync(file, Buffer.from(await res.arrayBuffer()));
       result.push({ file, ...img });
