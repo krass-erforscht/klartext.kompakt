@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-02-handyblitzer",
+  "date": "2026-11-02T10:01:35Z",
+  "category": "Alltag",
+  "topic": "alltag",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    { "name": "n-tv / AFP", "url": "https://www.n-tv.de/politik/Bund-und-Laender-wollen-Einsatz-von-Handy-Blitzern-ausweiten-id31483710.html" },
+    { "name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/bund-und-laender-wollen-einsatz-von-handy-blitzern-ermoeglichen-100.html" },
+    { "name": "Spiegel", "url": "https://www.spiegel.de/mobilitaet/auto/handy-am-steuer-bund-und-laender-planen-bundesweiten-einsatz-von-handyblitzern-a-bab6a92e-70e2-4d6f-825d-0ed457c0a422" }
+  ],
+  "image": {
+    "file": "images/2026-11-02-handyblitzer.jpg",
+    "credit": "Joe Ravi",
+    "short": "Joe Ravi, CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Light_Camera.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Alltag", "title": "**Handy-Blitzer** sollen bald überall in Deutschland möglich werden" },
+    { "label": "Was ist passiert?", "title": "Bund und Länder **wollen** sie", "text": ["Handy-Blitzer prüfen von Brücken aus, ob Autofahrer am Steuer ein Handy benutzen.", "Bisher ist das nur in Rheinland-Pfalz gesetzlich geregelt. Die Länder wollen eine Regel für ganz Deutschland."] },
+    { "label": "Wie funktioniert das?", "title": "Die Technik erkennt **Handys**", "text": ["Laut Bericht erkennen die Geräte die Form und Farbe von Handys und typische Körperhaltungen beim Telefonieren am Steuer."] },
+    { "label": "Was heißt das für dich?", "big": "100 €", "title": "plus 1 Punkt in Flensburg", "text": ["So viel kostet es schon jetzt, wenn du am Steuer mit dem Handy erwischt wirst."] },
+    { "label": "Wie geht es weiter?", "title": "Noch **kein** Gesetz", "text": ["Das Bundesverkehrsministerium zeigt sich laut „Rheinischer Post“ offen für den Vorstoß. Beschlossen ist noch nichts."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Handy-Blitzer sollen bald in ganz Deutschland möglich werden: Bund und Länder wollen laut Bericht der „Rheinischen Post“ eine bundesweite Rechtsgrundlage. Bisher gibt es sie nur in Rheinland-Pfalz. Beschlossen ist noch nichts.\n\nWas meinst du: Hand aufs Herz, greifst du beim Fahren manchmal zum Handy? 👇\n\nQuellen: n-tv.de (AFP), Deutschlandfunk, Spiegel · Text mit KI erstellt\nFoto (Symbolbild): Joe Ravi, CC BY-SA 3.0, via Wikimedia Commons\n#handyblitzer #handyamsteuer #verkehr #nachrichten #bussgeld"
+}
