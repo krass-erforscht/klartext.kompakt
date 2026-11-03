@@ -337,5 +337,19 @@
       "views": 87
     },
     "statsAt": "2026-11-03T11:15:59.932Z"
+  },
+  {
+    "id": "2026-11-03-dinoblut",
+    "postedAt": "2026-11-03T11:23:24.624Z",
+    "topic": "welt",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.n-tv.de/wissen/Forscher-entdecken-versteinertes-Blut-in-Dino-Fossil-id31488372.html",
+    "sourceUrls": [
+      "https://www.n-tv.de/wissen/Forscher-entdecken-versteinertes-Blut-in-Dino-Fossil-id31488372.html",
+      "https://www.spiegel.de/wissenschaft/dinosaurier-rote-blutkoerperchen-in-115-millionen-jahre-altem-fossil-a-d12054d3-5dcf-4fd2-a1b0-55735380eed7"
+    ],
+    "mediaId": "18028281311704014",
+    "format": "bilder",
+    "reelMediaId": "18099052457404576"
   }
 ]

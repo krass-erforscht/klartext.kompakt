@@ -11,3 +11,5 @@
 - 2026-11-01 (morgens): Lauf startete auf losgelöstem HEAD (git checkout main nötig). Videosuche hängt (Zeitüberschreitung), Format „bilder“. ccMixter 403 (Reel mit Incompetech-Musik). 5 Kommentare unter DfC7CbBmz8N weiter nicht abrufbar.
 - 2026-11-01 (abends): Lauf startete wieder auf losgelöstem HEAD (`git checkout main` nötig). Wikimedia 429/Openverse-Timeout, kein passendes Foto (dunkle Titelfolie), Format „bilder“. ccMixter 403 (Reel mit Incompetech-Musik). 5 Kommentare unter DfC7CbBmz8N weiter nicht abrufbar.
 - 2026-11-02 (morgens): Lauf startete auf losgelöstem HEAD (git checkout main nötig). Wikimedia 429/Openverse-Timeout, Videosuche scheiterte (Format „bilder“). ccMixter 403 (Reel mit Incompetech-Musik). Reel-Upload dauerte >2 Minuten. 5 Kommentare unter DfC7CbBmz8N weiter nicht abrufbar. Schwerpunkt umwelt hatte keine gute Meldung, Ersatz: sport.
+
+- 2026-11-03: find-video.js hing bei Wikimedia-Drosselung ("zu viele Anfragen"); Post ohne Video (bilder). Ein Zeitlimit im Skript wäre sinnvoll.
