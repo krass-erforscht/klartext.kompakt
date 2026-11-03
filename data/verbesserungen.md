@@ -7,3 +7,4 @@ Hier hält die App fest, was sie selbst verbessert hat (Datum, ein Satz).
 - 2026-10-29: comments.js meldet Kommentare, die Instagram nicht über die Schnittstelle herausgibt (private oder als Spam markierte Konten), damit der Nutzer sie von Hand ansehen kann.
 - 2026-11-01: CLAUDE.md: Hinweis, zu Beginn `git checkout main && git pull origin main` auszuführen (losgelöster HEAD trat in vier Läufen auf).
 - 2026-11-02: find-image.js und find-video.js nutzen einen optionalen Wikimedia-Schlüssel (WIKIMEDIA_TOKEN), damit die Bildsuche nicht mehr an „zu viele Anfragen“ scheitert; ohne Schlüssel bleibt alles wie bisher.
+- 2026-11-03: Auswahl wie bei krass.erforscht: Uhrzeit, Format, Schwerpunkt und Ton richten sich ab sofort nach der besten Reichweite (choose.js), mit fairer Chance für wenig Getestetes und jedem 4. Tag zum Weiterlernen.

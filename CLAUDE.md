@@ -22,17 +22,18 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
    dem Nutzer in der Tagesnachricht kurz sagen, unter welchem Post er selbst nachsehen soll (Link), höchstens einmal pro Kommentar.
 0. **Zeitfenster prüfen:** `node slot.js <morgens|mittags|abends>` (das Fenster steht in der Aufgabe). Bei „NEIN“ hier aufhören.
    Nur wenn Kommentare beantwortet wurden, dem Nutzer kurz schreiben, wie viele; sonst keine Nachricht.
-   Zwei Posts pro Tag in zwei von drei Fenstern (7:15, 12:15, 18:15 Uhr). Die ersten 30 Posts testen alle Fenster gleich oft, danach gewinnen die zwei besten.
+   Zwei Posts pro Tag in zwei von drei Fenstern (7:15, 12:15, 18:15 Uhr). Welche Fenster dran sind, entscheidet die Reichweite (siehe „Immer nach der besten Reichweite“).
 1. `npm ci`
-2. **Lernen:** `node insights.js` (nur mit Token). Danach **`node schwerpunkt.js`**: sagt, welcher Schwerpunkt und welcher Ton heute dran sind.
-   Testphase: jeder Schwerpunkt (geld, digital, alltag, umwelt, welt, sport) kommt reihum dran, bis jeder 4 ausgewertete Posts hat.
-   Danach zu 70 % der erfolgreichste, zu 30 % ein anderer. So setzt sich von selbst der Schwerpunkt durch, der am besten ankommt.
-   Den zweiten Post am selben Tag nicht zum gleichen Schwerpunkt machen, wenn `ersatz` etwas Gutes bietet.
+2. **Lernen:** `node insights.js` (nur mit Token, holt die Reichweite aller Posts). Danach **`node schwerpunkt.js`**: sagt, welcher Schwerpunkt
+   (geld, digital, alltag, umwelt, welt, sport) und welcher Ton heute dran sind, nach der Regel „Immer nach der besten Reichweite“.
+   Der zweite Post des Tages bekommt automatisch einen anderen Schwerpunkt als der erste.
 3. **Nachrichten sammeln:** `node fetch-news.js > data/candidates.json` (18 seriöse Feeds, höchstens 30 Stunden alt).
    `auchBei` zeigt, welche anderen Redaktionen dasselbe Thema haben: viele = große Nachricht, die viele interessiert.
 4. **Meldung auswählen:** zum heutigen Schwerpunkt die Meldung, die **möglichst viele Menschen betrifft oder interessiert** und sich leicht erklären lässt
    („Was heißt das für mich?“). Nicht schon in `data/posted.json`, nicht dasselbe Thema wie ein Post der letzten 3 Tage (außer es gibt wirklich Neues).
    Findet sich zum Schwerpunkt nichts Gutes: den nächsten aus `ersatz` nehmen. Sicherheitsregeln unten beachten.
+   **Eine richtig starke Geschichte oder ein besonders gutes Foto/Video geht vor:** Ist heute etwas deutlich Größeres oder Spannenderes
+   in einem anderen Schwerpunkt da, das nehmen (Schwerpunkt und Ton im Post ehrlich so eintragen, wie sie sind).
 5. **Fakten prüfen (Sorgfalt wie in einer Redaktion):**
    - Den Originalartikel ganz lesen. **Mindestens zwei voneinander unabhängige seriöse Redaktionen** müssen dasselbe berichten
      (z. B. tagesschau und Deutschlandfunk), **oder** eine Primärquelle (Behörde, Ministerium, Gericht, Statistisches Bundesamt, Bundesnetzagentur,
@@ -62,9 +63,8 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
      dann `"symbolisch": true`, es wird sichtbar als „Symbolvideo“ gekennzeichnet. Besten Abschnitt wählen (8–30 Sekunden).
    - Gefunden: wie bei krass.erforscht nach `videos/<post-id>.mp4` (webm vorher mit ffmpeg umwandeln) und `"video"` eintragen
      (`file, start, duration, credit, short, license, page, symbolisch, headline, captions`).
-   - **Format:** `node format.js ja` (Video gefunden) bzw. `nein`. Es testet `bilder`, `video` (echtes Video als Reel im Feed) und `zusammen`
-     (Karussell mit dem Video als zweiter Folie) gleich oft und nimmt danach zu 70 % das Format mit der höchsten Reichweite. So setzt sich von selbst durch,
-     wie Videos am besten ankommen. Ergebnis als `"format"` eintragen.
+   - **Format:** `node format.js ja` (Video gefunden) bzw. `nein`. Es wählt zwischen `bilder`, `video` (echtes Video als Reel im Feed) und `zusammen`
+     (Karussell mit dem Video als zweiter Folie) nach der Regel „Immer nach der besten Reichweite“. Ergebnis als `"format"` eintragen.
 7. **Post schreiben:** `posts/<YYYY-MM-DD>-<stichwort>.json` nach dem Muster von `beispiel/elterngeld.json`.
    - Felder: `id`, `date` (Zeitpunkt der Meldung, erscheint auf jeder Folie), `category` (Anzeigename, z. B. „Geld“), `topic` (= Schwerpunkt), `tone` (sachlich | ueberraschend | locker), `sources`.
    - 4–6 Folien: Titelfolie (die Nachricht in einem Satz), „Was ist passiert?“, „Was heißt das für dich?“, eine Zahl als `big`, Einordnung/„Wie geht es weiter?“, letzte Folie `cta`.
@@ -79,19 +79,27 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
     `bilder`: `node publish.js posts/<datei>.json`, danach `node publish.js posts/<datei>.json --reel` ·
     `zusammen`: `... --zusammen`, danach `... --reel` · `video`: nur `... --video`.
     Schlägt ein Video-Teil fehl: auf `bilder` zurückfallen, Fehler in `data/probleme.md`. Danach `data/posted.json` committen und pushen.
-11. **Selbst verbessern** (einmal am Tag, beim zweiten Post des Tages):
-    - Rückblick: Was ist schiefgegangen oder war umständlich? `data/probleme.md` und `data/learnings.json` lesen: Welche Schwerpunkte, Töne, Formate, Uhrzeiten laufen gut?
+11. **Selbst verbessern** (fester Teil jedes Tages: einmal täglich nach dem Posten, beim zweiten Post des Tages):
+    - Rückblick: Was ist heute schiefgegangen oder war umständlich? `data/probleme.md`, `data/learnings.json` und die Ausgabe von
+      `node schwerpunkt.js` lesen: Welche Schwerpunkte, Töne, Formate, Uhrzeiten laufen laut Reichweite gut oder schlecht?
     - **Fehler aus dem heutigen Lauf haben Vorrang:** Was den Lauf aufgehalten hat (Skriptfehler, Quelle nicht erreichbar, Folie abgeschnitten),
       wird als Erstes so behoben, dass es beim nächsten Lauf nicht wieder passiert.
-    - **Montags** kurz im Netz nachsehen, ob sich bei Instagram etwas geändert hat (Algorithmus, Regeln, Schnittstelle).
+    - **Montags** kurz im Netz nachsehen, ob sich bei Instagram etwas geändert hat (Algorithmus, Regeln, Schnittstelle, neue Funktionen).
     - **Höchstens eine** kleine, sinnvolle Verbesserung umsetzen (Code, Anleitung, Vorlage, neuer freier Feed oder Bildquelle). Vorher testen
       (heutigen Post neu rendern bzw. geändertes Skript ausführen). Klappt der Test nicht: `git checkout -- <datei>`. **Nie Dateien, Posts oder Daten löschen.**
-      Nur Funktionierendes committen und pushen, in `data/verbesserungen.md` mit Datum und einem Satz festhalten, dem Nutzer kurz nennen.
+      Nur Funktionierendes committen und pushen, in `data/verbesserungen.md` mit Datum und einem Satz festhalten, dem Nutzer in der Tagesnachricht kurz nennen.
     - **Nicht ohne den Nutzer ändern:** Grundregeln (kostenlos, nur freie Medien, Sicherheitsregeln, Sorgfalt, Ehrlichkeit über KI), Zeitpläne der Aufgaben,
       Konten und Zugänge, die Zahl der Posts pro Tag, die Liste der Schwerpunkte. Das nur vorschlagen.
     - **Wenn etwas vom Nutzer gebraucht wird:** in der Tagesnachricht kurz und mit Schritt-für-Schritt-Anleitung auf Deutsch. Offene Bitten in
       `data/offene-bitten.md` führen und erst nach 3 Tagen erneut erinnern.
     - **Sonntags** dem Nutzer eine kurze Wochenbilanz schicken: welcher Schwerpunkt, welche Uhrzeit, welches Format bisher vorne liegt (aus `data/learnings.json`).
+
+## Immer nach der besten Reichweite
+
+Uhrzeit (`slot.js`), Format (`format.js`), Schwerpunkt und Ton (`schwerpunkt.js`) folgen derselben Regel aus `choose.js`:
+gezählt werden die erreichten Konten aller Posts, die mindestens einen Tag alt sind. Was noch keine 2 Posts hat, bekommt eine faire Chance;
+sonst gewinnt an 3 von 4 Tagen die Variante mit der höchsten durchschnittlichen Reichweite, am 4. wird zum Weiterlernen etwas anderes probiert.
+Die Entscheidung hängt nur vom Datum ab, damit alle Läufe eines Tages übereinstimmen. Eine richtig starke Geschichte oder ein besonders gutes Bild geht trotzdem vor.
 
 ## Sicherheitsregeln – immer überspringen
 

@@ -6,7 +6,7 @@ frei lizenzierte Fotos suchen, Folien und Reel mit Musik bauen, posten, Kommenta
 Der genaue Ablauf steht in [CLAUDE.md](CLAUDE.md).
 
 **Was der Account selbst herausfindet:** welcher Schwerpunkt (Geld, Digital, Alltag, Umwelt, Welt, Sport), welcher Ton,
-welches Format (Bilder, Video, beides) und welche Uhrzeit am besten ankommt (`schwerpunkt.js`, `slot.js`, `format.js`, `insights.js`).
+welches Format (Bilder, Video, beides) und welche Uhrzeit am besten ankommt (`choose.js`: immer nach der besten Reichweite, mit gelegentlichen Tests).
 
 ## Einrichten – Schritt für Schritt
 
