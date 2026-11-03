@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-03-dinoblut",
+  "date": "2026-11-03T09:55:35Z",
+  "category": "Forschung",
+  "topic": "welt",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    {"name": "n-tv", "url": "https://www.n-tv.de/wissen/Forscher-entdecken-versteinertes-Blut-in-Dino-Fossil-id31488372.html"},
+    {"name": "Spiegel", "url": "https://www.spiegel.de/wissenschaft/dinosaurier-rote-blutkoerperchen-in-115-millionen-jahre-altem-fossil-a-d12054d3-5dcf-4fd2-a1b0-55735380eed7"}
+  ],
+  "image": {
+    "file": "images/2026-11-03-dinoblut.jpg",
+    "credit": "akhenatenator / flickr",
+    "short": "akhenatenator, CC0, via Flickr",
+    "license": "CC0",
+    "page": "https://www.flickr.com/photos/86012097@N08/8026022305",
+    "symbolbild": true
+  },
+  "slides": [
+    {"type": "cover", "label": "Forschung", "title": "Forscher finden **Blut-Spuren** in 115 Millionen Jahre altem Dino-Fossil"},
+    {"label": "Was ist passiert?", "title": "Spuren im **Knochen**", "text": ["Ein internationales Team hat im Hinterbeinknochen eines Dinosauriers Hinweise auf **rote Blutkörperchen** entdeckt.", "Dazu gehören Moleküle, die vom Blutfarbstoff Häm stammen."]},
+    {"label": "Wie ging das?", "title": "Schnell **begraben**", "text": ["Das junge Tier wurde laut Studie kurz nach seinem Tod unter einer sauerstoffarmen Schicht begraben.", "Ein Mineral machte die Blutkörperchen haltbar."]},
+    {"label": "Die Zahl", "big": "115 Mio.", "title": "Jahre alt", "text": ["So alt ist das Fossil. Die Blutkörperchen sind nur etwa **20 Mikrometer** klein, also 0,02 Millimeter."]},
+    {"label": "Warum wichtig?", "title": "Ein **neuer Blick** auf Urzeit-Tiere", "text": ["Die Forschenden sprechen von einer „bahnbrechenden Entdeckung“. Damit lasse sich bei ausgestorbenen Tieren etwa untersuchen, wie sich Blut und Stoffwechsel entwickelt haben."]},
+    {"type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt."}
+  ],
+  "caption": "Dinosaurier: Forschende haben in einem 115 Millionen Jahre alten Fossil Hinweise auf rote Blutkörperchen gefunden. Laut n-tv und Spiegel stammen Moleküle des Blutfarbstoffs Häm aus einem Hinterbeinknochen. Das Team spricht von einer „bahnbrechenden Entdeckung“.\n\nWelches Tier aus der Urzeit würdest du gern mal sehen? 👇\n\nQuellen: n-tv.de, spiegel.de · Text mit KI erstellt\nFoto (Symbolbild, zeigt ein T.-rex-Skelett, nicht den Fund): akhenatenator, CC0, via Flickr\n#dinosaurier #forschung #wissenschaft #nachrichten #fossil"
+}
