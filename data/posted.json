@@ -30,7 +30,7 @@
       "saved": 0,
       "views": 11
     },
-    "statsAt": "2026-11-03T11:15:54.288Z"
+    "statsAt": "2026-11-04T06:16:27.293Z"
   },
   {
     "id": "2026-10-29-macbook-touch",
@@ -62,7 +62,7 @@
       "saved": 0,
       "views": 113
     },
-    "statsAt": "2026-11-03T11:15:55.053Z"
+    "statsAt": "2026-11-04T06:16:27.993Z"
   },
   {
     "id": "2026-10-29-tankrabatt",
@@ -93,7 +93,7 @@
       "saved": 0,
       "views": 17
     },
-    "statsAt": "2026-11-03T11:15:55.677Z"
+    "statsAt": "2026-11-04T06:16:28.511Z"
   },
   {
     "id": "2026-10-30-novemberwetter",
@@ -116,7 +116,7 @@
       "saved": 0,
       "views": 214
     },
-    "statsAt": "2026-11-03T11:15:55.912Z"
+    "statsAt": "2026-11-04T06:16:28.762Z"
   },
   {
     "id": "2026-10-30-zwergplanet",
@@ -147,7 +147,7 @@
       "saved": 0,
       "views": 24
     },
-    "statsAt": "2026-11-03T11:15:56.471Z"
+    "statsAt": "2026-11-04T06:16:29.493Z"
   },
   {
     "id": "2026-10-31-zverev",
@@ -178,7 +178,7 @@
       "saved": 0,
       "views": 117
     },
-    "statsAt": "2026-11-03T11:15:57.034Z"
+    "statsAt": "2026-11-04T06:16:30.107Z"
   },
   {
     "id": "2026-10-31-inflation",
@@ -209,7 +209,7 @@
       "saved": 0,
       "views": 4
     },
-    "statsAt": "2026-11-03T11:15:57.575Z"
+    "statsAt": "2026-11-04T06:16:30.683Z"
   },
   {
     "id": "2026-11-01-zollgebuehr",
@@ -240,7 +240,7 @@
       "saved": 0,
       "views": 194
     },
-    "statsAt": "2026-11-03T11:15:58.211Z"
+    "statsAt": "2026-11-04T06:16:31.375Z"
   },
   {
     "id": "2026-11-01-gasspeicher",
@@ -272,7 +272,7 @@
       "saved": 0,
       "views": 22
     },
-    "statsAt": "2026-11-03T11:15:58.739Z"
+    "statsAt": "2026-11-04T06:16:31.987Z"
   },
   {
     "id": "2026-11-02-antonelli",
@@ -289,7 +289,7 @@
     "format": "bilder",
     "reelMediaId": "18121070165068729",
     "stats": {
-      "reach": 136,
+      "reach": 138,
       "likes": 2,
       "comments": 0,
       "shares": 0,
@@ -297,14 +297,14 @@
       "follows": 0
     },
     "reelStats": {
-      "reach": 134,
+      "reach": 135,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "views": 146
+      "views": 147
     },
-    "statsAt": "2026-11-03T11:15:59.337Z"
+    "statsAt": "2026-11-04T06:16:32.566Z"
   },
   {
     "id": "2026-11-02-handyblitzer",
@@ -321,7 +321,7 @@
     "format": "bilder",
     "reelMediaId": "18080041658421182",
     "stats": {
-      "reach": 83,
+      "reach": 84,
       "likes": 1,
       "comments": 0,
       "shares": 0,
@@ -329,14 +329,14 @@
       "follows": 0
     },
     "reelStats": {
-      "reach": 80,
+      "reach": 81,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 87
+      "views": 89
     },
-    "statsAt": "2026-11-03T11:15:59.932Z"
+    "statsAt": "2026-11-04T06:16:33.171Z"
   },
   {
     "id": "2026-11-03-dinoblut",
@@ -350,6 +350,23 @@
     ],
     "mediaId": "18028281311704014",
     "format": "bilder",
-    "reelMediaId": "18099052457404576"
+    "reelMediaId": "18099052457404576",
+    "stats": {
+      "reach": 21,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 19,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 21
+    },
+    "statsAt": "2026-11-04T06:16:33.829Z"
   }
 ]

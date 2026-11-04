@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-04-digitalerfuehrerschein",
+  "date": "2026-11-03T16:28:18Z",
+  "category": "Digital",
+  "topic": "digital",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    { "name": "n-tv (laut Bundesverkehrsministerium)", "url": "https://www.n-tv.de/ratgeber/Fuehrerschein-auf-dem-Smartphone-ist-noch-im-November-zu-haben-id31490748.html" },
+    { "name": "t3n", "url": "https://t3n.de/news/einfuehrung-des-digitalen-fuehrerscheins-das-muessen-autofahrer-jetzt-wissen-1771282/" }
+  ],
+  "image": {
+    "file": "images/2026-11-04-digitalerfuehrerschein.jpg",
+    "credit": "Dennis Cortés",
+    "short": "Dennis Cortés, CC0",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Digital", "title": "Der **Führerschein** soll noch im November aufs Handy kommen" },
+    { "label": "Was ist passiert?", "title": "Start **Ende November**", "text": ["Das Bundesverkehrsministerium hat laut n-tv und t3n bestätigt: Der digitale Führerschein soll Ende November starten. Ein genaues Datum gibt es noch nicht."] },
+    { "label": "Wie funktioniert das?", "title": "In der **i-Kfz-App**", "text": ["Der Führerschein soll in die kostenlose App des Kraftfahrt-Bundesamtes kommen. Den Fahrzeugschein kann man dort schon speichern.", "Nötig sind ein Handy mit NFC, eine PIN und ein aktivierter Online-Ausweis."] },
+    { "label": "Was heißt das für dich?", "big": "2 Mio.", "title": "haben die i-Kfz-App schon", "text": ["Laut n-tv war sie bis August auf über zwei Millionen Handys installiert. In Deutschland sollst du die Karte dann nicht mehr mitführen müssen, im Ausland brauchst du sie weiter."] },
+    { "label": "Wie geht es weiter?", "title": "EU-weit erst **später**", "text": ["Eine europaweite Lösung ist laut n-tv frühestens für 2030 geplant. Noch ist der Start ein Plan, kein Fakt."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Der digitale Führerschein soll noch im November kommen: Laut Bundesverkehrsministerium startet er Ende November in der i-Kfz-App des Kraftfahrt-Bundesamtes. In Deutschland müsstest du die Plastikkarte dann nicht mehr dabeihaben, im Ausland schon. Ein genaues Datum steht noch aus.\n\nWas meinst du: Würdest du deinen Führerschein lieber auf dem Handy haben? 👇\n\nQuellen: n-tv.de, t3n.de · Text mit KI erstellt\nFoto (Symbolbild): Dennis Cortés, CC0, via Wikimedia Commons\n#digitalerführerschein #führerschein #ikfz #nachrichten #smartphone"
+}
