@@ -382,5 +382,20 @@
     "reelMediaId": "17965226115219619",
     "mediaId": "18080306258651180",
     "format": "bilder"
+  },
+  {
+    "id": "2026-11-04-hitzeuebung",
+    "postedAt": "2026-11-04T11:29:24.140Z",
+    "topic": "umwelt",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.tagesschau.de/inland/bbk-krisenmanagement-duerre-hitze-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/inland/bbk-krisenmanagement-duerre-hitze-100.html",
+      "https://www.deutschlandfunk.de/nationale-krisenuebung-zu-duerre-und-hitzewelle-startet-100.html",
+      "https://www.dw.com/de/deutschland-probt-krisenszenario-bei-megahitze/a-79851353"
+    ],
+    "mediaId": "18076086731757004",
+    "format": "bilder",
+    "reelMediaId": "18100727609431345"
   }
 ]
