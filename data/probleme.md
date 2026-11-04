@@ -13,3 +13,5 @@
 - 2026-11-02 (morgens): Lauf startete auf losgelöstem HEAD (git checkout main nötig). Wikimedia 429/Openverse-Timeout, Videosuche scheiterte (Format „bilder“). ccMixter 403 (Reel mit Incompetech-Musik). Reel-Upload dauerte >2 Minuten. 5 Kommentare unter DfC7CbBmz8N weiter nicht abrufbar. Schwerpunkt umwelt hatte keine gute Meldung, Ersatz: sport.
 
 - 2026-11-03: find-video.js hing bei Wikimedia-Drosselung ("zu viele Anfragen"); Post ohne Video (bilder). Ein Zeitlimit im Skript wäre sinnvoll.
+
+- 2026-11-04 (morgens): Karussell "digitalerfuehrerschein" scheiterte an media_publish: "Application request limit reached" (auch nach 60 s Wiederholung). Nur das Folien-Reel ist veröffentlicht (Media-ID 17965226115219619). Karussell noch offen.
