@@ -15,3 +15,4 @@
 - 2026-11-03: find-video.js hing bei Wikimedia-Drosselung ("zu viele Anfragen"); Post ohne Video (bilder). Ein Zeitlimit im Skript wäre sinnvoll.
 
 - 2026-11-04 (morgens): Karussell "digitalerfuehrerschein" scheiterte an media_publish: "Application request limit reached" (auch nach 60 s Wiederholung). Nur das Folien-Reel ist veröffentlicht (Media-ID 17965226115219619). Karussell noch offen.
+- 2026-11-04 (morgens): Karussell zum digitalen Führerschein wurde doppelt veröffentlicht (06:27 und 06:29 UTC); in posted.json fehlte die Media-ID. Der Nutzer löscht das Duplikat (ohne Aufrufe) von Hand, denn Instagram erlaubt Löschen nicht über die Schnittstelle.

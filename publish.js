@@ -63,8 +63,21 @@ function logPost(post, fields) {
   fs.writeFileSync('data/posted.json', JSON.stringify(log, null, 2));
 }
 
+// Schutz vor doppelten Posts (z. B. wenn ein Lauf nach einem Fehler neu startet, obwohl Instagram schon veröffentlicht hat):
+// Gibt es in den letzten 6 Stunden schon einen Beitrag dieser Art mit demselben Anfang der Beschreibung, wird dessen ID genommen.
+async function alreadyPosted(post, productType) {
+  const start = post.caption.slice(0, 60);
+  const r = await (await fetch(`${API}/me/media?fields=id,caption,timestamp,media_product_type&limit=10&access_token=${IG_TOKEN}`)).json();
+  const hit = (r.data || []).find(m => m.media_product_type === productType && (m.caption || '').startsWith(start) &&
+    Date.now() - new Date(m.timestamp) < 6 * 36e5);
+  if (hit) console.error(`Schon veröffentlicht (${hit.id}), poste nicht noch einmal.`);
+  return hit?.id;
+}
+
 // Reel veröffentlichen: das Folien-Reel nur im Reels-Tab, das Video-Reel auch im Feed
 async function publishReel(post, { file, musicFile, feed }) {
+  const existing = await alreadyPosted(post, 'REELS');
+  if (existing) return existing;
   const container = await call(`${IG_USER_ID}/media`, { media_type: 'REELS', video_url: cdnUrl(post, file), caption: fullCaption(post, musicFile), share_to_feed: String(feed) });
   await waitReady(container.id);
   const { id } = await call(`${IG_USER_ID}/media_publish`, { creation_id: container.id });
@@ -73,6 +86,8 @@ async function publishReel(post, { file, musicFile, feed }) {
 
 // Karussell aus den Folien; mit videoSlide wird das 4:5-Video als zweite Folie eingefügt
 async function publishCarousel(post, { videoSlide }) {
+  const existing = await alreadyPosted(post, 'FEED');
+  if (existing) return existing;
   const children = [];
   let withAlt = true;
   for (let i = 1; i <= post.slides.length; i++) {
