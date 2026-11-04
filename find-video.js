@@ -20,7 +20,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function getJson(url) {
   for (let i = 0; i < 3; i++) {
-    const res = await fetch(url, { headers: hdr(url) });
+    const res = await fetch(url, { headers: hdr(url), signal: AbortSignal.timeout(20000) });
     if (res.status === 429 || res.status >= 500) { await sleep(3000 * (i + 1)); continue; }
     return res.json();
   }
@@ -44,7 +44,7 @@ async function nasa(q, max) {
 // ESA/Webb, ESA/Hubble und ESO haben dieselbe Seitenstruktur; die Suchseite listet Video-IDs mit Vorschautitel
 function esaVideos(name, site, cdn, credit) {
   const fn = async (q, max) => {
-    const html = await (await fetch(`${site}/videos/?search=${encodeURIComponent(q)}`, { headers: UA })).text();
+    const html = await (await fetch(`${site}/videos/?search=${encodeURIComponent(q)}`, { headers: UA, signal: AbortSignal.timeout(20000) })).text();
     const ids = [...new Set([...html.matchAll(/href="(?:\/public)?\/videos\/([a-z0-9_-]+)\/"/g)].map(m => m[1]))]
       .filter(id => !['feed', 'search', 'viewall', 'archive'].includes(id));
     const titles = [...html.matchAll(/alt="(?:Video thumbnail for )?([^"]+)"/g)].map(m => m[1]).filter(t => !/logo|Creative Commons/i.test(t));
