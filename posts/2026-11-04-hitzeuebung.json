@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-04-hitzeuebung",
+  "date": "2026-11-04T11:06:34Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    {"name": "tagesschau", "url": "https://www.tagesschau.de/inland/bbk-krisenmanagement-duerre-hitze-100.html"},
+    {"name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/nationale-krisenuebung-zu-duerre-und-hitzewelle-startet-100.html"},
+    {"name": "Deutsche Welle", "url": "https://www.dw.com/de/deutschland-probt-krisenszenario-bei-megahitze/a-79851353"}
+  ],
+  "image": {
+    "file": "images/2026-11-04-hitzeuebung.jpg",
+    "credit": "Aleatoric Consonance / flickr",
+    "short": "Aleatoric Consonance, CC BY 2.0, via Flickr",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/93921318@N00/3772011444",
+    "symbolbild": true
+  },
+  "slides": [
+    {"type": "cover", "label": "Umwelt", "title": "Deutschland probt den Ernstfall: **45 Grad** und fünf Dürrejahre"},
+    {"label": "Was ist passiert?", "title": "Die größte **Krisenübung** bisher", "text": ["Seit heute üben zehn Bundesländer, fast 20 Bundesbehörden und viele weitere Organisationen den Notfall.", "Die Übung heißt **LÜKEX 26** und läuft bis Freitag."]},
+    {"label": "Das Szenario", "title": "Was wird **durchgespielt**?", "text": ["Fünf Dürrejahre haben Deutschland schon geschwächt. Dann kommt eine **Hitzewelle mit bis zu 45 Grad**.", "Geübt werden unter anderem Wasserknappheit und überfüllte Krankenhäuser."]},
+    {"label": "Die Zahl", "big": "180", "title": "Organisationen machen mit", "text": ["Knapp 180 sind es genau genommen. Dazu zählen Ministerien, Behörden und Hilfsorganisationen. Es ist laut BBK die bisher größte nationale Übung dieser Art."]},
+    {"label": "Was heißt das für dich?", "title": "Nur ein **Planspiel**", "text": ["Es ist nur ein Test am Schreibtisch, keine echte Gefahr. Die Krisenstäbe sollen vor allem **Entscheidungs- und Kommunikationswege** prüfen, damit im Ernstfall alles schneller geht."]},
+    {"type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt."}
+  ],
+  "caption": "Hitzewelle und Dürre: Deutschland übt seit heute den Ernstfall. Laut tagesschau, Deutschlandfunk und DW simuliert die Übung LÜKEX 26 fünf Dürrejahre und eine Hitzewelle mit bis zu 45 Grad. Beteiligt sind zehn Bundesländer und fast 20 Bundesbehörden. Es ist ein reines Planspiel in den Krisenstäben.\n\nWas fällt dir bei großer Hitze am schwersten? 👇\n\nQuellen: tagesschau.de, deutschlandfunk.de, dw.com · Text mit KI erstellt\nFoto (Symbolbild, zeigt trockenen Boden, nicht die Übung): Aleatoric Consonance, CC BY 2.0, via Flickr\n#hitzewelle #duerre #katastrophenschutz #nachrichten #klima"
+}

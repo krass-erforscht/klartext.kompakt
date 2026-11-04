@@ -978,5 +978,33 @@
     "seconds": 380,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Sovereign",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Sovereign.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Sovereign.mp3",
+    "seconds": 372,
+    "used": 1,
+    "lastUsed": "2026-11-04T11:25:52.204Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "Stoneworld Battle",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Stoneworld%20Battle.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Stoneworld_Battle.mp3",
+    "seconds": 234,
+    "used": 0,
+    "lastUsed": null
   }
 ]

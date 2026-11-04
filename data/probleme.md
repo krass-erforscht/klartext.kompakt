@@ -16,3 +16,5 @@
 
 - 2026-11-04 (morgens): Karussell "digitalerfuehrerschein" scheiterte an media_publish: "Application request limit reached" (auch nach 60 s Wiederholung). Nur das Folien-Reel ist veröffentlicht (Media-ID 17965226115219619). Karussell noch offen.
 - 2026-11-04 (morgens): Karussell zum digitalen Führerschein wurde doppelt veröffentlicht (06:27 und 06:29 UTC); in posted.json fehlte die Media-ID. Der Nutzer löscht das Duplikat (ohne Aufrufe) von Hand, denn Instagram erlaubt Löschen nicht über die Schnittstelle.
+- 2026-11-04 (mittags): Wikimedia 429 bei Videosuche/-Download (Drossel), find-video.js brach nach >100 s nicht ab; Post ohne Video (bilder).
+>>>>>>> 499fba9 (Post: Hitzeübung LÜKEX 26 (umwelt))
