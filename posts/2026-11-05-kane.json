@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-05-kane",
+  "date": "2026-11-05T08:42:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    { "name": "Sportschau", "url": "https://www.sportschau.de/regional/br/br-der-rekordmann-bleibt-harry-kane-verlaengert-beim-fc-bayern-102.html" },
+    { "name": "ZDFheute", "url": "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-bayern-kane-vertrag-verlaengerung-100.html" },
+    { "name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/harry-kane-und-bayern-muenchen-verlaengern-vertrag-102.html" }
+  ],
+  "image": {
+    "file": "images/2026-11-05-kane.jpg",
+    "credit": "Number 10 / Wikimedia Commons",
+    "short": "Number 10, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Harry_Kane_2023.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Sport", "title": "Harry Kane bleibt **bis 2029** beim FC Bayern" },
+    { "label": "Was ist passiert?", "title": "Vertrag **verlängert**", "text": ["Der FC Bayern München hat heute bekannt gegeben: Stürmer Harry Kane verlängert um zwei Jahre. Der neue Vertrag läuft bis zum 30. Juni 2029."] },
+    { "label": "Was heißt das für dich?", "title": "Er bleibt in der **Bundesliga**", "text": ["Wer Bayern-Spiele schaut, sieht den englischen Nationalspieler also auch in den nächsten Jahren in München."] },
+    { "label": "Die Zahl", "big": "2029", "title": "Neues Vertragsende", "text": ["Bisher wäre sein Vertrag im Sommer 2027 ausgelaufen."] },
+    { "label": "Einordnung", "title": "Seit **2023** in München", "text": ["Kane kam im August 2023 für eine Ablöse von rund 100 Millionen Euro. Er ist 33 Jahre alt und hat laut Spiegel die höchste Torquote der Vereinsgeschichte."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Harry Kane bleibt beim FC Bayern: Der Stürmer hat seinen Vertrag um zwei Jahre bis 2029 verlängert, wie der Verein heute bekannt gab. Eigentlich wäre er im Sommer 2027 ausgelaufen.\n\nWie lange soll Kane deiner Meinung nach noch Tore für Bayern schießen? 👇\n\nQuellen: Sportschau, ZDFheute, Deutschlandfunk, Spiegel · Text mit KI erstellt\nFoto: Number 10, CC BY 2.0, via Wikimedia Commons (Symbolbild)\nReel-Musik: „Move Forward“ von Kevin MacLeod (incompetech), CC BY 4.0\n#harrykane #fcbayern #bundesliga #fussball #nachrichten"
+}

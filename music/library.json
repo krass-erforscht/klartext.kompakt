@@ -1048,5 +1048,47 @@
     "seconds": 199,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Move Forward",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Move%20Forward.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Move_Forward.mp3",
+    "seconds": 69,
+    "used": 1,
+    "lastUsed": "2026-11-05T11:21:39.422Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "The Sky of our Ancestors",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Sky%20of%20our%20Ancestors.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-The_Sky_of_our_Ancestors.mp3",
+    "seconds": 431,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Pleasant Porridge",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Pleasant%20Porridge.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Pleasant_Porridge.mp3",
+    "seconds": 171,
+    "used": 0,
+    "lastUsed": null
   }
 ]
