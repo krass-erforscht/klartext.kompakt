@@ -98,6 +98,7 @@ async function fetchCandidate(c, file) {
   return { file, frames, seconds: Math.round(seconds), ...c };
 }
 
+if (!process.argv.includes('--url')) setTimeout(() => { console.error('Zeitlimit (90 s): Videosuche abgebrochen, Post ohne Video.'); process.exit(2); }, 90000).unref();
 (async () => {
   const args = process.argv.slice(2);
   const opt = name => { const i = args.indexOf(name); return i >= 0 ? args.splice(i, 2)[1] : null; };
