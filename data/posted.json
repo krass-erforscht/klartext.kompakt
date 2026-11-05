@@ -431,5 +431,18 @@
       "views": 122
     },
     "statsAt": "2026-11-05T06:16:28.796Z"
+  },
+  {
+    "id": "2026-11-05-energiebilanz",
+    "postedAt": "2026-11-05T06:25:20.196Z",
+    "topic": "umwelt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/wirtschaft/energie/energiebilanz-heizoel-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wirtschaft/energie/energiebilanz-heizoel-100.html"
+    ],
+    "reelMediaId": "17977687949939454",
+    "mediaId": "18077098109758647",
+    "format": "bilder"
   }
 ]
