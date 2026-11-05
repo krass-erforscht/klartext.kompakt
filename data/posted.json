@@ -461,5 +461,20 @@
       "views": 69
     },
     "statsAt": "2026-11-05T11:16:30.854Z"
+  },
+  {
+    "id": "2026-11-05-kane",
+    "postedAt": "2026-11-05T11:24:49.694Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.sportschau.de/regional/br/br-der-rekordmann-bleibt-harry-kane-verlaengert-beim-fc-bayern-102.html",
+    "sourceUrls": [
+      "https://www.sportschau.de/regional/br/br-der-rekordmann-bleibt-harry-kane-verlaengert-beim-fc-bayern-102.html",
+      "https://www.zdfheute.de/sport/fussball-bundesliga/bundesliga-bayern-kane-vertrag-verlaengerung-100.html",
+      "https://www.deutschlandfunk.de/harry-kane-und-bayern-muenchen-verlaengern-vertrag-102.html"
+    ],
+    "mediaId": "17916193179282044",
+    "format": "bilder",
+    "reelMediaId": "18092421023240800"
   }
 ]
