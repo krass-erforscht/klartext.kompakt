@@ -1006,5 +1006,47 @@
     "seconds": 234,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Mirage",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Mirage.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Mirage.mp3",
+    "seconds": 240,
+    "used": 1,
+    "lastUsed": "2026-11-05T06:23:19.474Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "Shenyang",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Shenyang.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Shenyang.mp3",
+    "seconds": 151,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Juniper",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Juniper.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Juniper.mp3",
+    "seconds": 199,
+    "used": 0,
+    "lastUsed": null
   }
 ]

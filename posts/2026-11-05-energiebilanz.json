@@ -1,0 +1,64 @@
+{
+  "id": "2026-11-05-energiebilanz",
+  "date": "2026-11-04T14:38:00Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "tagesschau (mit Zahlen der Arbeitsgemeinschaft Energiebilanzen, AGEB)",
+      "url": "https://www.tagesschau.de/wirtschaft/energie/energiebilanz-heizoel-100.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-05-energiebilanz.jpg",
+    "credit": "MSVG / flickr",
+    "short": "MSVG, CC BY 2.0, via Flickr",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/13907834@N00/7778165404",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Umwelt",
+      "title": "Deutschland verbraucht 2026 **weniger Energie**"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Verbrauch **sinkt**",
+      "text": [
+        "Die Arbeitsgemeinschaft Energiebilanzen (AGEB) rechnet für 2026 mit knapp 3 Prozent weniger Energieverbrauch als im Vorjahr."
+      ]
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Heizöl wird **kaum nachgekauft**",
+      "text": [
+        "Von Januar bis September lag der Heizölverbrauch um über 38 Prozent niedriger. Viele Haushalte haben wegen der hohen Preise Vorräte aufgebraucht und wenig nachgekauft."
+      ]
+    },
+    {
+      "label": "Die Zahl",
+      "big": "22,5 %",
+      "title": "Erneuerbare",
+      "text": [
+        "So groß war ihr Anteil am gesamten Energieverbrauch von Januar bis September. Im Vorjahr waren es 20,5 Prozent."
+      ]
+    },
+    {
+      "label": "Einordnung",
+      "title": "Fossile liefern **noch das meiste**",
+      "text": [
+        "Öl, Erdgas und Kohle decken weiter 75,5 Prozent. Die AGEB erwartet für das ganze Jahr etwa 4 Prozent weniger CO2 aus Energie."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Mehr davon?",
+      "title": "Nachrichten, die dich betreffen. Kurz erklärt."
+    }
+  ],
+  "caption": "Energieverbrauch in Deutschland: 2026 sinkt er laut Hochrechnung der Arbeitsgemeinschaft Energiebilanzen (AGEB) um knapp 3 Prozent. Beim Heizöl liegt das Minus von Januar bis September bei über 38 Prozent, der Anteil der Erneuerbaren steigt auf 22,5 Prozent. Genannte Gründe: hohe Energiepreise und schwache Wirtschaft.\n\nSparst du dieses Jahr bewusst Energie? 👇\n\nQuelle: tagesschau.de (Zahlen der AGEB) · Text mit KI erstellt\nFoto: MSVG, CC BY 2.0, via Flickr (Symbolbild)\n#energieverbrauch #energie #heizöl #erneuerbare #nachrichten"
+}

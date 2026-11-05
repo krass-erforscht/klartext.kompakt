@@ -18,3 +18,4 @@
 - 2026-11-04 (morgens): Karussell zum digitalen Führerschein wurde doppelt veröffentlicht (06:27 und 06:29 UTC); in posted.json fehlte die Media-ID. Der Nutzer löscht das Duplikat (ohne Aufrufe) von Hand, denn Instagram erlaubt Löschen nicht über die Schnittstelle.
 - 2026-11-04 (mittags): Wikimedia 429 bei Videosuche/-Download (Drossel), find-video.js brach nach >100 s nicht ab; Post ohne Video (bilder).
 >>>>>>> 499fba9 (Post: Hitzeübung LÜKEX 26 (umwelt))
+- 2026-11-05 (morgens): Wikimedia-API 429 (Drossel), Urheber des Windrad-Videos nicht abrufbar; Post ohne Video (bilder).
