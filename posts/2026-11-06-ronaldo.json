@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-06-ronaldo",
+  "date": "2026-11-05T17:49:40Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "Sportschau",
+      "url": "https://www.sportschau.de/fussball/cristiano-ronaldo-tritt-aus-portugals-nationalteam-zurueck,cr7-ende-natio-100.html"
+    },
+    {
+      "name": "Deutsche Welle",
+      "url": "https://www.dw.com/de/cristiano-ronaldo-beendet-nationalmannschaftskarriere-portugals-ikone-verabschiedet-sich-mit-emotionaler-botschaft/a-79864554"
+    },
+    {
+      "name": "n-tv",
+      "url": "https://www.n-tv.de/sport/fussball/Cristiano-Ronaldo-handelte-gegen-den-Willen-des-Nationaltrainers-id31501861.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-06-ronaldo.jpg",
+    "credit": "Анна Нэсси / Wikimedia Commons",
+    "short": "Анна Нэсси, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/w/index.php?curid=70396245",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "Cristiano Ronaldo hört im **Nationalteam** auf"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Abschied per **Video**",
+      "text": [
+        "Der portugiesische Fußballstar hat in den sozialen Medien seinen Rücktritt aus der Nationalmannschaft bekannt gegeben. Er ist 41 Jahre alt."
+      ],
+      "image": {
+        "file": "images/2026-11-06-ronaldo-2.jpg",
+        "credit": "wonker / Wikimedia Commons",
+        "short": "wonker, CC BY 2.0, via Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=3141954",
+        "symbolbild": true,
+        "position": "70% 60%"
+      }
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Eine **Ära** ist vorbei",
+      "text": [
+        "Wer Länderspiele von Portugal schaut, sieht Ronaldo dort nicht mehr. Seit 2003 hat er für sein Land gespielt."
+      ]
+    },
+    {
+      "label": "Die Zahl",
+      "big": "146",
+      "title": "Tore in 234 Länderspielen",
+      "text": [
+        "Damit ist er Portugals Rekordtorschütze."
+      ]
+    },
+    {
+      "label": "Einordnung",
+      "title": "Vorher gab es **Streit**",
+      "text": [
+        "Vor gut einem Monat reiste er verärgert aus dem Camp ab, nachdem Trainer Jorge Jesus ihn nicht aufgestellt hatte. Mit Portugal wurde er 2016 Europameister und gewann zweimal die Nations League."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Mehr davon?",
+      "title": "Nachrichten, die dich betreffen. Kurz erklärt."
+    }
+  ],
+  "caption": "Cristiano Ronaldo beendet seine Karriere in Portugals Nationalmannschaft: Der 41-Jährige gab seinen Rücktritt in den sozialen Medien bekannt. In 234 Länderspielen schoss er 146 Tore und wurde 2016 Europameister.\n\nWas war für dich Ronaldos größter Moment im Nationaltrikot? 👇\n\nQuellen: Sportschau, Deutsche Welle, n-tv · Text mit KI erstellt\nFotos (Symbolbilder): Анна Нэсси, CC BY-SA 3.0, via Wikimedia Commons · wonker, CC BY 2.0, via Wikimedia Commons\n#ronaldo #cristianoronaldo #portugal #fussball #nachrichten"
+}

@@ -30,7 +30,7 @@
       "saved": 0,
       "views": 11
     },
-    "statsAt": "2026-11-06T06:16:22.226Z"
+    "statsAt": "2026-11-06T11:16:50.169Z"
   },
   {
     "id": "2026-10-29-macbook-touch",
@@ -62,7 +62,7 @@
       "saved": 0,
       "views": 113
     },
-    "statsAt": "2026-11-06T06:16:22.929Z"
+    "statsAt": "2026-11-06T11:16:50.682Z"
   },
   {
     "id": "2026-10-29-tankrabatt",
@@ -93,7 +93,7 @@
       "saved": 0,
       "views": 17
     },
-    "statsAt": "2026-11-06T06:16:23.447Z"
+    "statsAt": "2026-11-06T11:16:51.266Z"
   },
   {
     "id": "2026-10-30-novemberwetter",
@@ -116,7 +116,7 @@
       "saved": 0,
       "views": 215
     },
-    "statsAt": "2026-11-06T06:16:23.822Z"
+    "statsAt": "2026-11-06T11:16:51.685Z"
   },
   {
     "id": "2026-10-30-zwergplanet",
@@ -147,7 +147,7 @@
       "saved": 0,
       "views": 24
     },
-    "statsAt": "2026-11-06T06:16:24.395Z"
+    "statsAt": "2026-11-06T11:16:52.419Z"
   },
   {
     "id": "2026-10-31-zverev",
@@ -178,7 +178,7 @@
       "saved": 0,
       "views": 117
     },
-    "statsAt": "2026-11-06T06:16:25.033Z"
+    "statsAt": "2026-11-06T11:16:53.018Z"
   },
   {
     "id": "2026-10-31-inflation",
@@ -209,7 +209,7 @@
       "saved": 0,
       "views": 4
     },
-    "statsAt": "2026-11-06T06:16:25.553Z"
+    "statsAt": "2026-11-06T11:16:53.698Z"
   },
   {
     "id": "2026-11-01-zollgebuehr",
@@ -240,7 +240,7 @@
       "saved": 0,
       "views": 194
     },
-    "statsAt": "2026-11-06T06:16:26.117Z"
+    "statsAt": "2026-11-06T11:16:54.349Z"
   },
   {
     "id": "2026-11-01-gasspeicher",
@@ -272,7 +272,7 @@
       "saved": 0,
       "views": 22
     },
-    "statsAt": "2026-11-06T06:16:26.686Z"
+    "statsAt": "2026-11-06T11:16:54.972Z"
   },
   {
     "id": "2026-11-02-antonelli",
@@ -304,7 +304,7 @@
       "saved": 1,
       "views": 147
     },
-    "statsAt": "2026-11-06T06:16:27.141Z"
+    "statsAt": "2026-11-06T11:16:55.595Z"
   },
   {
     "id": "2026-11-02-handyblitzer",
@@ -336,7 +336,7 @@
       "saved": 0,
       "views": 89
     },
-    "statsAt": "2026-11-06T06:16:27.711Z"
+    "statsAt": "2026-11-06T11:16:56.109Z"
   },
   {
     "id": "2026-11-03-dinoblut",
@@ -367,7 +367,7 @@
       "saved": 0,
       "views": 25
     },
-    "statsAt": "2026-11-06T06:16:28.277Z"
+    "statsAt": "2026-11-06T11:16:56.644Z"
   },
   {
     "id": "2026-11-04-digitalerfuehrerschein",
@@ -398,7 +398,7 @@
       "saved": 0,
       "views": 28
     },
-    "statsAt": "2026-11-06T06:16:28.864Z"
+    "statsAt": "2026-11-06T11:16:58.043Z"
   },
   {
     "id": "2026-11-04-hitzeuebung",
@@ -430,7 +430,7 @@
       "saved": 0,
       "views": 127
     },
-    "statsAt": "2026-11-06T06:16:29.541Z"
+    "statsAt": "2026-11-06T11:16:58.568Z"
   },
   {
     "id": "2026-11-05-energiebilanz",
@@ -460,7 +460,7 @@
       "saved": 0,
       "views": 130
     },
-    "statsAt": "2026-11-06T06:16:30.121Z"
+    "statsAt": "2026-11-06T11:16:59.120Z"
   },
   {
     "id": "2026-11-05-kane",
@@ -477,7 +477,7 @@
     "format": "bilder",
     "reelMediaId": "18092421023240800",
     "stats": {
-      "reach": 145,
+      "reach": 147,
       "likes": 3,
       "comments": 0,
       "shares": 0,
@@ -485,14 +485,14 @@
       "follows": 0
     },
     "reelStats": {
-      "reach": 141,
+      "reach": 143,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 146
+      "views": 148
     },
-    "statsAt": "2026-11-06T06:16:30.747Z"
+    "statsAt": "2026-11-06T11:16:59.738Z"
   },
   {
     "id": "2026-11-06-rechenzentren",
@@ -506,6 +506,23 @@
     ],
     "reelMediaId": "18112882541616432",
     "mediaId": "18009545598003561",
-    "format": "bilder"
+    "format": "bilder",
+    "stats": {
+      "reach": 137,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 137,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 148
+    },
+    "statsAt": "2026-11-06T11:17:00.188Z"
   }
 ]
