@@ -493,5 +493,19 @@
       "views": 146
     },
     "statsAt": "2026-11-06T06:16:30.747Z"
+  },
+  {
+    "id": "2026-11-06-rechenzentren",
+    "postedAt": "2026-11-06T06:24:15.297Z",
+    "topic": "umwelt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.zdfheute.de/briefing/wasserverbrauch-rechenzentren-kunz-zdfheute-update-100.html",
+    "sourceUrls": [
+      "https://www.zdfheute.de/briefing/wasserverbrauch-rechenzentren-kunz-zdfheute-update-100.html",
+      "https://www.tagesschau.de/investigativ/swr/rechenzentren-transparenz-wasserverbrauch-stromverbrauch-100.html"
+    ],
+    "reelMediaId": "18112882541616432",
+    "mediaId": "18009545598003561",
+    "format": "bilder"
   }
 ]
