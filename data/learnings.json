@@ -1,81 +1,81 @@
 {
-  "aktualisiert": "2026-11-05T11:16:30.877Z",
+  "aktualisiert": "2026-11-06T06:16:30.770Z",
   "ranking": [
     {
+      "gruppe": "thema:digital",
+      "posts": 3,
+      "punkte": 3.52,
+      "reichweite": 105,
+      "follower": 0
+    },
+    {
       "gruppe": "thema:sport",
-      "posts": 2,
-      "punkte": 3.47,
-      "reichweite": 127,
+      "posts": 3,
+      "punkte": 3.52,
+      "reichweite": 133,
       "follower": 0
     },
     {
       "gruppe": "ton:locker",
       "posts": 1,
-      "punkte": 2.63,
-      "reichweite": 114,
-      "follower": 0
-    },
-    {
-      "gruppe": "ton:sachlich",
-      "posts": 3,
-      "punkte": 1.76,
-      "reichweite": 136,
-      "follower": 0
-    },
-    {
-      "gruppe": "uhrzeit:7",
-      "posts": 5,
-      "punkte": 1.54,
-      "reichweite": 139,
-      "follower": 0
-    },
-    {
-      "gruppe": "format:bilder",
-      "posts": 7,
-      "punkte": 1.51,
+      "punkte": 3.48,
       "reichweite": 115,
       "follower": 0
     },
     {
-      "gruppe": "uhrzeit:12",
-      "posts": 3,
-      "punkte": 1.27,
-      "reichweite": 105,
+      "gruppe": "uhrzeit:7",
+      "posts": 6,
+      "punkte": 3.23,
+      "reichweite": 131,
       "follower": 0
     },
     {
-      "gruppe": "thema:digital",
-      "posts": 2,
-      "punkte": 1.21,
-      "reichweite": 142,
+      "gruppe": "format:bilder",
+      "posts": 9,
+      "punkte": 3.06,
+      "reichweite": 116,
+      "follower": 0
+    },
+    {
+      "gruppe": "ton:ueberraschend",
+      "posts": 5,
+      "punkte": 2.92,
+      "reichweite": 104,
+      "follower": 0
+    },
+    {
+      "gruppe": "ton:sachlich",
+      "posts": 4,
+      "punkte": 2.73,
+      "reichweite": 154,
+      "follower": 0
+    },
+    {
+      "gruppe": "uhrzeit:12",
+      "posts": 4,
+      "punkte": 2.4,
+      "reichweite": 116,
       "follower": 0
     },
     {
       "gruppe": "thema:alltag",
       "posts": 1,
-      "punkte": 1.18,
-      "reichweite": 85,
-      "follower": 0
-    },
-    {
-      "gruppe": "format:video",
-      "posts": 1,
-      "punkte": 0.98,
-      "reichweite": 205,
-      "follower": 0
-    },
-    {
-      "gruppe": "ton:ueberraschend",
-      "posts": 4,
-      "punkte": 0.9,
-      "reichweite": 121,
+      "punkte": 2.33,
+      "reichweite": 86,
       "follower": 0
     },
     {
       "gruppe": "thema:umwelt",
       "posts": 3,
-      "punkte": 0.33,
-      "reichweite": 129,
+      "punkte": 1.85,
+      "reichweite": 150,
+      "follower": 0
+    },
+    {
+      "gruppe": "format:video",
+      "posts": 1,
+      "punkte": 1.46,
+      "reichweite": 206,
       "follower": 0
     }
   ]

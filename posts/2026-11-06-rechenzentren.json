@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-06-rechenzentren",
+  "date": "2026-11-06T06:00:00Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    { "name": "ZDFheute (Hochrechnung der Umweltorganisation Greenpeace)", "url": "https://www.zdfheute.de/briefing/wasserverbrauch-rechenzentren-kunz-zdfheute-update-100.html" },
+    { "name": "tagesschau (Recherche des SWR)", "url": "https://www.tagesschau.de/investigativ/swr/rechenzentren-transparenz-wasserverbrauch-stromverbrauch-100.html" }
+  ],
+  "image": {
+    "file": "images/2026-11-06-rechenzentren.jpg",
+    "credit": "Cory M. Grenier / flickr",
+    "short": "Cory M. Grenier, CC BY-SA 2.0, via Flickr",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/26087974@N05/11387262366",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Umwelt", "title": "Rechenzentren könnten **doppelt so viel Wasser** brauchen" },
+    { "label": "Was ist passiert?", "title": "Greenpeace **rechnet hoch**", "text": ["Die Umweltorganisation Greenpeace schätzt: Der Wasserverbrauch der Rechenzentren in Deutschland könnte bis 2030 stark steigen, wenn KI und Co. so weiterwachsen. Der Grund: Die Server müssen gekühlt werden."] },
+    { "label": "Die Zahl", "big": "27 Mrd. Liter", "title": "pro Jahr ab 2030", "text": ["So viel könnten es laut Greenpeace höchstens werden. 2025 waren es etwa 13 Milliarden Liter. Das entspricht dem Verbrauch einer Großstadt wie Hannover."] },
+    { "label": "Was heißt das für dich?", "title": "Verbrauch bleibt **oft geheim**", "text": ["Große Rechenzentren müssen ihren Strom- und Wasserverbrauch veröffentlichen. Laut SWR-Recherche tut das mehr als die Hälfte von rund 30 großen Betreibern mutmaßlich nicht."] },
+    { "label": "Einordnung", "title": "Wie geht es **weiter**?", "text": ["Die Bundesregierung will die Leistung der Rechenzentren bis 2030 verdoppeln. Greenpeace fordert, keine wasserintensiven Anlagen in trockenen Regionen zu bauen."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Rechenzentren und Wasser: Greenpeace schätzt, dass der Wasserverbrauch der Rechenzentren in Deutschland von etwa 13 Milliarden Liter (2025) auf bis zu 27 Milliarden Liter pro Jahr im Jahr 2030 steigen könnte – wenn KI & Co. so weiterwachsen. Laut SWR-Recherche veröffentlicht zudem mehr als die Hälfte von rund 30 großen Betreibern ihre vorgeschriebenen Verbrauchsdaten mutmaßlich nicht.\n\nNutzt du KI-Chatbots regelmäßig? 👇\n\nQuellen: ZDFheute (Greenpeace-Hochrechnung), tagesschau/SWR · Text mit KI erstellt\nFoto: Cory M. Grenier, CC BY-SA 2.0, via Flickr (Symbolbild)\n#rechenzentren #wasserverbrauch #ki #umwelt #nachrichten"
+}
