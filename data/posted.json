@@ -579,5 +579,19 @@
       "follows": 0
     },
     "statsAt": "2026-11-07T17:16:08.679Z"
+  },
+  {
+    "id": "2026-11-07-tiktok",
+    "postedAt": "2026-11-07T17:22:48.429Z",
+    "topic": "digital",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/ausland/europa/eu-tiktok-mentale-gesundheit-gefaehrdung-algorithmus-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/ausland/europa/eu-tiktok-mentale-gesundheit-gefaehrdung-algorithmus-100.html",
+      "https://www.heise.de/news/DSA-Verfahren-EU-Kommission-droht-TikTok-mit-Strafe-11515238.html",
+      "https://www.zdfheute.de/politik/ausland/tiktok-eu-kommission-verfahren-rabbit-hole-effekt-100.html",
+      "https://www.deutschlandfunk.de/tiktok-widerspricht-vorwuefen-der-eu-kommission-104.html"
+    ],
+    "reelMediaId": "18100324781398409"
   }
 ]
