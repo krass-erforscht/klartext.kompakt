@@ -1,0 +1,39 @@
+{
+  "id": "2026-11-07-klima15",
+  "date": "2026-11-06T14:02:00Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "sachlich",
+  "format": "zusammen",
+  "sources": [
+    {"name": "tagesschau", "url": "https://www.tagesschau.de/wissen/klima/copernicus-klimakrise-1komma5-grad-100.html"},
+    {"name": "Deutsche Welle", "url": "https://www.dw.com/de/klimawandel-1-5-grad-marke-wird-schon-wieder-gerissen/a-79875443"},
+    {"name": "ZDFheute", "url": "https://www.zdfheute.de/wissen/klimawandel-klima-ziel-hitze-copernicus-vereinte-nationen-100.html"}
+  ],
+  "video": {
+    "file": "videos/2026-11-07-klima15.mp4",
+    "start": 0,
+    "duration": 30,
+    "credit": "NASA Scientific Visualization Studio / Wikimedia Commons",
+    "short": "NASA SVS, Public Domain, via Wikimedia Commons",
+    "license": "Public Domain",
+    "page": "https://commons.wikimedia.org/wiki/File:1880-_Global_surface_temperature_-_heat_map_animation_-_NASA_SVS.webm",
+    "symbolisch": true,
+    "headline": "So hat sich die Erde seit **1880** erwärmt",
+    "captions": [
+      "Blau: **kälter** als im Durchschnitt, gelb und rot: **wärmer**",
+      "Die Karte zeigt die Jahre ab 1880 bis 2024",
+      "Je weiter die Zeit läuft, desto **röter** wird die Erde",
+      "Das Video zeigt nicht 2026, sondern den **langen Trend**"
+    ]
+  },
+  "slides": [
+    {"type": "cover", "label": "Umwelt", "title": "2026 reißt wohl wieder die **1,5-Grad-Marke**"},
+    {"label": "Was ist passiert?", "title": "Der Oktober war **Rekord**", "text": ["Der EU-Klimadienst Copernicus meldet: Weltweit war es der **wärmste Oktober** seit Beginn der Aufzeichnungen.", "Und 2026 wird laut Copernicus fast sicher die Marke von 1,5 Grad Erwärmung überschreiten."]},
+    {"label": "Die Zahl", "big": "+1,75", "title": "Grad wärmer als früher", "text": ["So viel lag der Oktober über der vorindustriellen Zeit. Es war der **dritte Monat in Folge** über 1,5 Grad."]},
+    {"label": "Was heißt das?", "title": "Noch **nicht offiziell** gerissen", "text": ["Das Ziel gilt erst als verfehlt, wenn der Schnitt über mehrere Jahre über 1,5 Grad liegt.", "Auch für 2023 bis 2026 erwartet Copernicus einen Wert darüber."]},
+    {"label": "Wie geht es weiter?", "title": "Klimakonferenz **COP31**", "text": ["Dort treffen sich die Staaten in Antalya in der Türkei. Die UN rechnen laut DW inzwischen mit einem Überschreiten und wollen es **möglichst kurz und gering** halten."]},
+    {"type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt."}
+  ],
+  "caption": "Klimawandel: Laut dem EU-Klimadienst Copernicus wird 2026 fast sicher die 1,5-Grad-Marke überschreiten. Der Oktober war weltweit der wärmste seit Beginn der Aufzeichnungen, 1,75 Grad über der vorindustriellen Zeit. Offiziell gilt das Ziel erst im mehrjährigen Durchschnitt als verfehlt. Kurz vor der Klimakonferenz COP31 in Antalya.\n\nSpürst du die Veränderung bei dir vor Ort schon? 👇\n\nQuellen: tagesschau.de, dw.com, zdfheute.de · Text mit KI erstellt\nVideo (Symbolvideo, zeigt den langen Trend bis 2024, nicht 2026): NASA Scientific Visualization Studio, Public Domain, via Wikimedia Commons\n#klimawandel #nachrichten #copernicus #cop31 #klima"
+}
