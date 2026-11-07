@@ -1,0 +1,31 @@
+{
+  "id": "2026-11-07-tiktok",
+  "date": "2026-11-06T12:08:00Z",
+  "category": "Digital",
+  "topic": "digital",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {"name": "tagesschau", "url": "https://www.tagesschau.de/ausland/europa/eu-tiktok-mentale-gesundheit-gefaehrdung-algorithmus-100.html"},
+    {"name": "heise online", "url": "https://www.heise.de/news/DSA-Verfahren-EU-Kommission-droht-TikTok-mit-Strafe-11515238.html"},
+    {"name": "ZDFheute", "url": "https://www.zdfheute.de/politik/ausland/tiktok-eu-kommission-verfahren-rabbit-hole-effekt-100.html"},
+    {"name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/tiktok-widerspricht-vorwuefen-der-eu-kommission-104.html"}
+  ],
+  "image": {
+    "file": "images/2026-11-07-tiktok.jpg",
+    "credit": "EmDee / Wikimedia Commons",
+    "short": "EmDee, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Belgique_-_Bruxelles_-_Schuman_-_Berlaymont_-_01.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Digital", "title": "EU wirft TikTok vor: Der **Algorithmus** gefährdet Nutzer" },
+    { "label": "Was ist passiert?", "title": "Vorläufiges **Ergebnis** aus Brüssel", "text": ["Die EU-Kommission hält TikToks Videoempfehlungen für nicht vereinbar mit dem Digitale-Dienste-Gesetz (DSA).", "Das sind erste Ergebnisse einer laufenden Untersuchung, kein Urteil."] },
+    { "label": "Der Vorwurf", "title": "Der **Kaninchenbau**-Effekt", "text": ["Wer ein Video mag, bekommt immer mehr Ähnliches. Laut Kommission führt das in einen „Kaninchenbau“, aus dem man schwer wieder herauskommt."] },
+    { "label": "Was droht?", "big": "6 %", "title": "des weltweiten Jahresumsatzes", "text": ["So hoch könnte eine Strafe höchstens ausfallen, falls die Kommission ihre Vorwürfe bestätigt."] },
+    { "label": "Wie geht es weiter?", "title": "TikTok **widerspricht**", "text": ["Das Unternehmen weist die Vorwürfe zurück. Es darf jetzt antworten, gegen eine Strafe wären auch Rechtsmittel möglich."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "TikTok-Algorithmus: Die EU-Kommission wirft der App vor, mit ihren Videoempfehlungen Nutzer zu gefährden. Es sind vorläufige Ergebnisse einer laufenden Untersuchung nach dem Digitale-Dienste-Gesetz. Bei Bestätigung droht eine Strafe von bis zu 6 % des weltweiten Jahresumsatzes. TikTok widerspricht.\n\nWie oft landest du auf TikTok länger, als du wolltest? 👇\n\nQuellen: tagesschau.de, heise.de, zdfheute.de, deutschlandfunk.de · Text mit KI erstellt\nSymbolbild: Berlaymont-Gebäude der EU-Kommission. Foto: EmDee, CC BY-SA 4.0, via Wikimedia Commons\n#tiktok #nachrichten #eu #algorithmus #socialmedia"
+}
