@@ -556,5 +556,19 @@
       "views": 117
     },
     "statsAt": "2026-11-07T06:16:07.529Z"
+  },
+  {
+    "id": "2026-11-07-klima15",
+    "postedAt": "2026-11-07T06:28:31.323Z",
+    "topic": "umwelt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/wissen/klima/copernicus-klimakrise-1komma5-grad-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wissen/klima/copernicus-klimakrise-1komma5-grad-100.html",
+      "https://www.dw.com/de/klimawandel-1-5-grad-marke-wird-schon-wieder-gerissen/a-79875443",
+      "https://www.zdfheute.de/wissen/klimawandel-klima-ziel-hitze-copernicus-vereinte-nationen-100.html"
+    ],
+    "mediaId": "17910818277586865",
+    "format": "zusammen"
   }
 ]
