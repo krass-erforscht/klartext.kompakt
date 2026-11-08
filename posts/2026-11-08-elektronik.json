@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-08-elektronik",
+  "date": "2026-11-08T07:59:00Z",
+  "category": "Digital",
+  "topic": "digital",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {"name": "n-tv", "url": "https://www.n-tv.de/wirtschaft/Handys-Laptops-und-andere-Elektronik-werden-deutlich-teurer-id31508087.html"},
+    {"name": "test.de", "url": "https://www.test.de/Laptops-Smartphones-Tablets-Technik-wird-teurer-6296861-0/"}
+  ],
+  "image": {
+    "file": "images/2026-11-08-elektronik.jpg",
+    "credit": "Gre123gr / Wikimedia Commons",
+    "short": "Gre123gr, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Backlit_Laptop_Keyboard.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Digital", "title": "Handys und Laptops werden **teurer**" },
+    { "label": "Was ist passiert?", "title": "Preise für **Technik** steigen", "text": ["Laut n-tv sind die Preise für elektronische Geräte zuletzt deutlich gestiegen, kurz vor Weihnachten.", "Betroffen sind unter anderem Handys und Laptops."] },
+    { "label": "Warum?", "title": "Speicherchips sind **knapp**", "text": ["Der KI-Boom treibt die Nachfrage nach Speicherchips für Rechenzentren. Laut test.de verteuerten sich RAM-Chips im ersten Quartal 2026 um bis zu 95 % gegenüber dem Vorquartal."] },
+    { "label": "Prognose", "big": "17 %", "title": "teurer bei Notebooks", "text": ["So viel Anstieg bis Ende 2026 erwartet das Marktforschungsinstitut Gartner. Bei Smartphones sind es etwa 13 %."] },
+    { "label": "Was heißt das für dich?", "title": "Geräte **länger** nutzen?", "text": ["Laut test.de werden gebrauchte und generalüberholte Geräte attraktiver. Wer sein Gerät länger behält, spart Geld."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Handy und Laptop: Elektronik wird teurer. Laut n-tv sind die Preise für Geräte kurz vor Weihnachten deutlich gestiegen. Grund ist laut test.de vor allem der KI-Boom, der Speicherchips knapp macht. Gartner erwartet bis Ende 2026 rund 17 % mehr bei Notebooks und 13 % bei Smartphones.\n\nSchiebst du einen Gerätekauf gerade auf? 👇\n\nQuellen: n-tv.de, test.de · Text mit KI erstellt\nSymbolbild: Beleuchtete Laptop-Tastatur. Foto: Gre123gr, CC0, via Wikimedia Commons\n#technik #nachrichten #smartphone #laptop #preise"
+}

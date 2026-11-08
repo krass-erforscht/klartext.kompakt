@@ -1370,5 +1370,33 @@
     "seconds": 281,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Lord of the Rangs",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Lord%20of%20the%20Rangs.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Lord_of_the_Rangs.mp3",
+    "seconds": 92,
+    "used": 1,
+    "lastUsed": "2026-11-08T11:22:01.446Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "Beauty Flow",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Beauty%20Flow.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Beauty_Flow.mp3",
+    "seconds": 433,
+    "used": 0,
+    "lastUsed": null
   }
 ]
