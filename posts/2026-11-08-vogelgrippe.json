@@ -1,0 +1,29 @@
+{
+  "id": "2026-11-08-vogelgrippe",
+  "date": "2026-11-07T14:12:00Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {"name": "NDR", "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vogelgrippe-breitet-sich-aus-risiko-nun-als-hoch-eingestuft,vogelgrippemv-106.html"},
+    {"name": "Friedrich-Loeffler-Institut (Risikoeinschätzung 06.11.2026)", "url": "https://www.fli.de/de/aktuelles/tierseuchengeschehen/aviaere-influenza-ai-gefluegelpest/"}
+  ],
+  "image": {
+    "file": "images/2026-11-08-vogelgrippe.jpg",
+    "credit": "USFWS Mountain Prairie / flickr",
+    "short": "USFWS Mountain Prairie, CC BY 2.0, via Flickr",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/51986662@N05/8600071729",
+    "symbolbild": true
+  },
+  "slides": [
+    {"type": "cover", "label": "Umwelt", "title": "Vogelgrippe: Das Risiko in Deutschland gilt jetzt als **hoch**"},
+    {"label": "Was ist passiert?", "title": "Risiko **eine Stufe höher**", "text": ["Das Friedrich-Loeffler-Institut, das in Deutschland für Tiergesundheit zuständig ist, hat seine Einschätzung angehoben.", "Das Risiko für **Wildvögel** und für den **Eintrag in Geflügelhaltungen** gilt nun als hoch."]},
+    {"label": "Warum jetzt?", "title": "Vogelzug und **Kälte**", "text": ["Im Herbst ziehen viele Vögel und rasten dicht beieinander. Bei Kälte und Feuchtigkeit hält sich das Virus länger in der Umwelt."]},
+    {"label": "Die Zahl", "big": "6.000", "title": "Puten in einem Betrieb", "text": ["So viele Tiere hatte ein betroffener Hof im Landkreis Rostock. Auch in Niedersachsen und Schleswig-Holstein gab es Nachweise. Der ganze Bestand wird dann getötet."]},
+    {"label": "Wie geht es weiter?", "title": "Mehr Fälle **erwartet**", "text": ["Das Institut rechnet mit weiteren Nachweisen. Aktuell ist es aber **ruhiger als im Vorjahr**. Auf Menschen übertragen wurde das Virus in Deutschland laut Robert Koch-Institut bisher nicht."]},
+    {"type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt."}
+  ],
+  "caption": "Vogelgrippe: Das Friedrich-Loeffler-Institut hat das Risiko für Ausbrüche in Deutschland eine Stufe höher bewertet, nun gilt es als hoch. Grund sind der Vogelzug und die sinkenden Temperaturen. Zuletzt gab es Fälle in Putenbetrieben in Norddeutschland. Bisher ist die Lage ruhiger als im Vorjahr, weitere Fälle werden erwartet.\n\nHast du schon Vögel an Seen oder Feldern bei dir beobachtet? 👇\n\nQuellen: ndr.de, Friedrich-Loeffler-Institut (Risikoeinschätzung vom 06.11.2026) · Text mit KI erstellt\nFoto (Symbolbild, zeigt keine erkrankten Tiere): USFWS Mountain Prairie, CC BY 2.0, via Flickr\n#vogelgrippe #nachrichten #geflügelpest #wildvögel #natur"
+}
