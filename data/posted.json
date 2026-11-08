@@ -593,5 +593,19 @@
       "https://www.deutschlandfunk.de/tiktok-widerspricht-vorwuefen-der-eu-kommission-104.html"
     ],
     "reelMediaId": "18100324781398409"
+  },
+  {
+    "id": "2026-11-08-vogelgrippe",
+    "postedAt": "2026-11-08T06:25:35.829Z",
+    "topic": "umwelt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vogelgrippe-breitet-sich-aus-risiko-nun-als-hoch-eingestuft,vogelgrippemv-106.html",
+    "sourceUrls": [
+      "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/vogelgrippe-breitet-sich-aus-risiko-nun-als-hoch-eingestuft,vogelgrippemv-106.html",
+      "https://www.fli.de/de/aktuelles/tierseuchengeschehen/aviaere-influenza-ai-gefluegelpest/"
+    ],
+    "mediaId": "18195957523392437",
+    "format": "bilder",
+    "reelMediaId": "18238352239319341"
   }
 ]
