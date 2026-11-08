@@ -624,5 +624,19 @@
       "views": 149
     },
     "statsAt": "2026-11-08T11:16:16.939Z"
+  },
+  {
+    "id": "2026-11-08-elektronik",
+    "postedAt": "2026-11-08T11:23:57.511Z",
+    "topic": "digital",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.n-tv.de/wirtschaft/Handys-Laptops-und-andere-Elektronik-werden-deutlich-teurer-id31508087.html",
+    "sourceUrls": [
+      "https://www.n-tv.de/wirtschaft/Handys-Laptops-und-andere-Elektronik-werden-deutlich-teurer-id31508087.html",
+      "https://www.test.de/Laptops-Smartphones-Tablets-Technik-wird-teurer-6296861-0/"
+    ],
+    "reelMediaId": "18122141992950476",
+    "mediaId": "18222036727348744",
+    "format": "bilder"
   }
 ]

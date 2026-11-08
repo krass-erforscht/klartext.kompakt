@@ -26,3 +26,4 @@
 - 2026-11-07 (morgens): Reel (--reel) schlug fehl: Instagram-Videoverarbeitung ERROR (Karussell mit Video ist live).
 - 2026-11-07 (abends): Wikimedia 429 bei Videosuche (Post ohne Video, bilder); ccMixter 403 (Reel mit Incompetech-Musik); media_publish meldete "request limit", Karussell war trotzdem veröffentlicht, Reel ok. 5 Kommentare unter DfC7CbBmz8N weiter nicht abrufbar.
 - 2026-11-08: Instagram meldete beim Karussell kurz „Application request limit reached“; zweiter Versuch ging durch (kein Doppelpost).
+- 2026-11-08 (mittags): Wikimedia 429 bei Videosuche, Videos von NASA/Server unpassend (Post ohne Video, bilder); ccMixter 403; Karussell meldete "request limit", war trotzdem live (Wiederholung erkannte es). 5 Kommentare unter DfC7CbBmz8N weiter nicht abrufbar.
