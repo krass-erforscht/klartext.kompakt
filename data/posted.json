@@ -706,5 +706,20 @@
       "views": 146
     },
     "statsAt": "2026-11-09T09:25:04.904Z"
+  },
+  {
+    "id": "2026-11-09-cop31",
+    "postedAt": "2026-11-09T11:28:15.298Z",
+    "topic": "umwelt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.deutschlandfunk.de/worum-es-bei-der-klimakonferenz-in-antalya-geht-100.html",
+    "sourceUrls": [
+      "https://www.deutschlandfunk.de/worum-es-bei-der-klimakonferenz-in-antalya-geht-100.html",
+      "https://www.tagesschau.de/ausland/europa/cop-gastgeber-turkei-100.html",
+      "https://www.n-tv.de/politik/Klimaruepel-Tuerkei-und-Australien-wollen-weltweit-auf-mehr-Strom-setzen-id31510828.html"
+    ],
+    "mediaId": "18112739033460442",
+    "format": "bilder",
+    "reelMediaId": "18107680781202807"
   }
 ]
