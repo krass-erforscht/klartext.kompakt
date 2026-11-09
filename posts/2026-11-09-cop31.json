@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-09-cop31",
+  "date": "2026-11-09T11:14:00Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    { "name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/worum-es-bei-der-klimakonferenz-in-antalya-geht-100.html" },
+    { "name": "tagesschau", "url": "https://www.tagesschau.de/ausland/europa/cop-gastgeber-turkei-100.html" },
+    { "name": "n-tv", "url": "https://www.n-tv.de/politik/Klimaruepel-Tuerkei-und-Australien-wollen-weltweit-auf-mehr-Strom-setzen-id31510828.html" }
+  ],
+  "image": {
+    "file": "images/2026-11-09-cop31.jpg",
+    "credit": "Håkan Dahlström / flickr",
+    "short": "Håkan Dahlström, CC BY 2.0, via Flickr",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/93755244@N00/8638198650",
+    "symbolbild": true
+  },
+  "slides": [
+    { "type": "cover", "label": "Umwelt", "title": "Klimakonferenz COP31: Mehr **Strom** statt Öl, Gas und Kohle?" },
+    { "label": "Was ist passiert?", "title": "Gipfel in **Antalya** gestartet", "text": ["Im türkischen Antalya hat die 31. Weltklimakonferenz begonnen. Zwei Wochen lang beraten fast 200 Staaten. Erstmals leiten die Türkei und Australien sie gemeinsam."] },
+    { "label": "Die Zahl", "big": "35 %", "title": "bis 2035", "text": ["So viel der weltweiten Endenergie soll laut Vorschlag der Gastgeber aus Strom kommen. Bisher sind es etwa 20 Prozent."] },
+    { "label": "Was heißt das für dich?", "title": "Mehr **Elektro**", "text": ["Gemeint sind zum Beispiel mehr E-Autos und Wärmepumpen statt Öl- und Gasheizungen. Es ist bisher ein Vorschlag, kein Beschluss."] },
+    { "label": "Einordnung", "title": "Wie geht es **weiter**?", "text": ["Stimmen nicht alle Staaten zu, könnte eine Gruppe von Ländern das Ziel allein unterstützen. Kritiker sagen: Es hilft nur, wenn der Strom aus Wind, Sonne oder Wasser kommt."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Klimakonferenz COP31: In Antalya sollen die Staaten über mehr Strom statt Öl, Gas und Kohle beraten. Die Gastgeber Türkei und Australien schlagen vor, dass bis 2035 mindestens 35 Prozent der Endenergie weltweit aus Strom stammen (bisher etwa 20 Prozent). Das ist ein Vorschlag, noch kein Beschluss.\n\nWürdest du auf ein E-Auto oder eine Wärmepumpe umsteigen? 👇\n\nQuellen: deutschlandfunk.de, tagesschau.de, n-tv.de · Text mit KI erstellt\nFoto (Symbolbild): Håkan Dahlström, CC BY 2.0, via Flickr\n#cop31 #klimaschutz #nachrichten #klimakonferenz #elektrifizierung"
+}
