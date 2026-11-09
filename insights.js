@@ -15,6 +15,10 @@ async function insights(mediaId, metrics) {
 (async () => {
   const posted = fs.existsSync('data/posted.json') ? JSON.parse(fs.readFileSync('data/posted.json')) : [];
   for (const p of posted) {
+    // Instagram begrenzt die Zahl der Anfragen pro Stunde (gilt für beide Accounts derselben App zusammen):
+    // jeden Post höchstens einmal am Tag abfragen, nach 30 Tagen ändern sich die Zahlen kaum noch
+    const age = Date.now() - new Date(p.postedAt);
+    if (!p.mediaId || (p.statsAt && Date.now() - new Date(p.statsAt) < 20 * 36e5) || (p.stats && age > 30 * 864e5)) continue;
     try {
       // Beim Format „video“ ist der Hauptpost selbst ein Reel, das andere Kennzahlen hat
       p.stats = await insights(p.mediaId, p.format === 'video' ? REEL_METRICS : METRICS);

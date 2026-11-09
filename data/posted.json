@@ -592,7 +592,26 @@
       "https://www.zdfheute.de/politik/ausland/tiktok-eu-kommission-verfahren-rabbit-hole-effekt-100.html",
       "https://www.deutschlandfunk.de/tiktok-widerspricht-vorwuefen-der-eu-kommission-104.html"
     ],
-    "reelMediaId": "18100324781398409"
+    "reelMediaId": "18100324781398409",
+    "mediaId": "18193501135405838",
+    "format": "bilder",
+    "stats": {
+      "reach": 109,
+      "likes": 1,
+      "comments": 0,
+      "shares": 2,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 106,
+      "likes": 0,
+      "comments": 0,
+      "shares": 2,
+      "saved": 0,
+      "views": 116
+    },
+    "statsAt": "2026-11-09T09:25:04.160Z"
   },
   {
     "id": "2026-11-08-vogelgrippe",
@@ -669,6 +688,23 @@
     ],
     "reelMediaId": "18107444270364044",
     "mediaId": "18078016691758759",
-    "format": "bilder"
+    "format": "bilder",
+    "stats": {
+      "reach": 135,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 133,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 146
+    },
+    "statsAt": "2026-11-09T09:25:04.904Z"
   }
 ]

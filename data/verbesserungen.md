@@ -11,3 +11,4 @@ Hier hält die App fest, was sie selbst verbessert hat (Datum, ein Satz).
 - 2026-11-04: publish.js prüft vor jedem Post, ob derselbe Beitrag in den letzten 6 Stunden schon erschienen ist, und postet dann nicht noch einmal.
 - 2026-11-04 (mittags): find-video.js bricht einzelne Anfragen nach 20 s ab, damit die Videosuche bei Wikimedia-Drosselung nicht minutenlang hängt.
 - 2026-11-05: find-video.js bricht die ganze Suche nach 90 s ab (Gesamtzeitlimit, nicht nur pro Anfrage), damit Läufe bei Wikimedia-Drosselung nicht hängen bleiben.
+- 2026-11-09: publish.js wertet „request limit“ bei media_publish nicht mehr als Fehler, wenn der Beitrag trotzdem erschienen ist (ID wird übernommen); insights.js fragt jeden Post höchstens einmal am Tag ab und Posts älter als 30 Tage nicht mehr, damit das Anfrage-Limit seltener erreicht wird. Fehlende Media-ID vom 7.11. (TikTok) nachgetragen.

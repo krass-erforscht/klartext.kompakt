@@ -74,14 +74,26 @@ async function alreadyPosted(post, productType) {
   return hit?.id;
 }
 
+// Instagram meldet bei media_publish manchmal „Application request limit reached“, veröffentlicht aber trotzdem.
+// Darum nach einem Fehler kurz warten und nachsehen, ob der Beitrag schon da ist, statt den Lauf abbrechen zu lassen.
+async function publishContainer(post, containerId, productType) {
+  try {
+    return (await call(`${IG_USER_ID}/media_publish`, { creation_id: containerId })).id;
+  } catch (e) {
+    await sleep(15000);
+    const id = await alreadyPosted(post, productType);
+    if (id) return id;
+    throw e;
+  }
+}
+
 // Reel veröffentlichen: das Folien-Reel nur im Reels-Tab, das Video-Reel auch im Feed
 async function publishReel(post, { file, musicFile, feed }) {
   const existing = await alreadyPosted(post, 'REELS');
   if (existing) return existing;
   const container = await call(`${IG_USER_ID}/media`, { media_type: 'REELS', video_url: cdnUrl(post, file), caption: fullCaption(post, musicFile), share_to_feed: String(feed) });
   await waitReady(container.id);
-  const { id } = await call(`${IG_USER_ID}/media_publish`, { creation_id: container.id });
-  return id;
+  return publishContainer(post, container.id, 'REELS');
 }
 
 // Karussell aus den Folien; mit videoSlide wird das 4:5-Video als zweite Folie eingefügt
@@ -112,8 +124,7 @@ async function publishCarousel(post, { videoSlide }) {
   const container = await call(`${IG_USER_ID}/media`, { media_type: 'CAROUSEL', children: children.join(','), caption: fullCaption(post, videoSlide ? 'video-music.json' : null) });
   await sleep(10000); // Instagram braucht kurz, um die Bilder zu verarbeiten
   if (videoSlide) await waitReady(container.id);
-  const { id } = await call(`${IG_USER_ID}/media_publish`, { creation_id: container.id });
-  return id;
+  return publishContainer(post, container.id, 'FEED');
 }
 
 // Aufruf:

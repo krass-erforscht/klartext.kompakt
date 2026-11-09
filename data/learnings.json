@@ -1,18 +1,18 @@
 {
-  "aktualisiert": "2026-11-09T06:21:26.496Z",
+  "aktualisiert": "2026-11-09T09:25:04.916Z",
   "ranking": [
     {
-      "gruppe": "thema:digital",
-      "posts": 4,
-      "punkte": 4.93,
-      "reichweite": 95,
+      "gruppe": "uhrzeit:18",
+      "posts": 1,
+      "punkte": 10.09,
+      "reichweite": 109,
       "follower": 0
     },
     {
-      "gruppe": "ton:locker",
-      "posts": 1,
-      "punkte": 4.31,
-      "reichweite": 116,
+      "gruppe": "thema:digital",
+      "posts": 5,
+      "punkte": 5.96,
+      "reichweite": 98,
       "follower": 0
     },
     {
@@ -23,24 +23,17 @@
       "follower": 0
     },
     {
-      "gruppe": "thema:sport",
-      "posts": 4,
-      "punkte": 3.8,
-      "reichweite": 131,
-      "follower": 0
-    },
-    {
       "gruppe": "format:bilder",
-      "posts": 13,
-      "punkte": 3.6,
+      "posts": 15,
+      "punkte": 3.84,
       "reichweite": 118,
       "follower": 0
     },
     {
-      "gruppe": "uhrzeit:7",
-      "posts": 8,
-      "punkte": 3.52,
-      "reichweite": 136,
+      "gruppe": "ton:sachlich",
+      "posts": 9,
+      "punkte": 3.77,
+      "reichweite": 134,
       "follower": 0
     },
     {
@@ -58,10 +51,24 @@
       "follower": 0
     },
     {
-      "gruppe": "ton:sachlich",
-      "posts": 8,
-      "punkte": 2.97,
-      "reichweite": 137,
+      "gruppe": "uhrzeit:7",
+      "posts": 9,
+      "punkte": 3.21,
+      "reichweite": 136,
+      "follower": 0
+    },
+    {
+      "gruppe": "thema:sport",
+      "posts": 5,
+      "punkte": 3.19,
+      "reichweite": 132,
+      "follower": 0
+    },
+    {
+      "gruppe": "ton:locker",
+      "posts": 2,
+      "punkte": 2.53,
+      "reichweite": 126,
       "follower": 0
     },
     {
