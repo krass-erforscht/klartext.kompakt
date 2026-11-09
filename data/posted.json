@@ -655,5 +655,20 @@
       "views": 58
     },
     "statsAt": "2026-11-09T06:21:26.476Z"
+  },
+  {
+    "id": "2026-11-09-formel1",
+    "postedAt": "2026-11-09T06:27:42.333Z",
+    "topic": "sport",
+    "tone": "locker",
+    "sourceUrl": "https://www.sportschau.de/motorsport/formel1/bei-norris-sieg-mercedes-gewinnt-konstrukteurs-wm,gp-brasilien-108.html",
+    "sourceUrls": [
+      "https://www.sportschau.de/motorsport/formel1/bei-norris-sieg-mercedes-gewinnt-konstrukteurs-wm,gp-brasilien-108.html",
+      "https://www.n-tv.de/sport/formel1/Max-Verstappen-legt-wilden-Formel-1-Ritt-hin-id31509520.html",
+      "https://www.deutschlandfunk.de/lando-norris-gewinnt-grossen-preis-von-brasilien-108.html"
+    ],
+    "reelMediaId": "18107444270364044",
+    "mediaId": "18078016691758759",
+    "format": "bilder"
   }
 ]
