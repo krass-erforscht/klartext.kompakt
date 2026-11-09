@@ -1,81 +1,81 @@
 {
-  "aktualisiert": "2026-11-08T11:16:16.951Z",
+  "aktualisiert": "2026-11-09T06:21:26.496Z",
   "ranking": [
     {
       "gruppe": "thema:digital",
-      "posts": 3,
-      "punkte": 3.5,
-      "reichweite": 106,
+      "posts": 4,
+      "punkte": 4.93,
+      "reichweite": 95,
       "follower": 0
     },
     {
       "gruppe": "ton:locker",
       "posts": 1,
-      "punkte": 3.48,
-      "reichweite": 115,
-      "follower": 0
-    },
-    {
-      "gruppe": "thema:sport",
-      "posts": 4,
-      "punkte": 3.05,
-      "reichweite": 130,
+      "punkte": 4.31,
+      "reichweite": 116,
       "follower": 0
     },
     {
       "gruppe": "ton:ueberraschend",
       "posts": 5,
-      "punkte": 2.91,
-      "reichweite": 104,
+      "punkte": 4.12,
+      "reichweite": 105,
+      "follower": 0
+    },
+    {
+      "gruppe": "thema:sport",
+      "posts": 4,
+      "punkte": 3.8,
+      "reichweite": 131,
+      "follower": 0
+    },
+    {
+      "gruppe": "format:bilder",
+      "posts": 13,
+      "punkte": 3.6,
+      "reichweite": 118,
       "follower": 0
     },
     {
       "gruppe": "uhrzeit:7",
       "posts": 8,
-      "punkte": 2.59,
-      "reichweite": 135,
-      "follower": 0
-    },
-    {
-      "gruppe": "format:bilder",
-      "posts": 12,
-      "punkte": 2.54,
-      "reichweite": 121,
+      "punkte": 3.52,
+      "reichweite": 136,
       "follower": 0
     },
     {
       "gruppe": "thema:alltag",
       "posts": 1,
-      "punkte": 2.33,
-      "reichweite": 86,
+      "punkte": 3.45,
+      "reichweite": 87,
       "follower": 0
     },
     {
       "gruppe": "uhrzeit:12",
-      "posts": 5,
-      "punkte": 2.25,
-      "reichweite": 117,
+      "posts": 6,
+      "punkte": 3.43,
+      "reichweite": 108,
       "follower": 0
     },
     {
       "gruppe": "ton:sachlich",
-      "posts": 7,
-      "punkte": 1.99,
-      "reichweite": 146,
-      "follower": 0
-    },
-    {
-      "gruppe": "format:video",
-      "posts": 1,
-      "punkte": 1.46,
-      "reichweite": 206,
+      "posts": 8,
+      "punkte": 2.97,
+      "reichweite": 137,
       "follower": 0
     },
     {
       "gruppe": "thema:umwelt",
       "posts": 5,
-      "punkte": 1.39,
-      "reichweite": 147,
+      "punkte": 2.07,
+      "reichweite": 149,
+      "follower": 0
+    },
+    {
+      "gruppe": "format:video",
+      "posts": 1,
+      "punkte": 1.93,
+      "reichweite": 207,
       "follower": 0
     }
   ]

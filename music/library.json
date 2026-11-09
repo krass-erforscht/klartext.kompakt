@@ -1398,5 +1398,47 @@
     "seconds": 433,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Music to Delight",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Music%20to%20Delight.mp3",
+    "mood": "witzig",
+    "file": "music/files/incompetech-Kevin_MacLeod-Music_to_Delight.mp3",
+    "seconds": 55,
+    "used": 1,
+    "lastUsed": "2026-11-09T06:25:35.965Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "Malt Shop Bop",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Malt%20Shop%20Bop.mp3",
+    "mood": "witzig",
+    "file": "music/files/incompetech-Kevin_MacLeod-Malt_Shop_Bop.mp3",
+    "seconds": 166,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Jingle Bells",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Jingle%20Bells.mp3",
+    "mood": "witzig",
+    "file": "music/files/incompetech-Kevin_MacLeod-Jingle_Bells.mp3",
+    "seconds": 142,
+    "used": 0,
+    "lastUsed": null
   }
 ]

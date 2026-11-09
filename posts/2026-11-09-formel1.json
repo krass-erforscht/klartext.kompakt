@@ -1,0 +1,30 @@
+{
+  "id": "2026-11-09-formel1",
+  "date": "2026-11-08T19:02:48Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "locker",
+  "format": "bilder",
+  "sources": [
+    {"name": "Sportschau", "url": "https://www.sportschau.de/motorsport/formel1/bei-norris-sieg-mercedes-gewinnt-konstrukteurs-wm,gp-brasilien-108.html"},
+    {"name": "n-tv", "url": "https://www.n-tv.de/sport/formel1/Max-Verstappen-legt-wilden-Formel-1-Ritt-hin-id31509520.html"},
+    {"name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/lando-norris-gewinnt-grossen-preis-von-brasilien-108.html"}
+  ],
+  "image": {
+    "file": "images/2026-11-09-formel1.jpg",
+    "credit": "Renzopaso / Flickr",
+    "short": "Renzopaso, CC BY-SA 2.0, via Flickr",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/105731165@N07/49577999366",
+    "symbolbild": true
+  },
+  "slides": [
+    {"type": "cover", "label": "Sport", "title": "Regenchaos in Brasilien: **Norris** gewinnt, **Mercedes** holt den Team-Titel"},
+    {"label": "Was ist passiert?", "title": "Sieg im **Regen**", "text": ["Beim Großen Preis von Brasilien in São Paulo gewann Lando Norris im McLaren. Auf der nassen Strecke verloren immer wieder Fahrer die Kontrolle. Max Verstappen wurde Zweiter, Isack Hadjar Dritter."]},
+    {"label": "Was heißt das für dich?", "title": "Mercedes feiert **doppelt**", "text": ["Kimi Antonelli wurde in São Paulo nur Fünfter. Das reichte trotzdem: Mercedes ist damit Konstrukteurs-Weltmeister, also bestes Team der Saison. Den Fahrer-Titel hatte Antonelli schon eine Woche vorher geholt."]},
+    {"label": "Die Zahl", "big": "2021", "title": "Letzter Team-Titel für Mercedes", "text": ["So lange ist der letzte Konstrukteurstitel des Teams her."]},
+    {"label": "Einordnung", "title": "Norris ist **zurück** vorn", "text": ["Für den entthronten Weltmeister Norris war es der dritte Saisonsieg."]},
+    {"type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt."}
+  ],
+  "caption": "Formel 1 in Brasilien: Lando Norris gewinnt im Regenchaos von São Paulo, Mercedes sichert sich den Konstrukteurstitel. Es ist der erste Team-Titel für die Silberpfeile seit 2021, Kimi Antonelli wurde Fünfter.\n\nWer sollte nächstes Jahr dein Favorit sein? 👇\n\nQuellen: Sportschau, n-tv, Deutschlandfunk · Text mit KI erstellt\nFoto (Symbolbild, McLaren-Auto aus früherer Saison): Renzopaso, CC BY-SA 2.0, via Flickr\n#formel1 #mercedes #landonorris #motorsport #nachrichten"
+}
