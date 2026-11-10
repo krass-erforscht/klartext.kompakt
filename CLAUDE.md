@@ -79,6 +79,11 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
     `bilder`: `node publish.js posts/<datei>.json`, danach `node publish.js posts/<datei>.json --reel` ·
     `zusammen`: `... --zusammen`, danach `... --reel` · `video`: nur `... --video`.
     Schlägt ein Video-Teil fehl: auf `bilder` zurückfallen, Fehler in `data/probleme.md`. Danach `data/posted.json` committen und pushen.
+10b. **Tägliche Analyse (Wunsch des Nutzers, bei jedem Lauf nach dem Posten):** `node analyse.js` schreibt `data/analyse.md`
+    (Reichweite, Likes, Speichern/Teilen, Follower je Schwerpunkt, Ton, Format, Uhrzeit, Wochentag). Danach in `data/analyse.md` unter
+    „Erkenntnisse“ 2–4 Sätze ergänzen: Was verstehen wir über den Instagram-Algorithmus, was bringt Aufrufe, Likes, Follower?
+    Eine konkrete Hypothese zum Testen für morgen nennen (kleine Stichprobe ehrlich benennen). Der Nutzer bekommt 1–2 Sätze davon in der Tagesnachricht.
+    Committen und pushen (`data/analyse.md`).
 11. **Selbst verbessern** (fester Teil jedes Tages: einmal täglich nach dem Posten, beim zweiten Post des Tages):
     - Rückblick: Was ist heute schiefgegangen oder war umständlich? `data/probleme.md`, `data/learnings.json` und die Ausgabe von
       `node schwerpunkt.js` lesen: Welche Schwerpunkte, Töne, Formate, Uhrzeiten laufen laut Reichweite gut oder schlecht?
