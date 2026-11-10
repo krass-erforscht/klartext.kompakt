@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-10-co2",
+  "date": "2026-11-10T04:01:00Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "ueberraschend",
+  "format": "video",
+  "sources": [
+    {"name": "tagesschau", "url": "https://www.tagesschau.de/wissen/klima/emissionen-klimawandel-global-carbon-budget-100.html"},
+    {"name": "Spiegel", "url": "https://www.spiegel.de/wissenschaft/weltweite-co-emission-aus-fossilen-brennstoffen-sinken-leicht-a-ce036f65-e59e-4fb8-9343-d6bbe9383fd1"}
+  ],
+  "image": {
+    "file": "images/2026-11-10-co2.jpg",
+    "credit": "Geographer / Wikimedia Commons",
+    "short": "Geographer, CC BY-SA 2.0, via Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wind_Turbines_%5E_Solar_Panels_at_Upper_Holton_Wind_%5E_Solar_Farm_-_geograph.org.uk_-_4618380.jpg",
+    "symbolbild": true
+  },
+  "video": {
+    "file": "videos/2026-11-10-co2.mp4",
+    "start": 0,
+    "duration": 25,
+    "credit": "Llywelyn2000 / Wikimedia Commons",
+    "short": "Llywelyn2000, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Melin_Wynt_Bwrdd_y_Tri_Arglwydd_-_wind_turbine_in_Sir_Ddinbych_(Denbighshire),_Cymru_(Wales).webm",
+    "symbolisch": true,
+    "headline": "Weniger **CO₂** aus Kohle, Öl und Gas",
+    "captions": [
+      "Erstmals seit Jahren sinkt der CO₂-Ausstoß aus **fossilen Energien**",
+      "Für 2026 erwartet: **38,2 Milliarden Tonnen**, 0,4 % weniger",
+      "Grund: mehr **Wind, Sonne** und E-Autos, dazu teureres Öl",
+      "Entwarnung? **Nein**, sagen die Forschenden"
+    ]
+  },
+  "slides": [
+    {"type": "cover", "label": "Umwelt", "title": "Erstmals seit Jahren: Weniger **CO₂** aus fossilen Energien"},
+    {"label": "Was ist passiert?", "title": "Kleiner **Rückgang**", "text": ["Laut dem Forschungsprojekt Global Carbon Project sinkt der CO₂-Ausstoß aus Kohle, Öl und Gas 2026 voraussichtlich leicht.", "Zum ersten Mal seit Ende der Pandemie."]},
+    {"label": "Die Zahl", "big": "38,2 Mrd.", "title": "Tonnen CO₂ erwartet", "text": ["Im Vorjahr waren es 38,4 Milliarden Tonnen. Das sind **0,4 Prozent** weniger."]},
+    {"label": "Warum?", "title": "Erneuerbare und **Ölpreis**", "text": ["Wind, Sonne und E-Autos decken laut Studie etwa **zwei Drittel** des steigenden Energiebedarfs.", "Dazu kommt: Wegen des Irankriegs wurde Öl teurer, die Nachfrage sank."]},
+    {"label": "Einordnung", "title": "Noch kein **Grund** zur Entwarnung", "text": ["Insgesamt dürfte der Ausstoß 2026 trotzdem steigen, vor allem durch Brände und Waldschäden.", "Das Budget für das 1,5-Grad-Ziel wäre in etwa **vier Jahren** aufgebraucht."]},
+    {"type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt."}
+  ],
+  "caption": "CO₂: Der weltweite Ausstoß aus Kohle, Öl und Gas sinkt 2026 laut Global Carbon Project erstmals seit Jahren leicht, um 0,4 Prozent auf 38,2 Milliarden Tonnen. Grund sind mehr Wind, Sonne und E-Autos sowie der Ölpreis-Schock durch den Irankrieg. Insgesamt dürfte der Ausstoß wegen Waldbränden und Landnutzung trotzdem steigen.\n\nBuchst du bei dir zu Hause schon auf Strom aus Sonne oder Wind? 👇\n\nQuellen: tagesschau.de, spiegel.de · Text mit KI erstellt\nVideo (Symbolvideo): Llywelyn2000, CC BY-SA 4.0, via Wikimedia Commons\nFoto (Symbolbild): Geographer, CC BY-SA 2.0, via Wikimedia Commons\n#co2 #klimawandel #nachrichten #cop31 #erneuerbareenergien"
+}
