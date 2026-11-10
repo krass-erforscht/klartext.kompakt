@@ -29,6 +29,12 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
    Der zweite Post des Tages bekommt automatisch einen anderen Schwerpunkt als der erste.
 3. **Nachrichten sammeln:** `node fetch-news.js > data/candidates.json` (18 seriöse Feeds, höchstens 30 Stunden alt).
    `auchBei` zeigt, welche anderen Redaktionen dasselbe Thema haben: viele = große Nachricht, die viele interessiert.
+3b. **Aus der Analyse lernen (Wunsch des Nutzers):** Vor Auswahl und Text `data/analyse.md` lesen und den Post danach ausrichten, innerhalb der Grundregeln:
+   Was die besten Posts gemeinsam haben (Schwerpunkt, Ton, Format, Uhrzeit, Hook-Art, Folienzahl) häufiger nutzen, Schwaches seltener.
+   Auf die Signale zielen, die Instagram stark gewichtet: **Speichern und Teilen** (Folie „Das solltest du dir merken“ oder eine Zahl zum Weitersagen, CTA-Folie mit
+   „Speichern“ und „Teilen“), **Verweildauer** (starker Hook in der ersten Folie, Wischen lohnt sich) und **Follower** (CTA „Folge uns“ bei starken Posts).
+   Wenn ein Video verfügbar ist, Video/Reel bevorzugen, solange es laut Analyse mehr Reichweite bringt. Die offene Hypothese vom Vortag bewusst testen
+   und im Post-JSON nicht vermerken, aber in `data/analyse.md` festhalten, was geändert wurde.
 4. **Meldung auswählen:** zum heutigen Schwerpunkt die Meldung, die **möglichst viele Menschen betrifft oder interessiert** und sich leicht erklären lässt
    („Was heißt das für mich?“). Nicht schon in `data/posted.json`, nicht dasselbe Thema wie ein Post der letzten 3 Tage (außer es gibt wirklich Neues).
    Findet sich zum Schwerpunkt nichts Gutes: den nächsten aus `ersatz` nehmen. Sicherheitsregeln unten beachten.
