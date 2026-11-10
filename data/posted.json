@@ -738,5 +738,18 @@
       "views": 36
     },
     "statsAt": "2026-11-10T06:19:55.108Z"
+  },
+  {
+    "id": "2026-11-10-co2",
+    "postedAt": "2026-11-10T06:27:02.663Z",
+    "topic": "umwelt",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.tagesschau.de/wissen/klima/emissionen-klimawandel-global-carbon-budget-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wissen/klima/emissionen-klimawandel-global-carbon-budget-100.html",
+      "https://www.spiegel.de/wissenschaft/weltweite-co-emission-aus-fossilen-brennstoffen-sinken-leicht-a-ce036f65-e59e-4fb8-9343-d6bbe9383fd1"
+    ],
+    "mediaId": "18114739850152413",
+    "format": "video"
   }
 ]
