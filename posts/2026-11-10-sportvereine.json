@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-10-sportvereine",
+  "date": "2026-11-10T09:05:59Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/inland/gesellschaft/sportvereine-mitglieder-102.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/panorama/sport-vereine-deutschland-mitglieder-rekord-100.html"
+    },
+    {
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/sportvereine-haben-ueber-30-millionen-mitglieder-102.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-10-sportvereine.jpg",
+    "credit": "Wikieditor1579 / Wikimedia Commons",
+    "short": "Wikieditor1579, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alemazung_during_a_training_session_with_children.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "Rekord: Sportvereine knacken die **30 Millionen**"
+    },
+    {
+      "label": "Was ist passiert?",
+      "big": "30.082.466",
+      "title": "Mitgliedschaften: **Rekord**",
+      "text": [
+        "Laut Sportbund DOSB **+2,63 %** in einem Jahr, mehr in **allen 16** Bundesländern.",
+        "Wer in zwei Vereinen ist, zählt doppelt."
+      ],
+      "image": {
+        "file": "images/2026-11-10-sportvereine-2.jpg",
+        "credit": "Nemracc / Wikimedia Commons",
+        "short": "Nemracc, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Sportverein_TSV_1937_Limbach_(Eltmann),_Zur_Schleuse.jpg",
+        "symbolbild": true,
+        "position": "center top"
+      }
+    },
+    {
+      "label": "Wer vorne liegt",
+      "title": "**Fußball** bleibt Nummer 1",
+      "text": [
+        "Fußball: fast **8,3 Millionen** Mitglieder",
+        "Turnen: knapp **5,3 Millionen**",
+        "Alpenverein und Tennis: je gut **1,5 Millionen**"
+      ]
+    },
+    {
+      "label": "Überraschung",
+      "big": "+20 %",
+      "title": "bei **Darts**",
+      "text": [
+        "Kleine Sportarten wachsen am schnellsten, auch Cheerleading (+15 %). Weniger Mitglieder haben u. a. Reiten, Rudern und Squash."
+      ],
+      "image": {
+        "file": "images/2026-11-10-sportvereine-3.jpg",
+        "credit": "Sandro Halank / Wikimedia Commons",
+        "short": "Sandro Halank, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2025-04-03_Premier_League_Darts_Berlin_2025_by_Sandro_Halank%E2%80%93170.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Manchmal heißt es: **Warteliste**",
+      "text": [
+        "Laut DOSB stoßen viele Vereine an ihre Grenzen. Gleichzeitig gibt es **465 Vereine weniger** als im Vorjahr. Der Verband fordert mehr Unterstützung."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das deinem **Vereinskumpel**."
+    }
+  ],
+  "caption": "Sportvereine in Deutschland haben erstmals mehr als 30 Millionen Mitglieder. Das zeigt die neue Erhebung des DOSB: ein Plus von 2,63 Prozent, Zuwachs in allen 16 Bundesländern. Fußball liegt mit fast 8,3 Millionen klar vorn, am schnellsten wächst Darts mit rund 20 Prozent.\n\nIn welchem Verein bist du? 👇\n\nQuellen: tagesschau.de, ZDFheute, Deutschlandfunk (Zahlen: DOSB-Bestandserhebung 2026) · Text mit KI erstellt\nFotos (Symbolbilder): Wikieditor1579; Nemracc; Sandro Halank, jeweils CC BY-SA 4.0, via Wikimedia Commons\n#sportverein #fußball #darts #ehrenamt #nachrichten"
+}

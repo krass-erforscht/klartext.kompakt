@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "2026-11-10T06:19:55.131Z",
+  "aktualisiert": "2026-11-10T17:16:25.453Z",
   "ranking": [
     {
       "gruppe": "uhrzeit:18",
@@ -13,13 +13,6 @@
       "posts": 5,
       "punkte": 5.86,
       "reichweite": 99,
-      "follower": 0
-    },
-    {
-      "gruppe": "ton:ueberraschend",
-      "posts": 5,
-      "punkte": 4.12,
-      "reichweite": 105,
       "follower": 0
     },
     {
@@ -44,6 +37,13 @@
       "follower": 0
     },
     {
+      "gruppe": "ton:ueberraschend",
+      "posts": 6,
+      "punkte": 3.44,
+      "reichweite": 105,
+      "follower": 0
+    },
+    {
       "gruppe": "uhrzeit:12",
       "posts": 7,
       "punkte": 3.28,
@@ -51,17 +51,17 @@
       "follower": 0
     },
     {
-      "gruppe": "uhrzeit:7",
-      "posts": 9,
-      "punkte": 3.21,
-      "reichweite": 136,
-      "follower": 0
-    },
-    {
       "gruppe": "thema:sport",
       "posts": 5,
       "punkte": 3.18,
       "reichweite": 132,
+      "follower": 0
+    },
+    {
+      "gruppe": "uhrzeit:7",
+      "posts": 10,
+      "punkte": 2.89,
+      "reichweite": 133,
       "follower": 0
     },
     {
@@ -73,16 +73,16 @@
     },
     {
       "gruppe": "thema:umwelt",
-      "posts": 6,
-      "punkte": 2.19,
-      "reichweite": 130,
+      "posts": 7,
+      "punkte": 1.88,
+      "reichweite": 126,
       "follower": 0
     },
     {
       "gruppe": "format:video",
-      "posts": 1,
-      "punkte": 1.93,
-      "reichweite": 207,
+      "posts": 2,
+      "punkte": 0.97,
+      "reichweite": 156,
       "follower": 0
     }
   ]
