@@ -760,5 +760,20 @@
       "views": 117
     },
     "statsAt": "2026-11-10T17:16:25.442Z"
+  },
+  {
+    "id": "2026-11-10-sportvereine",
+    "postedAt": "2026-11-10T17:35:58.170Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/inland/gesellschaft/sportvereine-mitglieder-102.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/inland/gesellschaft/sportvereine-mitglieder-102.html",
+      "https://www.zdfheute.de/panorama/sport-vereine-deutschland-mitglieder-rekord-100.html",
+      "https://www.deutschlandfunk.de/sportvereine-haben-ueber-30-millionen-mitglieder-102.html"
+    ],
+    "mediaId": "18100502798407286",
+    "format": "bilder",
+    "reelMediaId": "17877700149584718"
   }
 ]

@@ -29,5 +29,8 @@ const md = `# Algorithmus-Analyse (Stand ${heute})\n\nZiel: verstehen, was bei I
   `### Top 3 / Flop 3 (Reichweite)\n` + top.slice(0, 3).map((p) => `- ${p.id}: ${p.stats.reach} (${p.topic}, ${p.tone}, ${p.format})`).join('\n') + '\n' +
   top.slice(-3).map((p) => `- ${p.id}: ${p.stats.reach} (${p.topic}, ${p.tone}, ${p.format})`).join('\n') + '\n\n' +
   `Hinweis: kleine Stichproben, Zufall möglich. Signale, die Instagram laut eigenen Angaben stark gewichtet: Speichern und Teilen, Verweildauer/Wischen, Likes in den ersten Stunden.\n`;
-fs.writeFileSync('data/analyse.md', md);
+// Bisherige Erkenntnisse (von Hand ergänzt) übernehmen, nur die Tabellen werden neu berechnet
+let alt = '';
+try { const a = fs.readFileSync('data/analyse.md', 'utf8'); const i = a.indexOf('## Erkenntnisse'); if (i >= 0) alt = a.slice(i); } catch {}
+fs.writeFileSync('data/analyse.md', md + '\n' + (alt || '## Erkenntnisse\n'));
 console.log(md);
