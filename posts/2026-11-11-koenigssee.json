@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-11-koenigssee",
+  "date": "2026-11-11T15:53:15Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "Sportschau / BR24",
+      "url": "https://www.sportschau.de/regional/br/br-fuenf-jahre-nach-sturzflut-eiskanal-am-koenigssee-wiedereroeffnet-102.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/wintersport/bob-rodeln-koenigssee-bahn-wiedereroeffnung-100.html"
+    },
+    {
+      "name": "MDR",
+      "url": "https://www.mdr.de/sport/andere_sportarten/rodeln-deutsche-meisterschaften-koenigssee-taubitz-100.html"
+    },
+    {
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/eiskanal-am-koenigssee-wiedereroeffnet-102.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-11-koenigssee.jpg",
+    "credit": "Sandro Halank / Wikimedia Commons",
+    "short": "Sandro Halank, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2021-01-28_FIL_World_Luge_Championships_K%C3%B6nigssee_2021_by_Sandro_Halank%E2%80%93007.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "Nach 5 Jahren Pause: Die **älteste Kunsteisbahn der Welt** ist zurück"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Am **Königssee** wird wieder gerodelt",
+      "text": [
+        "Im Juli 2021 hat eine **Sturzflut** die Bob- und Rodelbahn in Bayern schwer beschädigt. Wasser, Geröll und Baumstämme zerstörten vor allem den oberen Teil.",
+        "Am Mittwoch wurde die Bahn offiziell wieder eröffnet."
+      ],
+      "image": {
+        "file": "images/2026-11-11-koenigssee-2.jpg",
+        "credit": "Gpasak / Wikimedia Commons",
+        "short": "Gpasak, gemeinfrei, via Wikimedia Commons",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Kunsteisbahn_Eisarena_K%C3%B6nigssee.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "58,5 Mio. €",
+      "title": "waren für den **Wiederaufbau** eingeplant",
+      "text": [
+        "Zuerst wurde der Schaden auf rund 20 Millionen Euro geschätzt. Laut Bob- und Schlittenverband dürfte es am Ende noch etwa **10 Millionen mehr** kosten.",
+        "Viel Geld ging in den Schutz: Eine neue Sperre soll bis zu 7.000 Kubikmeter Geröll abfangen."
+      ]
+    },
+    {
+      "label": "Erstes Rennen",
+      "title": "Zum Start gleich **Deutsche Meisterschaft**",
+      "text": [
+        "Im Rodeln gewannen **Julia Taubitz** und **Felix Loch**.",
+        "Fünf Jahre lang mussten die Sportler woanders trainieren, zum Beispiel im rund 200 Kilometer entfernten Innsbruck. Gerade für den Nachwuchs war das hart."
+      ],
+      "image": {
+        "file": "images/2026-11-11-koenigssee-3.jpg",
+        "credit": "Diego Delso / Wikimedia Commons",
+        "short": "Diego Delso, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Deutsche_Post_Eisarena_K%C3%B6nigssee,_Sch%C3%B6nau_am_K%C3%B6nigssee,_Alemania,_2019-05-17,_DD_02.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Noch **nicht ganz fertig**",
+      "text": [
+        "Oben fehlt noch ein Teil mit dem Start für die Rodel-Männer. Er soll bis Ende 2027 gebaut werden.",
+        "Im **Februar 2028** soll am Königssee die Rodel-WM stattfinden.",
+        "Naturschützer kritisieren: Die Bahn steht wieder am selben Ort, den sie für zu gefährlich halten."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das jemandem, der **Wintersport** liebt."
+    }
+  ],
+  "caption": "Königssee: Die älteste Kunsteisbahn der Welt fährt wieder. Fünf Jahre nach der Sturzflut von 2021 wurde die Bob- und Rodelbahn in Bayern offiziell wiedereröffnet, für den Wiederaufbau waren rund 58,5 Millionen Euro eingeplant. Beim ersten Rennen holten Julia Taubitz und Felix Loch die deutschen Meistertitel im Rodeln. Ganz fertig ist die Bahn aber noch nicht.\n\nWarst du schon mal an einer Bob- oder Rodelbahn? 👇\n\nQuellen: Sportschau/BR24, ZDFheute, MDR, Deutschlandfunk · Text mit KI erstellt\nFotos (Archiv, Symbolbilder): Sandro Halank, CC BY-SA 4.0; Gpasak, gemeinfrei; Diego Delso, CC BY-SA 4.0; alle via Wikimedia Commons\n#königssee #rodeln #wintersport #bobbahn #nachrichten"
+}
