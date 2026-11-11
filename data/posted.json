@@ -792,5 +792,19 @@
       "views": 95
     },
     "statsAt": "2026-11-11T06:21:23.720Z"
+  },
+  {
+    "id": "2026-11-11-tickets",
+    "postedAt": "2026-11-11T06:30:14.026Z",
+    "topic": "alltag",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.tagesschau.de/inland/innenpolitik/ticket-weiterverkauf-beschraenkung-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/inland/innenpolitik/ticket-weiterverkauf-beschraenkung-100.html",
+      "https://de.nachrichten.yahoo.com/abzocke-ministerin-hubig-will-preisdeckel-183519474.html"
+    ],
+    "mediaId": "18031323245914597",
+    "format": "bilder",
+    "reelMediaId": "17989147092073269"
   }
 ]
