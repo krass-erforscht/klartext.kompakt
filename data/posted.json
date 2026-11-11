@@ -823,5 +823,21 @@
       "views": 32
     },
     "statsAt": "2026-11-11T17:16:48.550Z"
+  },
+  {
+    "id": "2026-11-11-koenigssee",
+    "postedAt": "2026-11-11T17:25:13.132Z",
+    "topic": "sport",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.sportschau.de/regional/br/br-fuenf-jahre-nach-sturzflut-eiskanal-am-koenigssee-wiedereroeffnet-102.html",
+    "sourceUrls": [
+      "https://www.sportschau.de/regional/br/br-fuenf-jahre-nach-sturzflut-eiskanal-am-koenigssee-wiedereroeffnet-102.html",
+      "https://www.zdfheute.de/sport/wintersport/bob-rodeln-koenigssee-bahn-wiedereroeffnung-100.html",
+      "https://www.mdr.de/sport/andere_sportarten/rodeln-deutsche-meisterschaften-koenigssee-taubitz-100.html",
+      "https://www.deutschlandfunk.de/eiskanal-am-koenigssee-wiedereroeffnet-102.html"
+    ],
+    "mediaId": "18130319804304511",
+    "format": "bilder",
+    "reelMediaId": "18417519667095164"
   }
 ]

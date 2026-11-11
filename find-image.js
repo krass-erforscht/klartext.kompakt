@@ -163,9 +163,13 @@ async function loc(q, taxon, max) {
     try { found.push(...await src(q, taxon, max)); } catch (e) { console.error(`${src.name}: ${e.message}`); }
   }
   fs.mkdirSync('images/candidates', { recursive: true });
+  // Weiterzählen statt überschreiben: Kandidaten früherer Suchbegriffe zum selben Post bleiben erhalten.
+  const esc = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  let n = Math.max(0, ...fs.readdirSync('images/candidates')
+    .map(f => (f.match(new RegExp(`^${esc}-(\\d+)\\.jpg$`)) || [])[1]).filter(Boolean).map(Number));
   const result = [];
   for (const img of found) {
-    const file = `images/candidates/${id}-${result.length + 1}.jpg`;
+    const file = `images/candidates/${id}-${++n}.jpg`;
     try {
       let res = await fetch(img.url, { headers: hdr(img.url), signal: AbortSignal.timeout(30000) });
       if (res.status === 429) { await sleep(8000); res = await fetch(img.url, { headers: hdr(img.url), signal: AbortSignal.timeout(30000) }); }
