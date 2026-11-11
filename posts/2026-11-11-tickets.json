@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-11-tickets",
+  "date": "2026-11-10T04:10:12Z",
+  "category": "Alltag",
+  "topic": "alltag",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/inland/innenpolitik/ticket-weiterverkauf-beschraenkung-100.html"
+    },
+    {
+      "name": "Neue Osnabrücker Zeitung (via Yahoo Nachrichten)",
+      "url": "https://de.nachrichten.yahoo.com/abzocke-ministerin-hubig-will-preisdeckel-183519474.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-11-tickets.jpg",
+    "credit": "Hannah Rodrigo / Wikimedia Commons",
+    "short": "Hannah Rodrigo, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Concert_crowd_(Unsplash).jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Alltag",
+      "title": "Tickets weiterverkaufen: bald höchstens **20 Euro** Aufschlag?"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Ein **Preisdeckel** für Tickets",
+      "text": [
+        "Verbraucherschutzministerin Stefanie Hubig plant ein **Ticketschutzgesetz**.",
+        "Es soll gelten, wenn Tickets für Konzerte oder Sport weiterverkauft werden, etwa über Ticketbörsen."
+      ],
+      "image": {
+        "file": "images/2026-11-11-tickets-2.jpg",
+        "credit": "rick / flickr",
+        "short": "rick, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/35034361412@N01/266675660",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Regel",
+      "big": "20 %",
+      "title": "aber **höchstens 20 €** obendrauf",
+      "text": [
+        "Beim Weiterverkauf dürften bis zu 20 Prozent auf den Originalpreis kommen, aber nie mehr als 20 Euro. Es zählt der **niedrigere** Betrag."
+      ]
+    },
+    {
+      "label": "Für dich",
+      "title": "So teuer dürfte es **höchstens** werden",
+      "text": [
+        "Ticket für 50 €: höchstens **60 €**",
+        "Ticket für 150 €: höchstens **170 €**",
+        "Egal ob Stadion oder Konzerthalle."
+      ],
+      "image": {
+        "file": "images/2026-11-11-tickets-3.jpg",
+        "credit": "a4gpa / flickr",
+        "short": "a4gpa, CC BY-SA 2.0, via Flickr",
+        "license": "CC BY-SA 2.0",
+        "page": "https://www.flickr.com/photos/94833286@N00/1598499461",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Noch ist es **kein Gesetz**",
+      "text": [
+        "Laut Ministerin ist der Entwurf fertig und wird in der Regierung abgestimmt. Danach muss der Bundestag zustimmen.",
+        "Ziel: in Kraft vor dem nächsten Konzert- und Sportsommer."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das deinem **Konzert-Buddy**."
+    }
+  ],
+  "caption": "Tickets weiterverkaufen soll bald Grenzen haben: Verbraucherschutzministerin Stefanie Hubig plant ein Ticketschutzgesetz mit Preisdeckel. Beim Weiterverkauf von Konzert- und Sporttickets sollen höchstens 20 Prozent auf den Originalpreis draufkommen, aber nie mehr als 20 Euro. Der Entwurf wird laut Ministerin gerade in der Regierung abgestimmt, beschlossen ist noch nichts.\n\nHast du schon mal ein Ticket viel zu teuer gekauft? 👇\n\nQuellen: tagesschau.de, Neue Osnabrücker Zeitung · Text mit KI erstellt\nFotos (Symbolbilder): Hannah Rodrigo, CC0, via Wikimedia Commons; rick, CC BY 2.0, via Flickr; a4gpa, CC BY-SA 2.0, via Flickr\n#tickets #konzert #verbraucherschutz #fußball #nachrichten"
+}

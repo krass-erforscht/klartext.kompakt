@@ -1608,5 +1608,47 @@
     "seconds": 36,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Naraina",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Naraina.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Naraina.mp3",
+    "seconds": 211,
+    "used": 1,
+    "lastUsed": "2026-11-11T06:28:35.170Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "Penumbra",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Penumbra.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Penumbra.mp3",
+    "seconds": 296,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Lord of the Land",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Lord%20of%20the%20Land.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Lord_of_the_Land.mp3",
+    "seconds": 186,
+    "used": 0,
+    "lastUsed": null
   }
 ]
