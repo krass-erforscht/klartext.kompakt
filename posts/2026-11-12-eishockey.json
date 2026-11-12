@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-12-eishockey",
+  "date": "2026-11-11T16:56:40Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "Sportschau",
+      "url": "https://www.sportschau.de/eishockey/wm/deutschland-trifft-im-viertelfinale-auf-finnland,deutschland-schweiz-spielbericht-100.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/eishockey-wm-frauen-deutschland-schweiz-100.html"
+    },
+    {
+      "name": "n-tv",
+      "url": "https://www.n-tv.de/sport/Eishockey-Frauen-ueberraschen-bei-WM-auch-gegen-die-Schweiz-id31523280.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-12-eishockey.jpg",
+    "credit": "Jeff / Wikimedia Commons",
+    "short": "Jeff, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Viona_Harrer_31.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "Eishockey-WM: Deutschlands Frauen weichen **Rekordweltmeister Kanada** aus"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "**3:1** gegen die Schweiz",
+      "text": [
+        "Bei der Eishockey-WM der Frauen in **Dänemark** hat Deutschland das letzte Gruppenspiel gewonnen. Die Schweiz führte zuerst, dann drehten Laura Kluge, Katarina Jobst-Smith und Emily Nix das Spiel.",
+        "Damit ist Deutschland **Gruppenzweiter** und steht im Viertelfinale."
+      ],
+      "image": {
+        "file": "images/2026-11-12-eishockey-2.jpg",
+        "credit": "Jeon Han / Wikimedia Commons",
+        "short": "Jeon Han, CC BY-SA 2.0, via Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:IIHF_Ice_Hockey_Women_20170405_08.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Bilanz",
+      "big": "3 von 4",
+      "title": "Spielen in der Gruppe **gewonnen**",
+      "text": [
+        "Siege gegen Österreich (2:0), Tschechien (nach Penaltyschießen) und die Schweiz (3:1).",
+        "Verloren hat Deutschland nur gegen die **USA**, die amtierenden Olympiasiegerinnen."
+      ]
+    },
+    {
+      "label": "Warum ist das wichtig?",
+      "title": "Kanada erst **später**",
+      "text": [
+        "Als Gruppenzweiter trifft Deutschland im Viertelfinale **nicht** auf Kanada, den Rekordweltmeister.",
+        "Der Gegner heißt stattdessen **Finnland**. Leicht wird das trotzdem nicht: Finnland hat bei den letzten beiden Weltmeisterschaften jeweils **Bronze** gewonnen."
+      ],
+      "image": {
+        "file": "images/2026-11-12-eishockey-3.jpg",
+        "credit": "Pikkumax / Wikimedia Commons",
+        "short": "Pikkumax, CC BY-SA 3.0, via Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Finland_national_women%27s_ice_hockey_team.jpg",
+        "symbolbild": true,
+        "position": "top"
+      }
+    },
+    {
+      "label": "Merk dir",
+      "big": "Freitag",
+      "title": "**15 Uhr**: Viertelfinale gegen Finnland",
+      "text": [
+        "Wer gewinnt, steht im **Halbfinale** der WM.",
+        "Bundestrainer Jeff MacLeod sagt: Sein Team könne so weit kommen, wie es selbst wolle."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das jemandem, der Freitag **mitfiebern** sollte."
+    }
+  ],
+  "caption": "Eishockey-WM der Frauen: Deutschland geht Rekordweltmeister Kanada aus dem Weg. Mit einem 3:1 gegen die Schweiz wurde das Team Gruppenzweiter, drei der vier Gruppenspiele hat es gewonnen. Im Viertelfinale wartet am Freitag um 15 Uhr Finnland, WM-Dritter der letzten beiden Turniere.\n\nSchaffen sie es ins Halbfinale? Was tippst du? 👇\n\nQuellen: Sportschau, ZDFheute, n-tv · Text mit KI erstellt\nFotos (Archiv, Symbolbilder): Jeff, CC BY 2.0; Jeon Han, CC BY-SA 2.0; Pikkumax, CC BY-SA 3.0; alle via Wikimedia Commons\n#eishockey #eishockeywm #frauensport #deb #nachrichten"
+}
