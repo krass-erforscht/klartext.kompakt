@@ -856,5 +856,20 @@
       "views": 34
     },
     "statsAt": "2026-11-12T06:17:00.564Z"
+  },
+  {
+    "id": "2026-11-12-eishockey",
+    "postedAt": "2026-11-12T06:26:42.693Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.sportschau.de/eishockey/wm/deutschland-trifft-im-viertelfinale-auf-finnland,deutschland-schweiz-spielbericht-100.html",
+    "sourceUrls": [
+      "https://www.sportschau.de/eishockey/wm/deutschland-trifft-im-viertelfinale-auf-finnland,deutschland-schweiz-spielbericht-100.html",
+      "https://www.zdfheute.de/sport/eishockey-wm-frauen-deutschland-schweiz-100.html",
+      "https://www.n-tv.de/sport/Eishockey-Frauen-ueberraschen-bei-WM-auch-gegen-die-Schweiz-id31523280.html"
+    ],
+    "mediaId": "18139132843641418",
+    "format": "bilder",
+    "reelMediaId": "18044414270836045"
   }
 ]

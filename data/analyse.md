@@ -1,11 +1,11 @@
-# Algorithmus-Analyse (Stand 2026-11-11)
+# Algorithmus-Analyse (Stand 2026-11-12)
 
-Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 27 Posts mit Zahlen.
+Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 28 Posts mit Zahlen.
 
 ### Schwerpunkt
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| sport | 6 | 125,2 | 2,8 | 0,2 | 0 | 121,3 |
+| sport | 7 | 114,3 | 2,4 | 0,1 | 0 | 110,9 |
 | umwelt | 8 | 112,3 | 2,1 | 0 | 0 | 112,2 |
 | digital | 5 | 99,2 | 2,8 | 0,4 | 0 | 94,6 |
 | alltag | 4 | 42 | 2,5 | 0 | 0 | 37,3 |
@@ -15,15 +15,15 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 27 Pos
 ### Ton
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| sachlich | 14 | 98,1 | 2,9 | 0,2 | 0 | 92,8 |
-| ueberraschend | 9 | 80,4 | 2,6 | 0 | 0 | 71,9 |
+| sachlich | 14 | 99,2 | 2,9 | 0,2 | 0 | 94 |
+| ueberraschend | 10 | 75,7 | 2,3 | 0 | 0 | 67,6 |
 | locker | 4 | 75,3 | 3,3 | 0 | 0 | 70,5 |
 
 ### Format
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
 | video | 2 | 157,5 | 2 | 0 | 0 | 0 |
-| bilder | 24 | 86,7 | 3 | 0,1 | 0 | 82,1 |
+| bilder | 25 | 85,2 | 2,8 | 0,1 | 0 | 80,7 |
 | zusammen | 1 | 3 | 1 | 0 | 0 | 0 |
 
 ### Uhrzeit
@@ -31,7 +31,7 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 27 Pos
 |---|---|---|---|---|---|---|
 | 06 Uhr UTC | 12 | 114,2 | 2,3 | 0,1 | 0 | 112,7 |
 | 11 Uhr UTC | 9 | 83,6 | 3,2 | 0 | 0 | 78,8 |
-| 17 Uhr UTC | 6 | 46 | 3,2 | 0,3 | 0 | 41,2 |
+| 17 Uhr UTC | 7 | 46,4 | 2,7 | 0,3 | 0 | 42,1 |
 
 ### Wochentag
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
@@ -40,9 +40,9 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 27 Pos
 | So | 4 | 103,3 | 2,8 | 0 | 0 | 98,8 |
 | Do | 4 | 102,8 | 4 | 0 | 0 | 97,5 |
 | Mo | 4 | 102 | 2,3 | 0,3 | 0 | 97,8 |
-| Di | 3 | 75 | 1 | 0 | 0 | 56 |
+| Di | 3 | 80,3 | 1 | 0 | 0 | 63,5 |
 | Sa | 4 | 59,3 | 2,5 | 0,5 | 0 | 73,3 |
-| Mi | 4 | 51 | 3,5 | 0 | 0 | 45,5 |
+| Mi | 5 | 47,4 | 2,8 | 0 | 0 | 43 |
 
 ### Top 3 / Flop 3 (Reichweite)
 - 2026-10-30-novemberwetter: 207 (umwelt, sachlich, video)
@@ -59,3 +59,4 @@ Hinweis: kleine Stichproben, Zufall möglich. Signale, die Instagram laut eigene
 - 2026-11-10 (abends): Zweiter Video-Post (CO₂, morgens) hob den Format-Schnitt auf 156 Konten (2 Posts), weiter klar vor Bildern (Ø 89). Der Abend (17 Uhr UTC) bleibt mit Ø 37 Konten das schwächste Fenster, bringt aber die meisten Likes und Speicherungen pro Post (Vermutung: abends sehen den Post eher Follower, morgens mehr Fremde). Getestet heute: Sport-Post mit Rekordzahl und CTA-Folie „Speichern & teilen“ statt „Mehr davon?“ (Video nicht möglich, Wikimedia gedrosselt). Hypothese für morgen: Eine CTA-Folie mit konkretem Teil-Anlass („Schick das …“) bringt mehr Teilen/Speichern als die Standard-Folie; Vergleich mit dem Sportvereine-Post nach 24 h (Stichprobe 1, nur Richtung).
 - 2026-11-11 (morgens): Der Morgen (06 Uhr UTC) bleibt mit Ø 121 Konten das stärkste Fenster (11 Posts), der Abend mit Ø 46 das schwächste. Speichern/Teilen liegt fast überall bei 0; das ist im Moment das größte Loch. Heute bewusst eine Alltags-Meldung mit direktem Nutzen (Ticket-Preisdeckel mit Rechenbeispielen 50 €→60 €, 150 €→170 €) statt Sport, obwohl Alltag bisher nur Ø 45 Konten hat, und wieder eine CTA-Folie mit konkretem Teil-Anlass („Schick das deinem Konzert-Buddy“). Kein Video (Wikimedia gedrosselt). Hypothese für morgen: Rechenbeispiele „Was heißt das für dich?“ bringen mehr Speichern als reine Zahlenfolien; Vergleich mit dem Sportvereine-Post nach 24 h (Stichprobe 1–2, nur Richtung).
 - 2026-11-11 (abends): Der Ticket-Post vom Morgen (Alltag, Rechenbeispiele, CTA „Schick das deinem Konzert-Buddy“) hat nach rund 11 Stunden erst 33 Konten erreicht und 0 Speicherungen/Teilungen; der konkrete Teil-Anlass hat bisher also nichts messbar gebracht (Stichprobe 2, Zahlen noch nicht 24 h alt). Sport bleibt mit Ø 125–132 Konten der stärkste Schwerpunkt, deshalb abends wieder Sport (Kunsteisbahn Königssee wiedereröffnet), Ton überraschend, Hook mit Superlativ („älteste Kunsteisbahn der Welt“), Archivfotos als Symbolbilder, kein Video (Wikimedia gedrosselt, nur ein unpassender historischer Film). Hypothese für morgen: Ein Superlativ im Titel („älteste … der Welt“) bringt mehr Reichweite als ein reiner Zahlen-Hook; Vergleich Königssee mit Sportvereine (89) und Formel 1 (137) nach 24 h, Stichprobe klein.
+- 2026-11-12 (morgens): Der Königssee-Post mit Superlativ im Titel („älteste Kunsteisbahn der Welt“) kam nach rund 13 Stunden nur auf 33 Konten, der Sportvereine-Post ohne Superlativ auf 105; die Superlativ-Hypothese hat sich damit vorerst nicht bestätigt (Stichprobe 1, Abend-Fenster bleibt schwach). Speichern/Teilen liegt bei allen neuen Posts weiter bei 0. Heute im Morgen-Fenster (stärkstes Fenster) ein aktuelles Sport-Ereignis mit Termin in der Zukunft (Viertelfinale Freitag 15 Uhr) und einer Folie „Merk dir: Freitag“, als Anlass zum Speichern; kein Video (Kandidaten mit unklarer Zuordnung von Lizenz und Bild). Hypothese für morgen: Ein konkreter Termin, der noch bevorsteht, bringt mehr Speichern als reine Rückblick-Meldungen; Vergleich mit Formel 1 und Kane nach 24 h (Stichprobe 1, nur Richtung).
