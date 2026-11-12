@@ -888,5 +888,19 @@
       "views": 117
     },
     "statsAt": "2026-11-12T17:16:26.036Z"
+  },
+  {
+    "id": "2026-11-12-klima",
+    "postedAt": "2026-11-12T17:26:43.931Z",
+    "topic": "umwelt",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.deutschlandfunk.de/climate-action-tracker-aktuelle-klimapolitik-wuerde-zu-erderwaermung-von-2-7-grad-bis-ende-des-jahrh-100.html",
+    "sourceUrls": [
+      "https://www.deutschlandfunk.de/climate-action-tracker-aktuelle-klimapolitik-wuerde-zu-erderwaermung-von-2-7-grad-bis-ende-des-jahrh-100.html",
+      "https://climateactiontracker.org/press/release-global-update-2026/"
+    ],
+    "mediaId": "18095247503202015",
+    "format": "bilder",
+    "reelMediaId": "18231890242334581"
   }
 ]
