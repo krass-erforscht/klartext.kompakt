@@ -1,0 +1,210 @@
+{
+  "nachrichten": {
+    "suche": [
+      "nachrichten kurz erklärt",
+      "news in 60 sekunden",
+      "was heißt das für dich nachrichten",
+      "wirtschaft einfach erklärt shorts"
+    ],
+    "kanaele": [
+      {
+        "id": "UCZHpIFMfoJJ_1QxNGLJTzyA",
+        "name": "MrWissen2go",
+        "handle": "@mrwissen2go",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UC1w6pNGiiLdZgyNpXUnA4Zw",
+        "name": "DER SPIEGEL",
+        "handle": "@derspiegel",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UCcweJsCV2TUP_kzMX25U-oQ",
+        "name": "BR24",
+        "handle": "@br24",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UCOgPGtSnFR6GM-AkzCnxqMQ",
+        "name": "funk",
+        "handle": "@funk",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UCFqcNI0NaAA21NS9W3ExCRg",
+        "name": "ZDF heute-show",
+        "handle": "@heuteshow",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UCeARcCUiZg79SQQ-2_XNlXQ",
+        "name": "Finanzfluss",
+        "handle": "@finanzfluss",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UCQCUX4MkaB-ISnHm5C9eKSg",
+        "name": "kurz & sachlich",
+        "handle": "@kurzundsachlich",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UCvkRw0y2fttL6EKEyewz22g",
+        "name": "ParadoxPur",
+        "handle": "@paradoxpurde",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UC77Bg-84Ln0lBYlKRvoPszg",
+        "name": "Geldgeometrie",
+        "handle": "@geldgeometrie",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UCMIgOXM2JEQ2Pv2d0_PVfcg",
+        "name": "DW Deutsch",
+        "handle": "@dwdeutsch",
+        "seit": "2026-11-12"
+      },
+      {
+        "id": "UC8QedS73bpbCUx751nLGueQ",
+        "name": "SWR Aktuell",
+        "handle": "@swraktuell",
+        "seit": "2026-11-12"
+      }
+    ],
+    "abgelehnt": [
+      {
+        "id": "UC5NOEUbkLheQcaaRldYW5GA",
+        "name": "tagesschau",
+        "grund": "nur 0 Shorts in 90 Tagen"
+      },
+      {
+        "id": "UCLmHj5hOn6TaMTG8vXf5IIg",
+        "name": "Juliett Harper",
+        "grund": "kaum Likes (0,5 % der Aufrufe) – Hinweis auf gekaufte Aufrufe"
+      },
+      {
+        "id": "UCBYAgg3hFTJlK45iwUhk4CA",
+        "name": "Lieblingsinformatiker",
+        "grund": "kaum Likes (0,3 % der Aufrufe) – Hinweis auf gekaufte Aufrufe"
+      },
+      {
+        "id": "UCenFSOFDv48eO33Z8USqQQA",
+        "name": "Onetz",
+        "grund": "nur 3 Shorts in 90 Tagen; kaum Likes (0,4 % der Aufrufe) – Hinweis auf gekaufte Aufrufe"
+      },
+      {
+        "id": "UC6WTr4CP8S5jm9_LM8uzj6w",
+        "name": "Nikki Osborne",
+        "grund": "Land AU"
+      },
+      {
+        "id": "UC5WjFrtBdufl6CZojX3D8dQ",
+        "name": "Tesla",
+        "grund": "Land US"
+      },
+      {
+        "id": "UC1sSuVM2px9PeVUMtOIgbBQ",
+        "name": "Myst",
+        "grund": "Land GB"
+      },
+      {
+        "id": "UCgbyN_o-Guwpyqfuuz3pyIw",
+        "name": "Farzad",
+        "grund": "Land US"
+      },
+      {
+        "id": "UCwmcAlKLmkgqsE28VYPbRMw",
+        "name": "Unsourced News",
+        "grund": "Land US"
+      },
+      {
+        "id": "UCmRbHAgG2k2vDUvb3xsEunQ",
+        "name": "CNBC-TV18",
+        "grund": "Land IN"
+      },
+      {
+        "id": "UCZU-p0VFlT-WrOh8zbES8iA",
+        "name": "WoW Forever Tavern",
+        "grund": "Land US"
+      },
+      {
+        "id": "UCw_Ou1dfOjPVGNppYGcO9rg",
+        "name": "Kotak Neo",
+        "grund": "Land IN"
+      },
+      {
+        "id": "UCwVJr6R-2Hbezs5Ur4zmcLw",
+        "name": "Fresh Spawns",
+        "grund": "Land GB"
+      },
+      {
+        "id": "UCFjY_fckESupgs7IiCtYJHg",
+        "name": "ChillyEmpire",
+        "grund": "Land US"
+      },
+      {
+        "id": "UCGWNHkr2WZcRbxqoet-nyeg",
+        "name": "DPCcars",
+        "grund": "Land US"
+      },
+      {
+        "id": "UC3KkMay_E7SuHIE3SoezHPw",
+        "name": "Buzz Studio",
+        "grund": "Land US"
+      },
+      {
+        "id": "UCZ3oPUzJSP_NfkgnLm-ianw",
+        "name": "Opa Ben erklärt",
+        "grund": "nur 0 Shorts in 90 Tagen"
+      },
+      {
+        "id": "UCCjG9Y2VuO9w7t6O9o1EDXg",
+        "name": "Nathan Crockett",
+        "grund": "Land US"
+      },
+      {
+        "id": "UC2e6xMvs4HoUx3EvGXgovDQ",
+        "name": "TrendKompass",
+        "grund": "kaum Likes (0 % der Aufrufe) – Hinweis auf gekaufte Aufrufe"
+      },
+      {
+        "id": "UC2qIUezyq3WIAyMH6pokh_Q",
+        "name": "Rundblick RUssland neben der Spur",
+        "grund": "passt nicht (Sport-Verband/fremdsprachig/politisch)"
+      },
+      {
+        "id": "UCnELQoXoROOqAVnCK4fW9RA",
+        "name": "Penumbral",
+        "grund": "passt nicht (Sport-Verband/fremdsprachig/politisch)"
+      },
+      {
+        "id": "UCpcTrCXblq78GZrTUTLWeBw",
+        "name": "FIFA",
+        "grund": "passt nicht (Sport-Verband/fremdsprachig/politisch)"
+      },
+      {
+        "id": "UCZPsXCmgaxGkY59g4yuFIsw",
+        "name": "Nils Explains",
+        "grund": "englischsprachig"
+      },
+      {
+        "id": "UCWhTDNNeC4HNuO3jmhLZROg",
+        "name": "Wirtschaft und Industrie",
+        "grund": "Parteipolitik (Sicherheitsregeln)"
+      }
+    ]
+  },
+  "wissen": {
+    "suche": [
+      "wissenschaft fakten shorts",
+      "krasse fakten tiere",
+      "weltraum fakten",
+      "wusstest du schon wissenschaft",
+      "physik experiment shorts"
+    ],
+    "kanaele": []
+  }
+}

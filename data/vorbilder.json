@@ -1,0 +1,1116 @@
+{
+  "nachrichten": [
+    {
+      "datum": "2026-11-12",
+      "kanaele": [
+        {
+          "id": "UCZHpIFMfoJJ_1QxNGLJTzyA",
+          "name": "MrWissen2go",
+          "abonnenten": 2410000,
+          "medianAufrufe": 392928,
+          "likeRate": 0.02465096931496738,
+          "shorts": 5,
+          "echt": true
+        },
+        {
+          "id": "UC1w6pNGiiLdZgyNpXUnA4Zw",
+          "name": "DER SPIEGEL",
+          "abonnenten": 2360000,
+          "medianAufrufe": 36234,
+          "likeRate": 0.015879282339958587,
+          "shorts": 32,
+          "echt": true
+        },
+        {
+          "id": "UCcweJsCV2TUP_kzMX25U-oQ",
+          "name": "BR24",
+          "abonnenten": 570000,
+          "medianAufrufe": 24443,
+          "likeRate": 0.0058985023151203846,
+          "shorts": 11,
+          "echt": true
+        },
+        {
+          "id": "UCOgPGtSnFR6GM-AkzCnxqMQ",
+          "name": "funk",
+          "abonnenten": 254000,
+          "medianAufrufe": 64211.5,
+          "likeRate": 0.02289742240725702,
+          "shorts": 46,
+          "echt": true
+        },
+        {
+          "id": "UCFqcNI0NaAA21NS9W3ExCRg",
+          "name": "ZDF heute-show",
+          "abonnenten": 1900000,
+          "medianAufrufe": 550090,
+          "likeRate": 0.020190169512121027,
+          "shorts": 38,
+          "echt": true
+        },
+        {
+          "id": "UCeARcCUiZg79SQQ-2_XNlXQ",
+          "name": "Finanzfluss",
+          "abonnenten": 1660000,
+          "medianAufrufe": 20543,
+          "likeRate": 0.01309646177071109,
+          "shorts": 34,
+          "echt": true
+        },
+        {
+          "id": "UCQCUX4MkaB-ISnHm5C9eKSg",
+          "name": "kurz & sachlich",
+          "abonnenten": 56,
+          "medianAufrufe": 1027,
+          "likeRate": 0.030998032900283176,
+          "shorts": 46,
+          "echt": true
+        },
+        {
+          "id": "UCZPsXCmgaxGkY59g4yuFIsw",
+          "name": "Nils Explains",
+          "abonnenten": 1850,
+          "medianAufrufe": 37879,
+          "likeRate": 0.015236838916691729,
+          "shorts": 39,
+          "echt": true
+        },
+        {
+          "id": "UCWhTDNNeC4HNuO3jmhLZROg",
+          "name": "Wirtschaft und Industrie",
+          "abonnenten": 892,
+          "medianAufrufe": 1399.5,
+          "likeRate": 0.0509498346753428,
+          "shorts": 40,
+          "echt": true
+        },
+        {
+          "id": "UCvkRw0y2fttL6EKEyewz22g",
+          "name": "ParadoxPur",
+          "abonnenten": 1590,
+          "medianAufrufe": 1923,
+          "likeRate": 0.020010730775430856,
+          "shorts": 47,
+          "echt": true
+        },
+        {
+          "id": "UC77Bg-84Ln0lBYlKRvoPszg",
+          "name": "Geldgeometrie",
+          "abonnenten": 45,
+          "medianAufrufe": 1643,
+          "likeRate": 0.0153224576917213,
+          "shorts": 12,
+          "echt": true
+        },
+        {
+          "id": "UCMIgOXM2JEQ2Pv2d0_PVfcg",
+          "name": "DW Deutsch",
+          "abonnenten": 1160000,
+          "medianAufrufe": 15431,
+          "likeRate": 0.00747558802848548,
+          "shorts": 7,
+          "echt": true
+        },
+        {
+          "id": "UC8QedS73bpbCUx751nLGueQ",
+          "name": "SWR Aktuell",
+          "abonnenten": 33100,
+          "medianAufrufe": 60469,
+          "likeRate": 0.011999045893068527,
+          "shorts": 39,
+          "echt": true
+        }
+      ],
+      "vergleich": [
+        {
+          "merkmal": "laenge",
+          "rows": [
+            {
+              "wert": "16–30 s",
+              "videos": 51,
+              "kanaele": 6,
+              "ausreisser": 1.1451326146630552,
+              "likes": 0.016799212174877315
+            },
+            {
+              "wert": "61–180 s",
+              "videos": 190,
+              "kanaele": 12,
+              "ausreisser": 1.0449823087023722,
+              "likes": 0.0228456649384194
+            },
+            {
+              "wert": "31–60 s",
+              "videos": 147,
+              "kanaele": 11,
+              "ausreisser": 0.98539435248296,
+              "likes": 0.017890191239975324
+            },
+            {
+              "wert": "bis 15 s",
+              "videos": 8,
+              "kanaele": 3,
+              "ausreisser": 0.4854130048357409,
+              "likes": 0.019166960082621746
+            }
+          ]
+        },
+        {
+          "merkmal": "wochentag",
+          "rows": [
+            {
+              "wert": "Mi",
+              "videos": 52,
+              "kanaele": 12,
+              "ausreisser": 1.2683752222571614,
+              "likes": 0.018034997980405282
+            },
+            {
+              "wert": "Sa",
+              "videos": 55,
+              "kanaele": 11,
+              "ausreisser": 1.1111387094993652,
+              "likes": 0.020488907729263813
+            },
+            {
+              "wert": "So",
+              "videos": 63,
+              "kanaele": 12,
+              "ausreisser": 1.0422528355157474,
+              "likes": 0.021952924498325716
+            },
+            {
+              "wert": "Mo",
+              "videos": 53,
+              "kanaele": 11,
+              "ausreisser": 0.9896530736457699,
+              "likes": 0.020851381859840853
+            },
+            {
+              "wert": "Di",
+              "videos": 52,
+              "kanaele": 11,
+              "ausreisser": 0.9473900519915115,
+              "likes": 0.021747799498248694
+            },
+            {
+              "wert": "Fr",
+              "videos": 58,
+              "kanaele": 11,
+              "ausreisser": 0.916634217734031,
+              "likes": 0.017197247411367904
+            },
+            {
+              "wert": "Do",
+              "videos": 63,
+              "kanaele": 12,
+              "ausreisser": 0.9157566302652106,
+              "likes": 0.01894083969465649
+            }
+          ]
+        },
+        {
+          "merkmal": "grossbuchstaben",
+          "rows": [
+            {
+              "wert": "normal geschrieben",
+              "videos": 357,
+              "kanaele": 12,
+              "ausreisser": 1,
+              "likes": 0.020185328382626235
+            },
+            {
+              "wert": "Wort in GROSSBUCHSTABEN",
+              "videos": 39,
+              "kanaele": 6,
+              "ausreisser": 0.8829276370259976,
+              "likes": 0.017660665166291573
+            }
+          ]
+        },
+        {
+          "merkmal": "emoji_im_titel",
+          "rows": [
+            {
+              "wert": "mit Emoji",
+              "videos": 81,
+              "kanaele": 6,
+              "ausreisser": 1.112598904443092,
+              "likes": 0.015762121234928424
+            },
+            {
+              "wert": "ohne Emoji",
+              "videos": 315,
+              "kanaele": 13,
+              "ausreisser": 0.993926402286531,
+              "likes": 0.020923799073913247
+            }
+          ]
+        },
+        {
+          "merkmal": "hook",
+          "rows": [
+            {
+              "wert": "W-Frage („Warum …“)",
+              "videos": 24,
+              "kanaele": 7,
+              "ausreisser": 1.0939621293319042,
+              "likes": 0.021394991032321398
+            },
+            {
+              "wert": "anderer Anfang",
+              "videos": 362,
+              "kanaele": 13,
+              "ausreisser": 1,
+              "likes": 0.019418732917680023
+            }
+          ]
+        },
+        {
+          "merkmal": "uhrzeit",
+          "rows": [
+            {
+              "wert": "21–05 Uhr",
+              "videos": 19,
+              "kanaele": 7,
+              "ausreisser": 1.06680957484816,
+              "likes": 0.020762368207623682
+            },
+            {
+              "wert": "18–20 Uhr",
+              "videos": 76,
+              "kanaele": 11,
+              "ausreisser": 1.032268641181319,
+              "likes": 0.01832342612469666
+            },
+            {
+              "wert": "06–09 Uhr",
+              "videos": 44,
+              "kanaele": 8,
+              "ausreisser": 1.0150788461755298,
+              "likes": 0.02589928182621709
+            },
+            {
+              "wert": "10–13 Uhr",
+              "videos": 130,
+              "kanaele": 13,
+              "ausreisser": 0.9995131450827653,
+              "likes": 0.018340730608150564
+            },
+            {
+              "wert": "14–17 Uhr",
+              "videos": 127,
+              "kanaele": 13,
+              "ausreisser": 0.9753483386923901,
+              "likes": 0.020343550016840687
+            }
+          ]
+        },
+        {
+          "merkmal": "du_ansprache",
+          "rows": [
+            {
+              "wert": "ohne „du“",
+              "videos": 357,
+              "kanaele": 13,
+              "ausreisser": 1,
+              "likes": 0.019328828272491487
+            },
+            {
+              "wert": "spricht mit „du“ an",
+              "videos": 39,
+              "kanaele": 8,
+              "ausreisser": 0.9339573582943318,
+              "likes": 0.021848739495798318
+            }
+          ]
+        },
+        {
+          "merkmal": "hashtags",
+          "rows": [
+            {
+              "wert": "keine",
+              "videos": 138,
+              "kanaele": 9,
+              "ausreisser": 1.0103680804840254,
+              "likes": 0.01571623183046479
+            },
+            {
+              "wert": "1–3",
+              "videos": 191,
+              "kanaele": 11,
+              "ausreisser": 1.007762366158265,
+              "likes": 0.021866182990729545
+            },
+            {
+              "wert": "über 6",
+              "videos": 20,
+              "kanaele": 3,
+              "ausreisser": 0.988315481986368,
+              "likes": 0.02659139434733833
+            },
+            {
+              "wert": "4–6",
+              "videos": 47,
+              "kanaele": 5,
+              "ausreisser": 0.9659201557935735,
+              "likes": 0.019010711659611677
+            }
+          ]
+        },
+        {
+          "merkmal": "titellaenge",
+          "rows": [
+            {
+              "wert": "kurz (≤40)",
+              "videos": 72,
+              "kanaele": 9,
+              "ausreisser": 1.0261927913787303,
+              "likes": 0.01969015733898228
+            },
+            {
+              "wert": "mittel (41–70)",
+              "videos": 183,
+              "kanaele": 13,
+              "ausreisser": 1,
+              "likes": 0.017660665166291573
+            },
+            {
+              "wert": "lang (>70)",
+              "videos": 141,
+              "kanaele": 10,
+              "ausreisser": 1,
+              "likes": 0.024456521739130436
+            }
+          ]
+        },
+        {
+          "merkmal": "ausruf_im_titel",
+          "rows": [
+            {
+              "wert": "mit !",
+              "videos": 63,
+              "kanaele": 8,
+              "ausreisser": 1.007762366158265,
+              "likes": 0.022794854077219897
+            },
+            {
+              "wert": "ohne !",
+              "videos": 333,
+              "kanaele": 13,
+              "ausreisser": 1,
+              "likes": 0.0192090395480226
+            }
+          ]
+        },
+        {
+          "merkmal": "frage_im_titel",
+          "rows": [
+            {
+              "wert": "keine Frage",
+              "videos": 220,
+              "kanaele": 13,
+              "ausreisser": 1.0038811830791325,
+              "likes": 0.01769662640707185
+            },
+            {
+              "wert": "Frage",
+              "videos": 176,
+              "kanaele": 13,
+              "ausreisser": 0.9995131450827653,
+              "likes": 0.023639776963125844
+            }
+          ]
+        },
+        {
+          "merkmal": "zahl_im_titel",
+          "rows": [
+            {
+              "wert": "ohne Zahl",
+              "videos": 314,
+              "kanaele": 12,
+              "ausreisser": 1,
+              "likes": 0.021068992482134424
+            },
+            {
+              "wert": "mit Zahl",
+              "videos": 82,
+              "kanaele": 12,
+              "ausreisser": 1,
+              "likes": 0.015357775933237696
+            }
+          ]
+        }
+      ],
+      "top": [
+        {
+          "id": "her-X7AiyRk",
+          "kanal": "Wirtschaft und Industrie",
+          "titel": "Alice Weidel: Von Goldman Sachs und China an die Spitze der AfD",
+          "dauer": 93,
+          "aufrufe": 290597,
+          "wert": 207.643444087174
+        },
+        {
+          "id": "q67onFx6xKM",
+          "kanal": "ParadoxPur",
+          "titel": "Survivorship Bias: Panzer dort, wo keine Löcher sind? #shorts  #denkfehler  #statistik",
+          "dauer": 87,
+          "aufrufe": 246358,
+          "wert": 128.11128445137805
+        },
+        {
+          "id": "D3VoqIe4TNI",
+          "kanal": "Wirtschaft und Industrie",
+          "titel": "Tino Chrupalla: Malermeister, Junge Union – und dann AfD-Chef",
+          "dauer": 74,
+          "aufrufe": 41735,
+          "wert": 29.82136477313326
+        },
+        {
+          "id": "PflzhDetwEk",
+          "kanal": "ParadoxPur",
+          "titel": "Achilles und die Schildkröte: Warum holt er sie nie ein? #shorts  #paradox  #mathe",
+          "dauer": 88,
+          "aufrufe": 50835,
+          "wert": 26.435257410296412
+        },
+        {
+          "id": "e-QcsIrk6Wk",
+          "kanal": "SWR Aktuell",
+          "titel": "Crazy: Auf dem E-Scooter mit Tempo 120!? 🤯 Jetzt greift die Polizei durch!",
+          "dauer": 33,
+          "aufrufe": 1236508,
+          "wert": 20.448626568985762
+        },
+        {
+          "id": "RAzAR3uKtbs",
+          "kanal": "Nils Explains",
+          "titel": "Korea Isn't Split at the 38th Parallel… The Real Border Crosses It 🇰🇷🗺️",
+          "dauer": 77,
+          "aufrufe": 531464,
+          "wert": 14.030571028802239
+        },
+        {
+          "id": "lmqALgabaTI",
+          "kanal": "funk",
+          "titel": "Welche schmeckt dir?",
+          "dauer": 36,
+          "aufrufe": 880637,
+          "wert": 13.71463055683172
+        },
+        {
+          "id": "zdAMAElfbH4",
+          "kanal": "Wirtschaft und Industrie",
+          "titel": "Ulrich Siegmund: Wird er im Dezember der erste AfD-Ministerpräsident?",
+          "dauer": 92,
+          "aufrufe": 14998,
+          "wert": 10.716684530189353
+        },
+        {
+          "id": "Mwf5iSF7vCY",
+          "kanal": "funk",
+          "titel": "Bahn-Sounds weltweit. Hab direkt Angst, zu spät zu kommen",
+          "dauer": 31,
+          "aufrufe": 670286,
+          "wert": 10.438722035772408
+        },
+        {
+          "id": "fgSlAIwcGfQ",
+          "kanal": "Finanzfluss",
+          "titel": "Jeder fängt mal klein an. 🌱",
+          "dauer": 17,
+          "aufrufe": 199338,
+          "wert": 9.703451297278878
+        },
+        {
+          "id": "zgW42gZWMYU",
+          "kanal": "Nils Explains",
+          "titel": "Northern Ireland Isn't Northernmost… Ireland's Tip Is in the Republic 🗺️",
+          "dauer": 63,
+          "aufrufe": 361613,
+          "wert": 9.54652973943346
+        },
+        {
+          "id": "InmhRPtYflA",
+          "kanal": "Nils Explains",
+          "titel": "The Berlin Wall Wasn't Between the Two Germanys… It Was a Ring",
+          "dauer": 91,
+          "aufrufe": 334454,
+          "wert": 8.829536154597534
+        },
+        {
+          "id": "NE2YyaAJ9xs",
+          "kanal": "ZDF heute-show",
+          "titel": "Wehrpflicht und Co.: Warum ist die junge Generation so sauer? | heute-show #shorts",
+          "dauer": 56,
+          "aufrufe": 4786798,
+          "wert": 8.70184515261139
+        },
+        {
+          "id": "SNAYnEIZn-E",
+          "kanal": "BR24",
+          "titel": "Trauer nach Aiwangers Tod – im Wirtschaftsministerium übernimmt ein Staatssekretär | BR24",
+          "dauer": 108,
+          "aufrufe": 204452,
+          "wert": 8.364439716892361
+        },
+        {
+          "id": "T26E1Fu5zlI",
+          "kanal": "SWR Aktuell",
+          "titel": "18. Geburtstag: Führerschein nach 3 Stunden schon wieder weg 😮",
+          "dauer": 21,
+          "aufrufe": 481405,
+          "wert": 7.961186723775819
+        }
+      ]
+    },
+    {
+      "datum": "2026-11-12",
+      "kanaele": [
+        {
+          "id": "UCZHpIFMfoJJ_1QxNGLJTzyA",
+          "name": "MrWissen2go",
+          "abonnenten": 2410000,
+          "medianAufrufe": 392923,
+          "likeRate": 0.024651024385623305,
+          "shorts": 5,
+          "echt": true
+        },
+        {
+          "id": "UC1w6pNGiiLdZgyNpXUnA4Zw",
+          "name": "DER SPIEGEL",
+          "abonnenten": 2360000,
+          "medianAufrufe": 36234,
+          "likeRate": 0.01587925871333219,
+          "shorts": 32,
+          "echt": true
+        },
+        {
+          "id": "UCcweJsCV2TUP_kzMX25U-oQ",
+          "name": "BR24",
+          "abonnenten": 570000,
+          "medianAufrufe": 24443,
+          "likeRate": 0.005898817729874253,
+          "shorts": 11,
+          "echt": true
+        },
+        {
+          "id": "UCOgPGtSnFR6GM-AkzCnxqMQ",
+          "name": "funk",
+          "abonnenten": 254000,
+          "medianAufrufe": 64211.5,
+          "likeRate": 0.02289755551645481,
+          "shorts": 46,
+          "echt": true
+        },
+        {
+          "id": "UCFqcNI0NaAA21NS9W3ExCRg",
+          "name": "ZDF heute-show",
+          "abonnenten": 1900000,
+          "medianAufrufe": 550090,
+          "likeRate": 0.02019017596841145,
+          "shorts": 38,
+          "echt": true
+        },
+        {
+          "id": "UCeARcCUiZg79SQQ-2_XNlXQ",
+          "name": "Finanzfluss",
+          "abonnenten": 1660000,
+          "medianAufrufe": 20544,
+          "likeRate": 0.013096547358750918,
+          "shorts": 34,
+          "echt": true
+        },
+        {
+          "id": "UCQCUX4MkaB-ISnHm5C9eKSg",
+          "name": "kurz & sachlich",
+          "abonnenten": 56,
+          "medianAufrufe": 1027,
+          "likeRate": 0.030998032900283176,
+          "shorts": 46,
+          "echt": true
+        },
+        {
+          "id": "UCvkRw0y2fttL6EKEyewz22g",
+          "name": "ParadoxPur",
+          "abonnenten": 1590,
+          "medianAufrufe": 1923,
+          "likeRate": 0.020010730775430856,
+          "shorts": 47,
+          "echt": true
+        },
+        {
+          "id": "UC77Bg-84Ln0lBYlKRvoPszg",
+          "name": "Geldgeometrie",
+          "abonnenten": 45,
+          "medianAufrufe": 1643,
+          "likeRate": 0.0153224576917213,
+          "shorts": 12,
+          "echt": true
+        },
+        {
+          "id": "UCMIgOXM2JEQ2Pv2d0_PVfcg",
+          "name": "DW Deutsch",
+          "abonnenten": 1160000,
+          "medianAufrufe": 15431,
+          "likeRate": 0.00747558802848548,
+          "shorts": 7,
+          "echt": true
+        },
+        {
+          "id": "UC8QedS73bpbCUx751nLGueQ",
+          "name": "SWR Aktuell",
+          "abonnenten": 33100,
+          "medianAufrufe": 60469,
+          "likeRate": 0.011999221204878457,
+          "shorts": 39,
+          "echt": true
+        }
+      ],
+      "vergleich": [
+        {
+          "merkmal": "laenge",
+          "rows": [
+            {
+              "wert": "16–30 s",
+              "videos": 50,
+              "kanaele": 5,
+              "ausreisser": 1.1780653223054809,
+              "likes": 0.01688103804795807
+            },
+            {
+              "wert": "61–180 s",
+              "videos": 139,
+              "kanaele": 10,
+              "ausreisser": 1.0422021028037383,
+              "likes": 0.024006296733569462
+            },
+            {
+              "wert": "31–60 s",
+              "videos": 120,
+              "kanaele": 9,
+              "ausreisser": 0.987523713064365,
+              "likes": 0.020147792695078937
+            },
+            {
+              "wert": "bis 15 s",
+              "videos": 8,
+              "kanaele": 3,
+              "ausreisser": 0.4854130048357409,
+              "likes": 0.01916703096099929
+            }
+          ]
+        },
+        {
+          "merkmal": "uhrzeit",
+          "rows": [
+            {
+              "wert": "21–05 Uhr",
+              "videos": 8,
+              "kanaele": 5,
+              "ausreisser": 2.085750451750063,
+              "likes": 0.01804271600154979
+            },
+            {
+              "wert": "06–09 Uhr",
+              "videos": 41,
+              "kanaele": 7,
+              "ausreisser": 1.0301850048685492,
+              "likes": 0.02615062761506276
+            },
+            {
+              "wert": "18–20 Uhr",
+              "videos": 43,
+              "kanaele": 9,
+              "ausreisser": 1,
+              "likes": 0.02085159755356427
+            },
+            {
+              "wert": "10–13 Uhr",
+              "videos": 118,
+              "kanaele": 11,
+              "ausreisser": 0.9960814862042606,
+              "likes": 0.01857548595170991
+            },
+            {
+              "wert": "14–17 Uhr",
+              "videos": 107,
+              "kanaele": 11,
+              "ausreisser": 0.9792638390319491,
+              "likes": 0.021611673829426428
+            }
+          ]
+        },
+        {
+          "merkmal": "hook",
+          "rows": [
+            {
+              "wert": "W-Frage („Warum …“)",
+              "videos": 16,
+              "kanaele": 6,
+              "ausreisser": 1.54527833414501,
+              "likes": 0.01922936408916802
+            },
+            {
+              "wert": "anderer Anfang",
+              "videos": 294,
+              "kanaele": 11,
+              "ausreisser": 1,
+              "likes": 0.02106804237465351
+            }
+          ]
+        },
+        {
+          "merkmal": "wochentag",
+          "rows": [
+            {
+              "wert": "Mi",
+              "videos": 44,
+              "kanaele": 10,
+              "ausreisser": 1.3184618910379609,
+              "likes": 0.018623772920174947
+            },
+            {
+              "wert": "Sa",
+              "videos": 45,
+              "kanaele": 9,
+              "ausreisser": 1.2109980299479066,
+              "likes": 0.020923799073913247
+            },
+            {
+              "wert": "So",
+              "videos": 45,
+              "kanaele": 10,
+              "ausreisser": 1.0657117624330739,
+              "likes": 0.0224587429326726
+            },
+            {
+              "wert": "Mo",
+              "videos": 41,
+              "kanaele": 9,
+              "ausreisser": 0.98539435248296,
+              "likes": 0.021296296296296296
+            },
+            {
+              "wert": "Di",
+              "videos": 39,
+              "kanaele": 9,
+              "ausreisser": 0.9530380072105464,
+              "likes": 0.021866182990729545
+            },
+            {
+              "wert": "Fr",
+              "videos": 51,
+              "kanaele": 9,
+              "ausreisser": 0.8829276370259976,
+              "likes": 0.017660665166291573
+            },
+            {
+              "wert": "Do",
+              "videos": 52,
+              "kanaele": 10,
+              "ausreisser": 0.8769856263168485,
+              "likes": 0.021624758852957525
+            }
+          ]
+        },
+        {
+          "merkmal": "hashtags",
+          "rows": [
+            {
+              "wert": "keine",
+              "videos": 102,
+              "kanaele": 7,
+              "ausreisser": 1.0532562024709784,
+              "likes": 0.01676613995198049
+            },
+            {
+              "wert": "1–3",
+              "videos": 164,
+              "kanaele": 9,
+              "ausreisser": 1.0038811830791325,
+              "likes": 0.023177473867985764
+            },
+            {
+              "wert": "über 6",
+              "videos": 20,
+              "kanaele": 3,
+              "ausreisser": 0.988315481986368,
+              "likes": 0.02659139434733833
+            },
+            {
+              "wert": "4–6",
+              "videos": 31,
+              "kanaele": 4,
+              "ausreisser": 0.9221032132424537,
+              "likes": 0.017727466894489535
+            }
+          ]
+        },
+        {
+          "merkmal": "grossbuchstaben",
+          "rows": [
+            {
+              "wert": "normal geschrieben",
+              "videos": 279,
+              "kanaele": 10,
+              "ausreisser": 1,
+              "likes": 0.02135411945980241
+            },
+            {
+              "wert": "Wort in GROSSBUCHSTABEN",
+              "videos": 38,
+              "kanaele": 5,
+              "ausreisser": 0.895944626861078,
+              "likes": 0.01761260022781986
+            }
+          ]
+        },
+        {
+          "merkmal": "du_ansprache",
+          "rows": [
+            {
+              "wert": "spricht mit „du“ an",
+              "videos": 30,
+              "kanaele": 7,
+              "ausreisser": 1.0721241631162508,
+              "likes": 0.02215374121423546
+            },
+            {
+              "wert": "ohne „du“",
+              "videos": 287,
+              "kanaele": 11,
+              "ausreisser": 1,
+              "likes": 0.02048601299802204
+            }
+          ]
+        },
+        {
+          "merkmal": "zahl_im_titel",
+          "rows": [
+            {
+              "wert": "ohne Zahl",
+              "videos": 259,
+              "kanaele": 10,
+              "ausreisser": 1.0009737098344693,
+              "likes": 0.021469460848918983
+            },
+            {
+              "wert": "mit Zahl",
+              "videos": 58,
+              "kanaele": 10,
+              "ausreisser": 0.9516894028263054,
+              "likes": 0.015271100073444233
+            }
+          ]
+        },
+        {
+          "merkmal": "titellaenge",
+          "rows": [
+            {
+              "wert": "kurz (≤40)",
+              "videos": 65,
+              "kanaele": 7,
+              "ausreisser": 1.0422021028037383,
+              "likes": 0.02048601299802204
+            },
+            {
+              "wert": "lang (>70)",
+              "videos": 113,
+              "kanaele": 8,
+              "ausreisser": 1,
+              "likes": 0.02615062761506276
+            },
+            {
+              "wert": "mittel (41–70)",
+              "videos": 139,
+              "kanaele": 11,
+              "ausreisser": 0.9931366822429907,
+              "likes": 0.017889087656529516
+            }
+          ]
+        },
+        {
+          "merkmal": "ausruf_im_titel",
+          "rows": [
+            {
+              "wert": "mit !",
+              "videos": 49,
+              "kanaele": 7,
+              "ausreisser": 1.0350535540408958,
+              "likes": 0.021400778210116732
+            },
+            {
+              "wert": "ohne !",
+              "videos": 268,
+              "kanaele": 11,
+              "ausreisser": 0.9995131450827653,
+              "likes": 0.020884760656190923
+            }
+          ]
+        },
+        {
+          "merkmal": "emoji_im_titel",
+          "rows": [
+            {
+              "wert": "mit Emoji",
+              "videos": 65,
+              "kanaele": 5,
+              "ausreisser": 1.01034692635423,
+              "likes": 0.01732849593293905
+            },
+            {
+              "wert": "ohne Emoji",
+              "videos": 252,
+              "kanaele": 11,
+              "ausreisser": 1,
+              "likes": 0.021476251174023884
+            }
+          ]
+        },
+        {
+          "merkmal": "frage_im_titel",
+          "rows": [
+            {
+              "wert": "keine Frage",
+              "videos": 171,
+              "kanaele": 11,
+              "ausreisser": 1,
+              "likes": 0.01854675843877509
+            },
+            {
+              "wert": "Frage",
+              "videos": 146,
+              "kanaele": 11,
+              "ausreisser": 1,
+              "likes": 0.023778467569528124
+            }
+          ]
+        }
+      ],
+      "top": [
+        {
+          "id": "q67onFx6xKM",
+          "kanal": "ParadoxPur",
+          "titel": "Survivorship Bias: Panzer dort, wo keine Löcher sind? #shorts  #denkfehler  #statistik",
+          "dauer": 87,
+          "aufrufe": 246358,
+          "wert": 128.11128445137805
+        },
+        {
+          "id": "PflzhDetwEk",
+          "kanal": "ParadoxPur",
+          "titel": "Achilles und die Schildkröte: Warum holt er sie nie ein? #shorts  #paradox  #mathe",
+          "dauer": 88,
+          "aufrufe": 50835,
+          "wert": 26.435257410296412
+        },
+        {
+          "id": "e-QcsIrk6Wk",
+          "kanal": "SWR Aktuell",
+          "titel": "Crazy: Auf dem E-Scooter mit Tempo 120!? 🤯 Jetzt greift die Polizei durch!",
+          "dauer": 33,
+          "aufrufe": 1236508,
+          "wert": 20.448626568985762
+        },
+        {
+          "id": "lmqALgabaTI",
+          "kanal": "funk",
+          "titel": "Welche schmeckt dir?",
+          "dauer": 36,
+          "aufrufe": 880637,
+          "wert": 13.71463055683172
+        },
+        {
+          "id": "Mwf5iSF7vCY",
+          "kanal": "funk",
+          "titel": "Bahn-Sounds weltweit. Hab direkt Angst, zu spät zu kommen",
+          "dauer": 31,
+          "aufrufe": 670286,
+          "wert": 10.438722035772408
+        },
+        {
+          "id": "fgSlAIwcGfQ",
+          "kanal": "Finanzfluss",
+          "titel": "Jeder fängt mal klein an. 🌱",
+          "dauer": 17,
+          "aufrufe": 199338,
+          "wert": 9.702978971962617
+        },
+        {
+          "id": "NE2YyaAJ9xs",
+          "kanal": "ZDF heute-show",
+          "titel": "Wehrpflicht und Co.: Warum ist die junge Generation so sauer? | heute-show #shorts",
+          "dauer": 56,
+          "aufrufe": 4786798,
+          "wert": 8.70184515261139
+        },
+        {
+          "id": "SNAYnEIZn-E",
+          "kanal": "BR24",
+          "titel": "Trauer nach Aiwangers Tod – im Wirtschaftsministerium übernimmt ein Staatssekretär | BR24",
+          "dauer": 108,
+          "aufrufe": 204452,
+          "wert": 8.364439716892361
+        },
+        {
+          "id": "T26E1Fu5zlI",
+          "kanal": "SWR Aktuell",
+          "titel": "18. Geburtstag: Führerschein nach 3 Stunden schon wieder weg 😮",
+          "dauer": 21,
+          "aufrufe": 481405,
+          "wert": 7.961186723775819
+        },
+        {
+          "id": "MZSf50uZHzU",
+          "kanal": "funk",
+          "titel": "Wilde Schulrekorde",
+          "dauer": 58,
+          "aufrufe": 492930,
+          "wert": 7.676662280121162
+        },
+        {
+          "id": "JqBf2amdfSs",
+          "kanal": "funk",
+          "titel": "Die schrottigste Schule Deutschlands 😬🏗️",
+          "dauer": 43,
+          "aufrufe": 452935,
+          "wert": 7.053798774362848
+        },
+        {
+          "id": "cSuiQe7BihM",
+          "kanal": "ParadoxPur",
+          "titel": "Tolerant heißt intolerant? #shorts  #Toleranzparadoxon #paradox",
+          "dauer": 96,
+          "aufrufe": 12706,
+          "wert": 6.607384295371815
+        },
+        {
+          "id": "YA2_pkYwB90",
+          "kanal": "funk",
+          "titel": "Worin ist dein Bundesland einzigartig?",
+          "dauer": 52,
+          "aufrufe": 423258,
+          "wert": 6.5916229958808
+        },
+        {
+          "id": "fSRGMziPilQ",
+          "kanal": "funk",
+          "titel": "Brieffarben in Deutschland 📨",
+          "dauer": 23,
+          "aufrufe": 413760,
+          "wert": 6.443705566759848
+        },
+        {
+          "id": "wszgMatTeos",
+          "kanal": "Geldgeometrie",
+          "titel": "Platzt die Pokémon-Blase? 📦 Der Denkfehler beim Jubiläumsset",
+          "dauer": 50,
+          "aufrufe": 10339,
+          "wert": 6.292757151552039
+        }
+      ]
+    }
+  ]
+}
