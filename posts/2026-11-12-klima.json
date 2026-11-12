@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-12-klima",
+  "date": "2026-11-12T17:06:40Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "ueberraschend",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/climate-action-tracker-aktuelle-klimapolitik-wuerde-zu-erderwaermung-von-2-7-grad-bis-ende-des-jahrh-100.html"
+    },
+    {
+      "name": "Climate Action Tracker (Bericht)",
+      "url": "https://climateactiontracker.org/press/release-global-update-2026/"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-12-klima.jpg",
+    "credit": "NASA/GSFC",
+    "short": "NASA, gemeinfrei",
+    "license": "Public Domain (NASA)",
+    "page": "https://images.nasa.gov/details/GSFC_20171208_Archive_e001386",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Umwelt",
+      "title": "Mehr Ökostrom denn je, trotzdem steuert die Welt auf **2,7 Grad** zu"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Neue **Klima-Prognose**",
+      "text": [
+        "Der **Climate Action Tracker**, ein unabhängiges Forschungsprojekt, hat bei der Klimakonferenz in Antalya neue Zahlen vorgestellt.",
+        "Bleibt die Klimapolitik weltweit so wie heute, wird es bis 2100 um **2,7 Grad** wärmer als vor der Industrialisierung. Im Vorjahr waren es noch 2,6 Grad."
+      ]
+    },
+    {
+      "label": "Das Überraschende",
+      "title": "Rekordtempo bei **Wind und Sonne**",
+      "text": [
+        "Laut Bericht hat sauberer Strom 2025 den **gesamten Zuwachs** beim Strombedarf weltweit gedeckt.",
+        "China und Indien bauen erneuerbare Energien so schnell aus wie nie, auch Elektroautos verkaufen sich so gut wie noch nie."
+      ],
+      "image": {
+        "file": "images/2026-11-12-klima-2.jpg",
+        "credit": "Kim Hansen / Wikimedia Commons",
+        "short": "Kim Hansen, CC BY-SA 3.0, via Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Middelgrunden_wind_farm_2009-07-01_edit_filtered.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Und warum trotzdem?",
+      "title": "Die Abgase **steigen weiter**",
+      "text": [
+        "Der Energiebedarf wächst, und es werden immer noch neue Anlagen für Kohle, Öl und Gas gebaut.",
+        "Einige Länder bremsen ihren Klimaschutz sogar. Der Bericht nennt die **USA, Kanada und Neuseeland**."
+      ],
+      "image": {
+        "file": "images/2026-11-12-klima-3.jpg",
+        "credit": "Adrem68 / Wikimedia Commons",
+        "short": "Adrem68, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Piece_of_coal_in_front_of_a_coal_firing_power_plant.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Merk dir",
+      "big": "um 2030",
+      "title": "wird die **1,5-Grad-Grenze** wohl überschritten",
+      "text": [
+        "So rechnet der Bericht. 1,5 Grad war das Ziel aus dem **Pariser Klimaabkommen**.",
+        "Selbst wenn alle Länder ihre langfristigen Versprechen einhalten, wären es bis 2100 noch **1,9 Grad**."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das jemandem, der denkt, mit **Ökostrom** sei alles gelöst."
+    }
+  ],
+  "caption": "Klima-Prognose: Trotz Rekordtempo bei Wind- und Solarstrom steuert die Welt bis 2100 auf 2,7 Grad Erwärmung zu. Das zeigt der neue Bericht des Climate Action Tracker, vorgestellt bei der Klimakonferenz COP31 in Antalya. Im Vorjahr lag die Prognose noch bei 2,6 Grad, die 1,5-Grad-Grenze wird laut Bericht wohl um 2030 überschritten. Die Konferenz läuft noch bis 20. November.\n\nHättest du gedacht, dass die Prognose trotz so viel Ökostrom steigt? 👇\n\nQuellen: Deutschlandfunk, Climate Action Tracker · Text mit KI erstellt\nFotos (Symbolbilder): NASA/GSFC, gemeinfrei; Kim Hansen, CC BY-SA 3.0; Adrem68, CC BY-SA 4.0; via NASA und Wikimedia Commons\n#klima #klimawandel #cop31 #erneuerbareenergien #nachrichten"
+}

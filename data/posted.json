@@ -752,14 +752,14 @@
     "mediaId": "18114739850152413",
     "format": "video",
     "stats": {
-      "reach": 108,
-      "likes": 0,
+      "reach": 109,
+      "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 119
+      "views": 120
     },
-    "statsAt": "2026-11-11T17:16:48.121Z"
+    "statsAt": "2026-11-12T17:16:24.254Z"
   },
   {
     "id": "2026-11-10-sportvereine",
@@ -807,22 +807,22 @@
     "format": "bilder",
     "reelMediaId": "17989147092073269",
     "stats": {
-      "reach": 33,
-      "likes": 0,
+      "reach": 34,
+      "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "follows": 0
     },
     "reelStats": {
-      "reach": 31,
+      "reach": 32,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 32
+      "views": 33
     },
-    "statsAt": "2026-11-11T17:16:48.550Z"
+    "statsAt": "2026-11-12T17:16:24.966Z"
   },
   {
     "id": "2026-11-11-koenigssee",
@@ -870,6 +870,23 @@
     ],
     "mediaId": "18139132843641418",
     "format": "bilder",
-    "reelMediaId": "18044414270836045"
+    "reelMediaId": "18044414270836045",
+    "stats": {
+      "reach": 111,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 110,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 117
+    },
+    "statsAt": "2026-11-12T17:16:26.036Z"
   }
 ]

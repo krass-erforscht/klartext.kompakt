@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "2026-11-12T06:17:00.579Z",
+  "aktualisiert": "2026-11-12T17:16:26.065Z",
   "ranking": [
     {
       "gruppe": "thema:digital",
@@ -16,13 +16,6 @@
       "follower": 0
     },
     {
-      "gruppe": "ton:sachlich",
-      "posts": 11,
-      "punkte": 3.25,
-      "reichweite": 123,
-      "follower": 0
-    },
-    {
       "gruppe": "uhrzeit:12",
       "posts": 7,
       "punkte": 3.22,
@@ -30,24 +23,38 @@
       "follower": 0
     },
     {
-      "gruppe": "format:bilder",
-      "posts": 19,
-      "punkte": 3.13,
-      "reichweite": 105,
+      "gruppe": "thema:alltag",
+      "posts": 2,
+      "punkte": 3.19,
+      "reichweite": 61,
       "follower": 0
     },
     {
-      "gruppe": "uhrzeit:7",
-      "posts": 11,
-      "punkte": 2.62,
-      "reichweite": 124,
+      "gruppe": "format:bilder",
+      "posts": 20,
+      "punkte": 3.16,
+      "reichweite": 105,
       "follower": 0
     },
     {
       "gruppe": "ton:ueberraschend",
       "posts": 8,
-      "punkte": 2.58,
+      "punkte": 3.06,
       "reichweite": 88,
+      "follower": 0
+    },
+    {
+      "gruppe": "ton:sachlich",
+      "posts": 12,
+      "punkte": 3.05,
+      "reichweite": 122,
+      "follower": 0
+    },
+    {
+      "gruppe": "uhrzeit:7",
+      "posts": 12,
+      "punkte": 2.8,
+      "reichweite": 123,
       "follower": 0
     },
     {
@@ -59,29 +66,22 @@
     },
     {
       "gruppe": "thema:sport",
-      "posts": 7,
-      "punkte": 2.27,
+      "posts": 8,
+      "punkte": 2.1,
       "reichweite": 114,
       "follower": 0
     },
     {
       "gruppe": "thema:umwelt",
       "posts": 7,
-      "punkte": 1.81,
+      "punkte": 1.94,
       "reichweite": 128,
-      "follower": 0
-    },
-    {
-      "gruppe": "thema:alltag",
-      "posts": 2,
-      "punkte": 1.72,
-      "reichweite": 60,
       "follower": 0
     },
     {
       "gruppe": "format:video",
       "posts": 2,
-      "punkte": 0.97,
+      "punkte": 1.42,
       "reichweite": 158,
       "follower": 0
     }
