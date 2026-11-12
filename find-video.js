@@ -95,10 +95,18 @@ async function fetchCandidate(c, file) {
   execFileSync('ffmpeg', ['-v', 'error', '-y', '-i', file, '-vf',
     `fps=12/${seconds.toFixed(2)},scale=320:-2,drawtext=fontfile=${font}:text='%{pts\\:hms}':x=8:y=8:fontsize=22:fontcolor=yellow:box=1:boxcolor=black@0.6,tile=4x3`,
     '-frames:v', '1', frames]);
-  return { file, frames, seconds: Math.round(seconds), ...c };
+  const out = { file, frames, seconds: Math.round(seconds), ...c };
+  // Nachweis sofort daneben speichern, damit Lizenz und Quelle auch nach einem Zeitlimit-Abbruch bekannt sind
+  fs.writeFileSync(file.replace(/\.[^.]+$/, '.json'), JSON.stringify(out, null, 2));
+  return out;
 }
 
-if (!process.argv.includes('--url')) setTimeout(() => { console.error('Zeitlimit (90 s): Videosuche abgebrochen, Post ohne Video.'); process.exit(2); }, 90000).unref();
+const result = [];
+if (!process.argv.includes('--url')) setTimeout(() => {
+  console.error('Zeitlimit (90 s): Videosuche abgebrochen.' + (result.length ? ' Bisher gefundene Kandidaten:' : ' Post ohne Video.'));
+  if (result.length) console.log(JSON.stringify(result, null, 2));
+  process.exit(2);
+}, 90000).unref();
 (async () => {
   const args = process.argv.slice(2);
   const opt = name => { const i = args.indexOf(name); return i >= 0 ? args.splice(i, 2)[1] : null; };
@@ -118,11 +126,12 @@ if (!process.argv.includes('--url')) setTimeout(() => { console.error('Zeitlimit
       try { found.push(...await src(q, max)); } catch (e) { console.error(`${src.name}: ${e.message}`); }
     }
   }
-  const result = [];
+  // Weiterzählen statt überschreiben: Kandidaten früherer Suchbegriffe bleiben erhalten
+  let n = Math.max(0, ...fs.readdirSync(DIR).map(f => (f.match(new RegExp(`^${id}-v(\\d+)\\.(mp4|webm|ogv|mov)$`)) || [])[1] || 0).map(Number));
   for (const c of found) {
     if (result.length >= 5) break;
     const ext = (c.url.match(/\.(mp4|webm|ogv|mov)(\?|$)/i) || [, 'mp4'])[1].toLowerCase();
-    try { result.push(await fetchCandidate(c, path.join(DIR, `${id}-v${result.length + 1}.${ext}`))); }
+    try { result.push(await fetchCandidate(c, path.join(DIR, `${id}-v${++n}.${ext}`))); }
     catch (e) { console.error(`${c.url}: ${e.message}`); }
   }
   console.log(JSON.stringify(result, null, 2));
