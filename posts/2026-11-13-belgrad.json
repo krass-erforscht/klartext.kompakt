@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-13-belgrad",
+  "date": "2026-11-12T13:38:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "Deutsche Welle",
+      "url": "https://www.dw.com/de/serbien-gegen-deutschland-spiel-im-fast-leeren-marakana-von-belgrad/a-79928801"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/fussball-nations-league-deutschland-serbien-juergen-klopp-pressekonferenz-100.html"
+    },
+    {
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/fussball-nationalmannschaft-trifft-auf-serbien-klopp-hofft-auf-sieg-102.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-13-belgrad.jpg",
+    "credit": "Bjoertvedt / Wikimedia Commons",
+    "short": "Bjoertvedt, CC BY-SA 3.0, via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Red_Star_09.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "Geisterspiel in Belgrad: Das DFB-Team spielt heute vor **5.000 Kindern**"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Strafe der **UEFA** für Serbien",
+      "text": [
+        "Bei den letzten Heimspielen gegen Griechenland und die Niederlande fielen serbische Fans mehrfach mit **rassistischem und diskriminierendem** Verhalten auf.",
+        "Die UEFA bestrafte Serbiens Verband: ein Spiel **ohne Publikum** und **50.000 Euro**. Dieses Spiel ist heute, gegen Deutschland."
+      ],
+      "image": {
+        "file": "images/2026-11-13-belgrad-2.jpg",
+        "credit": "Vlada Marinković / Wikimedia Commons",
+        "short": "Vlada Marinković, CC BY-SA 3.0, via Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Fk_Red_Star_stadium.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Wer darf rein?",
+      "big": "5.000",
+      "title": "**Kinder** aus Serbien, in Begleitung",
+      "text": [
+        "Die UEFA hat die Strafe abgeschwächt: Kindergruppen unter 15 Jahren dürfen mit Trainern oder Lehrern ins Stadion.",
+        "Deutsche Fans dürfen **nicht** hinein. Laut Deutscher Welle reist nur eine kleine Delegation von 200 Personen mit."
+      ]
+    },
+    {
+      "label": "Das Überraschende",
+      "big": "5.071",
+      "title": "Zuschauer beim letzten Heimspiel, **ganz ohne Strafe**",
+      "text": [
+        "Das „Marakana“ hat rund **60.000** Plätze. Gegen Griechenland kamen laut Deutscher Welle trotzdem nur 5.071 Fans.",
+        "Das „Geisterspiel“ könnte also fast genauso **voll** werden."
+      ]
+    },
+    {
+      "label": "Merk dir",
+      "big": "20:45 Uhr",
+      "title": "Heute Anpfiff, Montag das **Endspiel**",
+      "text": [
+        "Deutschland ist mit 5 Punkten **Dritter**, drei hinter den Niederlanden und Griechenland. Serbien hat noch keinen Punkt.",
+        "Am Montag (20:45 Uhr) geht es in Berlin gegen die **Niederlande** um das Viertelfinale."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das jemandem, der heute Abend **mitschaut**."
+    }
+  ],
+  "caption": "Geisterspiel in Belgrad: Die Nationalmannschaft spielt heute in der Nations League gegen Serbien fast ohne Publikum. Weil serbische Fans zuletzt mit Rassismus auffielen, hat die UEFA das Spiel für Zuschauer gesperrt. Nur 5.000 Kinder dürfen rein, und das sind fast so viele wie beim letzten Heimspiel ohne Strafe.\n\nWie viele Tore schießt Deutschland heute? Dein Tipp 👇\n\nQuellen: Deutsche Welle, ZDFheute, Deutschlandfunk · Text mit KI erstellt\nFotos (Archiv, Symbolbilder): Bjoertvedt, CC BY-SA 3.0; Vlada Marinković, CC BY-SA 3.0; beide via Wikimedia Commons\n#nationsleague #dfbteam #serbien #fussball #nachrichten"
+}
