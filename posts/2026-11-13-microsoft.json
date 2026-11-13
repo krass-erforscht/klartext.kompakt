@@ -1,0 +1,98 @@
+{
+  "id": "2026-11-13-microsoft",
+  "date": "2026-11-13T10:44:00Z",
+  "category": "Digital",
+  "topic": "digital",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "heise online",
+      "url": "https://www.heise.de/news/Microsoft-Cloud-Ausfall-E-Mails-weiterhin-nicht-zugreifbar-11524008.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/wirtschaft/stoerung-outlook-teams-microsoft-100.html"
+    },
+    {
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/microsoft-sieht-bislang-keine-anzeichen-fuer-cyberangriff-100.html"
+    },
+    {
+      "name": "t3n",
+      "url": "https://t3n.de/news/outlook-teams-copilot-microsoft-ausfall-1773365/"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-13-microsoft.jpg",
+    "credit": "bugeaters / Flickr",
+    "short": "bugeaters, CC BY 2.0, via Flickr",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/45778851@N00/3025911233",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Digital",
+      "title": "Outlook, Teams, Copilot: **Microsoft** ist weltweit gestört"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Seit Donnerstagabend **hakt Microsoft 365**",
+      "text": [
+        "Erst kamen viele nicht mehr richtig an ihre Mails. Seit der Nacht war laut heise bei vielen **gar keine Anmeldung** mehr möglich.",
+        "Betroffen sind **Firmen und Behörden** weltweit: Outlook, Teams, Copilot, SharePoint und weitere Dienste."
+      ],
+      "image": {
+        "file": "images/2026-11-13-microsoft-2.jpg",
+        "credit": "Microsoft / Wikimedia Commons",
+        "short": "Microsoft, gemeinfrei, via Wikimedia Commons",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Microsoft_Office_2019.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Warum?",
+      "title": "**Überlastete Server**, kein Hackerangriff",
+      "text": [
+        "Laut Microsoft war auf vielen Servern ein Prozess für **sichere Verbindungen** überlastet. Die Server nahmen keine Anfragen mehr an.",
+        "Hinweise auf einen **Cyberangriff** gibt es laut Microsoft bisher nicht."
+      ],
+      "image": {
+        "file": "images/2026-11-13-microsoft-3.jpg",
+        "credit": "Robert Scoble / Flickr",
+        "short": "Robert Scoble, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/35034363287@N01/2340202215",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "big": "48 Stunden",
+      "title": "so lange hebt Microsoft **hängende Mails** jetzt auf",
+      "text": [
+        "Laut heise hat Microsoft die Frist verlängert, damit **verspätete Mails nicht verloren gehen**. Sie sollen also nach und nach ankommen.",
+        "Den aktuellen Stand zeigt Microsofts **Statusseite** für Microsoft 365."
+      ]
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Ein **Ende** ist noch nicht in Sicht",
+      "text": [
+        "Neustarts halfen bisher nur **teilweise**. Wann alles wieder läuft, sagt Microsoft nicht (Stand: Freitagmittag).",
+        "IT-Experte Dennis-Kenji Kipker rechnet laut ZDF mit **noch einigen Stunden**. Schon Ende August gab es einen langen Ausfall."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das deinen Kollegen, die gerade auf **Outlook** warten."
+    }
+  ],
+  "caption": "Microsoft-Störung: Outlook, Teams und Copilot laufen seit Donnerstagabend weltweit nur eingeschränkt oder gar nicht. Laut Microsoft sind überlastete Server schuld, Hinweise auf einen Hackerangriff gibt es bisher nicht. Verspätete Mails sollen 48 Stunden lang aufgehoben werden.\n\nKannst du heute arbeiten, oder steht bei dir auch alles still? 👇\n\nQuellen: heise online, ZDFheute, Deutschlandfunk, t3n · Text mit KI erstellt\nFotos (Symbolbilder): bugeaters, CC BY 2.0, via Flickr; Robert Scoble, CC BY 2.0, via Flickr; Microsoft, gemeinfrei, via Wikimedia Commons\n#microsoft #outlook #störung #technik #nachrichten"
+}
