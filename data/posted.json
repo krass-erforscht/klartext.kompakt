@@ -951,5 +951,21 @@
       "views": 58
     },
     "statsAt": "2026-11-13T11:16:39.508Z"
+  },
+  {
+    "id": "2026-11-13-microsoft",
+    "postedAt": "2026-11-13T11:27:52.972Z",
+    "topic": "digital",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.heise.de/news/Microsoft-Cloud-Ausfall-E-Mails-weiterhin-nicht-zugreifbar-11524008.html",
+    "sourceUrls": [
+      "https://www.heise.de/news/Microsoft-Cloud-Ausfall-E-Mails-weiterhin-nicht-zugreifbar-11524008.html",
+      "https://www.zdfheute.de/wirtschaft/stoerung-outlook-teams-microsoft-100.html",
+      "https://www.deutschlandfunk.de/microsoft-sieht-bislang-keine-anzeichen-fuer-cyberangriff-100.html",
+      "https://t3n.de/news/outlook-teams-copilot-microsoft-ausfall-1773365/"
+    ],
+    "mediaId": "17955240189337909",
+    "format": "bilder",
+    "reelMediaId": "17966996760246905"
   }
 ]

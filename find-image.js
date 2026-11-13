@@ -3,7 +3,7 @@
 // Standard-Quellen: Wikimedia Commons, Openverse (Flickr-CC-Fotos u. a.), NASA.
 // Mit --taxon: iNaturalist und GBIF (Tiere, Pflanzen). Mit --mehr: Smithsonian, Library of Congress (historische Fotos),
 // NASA, ESA/Hubble, ESO. Für den Fall, dass die Standard-Quellen nichts Passendes liefern.
-// Lädt bis zu 8 Kandidaten nach images/candidates/<post-id>-<n>.jpg und gibt Bildnachweis + Lizenz als JSON aus.
+// Lädt bis zu 8 Kandidaten nach images/candidates/<post-id>-<n>.jpg und gibt Bildnachweis + Lizenz als JSON aus (zusätzlich je Kandidat als <post-id>-<n>.json daneben).
 // Danach jeden Kandidaten ansehen, den passendsten auswählen und in die Post-Datei unter "image" eintragen.
 // Erlaubt sind nur Lizenzen ohne Einschränkung auf nicht-kommerzielle Nutzung: Public Domain, CC0, CC BY, CC BY-SA.
 const fs = require('fs');
@@ -176,6 +176,8 @@ async function loc(q, taxon, max) {
       if (!res.ok || !/^image\//.test(res.headers.get('content-type') || '')) throw new Error(res.status);
       fs.writeFileSync(file, Buffer.from(await res.arrayBuffer()));
       result.push({ file, ...img });
+      // Nachweis daneben speichern, damit Lizenz und Quelle auch später (oder nach abgeschnittener Ausgabe) zuzuordnen sind
+      fs.writeFileSync(file.replace(/\.jpg$/, '.json'), JSON.stringify({ file, ...img }, null, 2));
     } catch (e) { console.error(`Download fehlgeschlagen: ${img.url}`); }
   }
   console.log(JSON.stringify(result, null, 2));

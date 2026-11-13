@@ -15,3 +15,4 @@ Hier hält die App fest, was sie selbst verbessert hat (Datum, ein Satz).
 - 2026-11-10 (abends): analyse.js behält jetzt den Abschnitt „Erkenntnisse“ und berechnet nur die Tabellen neu; vorher gingen die täglichen Erkenntnisse bei jedem Lauf verloren.
 - 2026-11-11 (abends): find-image.js zählt die Kandidaten pro Post weiter, statt sie bei jedem neuen Suchbegriff ab 1 zu überschreiben; Fotos früherer Suchen bleiben so zum Vergleich erhalten.
 - 2026-11-12 (abends): find-video.js speichert zu jedem Videokandidaten sofort eine Nachweis-Datei (Lizenz, Quelle) und zählt Kandidaten weiter, statt sie bei jedem Suchbegriff zu überschreiben; so geht bei einem Zeitlimit-Abbruch die Herkunft eines geladenen Videos nicht mehr verloren.
+- 2026-11-13 (mittags): find-image.js speichert zu jedem Bildkandidaten eine Nachweis-Datei (<post-id>-<n>.json mit Lizenz, Urheber, Quelle), damit kein gutes Foto mehr mangels zuordenbarer Lizenz wegfällt.
