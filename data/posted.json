@@ -919,5 +919,20 @@
       "views": 81
     },
     "statsAt": "2026-11-13T06:16:50.036Z"
+  },
+  {
+    "id": "2026-11-13-belgrad",
+    "postedAt": "2026-11-13T06:27:41.932Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.dw.com/de/serbien-gegen-deutschland-spiel-im-fast-leeren-marakana-von-belgrad/a-79928801",
+    "sourceUrls": [
+      "https://www.dw.com/de/serbien-gegen-deutschland-spiel-im-fast-leeren-marakana-von-belgrad/a-79928801",
+      "https://www.zdfheute.de/sport/fussball-nations-league-deutschland-serbien-juergen-klopp-pressekonferenz-100.html",
+      "https://www.deutschlandfunk.de/fussball-nationalmannschaft-trifft-auf-serbien-klopp-hofft-auf-sieg-102.html"
+    ],
+    "mediaId": "18132849115887812",
+    "format": "bilder",
+    "reelMediaId": "18108689996260683"
   }
 ]
