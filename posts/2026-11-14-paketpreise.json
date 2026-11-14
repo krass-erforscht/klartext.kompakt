@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-14-paketpreise",
+  "date": "2026-11-13T12:20:00Z",
+  "category": "Geld",
+  "topic": "geld",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "Deutsche Post (Preisübersicht 2027)",
+      "url": "https://www.deutschepost.de/de/a/aenderungen2027.html"
+    },
+    {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/post-hebt-paketpreise-privatkunden-an-2027-100.html"
+    },
+    {
+      "name": "heise online",
+      "url": "https://www.heise.de/news/DHL-Paketpreise-fuer-Privatkunden-steigen-2027-vor-allem-in-der-Filiale-11524318.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-14-paketpreise.jpg",
+    "credit": "Klaus Mueller / Wikimedia Commons",
+    "short": "Klaus Mueller, CC BY-SA 2.5, via Wikimedia Commons",
+    "license": "CC BY-SA 2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Packstation_winter.jpg",
+    "symbolbild": true
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Geld",
+      "title": "DHL: **Päckchen und Pakete** sollen ab Januar teurer werden"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Neue Preise ab **1. Januar 2027**",
+      "text": [
+        "Die Deutsche Post hat ihre neuen Preise für **Privatkunden** veröffentlicht. Vor allem in der **Filiale** wird es teurer.",
+        "Als Grund nennt die Post höhere Kosten für **Löhne und Energie**."
+      ],
+      "image": {
+        "file": "images/2026-11-14-paketpreise-2.jpg",
+        "credit": "Jacek Rużyczka / Wikimedia Commons",
+        "short": "Jacek Rużyczka, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Deutsche_Post_Streetscooter_B14_Test_Sandkrug.JPG",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "big": "+1 €",
+      "title": "für ein **Päckchen S** in der Filiale",
+      "text": [
+        "Statt 4,19 € kostet es dort dann **5,19 €**. Online gekauft sind es **4,49 €**.",
+        "Ein Paket bis 10 kg steigt in der Filiale von 10,49 € auf **12,49 €**."
+      ]
+    },
+    {
+      "label": "Merk dir das",
+      "title": "Online und an die **Packstation** ist am günstigsten",
+      "text": [
+        "**Päckchen S:** Filiale 5,19 € · online 4,49 € · an Packstation 4,29 €",
+        "**Paket bis 5 kg:** Filiale 8,29 € · online 7,69 € · an Packstation 7,49 €",
+        "„An Packstation“ heißt: Das Paket geht **direkt an eine Packstation**, Marke online gekauft."
+      ],
+      "image": {
+        "file": "images/2026-11-14-paketpreise-3.jpg",
+        "credit": "PantheraLeo1359531 / Wikimedia Commons",
+        "short": "PantheraLeo1359531, CC BY 4.0, via Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:DHL-Packstation_am_Hofer_Hauptbahnhof_20200406_04.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Noch **nicht endgültig** genehmigt",
+      "text": [
+        "Die **Bundesnetzagentur** muss die Preise noch freigeben. Das gilt auch für den Brief: Er soll **1,15 €** statt 0,95 € kosten.",
+        "Dafür haben alle Päckchen ab Januar **Sendungsverfolgung**. 2028 sollen Pakete laut Post erneut teurer werden."
+      ],
+      "image": {
+        "file": "images/2026-11-14-paketpreise-4.jpg",
+        "credit": "Bärbel Miemietz / Wikimedia Commons",
+        "short": "Bärbel Miemietz, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2023-02-02_Post(bank)filiale_Schl%C3%A4gerstra%C3%9Fe_42_02.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Speicher dir die neuen Preise und schick sie allen, die oft **Pakete** verschicken."
+    }
+  ],
+  "caption": "DHL-Paketpreise steigen: Ab 1. Januar 2027 sollen Päckchen und Pakete für Privatkunden teurer werden, vor allem in der Filiale. Ein Päckchen S kostet dort dann 5,19 € statt 4,19 €, online 4,49 €. Die Bundesnetzagentur muss die Preise noch endgültig genehmigen.\n\nKaufst du deine Paketmarken eher online oder in der Filiale? 👇\n\nQuellen: Deutsche Post, tagesschau, heise online · Text mit KI erstellt\nFotos (Symbolbilder): Klaus Mueller, CC BY-SA 2.5; Jacek Rużyczka, CC BY-SA 4.0; PantheraLeo1359531, CC BY 4.0; Bärbel Miemietz, CC BY-SA 4.0; alle via Wikimedia Commons\n#dhl #paket #porto #verbraucher #nachrichten"
+}

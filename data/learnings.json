@@ -1,25 +1,18 @@
 {
-  "aktualisiert": "2026-11-13T11:16:39.520Z",
+  "aktualisiert": "2026-11-14T06:16:33.681Z",
   "ranking": [
     {
       "gruppe": "thema:digital",
-      "posts": 5,
-      "punkte": 5.86,
-      "reichweite": 99,
+      "posts": 6,
+      "punkte": 4.89,
+      "reichweite": 101,
       "follower": 0
     },
     {
       "gruppe": "uhrzeit:18",
       "posts": 4,
-      "punkte": 3.36,
-      "reichweite": 92,
-      "follower": 0
-    },
-    {
-      "gruppe": "uhrzeit:12",
-      "posts": 7,
-      "punkte": 3.22,
-      "reichweite": 99,
+      "punkte": 3.58,
+      "reichweite": 103,
       "follower": 0
     },
     {
@@ -30,31 +23,38 @@
       "follower": 0
     },
     {
-      "gruppe": "format:bilder",
-      "posts": 22,
-      "punkte": 3.03,
-      "reichweite": 104,
+      "gruppe": "ton:ueberraschend",
+      "posts": 9,
+      "punkte": 3.09,
+      "reichweite": 96,
       "follower": 0
     },
     {
-      "gruppe": "ton:ueberraschend",
-      "posts": 9,
-      "punkte": 3,
-      "reichweite": 91,
+      "gruppe": "format:bilder",
+      "posts": 23,
+      "punkte": 2.97,
+      "reichweite": 109,
+      "follower": 0
+    },
+    {
+      "gruppe": "uhrzeit:12",
+      "posts": 8,
+      "punkte": 2.81,
+      "reichweite": 101,
       "follower": 0
     },
     {
       "gruppe": "ton:sachlich",
-      "posts": 13,
-      "punkte": 2.89,
-      "reichweite": 117,
+      "posts": 14,
+      "punkte": 2.74,
+      "reichweite": 121,
       "follower": 0
     },
     {
       "gruppe": "uhrzeit:7",
       "posts": 13,
-      "punkte": 2.59,
-      "reichweite": 118,
+      "punkte": 2.65,
+      "reichweite": 123,
       "follower": 0
     },
     {
@@ -67,15 +67,15 @@
     {
       "gruppe": "thema:sport",
       "posts": 9,
-      "punkte": 2.25,
-      "reichweite": 112,
+      "punkte": 2.34,
+      "reichweite": 120,
       "follower": 0
     },
     {
       "gruppe": "thema:umwelt",
       "posts": 8,
-      "punkte": 1.7,
-      "reichweite": 121,
+      "punkte": 1.81,
+      "reichweite": 126,
       "follower": 0
     },
     {
