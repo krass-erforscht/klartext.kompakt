@@ -984,5 +984,20 @@
       "views": 111
     },
     "statsAt": "2026-11-14T06:16:33.663Z"
+  },
+  {
+    "id": "2026-11-14-paketpreise",
+    "postedAt": "2026-11-14T06:25:06.706Z",
+    "topic": "geld",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.deutschepost.de/de/a/aenderungen2027.html",
+    "sourceUrls": [
+      "https://www.deutschepost.de/de/a/aenderungen2027.html",
+      "https://www.tagesschau.de/wirtschaft/verbraucher/post-hebt-paketpreise-privatkunden-an-2027-100.html",
+      "https://www.heise.de/news/DHL-Paketpreise-fuer-Privatkunden-steigen-2027-vor-allem-in-der-Filiale-11524318.html"
+    ],
+    "mediaId": "18083841902361058",
+    "format": "bilder",
+    "reelMediaId": "18131499526836605"
   }
 ]

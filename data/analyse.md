@@ -1,13 +1,13 @@
-# Algorithmus-Analyse (Stand 2026-11-13)
+# Algorithmus-Analyse (Stand 2026-11-14)
 
-Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 31 Posts mit Zahlen.
+Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 32 Posts mit Zahlen.
 
 ### Schwerpunkt
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| sport | 9 | 112,4 | 2,3 | 0,1 | 0 | 109,4 |
-| umwelt | 9 | 107,8 | 2 | 0 | 0 | 105,2 |
-| digital | 5 | 99,2 | 2,8 | 0,4 | 0 | 94,6 |
+| sport | 9 | 119,6 | 2,6 | 0,1 | 0 | 116,6 |
+| umwelt | 9 | 112,7 | 2,1 | 0 | 0 | 112,3 |
+| digital | 6 | 100,7 | 2,3 | 0,3 | 0 | 96,5 |
 | alltag | 4 | 42,3 | 2,8 | 0 | 0 | 37,5 |
 | welt | 2 | 28 | 3,5 | 0 | 0 | 22,5 |
 | geld | 2 | 14,5 | 5,5 | 0 | 0 | 7 |
@@ -15,31 +15,31 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 31 Pos
 ### Ton
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| sachlich | 16 | 97,1 | 2,6 | 0,2 | 0 | 92,2 |
-| ueberraschend | 11 | 79,7 | 2,5 | 0 | 0 | 72,5 |
+| sachlich | 17 | 101,5 | 2,6 | 0,2 | 0 | 97,4 |
+| ueberraschend | 11 | 83,7 | 2,5 | 0 | 0 | 76,8 |
 | locker | 4 | 75,3 | 3,3 | 0 | 0 | 70,5 |
 
 ### Format
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
 | video | 2 | 158 | 2,5 | 0 | 0 | 0 |
-| bilder | 28 | 86,2 | 2,7 | 0,1 | 0 | 82,1 |
+| bilder | 29 | 90,7 | 2,7 | 0,1 | 0 | 86,6 |
 | zusammen | 1 | 3 | 1 | 0 | 0 | 0 |
 
 ### Uhrzeit
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| 06 Uhr UTC | 14 | 109,7 | 2,2 | 0,1 | 0 | 107,1 |
-| 11 Uhr UTC | 9 | 83,6 | 3,2 | 0 | 0 | 78,8 |
-| 17 Uhr UTC | 8 | 55,5 | 2,8 | 0,3 | 0 | 51,4 |
+| 06 Uhr UTC | 14 | 114,3 | 2,4 | 0,1 | 0 | 112,9 |
+| 11 Uhr UTC | 10 | 86 | 2,9 | 0 | 0 | 81,5 |
+| 17 Uhr UTC | 8 | 61 | 2,9 | 0,3 | 0 | 56,8 |
 
 ### Wochentag
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| Fr | 5 | 110,6 | 2,6 | 0 | 0 | 83,3 |
+| Do | 6 | 116,8 | 3,3 | 0 | 0 | 112,8 |
+| Fr | 6 | 110,2 | 2,2 | 0 | 0 | 87,8 |
 | So | 4 | 103,3 | 2,8 | 0 | 0 | 98,8 |
 | Mo | 4 | 102 | 2,3 | 0,3 | 0 | 97,8 |
-| Do | 6 | 98,8 | 2,8 | 0 | 0 | 95 |
 | Di | 3 | 81 | 1,7 | 0 | 0 | 63,5 |
 | Sa | 4 | 59,3 | 2,5 | 0,5 | 0 | 73,3 |
 | Mi | 5 | 57 | 3,4 | 0 | 0 | 52,4 |
@@ -47,7 +47,7 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 31 Pos
 ### Top 3 / Flop 3 (Reichweite)
 - 2026-10-30-novemberwetter: 207 (umwelt, sachlich, video)
 - 2026-11-01-zollgebuehr: 178 (digital, ueberraschend, bilder)
-- 2026-11-05-kane: 149 (sport, sachlich, bilder)
+- 2026-11-12-eishockey: 175 (sport, sachlich, bilder)
 - 2026-10-28-elterngeld: 21 (geld, sachlich, bilder)
 - 2026-10-31-inflation: 8 (geld, sachlich, bilder)
 - 2026-11-07-klima15: 3 (umwelt, sachlich, zusammen)
@@ -63,3 +63,4 @@ Hinweis: kleine Stichproben, Zufall möglich. Signale, die Instagram laut eigene
 - 2026-11-12 (abends): Der Eishockey-Post vom Morgen (Termin „Freitag 15 Uhr“ als Merk-Folie) liegt nach rund 11 Stunden bei 111 Konten, aber wieder 0 Speicherungen; der bevorstehende Termin hat das Speichern bisher nicht ausgelöst (Stichprobe 1). Umwelt (Ø 112) und Sport (Ø 114) bleiben fast gleichauf vorn, der Abend (Ø 46) bleibt das schwächste Fenster. Heute abends Umwelt im Ton „überraschend“ mit einem Widerspruch als Hook („Mehr Ökostrom denn je, trotzdem 2,7 Grad“) und einer CTA, die zum Weiterschicken an eine bestimmte Person einlädt; kein Video (Wikimedia gedrosselt, Herkunft des einzigen passenden Videos nicht belegbar). Hypothese für morgen: Ein Widerspruchs-Hook („X, trotzdem Y“) hält Leute länger im Karussell und bringt mehr Reichweite als ein reiner Zahlen-Hook; Vergleich mit dem CO₂-Post (Umwelt, Zahl) nach 24 h, Stichprobe 1, Abend-Fenster verzerrt.
 - 2026-11-13 (morgens): Der Klima-Post mit Widerspruchs-Hook („Mehr Ökostrom denn je, trotzdem 2,7 Grad“) liegt nach rund 13 Stunden bei 71 Konten, über dem Abend-Schnitt (Ø 46), aber unter dem CO₂-Post mit Zahlen-Hook; die Hypothese bleibt offen (Stichprobe 1, Abend-Fenster verzerrt). Speichern/Teilen bleibt bei allen Posts fast 0, Follower-Zuwachs weiter nicht messbar. Heute im stärksten Fenster (morgens) Sport mit einem Ereignis am selben Abend (Serbien–Deutschland, 20:45 Uhr) und erneut einem Widerspruch als Kern („Geisterspiel“, aber fast so viele Zuschauer wie beim letzten normalen Heimspiel); kein Video (Wikimedia und Flickr gedrosselt). Hypothese für morgen: Ein Ereignis „heute Abend“ bringt in den ersten Stunden mehr Reichweite und Teilen als ein Termin in einigen Tagen (Vergleich mit Eishockey, 111 Konten), Stichprobe 1.
 - 2026-11-13 (mittags): Der Belgrad-Post vom Morgen (Ereignis „heute Abend“) liegt nach rund 5 Stunden bei 53 Konten, ähnlich früh wie der Eishockey-Post; ob „heute“ mehr bringt als „in einigen Tagen“, ist noch offen (Stichprobe 1, Zahlen jung). Sport (Ø 112) und Umwelt (Ø 108) bleiben knapp vor Digital (Ø 99). Heute mittags bewusst statt des geplanten Umwelt-Themas die größte Nachricht des Tages (weltweite Microsoft-Störung, über 8 Redaktionen) mit direktem Nutzen („48 Stunden: hängende Mails gehen nicht verloren“) und einer CTA an Kollegen; kein Video (nur unpassende NASA-Clips). Hypothese für morgen: Eine laufende Großstörung, die viele Leute gerade selbst erleben, bringt mehr Teilen und Reichweite als ein Schwerpunkt-Thema; Vergleich mit dem bisher besten Digital-Post (Zollgebühr, 178 Konten) nach 24 h, Stichprobe 1, Mittags-Fenster.
+- 2026-11-14 (morgens): Der Microsoft-Post (laufende Großstörung, mittags) liegt nach rund 19 Stunden bei 108 Konten, über dem Mittags-Schnitt (Ø 84), aber deutlich unter dem besten Digital-Post (Zollgebühr, 178); die Hypothese „Großstörung bringt mehr“ hat sich nur schwach bestätigt (Stichprobe 1). Der Belgrad-Post („heute Abend“) blieb bei 53 Konten, klar unter Eishockey (111): Ein Ereignis am selben Tag hat nicht mehr gebracht. Geplant war heute Umwelt (Lernrunde), es gab aber kaum Umwelt-Nachrichten mit Alltagsbezug; deshalb bewusst die Verbraucher-Meldung mit dem größten direkten Nutzen (DHL-Paketpreise 2027) als Geld-Post im stärksten Fenster, mit einer Preisvergleichs-Folie „Merk dir das“ (Filiale/online/Packstation) als klarer Speicher-Anlass. Kein Video (nur unpassende Kandidaten). Hypothese für morgen: Eine Preisliste zum Nachschlagen bringt erstmals messbares Speichern, und Geld schneidet morgens deutlich besser ab als bisher (Ø 15, nur 2 Posts, beide nicht morgens); Stichprobe 1.
