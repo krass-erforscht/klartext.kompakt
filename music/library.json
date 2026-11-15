@@ -1902,5 +1902,47 @@
     "seconds": 217,
     "used": 0,
     "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Disco Medusae",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Disco%20Medusae.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Disco_Medusae.mp3",
+    "seconds": 221,
+    "used": 1,
+    "lastUsed": "2026-11-15T06:26:20.180Z"
+  },
+  {
+    "source": "incompetech",
+    "title": "Onion Capers",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Onion%20Capers.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Onion_Capers.mp3",
+    "seconds": 135,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Friday Morning",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Friday%20Morning.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Friday_Morning.mp3",
+    "seconds": 210,
+    "used": 0,
+    "lastUsed": null
   }
 ]

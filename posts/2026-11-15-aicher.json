@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-15-aicher",
+  "date": "2026-11-14T13:44:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "bilder",
+  "sources": [
+    {
+      "name": "Sportschau",
+      "url": "https://www.sportschau.de/wintersport/ski-alpin/erster-slalom-sieg-aicher-jubelt-in-levi,ski-alpin-levi-erster-slalom-sieg-emma-aicher-100.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/wintersport/wintersport-ski-alpin-slalom-levi-emma-aicher-100.html"
+    },
+    {
+      "name": "n-tv",
+      "url": "https://www.n-tv.de/sport/Aicher-setzt-unter-Flutlicht-sofort-ein-Slalom-Ausrufezeichen-id31534291.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-15-aicher.jpg",
+    "credit": "Tournasol7 / Wikimedia Commons",
+    "short": "Tournasol7, CC BY 4.0, via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Emma_Aicher_(GER)_2024.jpg",
+    "symbolbild": true,
+    "position": "top"
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "Ski alpin: Emma Aicher gewinnt **zum ersten Mal** einen Weltcup-Slalom"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Sieg in **Levi**",
+      "text": [
+        "Die deutsche Skirennläuferin Emma Aicher hat am Samstag den ersten Slalom der Weltcup-Saison gewonnen, im finnischen Levi, nördlich des Polarkreises.",
+        "Schon im ersten Lauf fuhr sie die **Bestzeit**, im zweiten verteidigte sie die Führung."
+      ],
+      "image": {
+        "file": "images/2026-11-15-aicher-2.jpg",
+        "credit": "Krzysztof Golik / Wikimedia Commons",
+        "short": "Krzysztof Golik, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Emma_Aicher_Grandvalira_2023_SL_1st_run_(2).jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Der Vorsprung",
+      "big": "0,43",
+      "title": "Sekunden vor **Platz zwei**",
+      "text": [
+        "Zweite wurde Lara Colturi, die für Albanien startet. Dritte: Katharina Truppe aus Österreich (0,50 Sekunden zurück).",
+        "Lena Dürr, die zweite Deutsche im Finale, wurde 18."
+      ]
+    },
+    {
+      "label": "Warum besonders?",
+      "title": "Erste Deutsche seit **2012**",
+      "text": [
+        "Zuletzt gewann in Levi vor 14 Jahren eine Deutsche: **Maria Riesch**.",
+        "Für Aicher ist es der **sechste** Weltcup-Sieg, aber der erste im Slalom. Die US-Amerikanerin Mikaela Shiffrin, Siegerin der letzten drei Levi-Slaloms, war nicht am Start."
+      ],
+      "image": {
+        "file": "images/2026-11-15-aicher-3.jpg",
+        "credit": "Konrad Zielinski / Wikimedia Commons",
+        "short": "Konrad Zielinski, CC BY-SA 1.0, via Wikimedia Commons",
+        "license": "CC BY-SA 1.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Finlandia-Levi.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Merk dir",
+      "big": "21.11.",
+      "title": "Nächster Slalom in **Gurgl**",
+      "text": [
+        "Am kommenden Samstag geht es in Tirol weiter. Shiffrin will auch dieses Rennen auslassen.",
+        "Aicher (23) ist stark gestartet: Platz 3 im Riesenslalom von Sölden, jetzt der Sieg. Sie gilt als Mitfavoritin auf den **Gesamtweltcup**."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das jemandem, der im Winter **Ski schaut**."
+    }
+  ],
+  "caption": "Emma Aicher gewinnt zum ersten Mal einen Weltcup-Slalom. Die 23-Jährige siegte im finnischen Levi mit 0,43 Sekunden Vorsprung, als erste Deutsche dort seit Maria Riesch 2012. Es ist ihr sechster Weltcup-Sieg. Weiter geht es am 21. November in Gurgl.\n\nSchaust du im Winter Skirennen? Und wem drückst du die Daumen? 👇\n\nQuellen: Sportschau, ZDFheute, n-tv · Text mit KI erstellt\nFotos (Archiv, Symbolbilder): Tournasol7, CC BY 4.0; Krzysztof Golik, CC BY-SA 4.0; Konrad Zielinski, CC BY-SA 1.0; alle via Wikimedia Commons\n#emmaaicher #skialpin #slalom #wintersport #nachrichten"
+}
