@@ -1016,5 +1016,20 @@
       "views": 129
     },
     "statsAt": "2026-11-15T06:17:13.741Z"
+  },
+  {
+    "id": "2026-11-15-aicher",
+    "postedAt": "2026-11-15T06:27:56.219Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.sportschau.de/wintersport/ski-alpin/erster-slalom-sieg-aicher-jubelt-in-levi,ski-alpin-levi-erster-slalom-sieg-emma-aicher-100.html",
+    "sourceUrls": [
+      "https://www.sportschau.de/wintersport/ski-alpin/erster-slalom-sieg-aicher-jubelt-in-levi,ski-alpin-levi-erster-slalom-sieg-emma-aicher-100.html",
+      "https://www.zdfheute.de/sport/wintersport/wintersport-ski-alpin-slalom-levi-emma-aicher-100.html",
+      "https://www.n-tv.de/sport/Aicher-setzt-unter-Flutlicht-sofort-ein-Slalom-Ausrufezeichen-id31534291.html"
+    ],
+    "mediaId": "18121226848954800",
+    "format": "bilder",
+    "reelMediaId": "17964396539997946"
   }
 ]
