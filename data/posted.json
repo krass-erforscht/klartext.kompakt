@@ -1048,5 +1048,20 @@
       "views": 139
     },
     "statsAt": "2026-11-15T11:17:00.407Z"
+  },
+  {
+    "id": "2026-11-15-starship",
+    "postedAt": "2026-11-15T11:26:47.060Z",
+    "topic": "welt",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html",
+      "https://www.heise.de/news/SpaceX-faengt-erstmals-Starship-nach-Flug-in-der-Erdumlaufbahn-wieder-auf-11525437.html",
+      "https://www.deutschlandfunk.de/spacex-faengt-starship-rakete-erstmals-wieder-auf-102.html"
+    ],
+    "mediaId": "18346177882273760",
+    "format": "zusammen",
+    "reelMediaId": "17955083670305880"
   }
 ]
