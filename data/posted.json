@@ -1030,6 +1030,23 @@
     ],
     "mediaId": "18121226848954800",
     "format": "bilder",
-    "reelMediaId": "17964396539997946"
+    "reelMediaId": "17964396539997946",
+    "stats": {
+      "reach": 135,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0
+    },
+    "reelStats": {
+      "reach": 135,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 139
+    },
+    "statsAt": "2026-11-15T11:17:00.407Z"
   }
 ]

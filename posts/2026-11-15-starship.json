@@ -1,0 +1,111 @@
+{
+  "id": "2026-11-15-starship",
+  "date": "2026-11-14T22:29:00Z",
+  "category": "Raumfahrt",
+  "topic": "welt",
+  "tone": "ueberraschend",
+  "format": "zusammen",
+  "sources": [
+    {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/ausland/amerika/space-x-rakete-rueckkehr-100.html"
+    },
+    {
+      "name": "heise online",
+      "url": "https://www.heise.de/news/SpaceX-faengt-erstmals-Starship-nach-Flug-in-der-Erdumlaufbahn-wieder-auf-11525437.html"
+    },
+    {
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/spacex-faengt-starship-rakete-erstmals-wieder-auf-102.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-15-starship.jpg",
+    "credit": "Steve Jurvetson / Wikimedia Commons",
+    "short": "Steve Jurvetson, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:SpaceX_Starship_ignition_during_IFT-5.jpg",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "file": "videos/2026-11-15-starship.mp4",
+    "start": 104,
+    "duration": 24,
+    "credit": "NASA/JSC",
+    "short": "NASA/JSC, Public Domain",
+    "license": "Public Domain (NASA)",
+    "page": "https://images.nasa.gov/details/jsc2024m000188_Views_of_Starship_Flight_6_from_International_Space_Station",
+    "symbolisch": true,
+    "headline": "So sieht ein Starship-Start **aus dem All** aus",
+    "captions": [
+      "Gefilmt von der **ISS** beim 6. Testflug 2024",
+      "Der weiße Streifen ist die **Rakete** auf dem Weg nach oben",
+      "Jetzt, beim 15. Flug, wurde die obere Stufe erstmals **aufgefangen**"
+    ]
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Raumfahrt",
+      "title": "Starship: SpaceX fängt sein Riesen-Raumschiff **mit Greifarmen** aus der Luft"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Zurück aus dem **All**",
+      "text": [
+        "Die obere Stufe der Rakete Starship ist nach einem Flug um die Erde zum Startplatz in **Texas** zurückgekehrt.",
+        "Dort packten sie zwei mechanische **Greifarme** am Startturm. Es war der erste Fangversuch mit dieser Stufe, und er klappte sofort."
+      ],
+      "image": {
+        "file": "images/2026-11-15-starship-2.jpg",
+        "credit": "Hotel Pika / Wikimedia Commons",
+        "short": "Hotel Pika, CC BY-SA 2.0, via Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Starship_full_stack.jpg",
+        "symbolbild": true,
+        "position": "top"
+      }
+    },
+    {
+      "label": "Der Flug",
+      "big": "14",
+      "title": "Mal um die **Erde**",
+      "text": [
+        "Gestartet war Starship am Freitag. Rund **22 Stunden** später wurde es aufgefangen.",
+        "Unterwegs setzte es in rund 260 Kilometern Höhe **26 Starlink-Satelliten** aus, für das Satelliten-Internet von SpaceX."
+      ]
+    },
+    {
+      "label": "Nicht alles klappte",
+      "title": "Der **Booster** verpasste den Fang",
+      "text": [
+        "Auch die untere Stufe, der rund 70 Meter lange Booster **Super Heavy**, sollte aufgefangen werden. Das misslang.",
+        "Laut heise wurde er über dem Golf von Mexiko gezielt zerstört. Vorläufige Ursache laut SpaceX: ein Alarm wegen zu wenig Treibstoff. Das wird noch untersucht."
+      ]
+    },
+    {
+      "label": "Warum wichtig?",
+      "title": "Raketen wie **Flugzeuge**",
+      "text": [
+        "SpaceX will Raketen bauen, die man immer wieder benutzt, statt sie wegzuwerfen. Das könnte Flüge ins All **deutlich billiger** machen.",
+        "Die NASA will mit Starship Astronauten zum **Mond** bringen. Es war der 15. Testflug, seit 2023 ist Starship mehrmals explodiert."
+      ],
+      "image": {
+        "file": "images/2026-11-15-starship-3.jpg",
+        "credit": "Lars Plougmann / Wikimedia Commons",
+        "short": "Lars Plougmann, CC BY-SA 2.0, via Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Starship_SN16.jpeg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das jemandem, der Raketen **liebt**. Und folge uns für mehr."
+    }
+  ],
+  "caption": "Starship: SpaceX hat sein Riesen-Raumschiff zum ersten Mal nach einem Flug um die Erde mit Greifarmen am Startturm aufgefangen. Nach 14 Erdumrundungen und rund 22 Stunden kehrte die obere Stufe nach Texas zurück. Der Booster dagegen verpasste den Fang und wurde über dem Meer zerstört.\n\nWürdest du irgendwann gern mal ins All fliegen? 👇\n\nQuellen: tagesschau, heise online, Deutschlandfunk · Text mit KI erstellt\nFotos (Archiv, Symbolbilder, nicht von diesem Flug): Steve Jurvetson, CC BY 2.0; Hotel Pika, CC BY-SA 2.0; Lars Plougmann, CC BY-SA 2.0; alle via Wikimedia Commons · Video (Symbolvideo, Testflug 6 von 2024, gefilmt von der ISS): NASA/JSC, Public Domain\n#starship #spacex #raumfahrt #rakete #nachrichten"
+}
