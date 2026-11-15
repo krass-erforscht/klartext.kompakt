@@ -65,12 +65,14 @@ function logPost(post, fields) {
 
 // Schutz vor doppelten Posts (z. B. wenn ein Lauf nach einem Fehler neu startet, obwohl Instagram schon veröffentlicht hat):
 // Gibt es in den letzten 6 Stunden schon einen Beitrag dieser Art mit demselben Anfang der Beschreibung, wird dessen ID genommen.
-async function alreadyPosted(post, productType) {
+async function alreadyPosted(post, productType, afterError = false) {
   const start = post.caption.slice(0, 60);
   const r = await (await fetch(`${API}/me/media?fields=id,caption,timestamp,media_product_type&limit=10&access_token=${IG_TOKEN}`)).json();
   const hit = (r.data || []).find(m => m.media_product_type === productType && (m.caption || '').startsWith(start) &&
     Date.now() - new Date(m.timestamp) < 6 * 36e5);
-  if (hit) console.error(`Schon veröffentlicht (${hit.id}), poste nicht noch einmal.`);
+  if (hit) console.error(afterError
+    ? `Instagram meldete einen Fehler (meist „request limit“), der Beitrag ist aber erschienen (${hit.id}). Alles in Ordnung.`
+    : `Schon veröffentlicht (${hit.id}), poste nicht noch einmal.`);
   return hit?.id;
 }
 
@@ -81,7 +83,7 @@ async function publishContainer(post, containerId, productType) {
     return (await call(`${IG_USER_ID}/media_publish`, { creation_id: containerId })).id;
   } catch (e) {
     await sleep(15000);
-    const id = await alreadyPosted(post, productType);
+    const id = await alreadyPosted(post, productType, true);
     if (id) return id;
     throw e;
   }

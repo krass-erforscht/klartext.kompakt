@@ -1,11 +1,11 @@
 # Algorithmus-Analyse (Stand 2026-11-15)
 
-Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 33 Posts mit Zahlen.
+Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 34 Posts mit Zahlen.
 
 ### Schwerpunkt
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| sport | 9 | 125,3 | 2,7 | 0,1 | 0 | 122,2 |
+| sport | 10 | 126,3 | 2,5 | 0,1 | 0 | 123,5 |
 | umwelt | 9 | 112,7 | 2,1 | 0 | 0 | 112,3 |
 | digital | 6 | 100,7 | 2,3 | 0,3 | 0 | 96,5 |
 | geld | 3 | 52 | 3,7 | 0 | 0 | 46,7 |
@@ -15,7 +15,7 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 33 Pos
 ### Ton
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| sachlich | 18 | 105,8 | 2,5 | 0,2 | 0 | 102,4 |
+| sachlich | 19 | 107,4 | 2,4 | 0,2 | 0 | 104,3 |
 | ueberraschend | 11 | 83,7 | 2,5 | 0 | 0 | 76,8 |
 | locker | 4 | 75,3 | 3,3 | 0 | 0 | 70,5 |
 
@@ -23,13 +23,13 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 33 Pos
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
 | video | 2 | 158 | 2,5 | 0 | 0 | 0 |
-| bilder | 30 | 93,6 | 2,7 | 0,1 | 0 | 89,6 |
+| bilder | 31 | 94,9 | 2,6 | 0,1 | 0 | 91,1 |
 | zusammen | 1 | 3 | 1 | 0 | 0 | 0 |
 
 ### Uhrzeit
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| 06 Uhr UTC | 15 | 118,6 | 2,3 | 0,1 | 0 | 118,3 |
+| 06 Uhr UTC | 16 | 119,6 | 2,2 | 0,1 | 0 | 119,5 |
 | 11 Uhr UTC | 10 | 86 | 2,9 | 0 | 0 | 81,5 |
 | 17 Uhr UTC | 8 | 61 | 2,9 | 0,3 | 0 | 56,8 |
 
@@ -38,7 +38,7 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 33 Pos
 |---|---|---|---|---|---|---|
 | Fr | 6 | 118,8 | 2,3 | 0 | 0 | 98 |
 | Do | 6 | 116,8 | 3,3 | 0 | 0 | 112,8 |
-| So | 4 | 103,3 | 2,8 | 0 | 0 | 98,8 |
+| So | 5 | 109,6 | 2,4 | 0 | 0 | 106 |
 | Mo | 4 | 102 | 2,3 | 0,3 | 0 | 97,8 |
 | Di | 3 | 81 | 1,7 | 0 | 0 | 63,5 |
 | Sa | 5 | 72,8 | 2 | 0,4 | 0 | 86,5 |
@@ -66,3 +66,4 @@ Hinweis: kleine Stichproben, Zufall möglich. Signale, die Instagram laut eigene
 - 2026-11-14 (morgens): Der Microsoft-Post (laufende Großstörung, mittags) liegt nach rund 19 Stunden bei 108 Konten, über dem Mittags-Schnitt (Ø 84), aber deutlich unter dem besten Digital-Post (Zollgebühr, 178); die Hypothese „Großstörung bringt mehr“ hat sich nur schwach bestätigt (Stichprobe 1). Der Belgrad-Post („heute Abend“) blieb bei 53 Konten, klar unter Eishockey (111): Ein Ereignis am selben Tag hat nicht mehr gebracht. Geplant war heute Umwelt (Lernrunde), es gab aber kaum Umwelt-Nachrichten mit Alltagsbezug; deshalb bewusst die Verbraucher-Meldung mit dem größten direkten Nutzen (DHL-Paketpreise 2027) als Geld-Post im stärksten Fenster, mit einer Preisvergleichs-Folie „Merk dir das“ (Filiale/online/Packstation) als klarer Speicher-Anlass. Kein Video (nur unpassende Kandidaten). Hypothese für morgen: Eine Preisliste zum Nachschlagen bringt erstmals messbares Speichern, und Geld schneidet morgens deutlich besser ab als bisher (Ø 15, nur 2 Posts, beide nicht morgens); Stichprobe 1.
 
 - 2026-11-15 (morgens): Der Paketpreis-Post (Geld, morgens, Preisliste „Merk dir das“) liegt nach rund 24 Stunden bei 127 Konten: weit über dem bisherigen Geld-Schnitt (Ø 15), also lag die schwache Geld-Bilanz eher am Fenster als am Thema. Gespeichert oder geteilt wurde er aber wieder 0-mal; die Preisliste hat das Speichern nicht ausgelöst (Stichprobe 1). Reichweite hängt bisher vor allem an der Uhrzeit (morgens Ø rund 115), Speichern/Teilen und Follower bleiben das Loch. Heute morgens Sport (stärkster Schwerpunkt) mit einer bekannten Sportlerin als Hook: Emma Aichers erster Slalom-Sieg, Archivfotos von ihr selbst statt allgemeiner Symbolbilder, Merk-Folie mit dem nächsten Renntermin (21.11.). Kein Video: der einzige passende Kandidat (Amateur-Slalom im Nebel, 480p) war zu schwach. Hypothese für morgen: Ein Post über eine namentlich bekannte Einzelsportlerin mit Fotos von ihr selbst bringt mehr Reichweite und Likes als Team-Meldungen mit Symbolbildern (Vergleich mit Eishockey 175 und Belgrad 105 nach 24 h, Stichprobe 1).
+- 2026-11-15 (mittags): Der Aicher-Post vom Morgen (bekannte Einzelsportlerin, Fotos von ihr selbst) liegt nach rund 5 Stunden bei 135 Konten und damit schon über Belgrad (105) und auf dem Weg zu Eishockey (175); die Hypothese „Einzelsportlerin mit eigenen Fotos zieht mehr“ deutet sich an (Stichprobe 1, Zahlen jung). Mittags war Umwelt dran, es gab aber nur schwache Umwelt-Meldungen; deshalb die größte Nachricht des Tages (SpaceX fängt die Starship-Oberstufe erstmals nach einem Orbitalflug auf, 6 Redaktionen) als Welt-Post im Ton „überraschend“, erstmals seit dem 7.11. wieder im Format „zusammen“ (Karussell mit echtem NASA-Video von der ISS als zweiter Folie, als Symbolvideo gekennzeichnet). Welt lag bisher bei Ø 28 Konten (nur 2 Posts), zusammen bei 3 Konten (1 Post). Hypothese für morgen: Ein spektakuläres, viel berichtetes Ereignis mit bewegtem Bild holt Welt und „zusammen“ deutlich über ihren bisherigen Schnitt (über 100 Konten nach 24 h); Stichprobe 1, Mittags-Fenster.
