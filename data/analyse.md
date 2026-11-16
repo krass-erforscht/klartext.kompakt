@@ -1,14 +1,14 @@
 # Algorithmus-Analyse (2026-11-16)
 
-34 Posts ausgewertet (mind. 1 Tag alt). Follower: –.
-Gesamtreichweite: 3.263 Konten, Median pro Post: 109,5.
+34 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
+Gesamtreichweite: 3.264 Konten, Median pro Post: 109,5.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
-- Thema: „sport“ erreicht im Mittel 127 Konten, „geld“ nur 21 (10 bzw. 3 Posts).
+- Thema: „sport“ erreicht im Mittel 127,5 Konten, „geld“ nur 21 (10 bzw. 3 Posts).
 - Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (19 bzw. 4 Posts).
-- Uhrzeit: „7 Uhr“ erreicht im Mittel 131,5 Konten, „18 Uhr“ nur 52,5 (16 bzw. 8 Posts).
-- Wochentag: „So“ erreicht im Mittel 135 Konten, „Mi“ nur 34 (5 bzw. 5 Posts).
+- Uhrzeit: „7 Uhr“ erreicht im Mittel 132 Konten, „18 Uhr“ nur 52,5 (16 bzw. 8 Posts).
+- Wochentag: „So“ erreicht im Mittel 136 Konten, „Mi“ nur 34 (5 bzw. 5 Posts).
 - Frage oder Aussage: „Aussage“ erreicht im Mittel 112 Konten, „Frage“ nur 34 (31 bzw. 3 Posts).
 
 ## Top 3
@@ -30,14 +30,14 @@ Gesamtreichweite: 3.263 Konten, Median pro Post: 109,5.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | video | 2 | 158 | 15,8 | 0 | – |
-| bilder | 31 | 110 | 27,5 | 1 | – |
+| bilder | 31 | 110 | 27,5 | 1 | 3,7 |
 | zusammen | 1 | 3 | 333,3 | 0 | – |
 
 ### Thema
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sport | 10 | 127 | 19,8 | 0,8 | – |
+| sport | 10 | 127,5 | 19,8 | 0,8 | 3,7 |
 | umwelt | 9 | 118 | 18,7 | 0 | – |
 | digital | 6 | 109 | 23,2 | 3,3 | – |
 | alltag | 4 | 29,5 | 65,1 | 0 | – |
@@ -48,7 +48,7 @@ Gesamtreichweite: 3.263 Konten, Median pro Post: 109,5.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sachlich | 19 | 119 | 22,5 | 1,5 | – |
+| sachlich | 19 | 119 | 22,5 | 1,5 | 3,7 |
 | ueberraschend | 11 | 87 | 30,4 | 0 | – |
 | locker | 4 | 70,5 | 43,2 | 0 | – |
 
@@ -56,7 +56,7 @@ Gesamtreichweite: 3.263 Konten, Median pro Post: 109,5.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| 7 Uhr | 16 | 131,5 | 18,3 | 0,5 | – |
+| 7 Uhr | 16 | 132 | 18,3 | 0,5 | 3,7 |
 | 12 Uhr | 10 | 97,5 | 33,7 | 0 | – |
 | 18 Uhr | 8 | 52,5 | 47,1 | 4,1 | – |
 
@@ -64,7 +64,7 @@ Gesamtreichweite: 3.263 Konten, Median pro Post: 109,5.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| So | 5 | 135 | 21,9 | 0 | – |
+| So | 5 | 136 | 21,9 | 0 | 3,7 |
 | Do | 6 | 121 | 28,5 | 0 | – |
 | Fr | 6 | 113,5 | 19,6 | 0 | – |
 | Mo | 4 | 112 | 22,1 | 2,5 | – |
@@ -76,21 +76,21 @@ Gesamtreichweite: 3.263 Konten, Median pro Post: 109,5.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| lang (>45 Zeichen) | 24 | 113,5 | 22,1 | 1,2 | – |
+| lang (>45 Zeichen) | 24 | 113,5 | 22,1 | 1,2 | 3,7 |
 | kurz (≤45 Zeichen) | 10 | 85 | 42,4 | 0 | – |
 
 ### Zahl in der Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| ohne Zahl | 18 | 111 | 24,4 | 1,1 | – |
+| ohne Zahl | 18 | 111 | 24,3 | 1,1 | 3,7 |
 | mit Zahl | 16 | 105,5 | 29,8 | 0,7 | – |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 31 | 112 | 25,6 | 0,9 | – |
+| Aussage | 31 | 112 | 25,6 | 0,9 | 3,7 |
 | Frage | 3 | 34 | 60 | 0 | – |
 
 ### Videolänge
@@ -137,7 +137,7 @@ Gesamtreichweite: 3.263 Konten, Median pro Post: 109,5.
 | 2026-11-13 | Geisterspiel in Belgrad: Das DFB-Team spielt  | bilder | 105 | – | 1 | 0 | 0 | 0 | – | – |
 | 2026-11-13 | Outlook, Teams, Copilot: Microsoft ist weltwe | bilder | 108 | – | 0 | 0 | 0 | 0 | – | – |
 | 2026-11-14 | DHL: Päckchen und Pakete sollen ab Januar teu | bilder | 128 | – | 0 | 0 | 0 | 0 | – | – |
-| 2026-11-15 | Ski alpin: Emma Aicher gewinnt zum ersten Mal | bilder | 135 | – | 1 | 0 | 0 | 0 | – | – |
+| 2026-11-15 | Ski alpin: Emma Aicher gewinnt zum ersten Mal | bilder | 136 | – | 1 | 0 | 0 | 0 | 3,7 s | – |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.
@@ -153,3 +153,4 @@ Gesamtreichweite: 3.263 Konten, Median pro Post: 109,5.
 - 2026-11-15 (morgens): Der Paketpreis-Post (Geld, morgens, Preisliste „Merk dir das“) liegt nach rund 24 Stunden bei 127 Konten: weit über dem bisherigen Geld-Schnitt (Ø 15), also lag die schwache Geld-Bilanz eher am Fenster als am Thema. Gespeichert oder geteilt wurde er aber wieder 0-mal; die Preisliste hat das Speichern nicht ausgelöst (Stichprobe 1). Reichweite hängt bisher vor allem an der Uhrzeit (morgens Ø rund 115), Speichern/Teilen und Follower bleiben das Loch. Heute morgens Sport (stärkster Schwerpunkt) mit einer bekannten Sportlerin als Hook: Emma Aichers erster Slalom-Sieg, Archivfotos von ihr selbst statt allgemeiner Symbolbilder, Merk-Folie mit dem nächsten Renntermin (21.11.). Kein Video: der einzige passende Kandidat (Amateur-Slalom im Nebel, 480p) war zu schwach. Hypothese für morgen: Ein Post über eine namentlich bekannte Einzelsportlerin mit Fotos von ihr selbst bringt mehr Reichweite und Likes als Team-Meldungen mit Symbolbildern (Vergleich mit Eishockey 175 und Belgrad 105 nach 24 h, Stichprobe 1).
 - 2026-11-15 (mittags): Der Aicher-Post vom Morgen (bekannte Einzelsportlerin, Fotos von ihr selbst) liegt nach rund 5 Stunden bei 135 Konten und damit schon über Belgrad (105) und auf dem Weg zu Eishockey (175); die Hypothese „Einzelsportlerin mit eigenen Fotos zieht mehr“ deutet sich an (Stichprobe 1, Zahlen jung). Mittags war Umwelt dran, es gab aber nur schwache Umwelt-Meldungen; deshalb die größte Nachricht des Tages (SpaceX fängt die Starship-Oberstufe erstmals nach einem Orbitalflug auf, 6 Redaktionen) als Welt-Post im Ton „überraschend“, erstmals seit dem 7.11. wieder im Format „zusammen“ (Karussell mit echtem NASA-Video von der ISS als zweiter Folie, als Symbolvideo gekennzeichnet). Welt lag bisher bei Ø 28 Konten (nur 2 Posts), zusammen bei 3 Konten (1 Post). Hypothese für morgen: Ein spektakuläres, viel berichtetes Ereignis mit bewegtem Bild holt Welt und „zusammen“ deutlich über ihren bisherigen Schnitt (über 100 Konten nach 24 h); Stichprobe 1, Mittags-Fenster.
 - 2026-11-16 (morgens): Der Starship-Post (Welt, „zusammen“ mit NASA-Symbolvideo, mittags) liegt nach rund 19 Stunden bei 142 Konten: weit über dem bisherigen Welt-Schnitt (Ø 28) und über dem Mittags-Schnitt (Ø 91), sein Folien-Reel erreichte 141. Die Hypothese „großes Ereignis mit bewegtem Bild holt Welt und zusammen über 100“ hat sich bestätigt (Stichprobe 1). Der Aicher-Post (Einzelsportlerin mit eigenen Fotos) blieb nach 24 Stunden bei 135 Konten, unter Eishockey (175): Ein bekanntes Gesicht allein hebt die Reichweite nicht deutlich, entscheidend bleibt eher das Fenster. Speichern/Teilen und Follower sind weiter bei 0. Heute morgens Sport im stärksten Fenster, erstmals „zusammen“ am Morgen: Amon-Ra St. Brown beim NFL-Spiel in München (Deutsch-Amerikaner, Rekord 35 Punkte), Fotos von ihm selbst als Archiv-Symbolbilder, echtes NFL-Touchdown-Video (Chicago 2021) als Symbolvideo, Merk-Folie „2027 Berlin“. Hypothese für morgen: „zusammen“ im Morgen-Fenster schlägt den Morgen-Schnitt (Ø 120) deutlich (über 150 Konten nach 24 h), weil Video-Folie und starkes Fenster sich addieren; Stichprobe 1.
+- 2026-11-16 (mittags, Vorbereitung für 20:45): Mittags war nicht dran; der Post für das neue Spät-Fenster (20:45, noch ungetestet) ist vorbereitet. Geplant war Umwelt, es gab aber nur schwache Umwelt-Meldungen (Wetter, Klimakonferenz-Woche); deshalb die größere Nachricht des Tages: Vulcan-Fehlstart, Amazon verliert 40 Satelliten für sein Satelliten-Internet Leo (5 Redaktionen), als Digital-Post im Ton sachlich. format.js wählte heute „bilder“ (Lernrunde), drei gemeinfreie Archivfotos von NASA/US Space Force als Symbolbilder; Regel im Test: `teilen-anreiz` (CTA „Schick das jemandem, der Raketenstarts live verfolgt“). Hypothese: Das 20:45-Fenster erreicht mehr Konten als das 18:15-Fenster (Ø 0,48× des Format-Medians), wie bei krass.erforscht; Stichprobe 1.

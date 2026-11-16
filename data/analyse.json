@@ -1,10 +1,10 @@
 {
-  "datum": "2026-11-16T10:46:55.424Z",
+  "datum": "2026-11-16T11:17:20.062Z",
   "hinweise": [
-    "Thema: „sport“ erreicht im Mittel 127 Konten, „geld“ nur 21 (10 bzw. 3 Posts).",
+    "Thema: „sport“ erreicht im Mittel 127,5 Konten, „geld“ nur 21 (10 bzw. 3 Posts).",
     "Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (19 bzw. 4 Posts).",
-    "Uhrzeit: „7 Uhr“ erreicht im Mittel 131,5 Konten, „18 Uhr“ nur 52,5 (16 bzw. 8 Posts).",
-    "Wochentag: „So“ erreicht im Mittel 135 Konten, „Mi“ nur 34 (5 bzw. 5 Posts).",
+    "Uhrzeit: „7 Uhr“ erreicht im Mittel 132 Konten, „18 Uhr“ nur 52,5 (16 bzw. 8 Posts).",
+    "Wochentag: „So“ erreicht im Mittel 136 Konten, „Mi“ nur 34 (5 bzw. 5 Posts).",
     "Frage oder Aussage: „Aussage“ erreicht im Mittel 112 Konten, „Frage“ nur 34 (31 bzw. 3 Posts)."
   ],
   "watchCorr": null,
@@ -25,9 +25,9 @@
           "wert": "bilder",
           "posts": 31,
           "reichweite": 110,
-          "likes_pro_1000": 27.51358695652174,
-          "teilen_speichern_pro_1000": 1.0190217391304348,
-          "wiedergabe_s": null
+          "likes_pro_1000": 27.504244482173174,
+          "teilen_speichern_pro_1000": 1.0186757215619693,
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "zusammen",
@@ -46,10 +46,10 @@
         {
           "wert": "sport",
           "posts": 10,
-          "reichweite": 127,
-          "likes_pro_1000": 19.79414093428345,
-          "teilen_speichern_pro_1000": 0.7917656373713381,
-          "wiedergabe_s": null
+          "reichweite": 127.5,
+          "likes_pro_1000": 19.77848101265823,
+          "teilen_speichern_pro_1000": 0.7911392405063291,
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "umwelt",
@@ -101,9 +101,9 @@
           "wert": "sachlich",
           "posts": 19,
           "reichweite": 119,
-          "likes_pro_1000": 22.537971582557567,
-          "teilen_speichern_pro_1000": 1.4698677119059285,
-          "wiedergabe_s": null
+          "likes_pro_1000": 22.526934378060723,
+          "teilen_speichern_pro_1000": 1.4691478942213516,
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "ueberraschend",
@@ -130,10 +130,10 @@
         {
           "wert": "7 Uhr",
           "posts": 16,
-          "reichweite": 131.5,
-          "likes_pro_1000": 18.276762402088774,
-          "teilen_speichern_pro_1000": 0.5221932114882506,
-          "wiedergabe_s": null
+          "reichweite": 132,
+          "likes_pro_1000": 18.26722338204593,
+          "teilen_speichern_pro_1000": 0.521920668058455,
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "12 Uhr",
@@ -160,10 +160,10 @@
         {
           "wert": "So",
           "posts": 5,
-          "reichweite": 135,
-          "likes_pro_1000": 21.897810218978105,
+          "reichweite": 136,
+          "likes_pro_1000": 21.85792349726776,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "Do",
@@ -223,9 +223,9 @@
           "wert": "lang (>45 Zeichen)",
           "posts": 24,
           "reichweite": 113.5,
-          "likes_pro_1000": 22.11690363349131,
-          "teilen_speichern_pro_1000": 1.1848341232227488,
-          "wiedergabe_s": null
+          "likes_pro_1000": 22.108172127911565,
+          "teilen_speichern_pro_1000": 1.1843663639952626,
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "kurz (≤45 Zeichen)",
@@ -245,9 +245,9 @@
           "wert": "ohne Zahl",
           "posts": 18,
           "reichweite": 111,
-          "likes_pro_1000": 24.351508734780307,
-          "teilen_speichern_pro_1000": 1.0587612493382743,
-          "wiedergabe_s": null
+          "likes_pro_1000": 24.33862433862434,
+          "teilen_speichern_pro_1000": 1.0582010582010584,
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "mit Zahl",
@@ -267,9 +267,9 @@
           "wert": "Aussage",
           "posts": 31,
           "reichweite": 112,
-          "likes_pro_1000": 25.608599430920012,
-          "teilen_speichern_pro_1000": 0.94846664558963,
-          "wiedergabe_s": null
+          "likes_pro_1000": 25.600505689001263,
+          "teilen_speichern_pro_1000": 0.9481668773704172,
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "Frage",
@@ -1244,17 +1244,17 @@
       "videolaenge": null,
       "test": null,
       "symbolvideo": null,
-      "reichweite": 135,
+      "reichweite": 136,
       "aufrufe": null,
       "likes": 1,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 3.676,
       "wiedergabe_anteil": null,
-      "likes_pro_1000": 7.407407407407407,
+      "likes_pro_1000": 7.352941176470588,
       "teilen_speichern_pro_1000": 0
     }
   ]

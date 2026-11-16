@@ -1,0 +1,81 @@
+{
+  "id": "2026-11-16-vulcan",
+  "date": "2026-11-16T06:48:00Z",
+  "category": "Digital",
+  "topic": "digital",
+  "tone": "sachlich",
+  "format": "bilder",
+  "test": "teilen-anreiz",
+  "vorbereitet": true,
+  "sources": [
+    { "name": "tagesschau", "url": "https://www.tagesschau.de/wirtschaft/technologie/rakete-amazon-satelliten-100.html" },
+    { "name": "ZDFheute", "url": "https://www.zdfheute.de/wirtschaft/unternehmen/amazon-raketenstart-missglueckt-satelliten-100.html" },
+    { "name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/vulcan-rakete-versagt-nach-start-amazon-verliert-40-leo-satelliten-102.html" },
+    { "name": "t3n", "url": "https://t3n.de/news/vulcan-centaur-rakete-anomalie-amazon-satelliten-1773699/" },
+    { "name": "Spiegel", "url": "https://www.spiegel.de/wirtschaft/amazon-absturz-der-vulcan-rakete-kostet-us-konzern-40-satelliten-a-8bd0dc5f-699c-493e-a188-437d49521bcb" }
+  ],
+  "image": {
+    "file": "images/2026-11-16-vulcan.jpg",
+    "credit": "NASA/Ben Smegelsky / Wikimedia Commons",
+    "short": "NASA/Ben Smegelsky, gemeinfrei, via Wikimedia Commons",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Vulcan_Centaur_rollout_(Peregrine)_(cropped).jpg",
+    "symbolbild": true,
+    "position": "top"
+  },
+  "slides": [
+    { "type": "cover", "label": "Digital", "title": "Rakete versagt: Amazon verliert **40 Satelliten** für sein Internet aus dem All" },
+    {
+      "label": "Was ist passiert?",
+      "title": "Fehler nach **10 Minuten**",
+      "text": [
+        "Am Sonntagabend startete eine Vulcan-Rakete in Cape Canaveral in Florida. Rund zehn Minuten später meldete der Betreiber ULA eine **„Anomalie“**.",
+        "Die 40 Satelliten von Amazon erreichten ihre Umlaufbahn nicht. Warum, ist noch unklar."
+      ],
+      "image": {
+        "file": "images/2026-11-16-vulcan-2.jpg",
+        "credit": "U.S. Space Force photo by Airman 1st Class Collin Wesson / Wikimedia Commons",
+        "short": "U.S. Space Force/Collin Wesson, gemeinfrei, via Wikimedia Commons",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Vulcan_Cert_2_Launch_(8699035).jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Worum geht es?",
+      "title": "Internet **aus dem All**",
+      "text": [
+        "Die Satelliten waren für **Amazon Leo** bestimmt. Satelliten-Internet funktioniert auch dort, wo kein Kabel liegt, zum Beispiel auf dem Land oder auf Schiffen.",
+        "Amazon Leo soll **Starlink** Konkurrenz machen, dem Satelliten-Internet von Elon Musks Firma SpaceX."
+      ],
+      "image": {
+        "file": "images/2026-11-16-vulcan-3.jpg",
+        "credit": "U.S. Space Force photo by Gwendolyn Kurzen / Wikimedia Commons",
+        "short": "U.S. Space Force/Gwendolyn Kurzen, gemeinfrei, via Wikimedia Commons",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Kuiper_3_Launches_from_Cape_Canaveral_Space_Force_Station_(9339792).jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "So groß ist der Plan",
+      "big": "3.200",
+      "title": "Satelliten soll das Netz einmal haben",
+      "text": [
+        "Seit April 2025 hat Amazon rund **400** davon ins All gebracht. Der größte Teil fehlt also noch."
+      ]
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Rakete fällt wohl **monatelang** aus",
+      "text": [
+        "Der Fehler muss jetzt untersucht werden. Laut tagesschau und ZDF dürfte die Vulcan dann monatelang nicht fliegen.",
+        "Amazon hat bei ULA **38 Flüge** gebucht, das war der erste. Für ULA war es laut Deutschlandfunk die erste gescheiterte Mission."
+      ]
+    },
+    { "type": "cta", "label": "Speichern & teilen", "title": "Schick das jemandem, der Raketenstarts **live** verfolgt." }
+  ],
+  "caption": "Amazon Leo: Beim Fehlstart einer Vulcan-Rakete hat Amazon 40 Satelliten für sein Internet aus dem All verloren. Rund zehn Minuten nach dem Start in Florida meldete der Betreiber ULA eine „Anomalie“, die Ursache ist noch unklar. Amazon will mit Leo dem Satelliten-Internet Starlink Konkurrenz machen; geplant sind mehr als 3.200 Satelliten, rund 400 sind bisher im All.\n\nWürdest du Internet aus dem All nutzen, wenn es bei dir kein schnelles Netz gibt? 👇\n\nQuellen: tagesschau, ZDFheute, Deutschlandfunk, t3n, Spiegel · Text mit KI erstellt\nFotos (Archiv, Symbolbilder, nicht vom Fehlstart): NASA/Ben Smegelsky; U.S. Space Force/Collin Wesson; U.S. Space Force/Gwendolyn Kurzen; alle gemeinfrei, via Wikimedia Commons\n#nachrichten #amazon #satelliteninternet #starlink #raumfahrt"
+}

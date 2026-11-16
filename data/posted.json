@@ -1032,22 +1032,26 @@
     "format": "bilder",
     "reelMediaId": "17964396539997946",
     "stats": {
-      "reach": 135,
+      "reach": 136,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 0,
+      "profile_visits": 0
     },
     "reelStats": {
-      "reach": 135,
+      "reach": 136,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 139
+      "views": 140,
+      "ig_reels_avg_watch_time": 3676,
+      "ig_reels_video_view_total_time": 499970
     },
-    "statsAt": "2026-11-15T11:17:00.407Z"
+    "statsAt": "2026-11-16T11:17:18.932Z"
   },
   {
     "id": "2026-11-15-starship",
@@ -1094,6 +1098,27 @@
     ],
     "mediaId": "18170356726473314",
     "format": "zusammen",
-    "reelMediaId": "18136813213765205"
+    "reelMediaId": "18136813213765205",
+    "stats": {
+      "reach": 218,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0,
+      "views": 1,
+      "profile_visits": 0
+    },
+    "reelStats": {
+      "reach": 218,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 233,
+      "ig_reels_avg_watch_time": 3762,
+      "ig_reels_video_view_total_time": 820168
+    },
+    "statsAt": "2026-11-16T11:17:19.754Z"
   }
 ]
