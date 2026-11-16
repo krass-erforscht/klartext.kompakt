@@ -1,6 +1,6 @@
-# Algorithmus-Analyse (Stand 2026-11-15)
+# Algorithmus-Analyse (Stand 2026-11-16)
 
-Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 34 Posts mit Zahlen.
+Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 35 Posts mit Zahlen.
 
 ### Schwerpunkt
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
@@ -8,29 +8,29 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 34 Pos
 | sport | 10 | 126,3 | 2,5 | 0,1 | 0 | 123,5 |
 | umwelt | 9 | 112,7 | 2,1 | 0 | 0 | 112,3 |
 | digital | 6 | 100,7 | 2,3 | 0,3 | 0 | 96,5 |
-| geld | 3 | 52 | 3,7 | 0 | 0 | 46,7 |
+| welt | 3 | 66 | 2,7 | 0 | 0 | 62 |
+| geld | 3 | 52,3 | 3,7 | 0 | 0 | 46,7 |
 | alltag | 4 | 42,3 | 2,8 | 0 | 0 | 37,5 |
-| welt | 2 | 28 | 3,5 | 0 | 0 | 22,5 |
 
 ### Ton
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
 | sachlich | 19 | 107,4 | 2,4 | 0,2 | 0 | 104,3 |
-| ueberraschend | 11 | 83,7 | 2,5 | 0 | 0 | 76,8 |
+| ueberraschend | 12 | 88,6 | 2,4 | 0 | 0 | 82,6 |
 | locker | 4 | 75,3 | 3,3 | 0 | 0 | 70,5 |
 
 ### Format
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
 | video | 2 | 158 | 2,5 | 0 | 0 | 0 |
-| bilder | 31 | 94,9 | 2,6 | 0,1 | 0 | 91,1 |
-| zusammen | 1 | 3 | 1 | 0 | 0 | 0 |
+| bilder | 31 | 95 | 2,6 | 0,1 | 0 | 91,1 |
+| zusammen | 2 | 72,5 | 1 | 0 | 0 | 141 |
 
 ### Uhrzeit
 | Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
 |---|---|---|---|---|---|---|
-| 06 Uhr UTC | 16 | 119,6 | 2,2 | 0,1 | 0 | 119,5 |
-| 11 Uhr UTC | 10 | 86 | 2,9 | 0 | 0 | 81,5 |
+| 06 Uhr UTC | 16 | 119,7 | 2,2 | 0,1 | 0 | 119,5 |
+| 11 Uhr UTC | 11 | 91,1 | 2,7 | 0 | 0 | 86,9 |
 | 17 Uhr UTC | 8 | 61 | 2,9 | 0,3 | 0 | 56,8 |
 
 ### Wochentag
@@ -38,10 +38,10 @@ Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 34 Pos
 |---|---|---|---|---|---|---|
 | Fr | 6 | 118,8 | 2,3 | 0 | 0 | 98 |
 | Do | 6 | 116,8 | 3,3 | 0 | 0 | 112,8 |
-| So | 5 | 109,6 | 2,4 | 0 | 0 | 106 |
+| So | 6 | 115 | 2,2 | 0 | 0 | 111,8 |
 | Mo | 4 | 102 | 2,3 | 0,3 | 0 | 97,8 |
 | Di | 3 | 81 | 1,7 | 0 | 0 | 63,5 |
-| Sa | 5 | 72,8 | 2 | 0,4 | 0 | 86,5 |
+| Sa | 5 | 73 | 2 | 0,4 | 0 | 86,5 |
 | Mi | 5 | 57 | 3,4 | 0 | 0 | 52,4 |
 
 ### Top 3 / Flop 3 (Reichweite)
@@ -67,3 +67,4 @@ Hinweis: kleine Stichproben, Zufall möglich. Signale, die Instagram laut eigene
 
 - 2026-11-15 (morgens): Der Paketpreis-Post (Geld, morgens, Preisliste „Merk dir das“) liegt nach rund 24 Stunden bei 127 Konten: weit über dem bisherigen Geld-Schnitt (Ø 15), also lag die schwache Geld-Bilanz eher am Fenster als am Thema. Gespeichert oder geteilt wurde er aber wieder 0-mal; die Preisliste hat das Speichern nicht ausgelöst (Stichprobe 1). Reichweite hängt bisher vor allem an der Uhrzeit (morgens Ø rund 115), Speichern/Teilen und Follower bleiben das Loch. Heute morgens Sport (stärkster Schwerpunkt) mit einer bekannten Sportlerin als Hook: Emma Aichers erster Slalom-Sieg, Archivfotos von ihr selbst statt allgemeiner Symbolbilder, Merk-Folie mit dem nächsten Renntermin (21.11.). Kein Video: der einzige passende Kandidat (Amateur-Slalom im Nebel, 480p) war zu schwach. Hypothese für morgen: Ein Post über eine namentlich bekannte Einzelsportlerin mit Fotos von ihr selbst bringt mehr Reichweite und Likes als Team-Meldungen mit Symbolbildern (Vergleich mit Eishockey 175 und Belgrad 105 nach 24 h, Stichprobe 1).
 - 2026-11-15 (mittags): Der Aicher-Post vom Morgen (bekannte Einzelsportlerin, Fotos von ihr selbst) liegt nach rund 5 Stunden bei 135 Konten und damit schon über Belgrad (105) und auf dem Weg zu Eishockey (175); die Hypothese „Einzelsportlerin mit eigenen Fotos zieht mehr“ deutet sich an (Stichprobe 1, Zahlen jung). Mittags war Umwelt dran, es gab aber nur schwache Umwelt-Meldungen; deshalb die größte Nachricht des Tages (SpaceX fängt die Starship-Oberstufe erstmals nach einem Orbitalflug auf, 6 Redaktionen) als Welt-Post im Ton „überraschend“, erstmals seit dem 7.11. wieder im Format „zusammen“ (Karussell mit echtem NASA-Video von der ISS als zweiter Folie, als Symbolvideo gekennzeichnet). Welt lag bisher bei Ø 28 Konten (nur 2 Posts), zusammen bei 3 Konten (1 Post). Hypothese für morgen: Ein spektakuläres, viel berichtetes Ereignis mit bewegtem Bild holt Welt und „zusammen“ deutlich über ihren bisherigen Schnitt (über 100 Konten nach 24 h); Stichprobe 1, Mittags-Fenster.
+- 2026-11-16 (morgens): Der Starship-Post (Welt, „zusammen“ mit NASA-Symbolvideo, mittags) liegt nach rund 19 Stunden bei 142 Konten: weit über dem bisherigen Welt-Schnitt (Ø 28) und über dem Mittags-Schnitt (Ø 91), sein Folien-Reel erreichte 141. Die Hypothese „großes Ereignis mit bewegtem Bild holt Welt und zusammen über 100“ hat sich bestätigt (Stichprobe 1). Der Aicher-Post (Einzelsportlerin mit eigenen Fotos) blieb nach 24 Stunden bei 135 Konten, unter Eishockey (175): Ein bekanntes Gesicht allein hebt die Reichweite nicht deutlich, entscheidend bleibt eher das Fenster. Speichern/Teilen und Follower sind weiter bei 0. Heute morgens Sport im stärksten Fenster, erstmals „zusammen“ am Morgen: Amon-Ra St. Brown beim NFL-Spiel in München (Deutsch-Amerikaner, Rekord 35 Punkte), Fotos von ihm selbst als Archiv-Symbolbilder, echtes NFL-Touchdown-Video (Chicago 2021) als Symbolvideo, Merk-Folie „2027 Berlin“. Hypothese für morgen: „zusammen“ im Morgen-Fenster schlägt den Morgen-Schnitt (Ø 120) deutlich (über 150 Konten nach 24 h), weil Video-Folie und starkes Fenster sich addieren; Stichprobe 1.

@@ -1080,5 +1080,20 @@
       "views": 148
     },
     "statsAt": "2026-11-16T06:17:06.738Z"
+  },
+  {
+    "id": "2026-11-16-stbrown",
+    "postedAt": "2026-11-16T06:27:25.464Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.zdfheute.de/sport/american-football-nfl-munich-game-detroit-lions-new-england-patriots-nachbericht-st-brown-100.html",
+    "sourceUrls": [
+      "https://www.zdfheute.de/sport/american-football-nfl-munich-game-detroit-lions-new-england-patriots-nachbericht-st-brown-100.html",
+      "https://www.n-tv.de/sport/nfl/NFL-Spielbericht-id31534848.html",
+      "https://www.spiegel.de/sport/american-football/amon-ra-st-brown-beim-nfl-spiel-in-muenchen-deutschland-hat-ein-neues-football-idol-a-64c79fa3-60be-4541-8bc3-1394a65c485e"
+    ],
+    "mediaId": "18170356726473314",
+    "format": "zusammen",
+    "reelMediaId": "18136813213765205"
   }
 ]
