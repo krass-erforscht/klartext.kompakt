@@ -2138,8 +2138,8 @@
     "mood": "staunen",
     "file": "music/files/incompetech-Kevin_MacLeod-Beach_Party.mp3",
     "seconds": 50,
-    "used": 0,
-    "lastUsed": null
+    "used": 1,
+    "lastUsed": "2026-11-16T18:50:47.200Z"
   },
   {
     "source": "incompetech",
@@ -2194,6 +2194,48 @@
     "mood": "nuetzlich",
     "file": "music/files/incompetech-Kevin_MacLeod-Local_Forecast.mp3",
     "seconds": 165,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Tiny Fugue",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Tiny%20Fugue.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Tiny_Fugue.mp3",
+    "seconds": 41,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Bit Shift",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Bit%20Shift.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Bit_Shift.mp3",
+    "seconds": 192,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Canon In D For 8 Bit Synths",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Canon%20In%20D%20For%208%20Bit%20Synths.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Canon_In_D_For_8_Bit_Synths.mp3",
+    "seconds": 195,
     "used": 0,
     "lastUsed": null
   }
