@@ -116,6 +116,7 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
 8. **Rendern:** `node render.js posts/<datei>.json`, jede Folie ansehen und korrigieren, bis nichts abgeschnitten ist.
    `node reel.js posts/<datei>.json` und zwei, drei Standbilder prüfen. Bei Format `video`/`zusammen` zusätzlich `node video-reel.js posts/<datei>.json`.
 9. **Speichern:** Post, Bilder, Videos, `out/`, `data/` und `music/library.json` committen und pushen.
+   Auch `docs/v/<post-id>/` committen und pushen: Von dort (GitHub Pages) holt Instagram die Videos; `publish.js` wartet, bis sie abrufbar sind (ca. 1 Minute).
 10. **Posten** (nur mit `KLARTEXT_IG_TOKEN`), je nach Format genau wie bei krass.erforscht:
     `bilder`: `node publish.js posts/<datei>.json`, danach `node publish.js posts/<datei>.json --reel` ·
     `zusammen`: `... --zusammen`, danach `... --reel` · `video`: nur `... --video`.

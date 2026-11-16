@@ -63,5 +63,8 @@ function duration(slide) {
     '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', path.join(dir, 'reel.mp4'));
   execFileSync('ffmpeg', args, { stdio: ['ignore', 'ignore', 'pipe'] });
   fs.rmSync(tmp, { recursive: true, force: true });
+  // Kopie für GitHub Pages (von dort holt Instagram das Video, siehe publish.js)
+  fs.mkdirSync(path.join('docs/v', post.id), { recursive: true });
+  fs.copyFileSync(path.join(dir, 'reel.mp4'), path.join('docs/v', post.id, 'reel.mp4'));
   console.log(`Reel (${total.toFixed(1)} s, ${music.credit || 'eigene Klangfläche'}) -> ${path.join(dir, 'reel.mp4')}`);
 })();

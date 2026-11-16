@@ -170,5 +170,8 @@ function render(L, post, captions, music, tmp, tag, out, voice) {
   render(LAYOUTS.reel, post, captions, music, tmp, 'reel', path.join(dir, 'video-reel.mp4'), voice);
   render(LAYOUTS['45'], post, captions, music, tmp, '45', path.join(dir, 'video-45.mp4'), voice);
   fs.rmSync(tmp, { recursive: true, force: true });
+  // Kopie für GitHub Pages (von dort holt Instagram das Video, siehe publish.js)
+  fs.mkdirSync(path.join('docs/v', post.id), { recursive: true });
+  for (const n of ['video-reel.mp4', 'video-45.mp4']) fs.copyFileSync(path.join(dir, n), path.join('docs/v', post.id, n));
   console.log(`Video-Reel (${v.duration.toFixed(1)} s${voice ? ', mit Sprecherstimme' : ''}, ${m.credit || 'eigene Klangfläche'}) -> ${dir}/video-reel.mp4 und video-45.mp4`);
 })().catch(e => { console.error(e.message); process.exit(1); });
