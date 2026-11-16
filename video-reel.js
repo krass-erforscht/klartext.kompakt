@@ -14,18 +14,20 @@ const mark = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>')
 
 // Layout je Format: wo die Überschrift steht, wo das Video sitzt und wo die Fakten erscheinen
 const LAYOUTS = {
-  reel: { W: 1080, H: 1920, head: [200, 470], video: 560, caption: [1250, 1640], headSize: 76, capSize: 58 },
-  '45': { W: 1080, H: 1350, head: [40, 300], video: 330, caption: [930, 1230], headSize: 64, capSize: 48 },
+  // 9:16: Instagram legt unten (ca. das letzte Drittel) Titel, Kontoname und Buttons und rechts die Like-Leiste über das Video.
+  // Deshalb stehen Fakten und Nachweis oberhalb davon und halten rechts Abstand (sichere Zone, wie bei krass.erforscht).
+  reel: { W: 1080, H: 1920, head: [170, 430], caption: [1010, 1270], headSize: 72, capSize: 54, padRight: 180, footTop: 1290 },
+  '45': { W: 1080, H: 1350, head: [40, 300], caption: [930, 1230], headSize: 64, capSize: 48 },
 };
 
 const css = (L) => `*{box-sizing:border-box}html,body{margin:0;width:${L.W}px;height:${L.H}px;background:transparent;font-family:"DejaVu Sans",Arial,sans-serif}
 .head{position:absolute;left:0;right:0;top:${L.head[0]}px;height:${L.head[1] - L.head[0]}px;background:rgba(10,14,40,.92);display:flex;align-items:center;padding:0 64px}
 .head h1{margin:0;color:#fff;font-size:${L.headSize}px;line-height:1.08;font-weight:800;letter-spacing:-.01em}
 .hl{color:${COLORS.mark}}
-.cap{position:absolute;left:64px;right:64px;top:${L.caption[0]}px;height:${L.caption[1] - L.caption[0]}px;display:flex;align-items:center}
+.cap{position:absolute;left:64px;right:${L.padRight || 64}px;top:${L.caption[0]}px;height:${L.caption[1] - L.caption[0]}px;display:flex;align-items:center}
 .cap p{margin:0;color:#fff;font-size:${L.capSize}px;line-height:1.25;font-weight:700;text-shadow:0 3px 16px rgba(0,0,0,.8)}
 .cap .hl{background:${COLORS.mark};color:${COLORS.text};padding:0 .12em;text-shadow:none;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.foot{position:absolute;left:64px;right:64px;bottom:${L.H === 1920 ? 150 : 28}px;display:flex;justify-content:space-between;align-items:flex-end;gap:24px;
+.foot{position:absolute;left:64px;right:${L.padRight || 64}px;${L.footTop ? `top:${L.footTop}px` : 'bottom:28px'};display:flex;justify-content:space-between;align-items:flex-end;gap:24px;
  font-family:"DejaVu Sans Mono",monospace;color:rgba(255,255,255,.85);font-size:${L.H === 1920 ? 30 : 24}px;text-shadow:0 2px 8px rgba(0,0,0,.8)}
 .foot .credit{font-family:"DejaVu Sans",sans-serif;font-size:${L.H === 1920 ? 22 : 20}px;text-align:right;max-width:60%}`;
 
@@ -46,8 +48,20 @@ async function overlays(page, L, post, captions, tmp, tag) {
   }
 }
 
+// Das Video so groß wie möglich zwischen Überschrift und Fakten setzen, ohne dass sich beides überdeckt
+function placement(L, file) {
+  const [w, h] = execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', file])
+    .toString().trim().split(',').map(Number);
+  const top = L.head[1] + 20, room = L.caption[0] - 20 - top;
+  let fw = L.W, fh = Math.round(L.W * h / w);
+  if (fh > room) { fh = room; fw = Math.round(room * w / h); }
+  fw -= fw % 2; fh -= fh % 2; // H.264 braucht gerade Maße
+  return { fw, fh, x: Math.round((L.W - fw) / 2), y: top + Math.round((room - fh) / 2) };
+}
+
 function render(L, post, captions, music, tmp, tag, out) {
   const v = post.video;
+  const p = placement(L, v.file);
   const dur = v.duration;
   const per = dur / captions.length;
   const args = ['-y', '-v', 'error',
@@ -59,14 +73,14 @@ function render(L, post, captions, music, tmp, tag, out) {
   const f = [
     `[0:v]fps=${FPS},split[a][b]`,
     `[a]scale=${L.W}:${L.H}:force_original_aspect_ratio=increase,crop=${L.W}:${L.H},boxblur=30:3,eq=brightness=-0.15[bg]`,
-    `[b]scale=${L.W}:-2[fg]`,
-    `[bg][fg]overlay=0:${L.video}[base]`,
+    `[b]scale=${p.fw}:${p.fh}[fg]`,
+    `[bg][fg]overlay=${p.x}:${p.y}[base]`,
     `[base][1:v]overlay=0:0[o0]`,
   ];
   let last = 'o0';
   captions.forEach((_, i) => {
     const from = (i * per).toFixed(2), to = ((i + 1) * per).toFixed(2);
-    f.push(`[${last}][${2 + i}:v]overlay=0:0:enable='between(t,${from},${to})'[o${i + 1}]`);
+    f.push(`[${last}][${2 + i}:v]overlay=0:0:enable='gte(t,${from})*lt(t,${to})'[o${i + 1}]`);
     last = `o${i + 1}`;
   });
   f.push(`[${last}]format=yuv420p[v]`);

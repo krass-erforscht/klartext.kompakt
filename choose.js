@@ -2,7 +2,7 @@
 // Regeln für jede Auswahl (Uhrzeit, Format, Schwerpunkt, Ton):
 //   - Gezählt wird die Reichweite (erreichte Konten) aller Posts, die mindestens einen Tag alt sind.
 //   - Optionen mit weniger als 2 solchen Posts sind noch kaum getestet und kommen bevorzugt dran (am wenigsten getestete zuerst).
-//   - Sonst: an 3 von 4 Tagen die Option mit der höchsten durchschnittlichen Reichweite, am 4. eine andere zum Weiterlernen.
+//   - Sonst: an 3 von 4 Tagen die Option mit der höchsten mittleren Reichweite (Median), am 4. eine andere zum Weiterlernen.
 // Die Zufallsentscheidung hängt nur vom Datum ab, damit alle Läufe eines Tages dasselbe Ergebnis bekommen.
 const fs = require('fs');
 
@@ -24,11 +24,18 @@ function dayRandom(kind) {
 }
 
 // options: Liste möglicher Werte; groupOf: ordnet einem Post seinen Wert zu; kind: Name der Entscheidung
-function choose(options, groupOf, kind) {
-  const data = posts();
-  const reaches = o => data.filter(p => groupOf(p) === o).map(p => p.stats.reach);
-  const avg = o => { const r = reaches(o); return r.length ? r.reduce((a, b) => a + b, 0) / r.length : 0; };
-  const rows = options.map(o => ({ option: o, posts: reaches(o).length, reichweite: Math.round(avg(o)) }));
+// valueOf (optional): was gezählt wird, Standard = erreichte Konten; filter (optional): nur diese Posts zählen
+function choose(options, groupOf, kind, valueOf = p => p.stats.reach, filter = () => true) {
+  const data = posts().filter(filter);
+  const reaches = o => data.filter(p => groupOf(p) === o).map(valueOf);
+  // Median statt Durchschnitt: ein einzelner viraler Ausreißer soll nicht die ganze Auswahl umwerfen
+  const avg = o => {
+    const r = reaches(o).sort((a, b) => a - b);
+    if (!r.length) return 0;
+    const m = Math.floor(r.length / 2);
+    return r.length % 2 ? r[m] : (r[m - 1] + r[m]) / 2;
+  };
+  const rows = options.map(o => ({ option: o, posts: reaches(o).length, reichweite: Math.round(avg(o) * 100) / 100 }));
   const ranked = rows.slice().sort((a, b) => b.reichweite - a.reichweite);
   const fewest = Math.min(...rows.map(r => r.posts));
   let pick, why;

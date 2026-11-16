@@ -3,7 +3,9 @@
 // Jede Folie bekommt ein Foto: ihr eigenes ("image" in der Folie) oder sonst das Titelbild des Posts mit wechselndem Ausschnitt.
 // Ohne Foto: dunkle Titelfolie, helle Inhaltsfolien.
 const { HANDLE, COLORS: C } = require('./config');
-const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// Zahl und Einheit nie trennen („100 %“, „1,5 Grad“, „15 Euro“ bleiben in einer Zeile)
+const keep = s => String(s).replace(/(\d) (%|‰|°C|Grad|Euro|Cent|ms|s|km|m|cm|mm|kg|g|t|Mio\.|Mrd\.|Millionen|Milliarden|Prozent|Jahre|Jahren|Monate|Tage)(?=[\s.,;:!?)*]|$)/g, '$1\u00a0$2');
+const esc = s => keep(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 // **Wort** im Text wird hervorgehoben
 const mark = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>');
 

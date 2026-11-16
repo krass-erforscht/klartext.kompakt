@@ -20,11 +20,24 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
    Danach `data/answered.json` committen und pushen.
    Meldet `comments.js` „nicht abrufbar“ (Instagram gibt Kommentare privater oder als Spam markierter Konten nicht heraus):
    dem Nutzer in der Tagesnachricht kurz sagen, unter welchem Post er selbst nachsehen soll (Link), höchstens einmal pro Kommentar.
-0. **Zeitfenster prüfen:** `node slot.js <morgens|mittags|abends>` (das Fenster steht in der Aufgabe). Bei „NEIN“ hier aufhören.
+0. **Zeitfenster prüfen:** `node slot.js <morgens|mittags|abends|spaet>` (das Fenster steht in der Aufgabe). Bei „NEIN“ hier aufhören –
+   **außer** die Ausgabe nennt „später heute: …“ und es gibt für dieses spätere Fenster noch keine vorbereitete Post-Datei von heute:
+   dann den Post jetzt schon fertig vorbereiten (Schritte 1–9, aber **nicht** veröffentlichen, in der Post-Datei `"vorbereitet": true`),
+   damit er im späteren Fenster pünktlich erscheint (Herstellung dauert ~45 Minuten). Vorbereitete Meldungen vor dem Posten kurz
+   auf neue Entwicklungen prüfen (Nachrichten können sich in Stunden ändern) und wenn nötig aktualisieren.
+   Liegt im Posting-Fenster schon eine fertige, gerenderte Post-Datei von heute vor: nach dieser Prüfung direkt mit Schritt 10 veröffentlichen.
    Nur wenn Kommentare beantwortet wurden, dem Nutzer kurz schreiben, wie viele; sonst keine Nachricht.
-   Zwei Posts pro Tag in zwei von drei Fenstern (7:15, 12:15, 18:15 Uhr). Welche Fenster dran sind, entscheidet die Reichweite (siehe „Immer nach der besten Reichweite“).
+   Zwei Posts pro Tag in zwei von vier Fenstern (7:15, 12:15, 18:15, 20:45 Uhr). Welche Fenster dran sind, entscheidet die Reichweite
+   im Verhältnis zum Median des jeweiligen Formats (siehe „Immer nach der besten Reichweite“).
 1. `npm ci`
-2. **Lernen:** `node insights.js` (nur mit Token, holt die Reichweite aller Posts). Danach **`node schwerpunkt.js`**: sagt, welcher Schwerpunkt
+2. **Lernen:** `node insights.js` (nur mit Token, holt Reichweite, Aufrufe, Zuschaudauer und Follower), dann **`node analyse.js`**.
+   **Algorithmus-Analyse:** `data/analyse.md` lesen (Vergleich aller Posts nach Format, Schwerpunkt, Ton, Uhrzeit, Wochentag, Überschrift,
+   Videolänge, Zuschaudauer) und `data/strategie.md` aktualisieren: neue deutliche Unterschiede als Regel „im Test“ aufnehmen, Regeln mit
+   genug Daten (je 3 Posts mit/ohne) auf „bestätigt“ oder „verworfen“ setzen, mit Datum und Zahlen begründen, Verlauf ergänzen.
+   Höchstens 6 Regeln; wenig Daten vorsichtig deuten. Beim heutigen Post **alle bestätigten Regeln anwenden** und **genau eine Regel im Test**
+   (abwechselnd, damit es Vergleichsposts mit und ohne gibt); deren Kurzname als `"test"` in die Post-Datei schreiben.
+   Ändert sich eine Regel, das dem Nutzer in der Tagesnachricht in einem Satz sagen. Die Regeln gelten nie gegen Sorgfalt und Sicherheitsregeln.
+   Danach **`node schwerpunkt.js`**: sagt, welcher Schwerpunkt
    (geld, digital, alltag, umwelt, welt, sport) und welcher Ton heute dran sind, nach der Regel „Immer nach der besten Reichweite“.
    Der zweite Post des Tages bekommt automatisch einen anderen Schwerpunkt als der erste.
 3. **Nachrichten sammeln:** `node fetch-news.js > data/candidates.json` (18 seriöse Feeds, höchstens 30 Stunden alt).
@@ -84,7 +97,7 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
 10. **Posten** (nur mit `KLARTEXT_IG_TOKEN`), je nach Format genau wie bei krass.erforscht:
     `bilder`: `node publish.js posts/<datei>.json`, danach `node publish.js posts/<datei>.json --reel` ·
     `zusammen`: `... --zusammen`, danach `... --reel` · `video`: nur `... --video`.
-    Schlägt ein Video-Teil fehl: auf `bilder` zurückfallen, Fehler in `data/probleme.md`. Danach `data/posted.json` committen und pushen.
+    Schlägt ein Video-Teil fehl: auf `bilder` zurückfallen, Fehler in `data/probleme.md`. Danach `data/posted.json` committen und pushen (auch `data/analyse.md`, `data/analyse.json`, `data/account.json`, `data/strategie.md`).
 10b. **Tägliche Analyse (Wunsch des Nutzers, bei jedem Lauf nach dem Posten):** `node analyse.js` schreibt `data/analyse.md`
     (Reichweite, Likes, Speichern/Teilen, Follower je Schwerpunkt, Ton, Format, Uhrzeit, Wochentag). Danach in `data/analyse.md` unter
     „Erkenntnisse“ 2–4 Sätze ergänzen: Was verstehen wir über den Instagram-Algorithmus, was bringt Aufrufe, Likes, Follower?
@@ -96,6 +109,7 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
     - **Fehler aus dem heutigen Lauf haben Vorrang:** Was den Lauf aufgehalten hat (Skriptfehler, Quelle nicht erreichbar, Folie abgeschnitten),
       wird als Erstes so behoben, dass es beim nächsten Lauf nicht wieder passiert.
     - **Montags** kurz im Netz nachsehen, ob sich bei Instagram etwas geändert hat (Algorithmus, Regeln, Schnittstelle, neue Funktionen).
+      Neue Erkenntnisse oben in `data/strategie.md` eintragen und, wenn sinnvoll, als Regel „im Test“ aufnehmen.
     - **Höchstens eine** kleine, sinnvolle Verbesserung umsetzen (Code, Anleitung, Vorlage, neuer freier Feed oder Bildquelle). Vorher testen
       (heutigen Post neu rendern bzw. geändertes Skript ausführen). Klappt der Test nicht: `git checkout -- <datei>`. **Nie Dateien, Posts oder Daten löschen.**
       Nur Funktionierendes committen und pushen, in `data/verbesserungen.md` mit Datum und einem Satz festhalten, dem Nutzer in der Tagesnachricht kurz nennen.
@@ -109,7 +123,8 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
 
 Uhrzeit (`slot.js`), Format (`format.js`), Schwerpunkt und Ton (`schwerpunkt.js`) folgen derselben Regel aus `choose.js`:
 gezählt werden die erreichten Konten aller Posts, die mindestens einen Tag alt sind. Was noch keine 2 Posts hat, bekommt eine faire Chance;
-sonst gewinnt an 3 von 4 Tagen die Variante mit der höchsten durchschnittlichen Reichweite, am 4. wird zum Weiterlernen etwas anderes probiert.
+sonst gewinnt an 3 von 4 Tagen die Variante mit der höchsten mittleren Reichweite (Median, damit ein einzelner Ausreißer nicht alles verzerrt),
+am 4. wird zum Weiterlernen etwas anderes probiert. Bei der Uhrzeit zählt die Reichweite im Verhältnis zum Median des Formats.
 Die Entscheidung hängt nur vom Datum ab, damit alle Läufe eines Tages übereinstimmen. Eine richtig starke Geschichte oder ein besonders gutes Bild geht trotzdem vor.
 
 ## Sicherheitsregeln – immer überspringen
@@ -132,6 +147,8 @@ Fotos, die nicht das Ereignis selbst zeigen, sind Symbolbilder und werden so gek
 ## Kommentare
 
 Wie bei krass.erforscht: locker, freundlich, auf Deutsch (sonst in der Sprache des Kommentars), mit „du“, 1–2 Sätze, höchstens ein Emoji, mit @Name.
+- **Witze und Sprüche:** mitspielen statt belehren. Nicht korrigieren oder erklären, warum etwas nicht geht – das wirkt klugscheißerisch
+  (Wunsch des Nutzers). Bei ernsten Nachrichten trotzdem respektvoll bleiben.
 - Fragen nur mit Fakten aus dem Post oder den geprüften Quellen beantworten. Unsicher: ehrlich sagen und auf die Quelle verweisen.
 - Hinweis auf einen Fehler: Quelle prüfen. Stimmt er, bedanken, richtigstellen, in `data/probleme.md` notieren und dem Nutzer melden.
 - Gegenfrage, wenn es passt („Betrifft dich das auch?“).

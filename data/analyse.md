@@ -1,58 +1,143 @@
-# Algorithmus-Analyse (Stand 2026-11-16)
+# Algorithmus-Analyse (2026-11-16)
 
-Ziel: verstehen, was bei Instagram Reichweite, Likes und Follower bringt. 35 Posts mit Zahlen.
+34 Posts ausgewertet (mind. 1 Tag alt). Follower: –.
+Gesamtreichweite: 3.263 Konten, Median pro Post: 109,5.
 
-### Schwerpunkt
-| Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
-|---|---|---|---|---|---|---|
-| sport | 10 | 126,3 | 2,5 | 0,1 | 0 | 123,5 |
-| umwelt | 9 | 112,7 | 2,1 | 0 | 0 | 112,3 |
-| digital | 6 | 100,7 | 2,3 | 0,3 | 0 | 96,5 |
-| welt | 3 | 66 | 2,7 | 0 | 0 | 62 |
-| geld | 3 | 52,3 | 3,7 | 0 | 0 | 46,7 |
-| alltag | 4 | 42,3 | 2,8 | 0 | 0 | 37,5 |
+## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
-### Ton
-| Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
-|---|---|---|---|---|---|---|
-| sachlich | 19 | 107,4 | 2,4 | 0,2 | 0 | 104,3 |
-| ueberraschend | 12 | 88,6 | 2,4 | 0 | 0 | 82,6 |
-| locker | 4 | 75,3 | 3,3 | 0 | 0 | 70,5 |
+- Thema: „sport“ erreicht im Mittel 127 Konten, „geld“ nur 21 (10 bzw. 3 Posts).
+- Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (19 bzw. 4 Posts).
+- Uhrzeit: „7 Uhr“ erreicht im Mittel 131,5 Konten, „18 Uhr“ nur 52,5 (16 bzw. 8 Posts).
+- Wochentag: „So“ erreicht im Mittel 135 Konten, „Mi“ nur 34 (5 bzw. 5 Posts).
+- Frage oder Aussage: „Aussage“ erreicht im Mittel 112 Konten, „Frage“ nur 34 (31 bzw. 3 Posts).
+
+## Top 3
+
+- **Wetter zum Wochenende: Nebel, Wolken und kühler** (2026-10-30, video, umwelt/sachlich, 7 Uhr): 207 Konten, 4 Likes, 0 Shares, 0 Saves
+- **Ab heute: 2 Euro Gebühr für Bestellungen aus Fernost** (2026-11-01, bilder, digital/ueberraschend, 7 Uhr): 178 Konten, 3 Likes, 0 Shares, 0 Saves
+- **Eishockey-WM: Deutschlands Frauen weichen Rekordweltmeister Kanada aus** (2026-11-12, bilder, sport/sachlich, 7 Uhr): 175 Konten, 3 Likes, 0 Shares, 0 Saves
+
+## Flop 3
+
+- **So hat sich die Erde seit 1880 erwärmt** (2026-11-07, zusammen, umwelt/sachlich, 7 Uhr): 3 Konten, 1 Likes
+- **Inflation sinkt im Oktober auf 2,8 Prozent** (2026-10-31, bilder, geld/sachlich, 18 Uhr): 8 Konten, 3 Likes
+- **Elterngeld soll zum ersten Mal steigen** (2026-10-28, bilder, geld/sachlich, 18 Uhr): 21 Konten, 8 Likes
+
+## Vergleich nach Merkmalen (Median)
 
 ### Format
-| Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
-|---|---|---|---|---|---|---|
-| video | 2 | 158 | 2,5 | 0 | 0 | 0 |
-| bilder | 31 | 95 | 2,6 | 0,1 | 0 | 91,1 |
-| zusammen | 2 | 72,5 | 1 | 0 | 0 | 141 |
+
+| Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
+|---|---|---|---|---|---|
+| video | 2 | 158 | 15,8 | 0 | – |
+| bilder | 31 | 110 | 27,5 | 1 | – |
+| zusammen | 1 | 3 | 333,3 | 0 | – |
+
+### Thema
+
+| Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
+|---|---|---|---|---|---|
+| sport | 10 | 127 | 19,8 | 0,8 | – |
+| umwelt | 9 | 118 | 18,7 | 0 | – |
+| digital | 6 | 109 | 23,2 | 3,3 | – |
+| alltag | 4 | 29,5 | 65,1 | 0 | – |
+| welt | 2 | 28 | 125 | 0 | – |
+| geld | 3 | 21 | 70,1 | 0 | – |
+
+### Ton
+
+| Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
+|---|---|---|---|---|---|
+| sachlich | 19 | 119 | 22,5 | 1,5 | – |
+| ueberraschend | 11 | 87 | 30,4 | 0 | – |
+| locker | 4 | 70,5 | 43,2 | 0 | – |
 
 ### Uhrzeit
-| Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
-|---|---|---|---|---|---|---|
-| 06 Uhr UTC | 16 | 119,7 | 2,2 | 0,1 | 0 | 119,5 |
-| 11 Uhr UTC | 11 | 91,1 | 2,7 | 0 | 0 | 86,9 |
-| 17 Uhr UTC | 8 | 61 | 2,9 | 0,3 | 0 | 56,8 |
+
+| Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
+|---|---|---|---|---|---|
+| 7 Uhr | 16 | 131,5 | 18,3 | 0,5 | – |
+| 12 Uhr | 10 | 97,5 | 33,7 | 0 | – |
+| 18 Uhr | 8 | 52,5 | 47,1 | 4,1 | – |
 
 ### Wochentag
-| Gruppe | Posts | Ø Reichweite | Ø Likes | Ø Speichern+Teilen | Follower gesamt | Ø Reel-Reichweite |
-|---|---|---|---|---|---|---|
-| Fr | 6 | 118,8 | 2,3 | 0 | 0 | 98 |
-| Do | 6 | 116,8 | 3,3 | 0 | 0 | 112,8 |
-| So | 6 | 115 | 2,2 | 0 | 0 | 111,8 |
-| Mo | 4 | 102 | 2,3 | 0,3 | 0 | 97,8 |
-| Di | 3 | 81 | 1,7 | 0 | 0 | 63,5 |
-| Sa | 5 | 73 | 2 | 0,4 | 0 | 86,5 |
-| Mi | 5 | 57 | 3,4 | 0 | 0 | 52,4 |
 
-### Top 3 / Flop 3 (Reichweite)
-- 2026-10-30-novemberwetter: 207 (umwelt, sachlich, video)
-- 2026-11-01-zollgebuehr: 178 (digital, ueberraschend, bilder)
-- 2026-11-12-eishockey: 175 (sport, sachlich, bilder)
-- 2026-10-28-elterngeld: 21 (geld, sachlich, bilder)
-- 2026-10-31-inflation: 8 (geld, sachlich, bilder)
-- 2026-11-07-klima15: 3 (umwelt, sachlich, zusammen)
+| Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
+|---|---|---|---|---|---|
+| So | 5 | 135 | 21,9 | 0 | – |
+| Do | 6 | 121 | 28,5 | 0 | – |
+| Fr | 6 | 113,5 | 19,6 | 0 | – |
+| Mo | 4 | 112 | 22,1 | 2,5 | – |
+| Sa | 5 | 110 | 27,4 | 5,5 | – |
+| Di | 3 | 106 | 20,6 | 0 | – |
+| Mi | 5 | 34 | 59,6 | 0 | – |
 
-Hinweis: kleine Stichproben, Zufall möglich. Signale, die Instagram laut eigenen Angaben stark gewichtet: Speichern und Teilen, Verweildauer/Wischen, Likes in den ersten Stunden.
+### Überschrift
+
+| Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
+|---|---|---|---|---|---|
+| lang (>45 Zeichen) | 24 | 113,5 | 22,1 | 1,2 | – |
+| kurz (≤45 Zeichen) | 10 | 85 | 42,4 | 0 | – |
+
+### Zahl in der Überschrift
+
+| Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
+|---|---|---|---|---|---|
+| ohne Zahl | 18 | 111 | 24,4 | 1,1 | – |
+| mit Zahl | 16 | 105,5 | 29,8 | 0,7 | – |
+
+### Frage oder Aussage
+
+| Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
+|---|---|---|---|---|---|
+| Aussage | 31 | 112 | 25,6 | 0,9 | – |
+| Frage | 3 | 34 | 60 | 0 | – |
+
+### Videolänge
+
+| Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
+|---|---|---|---|---|---|
+| 16–25 s | 2 | 158 | 15,8 | 0 | – |
+| über 25 s | 1 | 3 | 333,3 | 0 | – |
+
+## Alle Posts
+
+| Datum | Titel | Format | Reichweite | Aufrufe | Likes | Shares | Saves | Follows | Ø geschaut | Anteil geschaut |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-28 | Elterngeld soll zum ersten Mal steigen | bilder | 21 | – | 8 | 0 | 0 | 0 | – | – |
+| 2026-10-29 | Apple bringt das erste MacBook mit Touchscree | bilder | 112 | – | 4 | 0 | 0 | 0 | – | – |
+| 2026-10-29 | Tankrabatt: Kommen die 17 Cent wirklich bei d | bilder | 23 | – | 4 | 0 | 0 | 0 | – | – |
+| 2026-10-30 | Wetter zum Wochenende: Nebel, Wolken und kühl | video | 207 | 216 | 4 | 0 | 0 | – | – | – |
+| 2026-10-30 | Astronomen finden womöglich einen neuen Zwerg | bilder | 28 | – | 4 | 0 | 0 | 0 | – | – |
+| 2026-10-31 | Alexander Zverev wird Nummer 1 der Tennis-Wel | bilder | 116 | – | 5 | 0 | 0 | 0 | – | – |
+| 2026-10-31 | Inflation sinkt im Oktober auf 2,8 Prozent | bilder | 8 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-01 | Ab heute: 2 Euro Gebühr für Bestellungen aus  | bilder | 178 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-01 | Gasspeicher nicht so voll wie vorgeschrieben | bilder | 25 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-02 | Kimi Antonelli ist mit 20 der jüngste Formel- | bilder | 141 | – | 4 | 0 | 1 | 0 | – | – |
+| 2026-11-02 | Handy-Blitzer sollen bald überall in Deutschl | bilder | 87 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-03 | Forscher finden Blut-Spuren in 115 Millionen  | bilder | 28 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-04 | Der Führerschein soll noch im November aufs H | bilder | 32 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-04 | Deutschland probt den Ernstfall: 45 Grad und  | bilder | 118 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-05 | Deutschland verbraucht 2026 weniger Energie | bilder | 127 | – | 4 | 0 | 0 | 0 | – | – |
+| 2026-11-05 | Harry Kane bleibt bis 2029 beim FC Bayern | bilder | 149 | – | 4 | 0 | 0 | 0 | – | – |
+| 2026-11-06 | Rechenzentren könnten doppelt so viel Wasser  | bilder | 146 | – | 2 | 0 | 0 | 0 | – | – |
+| 2026-11-06 | Cristiano Ronaldo hört im Nationalteam auf | bilder | 119 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-07 | So hat sich die Erde seit 1880 erwärmt | zusammen | 3 | – | 1 | 0 | 0 | 0 | – | – |
+| 2026-11-07 | EU wirft TikTok vor: Der Algorithmus gefährde | bilder | 110 | – | 1 | 2 | 0 | 0 | – | – |
+| 2026-11-08 | Vogelgrippe: Das Risiko in Deutschland gilt j | bilder | 146 | – | 2 | 0 | 0 | 0 | – | – |
+| 2026-11-08 | Handys und Laptops werden teurer | bilder | 64 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-09 | Regenchaos in Brasilien: Norris gewinnt, Merc | bilder | 137 | – | 1 | 0 | 0 | 0 | – | – |
+| 2026-11-09 | Klimakonferenz COP31: Mehr Strom statt Öl, Ga | bilder | 43 | – | 1 | 0 | 0 | 0 | – | – |
+| 2026-11-10 | Weniger CO₂ aus Kohle, Öl und Gas | video | 109 | 120 | 1 | 0 | 0 | – | – | – |
+| 2026-11-10 | Rekord: Sportvereine knacken die 30 Millionen | bilder | 106 | – | 1 | 0 | 0 | 0 | – | – |
+| 2026-11-11 | Tickets weiterverkaufen: bald höchstens 20 Eu | bilder | 34 | – | 1 | 0 | 0 | 0 | – | – |
+| 2026-11-11 | Nach 5 Jahren Pause: Die älteste Kunsteisbahn | bilder | 80 | – | 2 | 0 | 0 | 0 | – | – |
+| 2026-11-12 | Eishockey-WM: Deutschlands Frauen weichen Rek | bilder | 175 | – | 3 | 0 | 0 | 0 | – | – |
+| 2026-11-12 | Mehr Ökostrom denn je, trotzdem steuert die W | bilder | 115 | – | 1 | 0 | 0 | 0 | – | – |
+| 2026-11-13 | Geisterspiel in Belgrad: Das DFB-Team spielt  | bilder | 105 | – | 1 | 0 | 0 | 0 | – | – |
+| 2026-11-13 | Outlook, Teams, Copilot: Microsoft ist weltwe | bilder | 108 | – | 0 | 0 | 0 | 0 | – | – |
+| 2026-11-14 | DHL: Päckchen und Pakete sollen ab Januar teu | bilder | 128 | – | 0 | 0 | 0 | 0 | – | – |
+| 2026-11-15 | Ski alpin: Emma Aicher gewinnt zum ersten Mal | bilder | 135 | – | 1 | 0 | 0 | 0 | – | – |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.
