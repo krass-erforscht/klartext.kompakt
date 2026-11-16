@@ -1,0 +1,112 @@
+{
+  "id": "2026-11-16-stbrown",
+  "date": "2026-11-15T18:19:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "zusammen",
+  "sources": [
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/american-football-nfl-munich-game-detroit-lions-new-england-patriots-nachbericht-st-brown-100.html"
+    },
+    {
+      "name": "n-tv",
+      "url": "https://www.n-tv.de/sport/nfl/NFL-Spielbericht-id31534848.html"
+    },
+    {
+      "name": "Spiegel",
+      "url": "https://www.spiegel.de/sport/american-football/amon-ra-st-brown-beim-nfl-spiel-in-muenchen-deutschland-hat-ein-neues-football-idol-a-64c79fa3-60be-4541-8bc3-1394a65c485e"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-16-stbrown.jpg",
+    "credit": "All-Pro Reels / Wikimedia Commons",
+    "short": "All-Pro Reels, CC BY-SA 2.0, via Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Amon-Ra_St._Brown_vs._Commanders_2022.jpg",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "file": "videos/2026-11-16-stbrown.mp4",
+    "start": 0,
+    "duration": 15,
+    "credit": "Ryan Dickey / Wikimedia Commons",
+    "short": "Ryan Dickey, CC BY 2.0, via Wikimedia Commons",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Devin_Singletary_touchdown_(51394753691).webm",
+    "symbolisch": true,
+    "headline": "So sieht ein **Touchdown** im Stadion aus",
+    "captions": [
+      "Ein NFL-Spiel in Chicago, gefilmt von der Tribüne",
+      "Der Ball muss in die **Endzone** getragen oder dort gefangen werden",
+      "Das bringt **6 Punkte**, St. Brown schaffte es in München zweimal"
+    ]
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "NFL in München: Amon-Ra St. Brown führt die Lions mit **zwei Touchdowns** zum Sieg"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "**35:10** gegen die Patriots",
+      "text": [
+        "Die Detroit Lions haben am Sonntag in der Münchner Allianz Arena die New England Patriots klar geschlagen. Die Lions hatten dabei offiziell Heimrecht.",
+        "Den ersten Touchdown erzielte St. Brown schon im ersten Angriff: Er fing einen Pass und lief **56 Yards** bis in die Endzone."
+      ],
+      "image": {
+        "file": "images/2026-11-16-stbrown-2.jpg",
+        "credit": "All-Pro Reels / Wikimedia Commons",
+        "short": "All-Pro Reels, CC BY-SA 2.0, via Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Commanders_at_Lions_(52377911697).jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Neuer Rekord",
+      "big": "35",
+      "title": "Punkte: so viele wie **noch nie**",
+      "text": [
+        "Laut n-tv hat noch kein Team bei einem NFL-Spiel in Deutschland so viele Punkte erzielt.",
+        "Es war das **sechste** reguläre NFL-Saisonspiel in Deutschland. Für die Lions war es der fünfte Sieg in Folge."
+      ]
+    },
+    {
+      "label": "Wer ist er?",
+      "title": "Seine Mutter ist **Deutsche**",
+      "text": [
+        "Amon-Ra St. Brown hat eine deutsche Mutter und einen amerikanischen Vater. Er besitzt **beide Staatsbürgerschaften**.",
+        "Laut ZDF möchte er bei Olympischen Spielen für **Team Deutschland** antreten. Im Siegerinterview sagte er, das Spiel sei wie ein Heimspiel gewesen."
+      ],
+      "image": {
+        "file": "images/2026-11-16-stbrown-3.jpg",
+        "credit": "Steve Cheng, Bruin Report / Wikimedia Commons",
+        "short": "Steve Cheng, CC BY-SA 2.0, via Wikimedia Commons",
+        "license": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Amon-Ra_St._Brown.jpg",
+        "symbolbild": true,
+        "position": "top"
+      }
+    },
+    {
+      "label": "Merk dir",
+      "big": "2027",
+      "title": "Nächstes NFL-Spiel in **Berlin**",
+      "text": [
+        "So geht es weiter: 2027 Berlin, 2028 wieder München, 2029 Berlin.",
+        "NFL-Chef Roger Goodell hält sogar **zwei Spiele pro Saison** in Deutschland für möglich. Beschlossen ist das nicht."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Speichern & teilen",
+      "title": "Schick das jemandem, der sonntags **Football** schaut."
+    }
+  ],
+  "caption": "NFL in München: Amon-Ra St. Brown hat die Detroit Lions mit zwei Touchdowns zu einem 35:10 gegen die New England Patriots geführt. Der Deutsch-Amerikaner fing schon im ersten Angriff einen Pass und lief 56 Yards in die Endzone. Laut n-tv waren die 35 Punkte ein Rekord für NFL-Spiele in Deutschland. Nächstes Jahr spielt die NFL in Berlin.\n\nSchaust du American Football? Und für welches Team bist du? 👇\n\nQuellen: ZDFheute, n-tv, Spiegel · Text mit KI erstellt\nFotos (Archiv, Symbolbilder, nicht aus München): All-Pro Reels, CC BY-SA 2.0; Steve Cheng, CC BY-SA 2.0; beide via Wikimedia Commons · Video (Symbolvideo, anderes NFL-Spiel): Ryan Dickey, CC BY 2.0, via Wikimedia Commons\n#nfl #amonrastbrown #detroitlions #americanfootball #nachrichten"
+}
