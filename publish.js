@@ -32,8 +32,19 @@ function altText(post, slide) {
 // GitHub liefert Videos ohne Video-Dateityp aus; jsDelivr spiegelt das Repo mit richtigem Typ.
 // Die Commit-ID in der Adresse verhindert, dass eine alte Version aus dem Zwischenspeicher kommt.
 function cdnUrl(post, name) {
-  const sha = execFileSync('git', ['rev-parse', 'HEAD']).toString().trim();
-  return `https://cdn.jsdelivr.net/gh/${REPO}@${sha}/out/${post.id}/${name}`;
+  // Der Commit, in dem die Datei zuletzt geändert wurde (nicht HEAD): den kennt jsDelivr meist schon, ein ganz neuer HEAD liefert oft noch 404
+  const file = `out/${post.id}/${name}`;
+  const sha = execFileSync('git', ['log', '-1', '--format=%H', '--', file]).toString().trim() || execFileSync('git', ['rev-parse', 'HEAD']).toString().trim();
+  return `https://cdn.jsdelivr.net/gh/${REPO}@${sha}/${file}`;
+}
+
+// Vor dem Weitergeben an Instagram warten, bis jsDelivr die Datei wirklich ausliefert (sonst „Video-Verarbeitung: ERROR“), höchstens 3 Minuten
+async function waitCdn(url) {
+  for (let i = 0; i < 18; i++) {
+    try { if ((await fetch(url, { method: 'HEAD', signal: AbortSignal.timeout(20000) })).ok) return; } catch {}
+    await sleep(10000);
+  }
+  console.error(`Achtung: ${url} ist bei jsDelivr noch nicht abrufbar`);
 }
 
 // Instagram verarbeitet Videos im Hintergrund; bis zu 10 Minuten warten
@@ -95,7 +106,7 @@ async function publishReel(post, { file, musicFile, feed }) {
   if (existing) return existing;
   const url = cdnUrl(post, file);
   // Videodatei einmal beim CDN abrufen, damit sie dort bereitliegt, wenn Instagram sie holt
-  try { await fetch(url, { method: 'HEAD' }); } catch {}
+  await waitCdn(url);
   // Ein Verarbeitungsfehler bei Instagram ist oft nur vorübergehend (bei uns am 7.11.) – einmal neu versuchen
   for (let attempt = 1; ; attempt++) {
     const container = await call(`${IG_USER_ID}/media`, { media_type: 'REELS', video_url: url, caption: fullCaption(post, musicFile), share_to_feed: String(feed) });
@@ -130,7 +141,9 @@ async function publishCarousel(post, { videoSlide }) {
     }
     children.push(item.id);
     if (videoSlide && i === 1) {
-      const vid = await call(`${IG_USER_ID}/media`, { media_type: 'VIDEO', video_url: cdnUrl(post, 'video-45.mp4'), is_carousel_item: 'true' });
+      const vurl = cdnUrl(post, 'video-45.mp4');
+      await waitCdn(vurl);
+      const vid = await call(`${IG_USER_ID}/media`, { media_type: 'VIDEO', video_url: vurl, is_carousel_item: 'true' });
       await waitReady(vid.id);
       children.push(vid.id);
     }

@@ -1120,5 +1120,21 @@
       "ig_reels_video_view_total_time": 820168
     },
     "statsAt": "2026-11-16T11:17:19.754Z"
+  },
+  {
+    "id": "2026-11-16-vulcan",
+    "postedAt": "2026-11-16T19:01:21.344Z",
+    "topic": "digital",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/wirtschaft/technologie/rakete-amazon-satelliten-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wirtschaft/technologie/rakete-amazon-satelliten-100.html",
+      "https://www.zdfheute.de/wirtschaft/unternehmen/amazon-raketenstart-missglueckt-satelliten-100.html",
+      "https://www.deutschlandfunk.de/vulcan-rakete-versagt-nach-start-amazon-verliert-40-leo-satelliten-102.html",
+      "https://t3n.de/news/vulcan-centaur-rakete-anomalie-amazon-satelliten-1773699/",
+      "https://www.spiegel.de/wirtschaft/amazon-absturz-der-vulcan-rakete-kostet-us-konzern-40-satelliten-a-8bd0dc5f-699c-493e-a188-437d49521bcb"
+    ],
+    "mediaId": "18140973949729310",
+    "format": "bilder"
   }
 ]
