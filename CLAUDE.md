@@ -13,6 +13,27 @@ Der Instagram-Schlüssel heißt hier **`KLARTEXT_IG_TOKEN`** (nicht `IG_TOKEN`, 
 `publish.js` und `comments.js` prüfen, dass der Schlüssel zu @tagesbild.kompakt gehört, und brechen sonst ab.
 Name, Repository, Farben, Schwerpunkte und Töne stehen zentral in `config.js`.
 
+## Richtung (vom Nutzer festgelegt, 2026-11-16) – gilt für jeden Post
+
+Ziel ist **Reichweite, Likes und Follower**. Wir gehen **komplett** in die Richtung erfolgreicher Kurzvideos (wie krass.erforscht,
+Muster in `data/strategie.md`, Abschnitt „Vorbilder“), nicht im Wechsel – aber immer als **seriöser Nachrichten-Account**:
+- **Immer ein Video mit Sprecherstimme** (Format `video`, Felder `video.voice` und `video.voiceText`), **25–45 Sekunden**,
+  Stimme ab Sekunde 0, Tempo 1,2, mitlaufende Untertitel (macht `video-reel.js` automatisch). Ein Satz pro Zeile in `voice`,
+  Zahlen dort ausgeschrieben, in `voiceText` derselbe Satz mit Ziffern. Das Wort „Wow“ nicht sprechen lassen (die Stimme sagt „Bau“).
+- **Spannende Bilder statt Standbild:** möglichst echtes, bewegtes Material, das zur Meldung passt (Ort, Gegenstand, Ereignis).
+  **Alle 3–5 Sekunden ein Schnitt:** mehrere Szenen mit `node clips.js videos/<id>.mp4 "<datei>|<start>|<dauer>" …` zusammensetzen
+  (Videos und Fotos gemischt möglich). Die stärkste, bewegteste Szene zuerst. Ohne echtes Video: aus 2–4 guten Fotos mit `clips.js`
+  oder `bilder-video.js` ein Video bauen. Fremdmotive als „Symbolvideo/Symbolbild“ kennzeichnen.
+- **Aufbau:** erster gesprochener Satz = die überraschendste Tatsache oder eine Neugier-Frage („Ab Januar zahlst du für … mehr – warum?“),
+  dann „Was heißt das für dich?“, Auflösung im Video; letzter Satz = leichte A-oder-B-Frage oder „Folge für Nachrichten in 30 Sekunden“.
+- **Überschrift (`video.headline`) emotional mit genau einem passenden Emoji**, ca. 50–70 Zeichen, **aber wahr und angemessen**:
+  bei ernsten oder traurigen Themen kein 😱/🤯, keine Übertreibung, Pläne bleiben Pläne („soll“). Sorgfalt geht immer vor Reichweite.
+- **Caption:** „Text und Stimme mit KI erstellt“ statt nur „Text mit KI erstellt“.
+- Getestet wird nur noch **innerhalb** dieser Richtung (z. B. 25 vs. 45 s, Frage- vs. Aussage-Einstieg, Schwerpunkt), immer eine Sache pro Post.
+- **Stimme einrichten** (einmal pro Lauf, falls `/tmp/cb` fehlt, ca. 5 Minuten): siehe Kopf von `stimme/sprechen.py`.
+  Die Sprachaufnahme dauert ca. 5–15 Minuten. Warnungen der Stimmprüfung lesen; klingt ein Satz falsch, umformulieren und neu bauen.
+- **Zeiten:** Die Läufe liegen so, dass sie sich nicht mit krass.erforscht überschneiden (dessen Läufe: 7:45, 12:15, 18:15, 20:45 Uhr).
+
 ## Ablauf
 
 A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gesetzt ist):
@@ -27,7 +48,7 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
    auf neue Entwicklungen prüfen (Nachrichten können sich in Stunden ändern) und wenn nötig aktualisieren.
    Liegt im Posting-Fenster schon eine fertige, gerenderte Post-Datei von heute vor: nach dieser Prüfung direkt mit Schritt 10 veröffentlichen.
    Nur wenn Kommentare beantwortet wurden, dem Nutzer kurz schreiben, wie viele; sonst keine Nachricht.
-   Zwei Posts pro Tag in zwei von vier Fenstern (7:15, 12:15, 18:15, 20:45 Uhr). Welche Fenster dran sind, entscheidet die Reichweite
+   Zwei Posts pro Tag in zwei von vier Fenstern (Läufe um 6:15, 10:40, 16:20 und 19:35 Uhr; veröffentlicht wird frühestens zu Beginn des Fensters: morgens ab 6, mittags ab 11, abends ab 16, spät ab 20 Uhr). Welche Fenster dran sind, entscheidet die Reichweite
    im Verhältnis zum Median des jeweiligen Formats (siehe „Immer nach der besten Reichweite“).
 1. `npm ci`
 2. **Lernen:** `node insights.js` (nur mit Token, holt Reichweite, Aufrufe, Zuschaudauer und Follower), dann **`node analyse.js`**.
@@ -82,14 +103,15 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
      dann `"symbolisch": true`, es wird sichtbar als „Symbolvideo“ gekennzeichnet. Besten Abschnitt wählen (8–30 Sekunden).
    - Gefunden: wie bei krass.erforscht nach `videos/<post-id>.mp4` (webm vorher mit ffmpeg umwandeln) und `"video"` eintragen
      (`file, start, duration, credit, short, license, page, symbolisch, headline, captions`).
-   - **Format:** `node format.js ja` (Video gefunden) bzw. `nein`. Es wählt zwischen `bilder`, `video` (echtes Video als Reel im Feed) und `zusammen`
+   - **Format:** immer `video` (siehe „Richtung“); `node format.js` erinnert daran.
+   - Früher: `node format.js ja` (Video gefunden) bzw. `nein`. Es wählt zwischen `bilder`, `video` (echtes Video als Reel im Feed) und `zusammen`
      (Karussell mit dem Video als zweiter Folie) nach der Regel „Immer nach der besten Reichweite“. Ergebnis als `"format"` eintragen.
 7. **Post schreiben:** `posts/<YYYY-MM-DD>-<stichwort>.json` nach dem Muster von `beispiel/elterngeld.json`.
    - Felder: `id`, `date` (Zeitpunkt der Meldung, erscheint auf jeder Folie), `category` (Anzeigename, z. B. „Geld“), `topic` (= Schwerpunkt), `tone` (sachlich | ueberraschend | locker), `sources`.
    - 4–6 Folien: Titelfolie (die Nachricht in einem Satz), „Was ist passiert?“, „Was heißt das für dich?“, eine Zahl als `big`, Einordnung/„Wie geht es weiter?“, letzte Folie `cta`.
      Kurze Sätze, keine Fachwörter ohne Erklärung, `**Wort**` = Hervorhebung. Neutral bleiben, keine eigene Meinung.
    - Caption: erster Satz = Hook **mit dem Suchbegriff** (z. B. „Elterngeld“, „Deutschlandticket“, „WhatsApp“). Dann 1–2 Sätze Inhalt,
-     eine Frage an die Leser (keine Streitfrage über Parteien), Quellen, „Text mit KI erstellt“, Bildnachweise aller Fotos mit Lizenz,
+     eine Frage an die Leser (keine Streitfrage über Parteien), Quellen, „Text und Stimme mit KI erstellt“, Bildnachweise aller Fotos mit Lizenz,
      **höchstens 5 Hashtags** (1–2 allgemeine wie #nachrichten, 3–4 genaue).
 8. **Rendern:** `node render.js posts/<datei>.json`, jede Folie ansehen und korrigieren, bis nichts abgeschnitten ist.
    `node reel.js posts/<datei>.json` und zwei, drei Standbilder prüfen. Bei Format `video`/`zusammen` zusätzlich `node video-reel.js posts/<datei>.json`.

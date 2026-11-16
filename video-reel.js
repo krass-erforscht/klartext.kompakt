@@ -14,8 +14,8 @@ const mark = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<span class="hl">$1</span>')
 
 // Layout je Format: wo die Überschrift steht, wo das Video sitzt und wo die Fakten erscheinen
 const LAYOUTS = {
-  // 9:16: Instagram legt unten (ca. das letzte Drittel) Titel, Kontoname und Buttons und rechts die Like-Leiste über das Video.
-  // Deshalb stehen Fakten und Nachweis oberhalb davon und halten rechts Abstand (sichere Zone, wie bei krass.erforscht).
+  // 9:16: Instagram und YouTube legen unten (ca. das letzte Drittel) Titel, Kanalname und Buttons und rechts die Like-Leiste über das Video.
+  // Deshalb stehen Fakten und Nachweis oberhalb davon und halten rechts Abstand (sichere Zone).
   reel: { W: 1080, H: 1920, head: [170, 430], caption: [1010, 1270], headSize: 72, capSize: 54, padRight: 180, footTop: 1290 },
   '45': { W: 1080, H: 1350, head: [40, 300], caption: [930, 1230], headSize: 64, capSize: 48 },
 };
@@ -25,7 +25,7 @@ const css = (L) => `*{box-sizing:border-box}html,body{margin:0;width:${L.W}px;he
 .head h1{margin:0;color:#fff;font-size:${L.headSize}px;line-height:1.08;font-weight:800;letter-spacing:-.01em}
 .hl{color:${COLORS.mark}}
 .cap{position:absolute;left:64px;right:${L.padRight || 64}px;top:${L.caption[0]}px;height:${L.caption[1] - L.caption[0]}px;display:flex;align-items:center}
-.cap p{margin:0;color:#fff;font-size:${L.capSize}px;line-height:1.25;font-weight:700;text-shadow:0 3px 16px rgba(0,0,0,.8)}
+.cap p{margin:0;${L.center ? 'width:100%;text-align:center;' : ''}color:#fff;font-size:${L.capSize}px;line-height:1.25;font-weight:700;text-shadow:0 3px 16px rgba(0,0,0,.8)}
 .cap .hl{background:${COLORS.mark};color:${COLORS.text};padding:0 .12em;text-shadow:none;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .foot{position:absolute;left:64px;right:${L.padRight || 64}px;${L.footTop ? `top:${L.footTop}px` : 'bottom:28px'};display:flex;justify-content:space-between;align-items:flex-end;gap:24px;
  font-family:"DejaVu Sans Mono",monospace;color:rgba(255,255,255,.85);font-size:${L.H === 1920 ? 30 : 24}px;text-shadow:0 2px 8px rgba(0,0,0,.8)}
@@ -35,7 +35,9 @@ async function overlays(page, L, post, captions, tmp, tag) {
   await page.setViewportSize({ width: L.W, height: L.H });
   const headline = post.video.headline || post.slides[0].title;
   // Videos, die nur das Prinzip zeigen (nicht genau das Objekt aus dem Post), werden sichtbar als Symbolvideo gekennzeichnet
-  const credit = post.video.short ? `${post.video.symbolisch ? 'Symbolvideo · ' : ''}${post.video.short}` : `${post.video.symbolisch ? 'Symbolvideo' : 'Video'}: ${post.video.credit}`;
+  const credit = post.video.short
+    ? `${post.video.symbolisch && !/symbol/i.test(post.video.short) ? 'Symbolvideo · ' : ''}${post.video.short}`
+    : `${post.video.symbolisch ? 'Symbolvideo' : 'Video'}: ${post.video.credit}`;
   await page.setContent(`<style>${css(L)}</style><div class="head"><h1>${mark(headline)}</h1></div>
     <div class="foot"><span>${HANDLE}</span><span class="credit">${esc(credit)}</span></div>`);
   // Überschrift verkleinern, falls sie nicht ins Band passt
@@ -59,15 +61,19 @@ function placement(L, file) {
   return { fw, fh, x: Math.round((L.W - fw) / 2), y: top + Math.round((room - fh) / 2) };
 }
 
-function render(L, post, captions, music, tmp, tag, out) {
+function render(L, post, captions, music, tmp, tag, out, voice) {
   const v = post.video;
   const p = placement(L, v.file);
   const dur = v.duration;
   const per = dur / captions.length;
+  // Mit Sprecherstimme: Fakten genau dann einblenden, wenn der passende Satz gesprochen wird
+  const spans = voice?.spans ? voice.spans : voice && voice.times.length === captions.length
+    ? voice.times.map((t, i) => [i === 0 ? 0 : t.start + voice.lead - 0.15, i === captions.length - 1 ? dur : voice.times[i + 1].start + voice.lead - 0.15])
+    : captions.map((_, i) => [i * per, (i + 1) * per]);
   const args = ['-y', '-v', 'error',
-    '-ss', String(v.start || 0), '-t', String(dur), '-i', v.file,
+    '-stream_loop', '-1', '-ss', String(v.start || 0), '-t', String(dur), '-i', v.file,
     '-i', path.join(tmp, `${tag}-frame.png`), ...captions.flatMap((_, i) => ['-i', path.join(tmp, `${tag}-cap${i}.png`)]),
-    '-stream_loop', '-1', '-ss', String(music.start), '-i', music.file];
+    '-stream_loop', '-1', '-ss', String(music.start), '-i', music.file, ...(voice ? ['-i', voice.file] : [])];
   const musicIdx = 2 + captions.length;
   // Hintergrund: dasselbe Video vergrößert und unscharf; davor das Video in voller Breite
   const f = [
@@ -79,12 +85,19 @@ function render(L, post, captions, music, tmp, tag, out) {
   ];
   let last = 'o0';
   captions.forEach((_, i) => {
-    const from = (i * per).toFixed(2), to = ((i + 1) * per).toFixed(2);
+    const from = spans[i][0].toFixed(2), to = spans[i][1].toFixed(2);
     f.push(`[${last}][${2 + i}:v]overlay=0:0:enable='gte(t,${from})*lt(t,${to})'[o${i + 1}]`);
     last = `o${i + 1}`;
   });
   f.push(`[${last}]format=yuv420p[v]`);
-  f.push(`[${musicIdx}:a]atrim=0:${dur},afade=t=in:d=0.6,afade=t=out:st=${(dur - 1.2).toFixed(2)}:d=1.2,loudnorm=I=-16:TP=-1.5:LRA=11,aformat=sample_rates=44100:channel_layouts=stereo[aout]`);
+  if (voice) {
+    // Stimme vorne, Musik leise darunter
+    f.push(`[${musicIdx}:a]atrim=0:${dur},volume=0.07,afade=t=in:d=0.6,afade=t=out:st=${(dur - 1.2).toFixed(2)}:d=1.2,aformat=sample_rates=44100:channel_layouts=stereo[mus]`);
+    f.push(`[${musicIdx + 1}:a]atempo=${voice.speed},adelay=${Math.round(voice.lead * 1000)}|${Math.round(voice.lead * 1000)},aresample=44100,pan=stereo|c0=c0|c1=c0,apad=pad_dur=${dur}[voc]`);
+    f.push(`[voc][mus]amix=inputs=2:duration=longest:normalize=0,atrim=0:${dur},loudnorm=I=-15:TP=-1.5:LRA=11,aformat=sample_rates=44100:channel_layouts=stereo[aout]`);
+  } else {
+    f.push(`[${musicIdx}:a]atrim=0:${dur},afade=t=in:d=0.6,afade=t=out:st=${(dur - 1.2).toFixed(2)}:d=1.2,loudnorm=I=-16:TP=-1.5:LRA=11,aformat=sample_rates=44100:channel_layouts=stereo[aout]`);
+  }
   args.push('-filter_complex', f.join(';'), '-map', '[v]', '-map', '[aout]', '-t', String(dur),
     '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-r', String(FPS), '-c:a', 'aac', '-b:a', '128k', '-movflags', '+faststart', out);
   execFileSync('ffmpeg', args, { stdio: ['ignore', 'ignore', 'inherit'] });
@@ -98,13 +111,54 @@ function render(L, post, captions, music, tmp, tag, out) {
   v.start = Math.max(0, Math.min(v.start || 0, total - 3));
   // 8 bis 30 Sekunden: lang genug für die Fakten, kurz genug, dass man bis zum Ende schaut
   v.duration = Math.max(8, Math.min(v.duration || 15, 30, total - v.start));
-  const captions = v.captions || post.slides.filter(s => !s.type && s.title).map(s => s.title).slice(0, 4);
+  let captions = v.captions || post.slides.filter(s => !s.type && s.title).map(s => s.title).slice(0, 4);
 
   const dir = path.join('out', post.id);
   fs.mkdirSync(dir, { recursive: true });
+  // Sprecherstimme (Test „stimme“): "voice": ["Satz 1", "Satz 2", …] – am besten ein Satz pro eingeblendetem Fakt.
+  // Gesprochen mit Stimme C (stimme/sprechen.py); das Video wird bei Bedarf verlängert (Schleife), damit der Text ganz hineinpasst.
+  let voice = null;
+  if (Array.isArray(v.voice) && v.voice.length) {
+    const vf = path.join(dir, 'voice.wav'), txt = path.join(dir, 'voice.txt'), body = v.voice.join('\n');
+    const cached = fs.existsSync(vf) && fs.existsSync(txt) && fs.readFileSync(txt, 'utf8') === body;
+    if (!cached) {
+      fs.writeFileSync(txt, body);
+      execFileSync(process.env.STIMME_PY || '/tmp/cb/bin/python', [path.join(__dirname, 'stimme/sprechen.py'), txt, vf], { stdio: ['ignore', 'ignore', 'inherit'] });
+    }
+    // Tempo: Stimme C spricht ca. 140 Wörter/Min.; schneller (Standard 1,2 → ca. 170 Wörter/Min.) hält Zuschauer laut Studien länger
+    const speed = v.voiceSpeed || 1.2;
+    const times = JSON.parse(fs.readFileSync(vf.replace(/\.wav$/, '.json'))).map(t => ({ ...t, start: t.start / speed, end: t.end / speed }));
+    // Die Stimme setzt fast sofort ein: gesprochene Worte in den ersten Sekunden halten mehr Leute am Video
+    voice = { file: vf, times, lead: 0.15, speed };
+    v.duration = Math.min(Math.max(v.duration, times.at(-1).end + voice.lead + 0.8), 45);
+    // Untertitel zur Stimme: der gesprochene Text in Stücken von 2–3 Wörtern, genau dann, wenn er gesprochen wird
+    // (viele schauen ohne Ton; mitlaufende Untertitel halten laut Plattformdaten länger). Angezeigt wird "voiceText"
+    // (gleicher Satz, aber Zahlen als Ziffern), sonst der Sprechtext. Zahlen werden hervorgehoben.
+    const shows = Array.isArray(v.voiceText) && v.voiceText.length === v.voice.length ? v.voiceText : v.voice;
+    const chunks = [];
+    times.forEach((t, i) => {
+      const words = shows[i].split(/\s+/).filter(Boolean), groups = [];
+      for (const w of words) {
+        const g = groups.at(-1);
+        if (!g || g.length >= 3 || /[.,:;?!]$/.test(g.at(-1))) groups.push([w]); else g.push(w);
+      }
+      const total = groups.reduce((a, g) => a + g.join(' ').length, 0);
+      let at = t.start + voice.lead;
+      for (const g of groups) {
+        const len = (t.end - t.start) * g.join(' ').length / total;
+        chunks.push({ text: g.join(' '), start: at, end: at + len }); at += len;
+      }
+    });
+    chunks.forEach((c, i) => { c.end = i < chunks.length - 1 ? chunks[i + 1].start : v.duration; });
+    chunks[0].start = 0;
+    captions = chunks.map(c => c.text.replace(/(\d[\d.,]*(?:\s?(?:%|°C|Prozent|Euro|Cent|Tage|Jahre|Grad|km|Meter|Millionen|Milliarden))?)/g, '**$1**'));
+    voice.spans = chunks.map(c => [c.start, c.end]);
+  }
   const tmp = fs.mkdtempSync('/tmp/vreel-');
   const browser = await launch();
   const page = await browser.newPage();
+  // Untertitel zur Stimme größer und mittig, damit man sie auch ohne Ton gut mitlesen kann
+  if (voice) { LAYOUTS.reel.capSize = 78; LAYOUTS['45'].capSize = 62; LAYOUTS.reel.center = LAYOUTS['45'].center = true; }
   for (const [tag, L] of Object.entries(LAYOUTS)) await overlays(page, L, post, captions, tmp, tag);
   await browser.close();
 
@@ -113,8 +167,8 @@ function render(L, post, captions, music, tmp, tag, out) {
   const music = { file: m.file, start: m.seconds > v.duration + 30 ? Math.min(15, Math.round(m.seconds * 0.1)) : 0 };
   fs.writeFileSync(path.join(dir, 'video-music.json'), JSON.stringify({ title: m.title, artist: m.artist, source: m.source, license: m.license, credit: m.credit }, null, 2));
 
-  render(LAYOUTS.reel, post, captions, music, tmp, 'reel', path.join(dir, 'video-reel.mp4'));
-  render(LAYOUTS['45'], post, captions, music, tmp, '45', path.join(dir, 'video-45.mp4'));
+  render(LAYOUTS.reel, post, captions, music, tmp, 'reel', path.join(dir, 'video-reel.mp4'), voice);
+  render(LAYOUTS['45'], post, captions, music, tmp, '45', path.join(dir, 'video-45.mp4'), voice);
   fs.rmSync(tmp, { recursive: true, force: true });
-  console.log(`Video-Reel (${v.duration.toFixed(1)} s, ${m.credit || 'eigene Klangfläche'}) -> ${dir}/video-reel.mp4 und video-45.mp4`);
+  console.log(`Video-Reel (${v.duration.toFixed(1)} s${voice ? ', mit Sprecherstimme' : ''}, ${m.credit || 'eigene Klangfläche'}) -> ${dir}/video-reel.mp4 und video-45.mp4`);
 })().catch(e => { console.error(e.message); process.exit(1); });
