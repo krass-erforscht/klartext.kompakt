@@ -1302,5 +1302,20 @@
     ],
     "mediaId": "17913251931481983",
     "format": "video"
+  },
+  {
+    "id": "2026-11-17-dfb",
+    "postedAt": "2026-11-17T19:00:41.508Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.sportschau.de/fussball/nationalmannschaft/50-deutschland-gegen-niederlande-wie-im-rausch,deutschland-niederlande-spielbericht-102.html",
+    "sourceUrls": [
+      "https://www.sportschau.de/fussball/nationalmannschaft/50-deutschland-gegen-niederlande-wie-im-rausch,deutschland-niederlande-spielbericht-102.html",
+      "https://www.sportschau.de/fussball/nationsleague/nations-league-finalturnier-wird-freitag-ausgelost,nations-league-auslosung-104.html",
+      "https://www.zdfheute.de/sport/fussball-nations-league-deutschland-dfb-niederlande-spielbericht-100.html",
+      "https://www.deutschlandfunk.de/deutsche-fussball-nationalmannschaft-mit-kantersieg-gegen-niederlande-im-viertelfinale-der-nations-l-102.html"
+    ],
+    "mediaId": "18098618189138231",
+    "format": "video"
   }
 ]
