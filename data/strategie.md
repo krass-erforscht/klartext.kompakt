@@ -40,5 +40,6 @@ Aus der YouTube-Auswertung von krass.erforscht (240 meistgesehene deutsche Wisse
 - Verglichen wird die Reichweite im Verhältnis zum Median des Formats. Stand 2026-11-16: morgens 1,2×, mittags 0,89×, abends 0,48×, spät noch ungetestet.
 
 ## Verlauf
+- 2026-11-17 (morgens): Keine Regeländerung (Vulcan noch keine 24 h alt). Abend-Post vorbereitet mit `aussage-titel` im Test, erstes erzähltes Video mit Stimme.
 - 2026-11-16 (abends): Neue Richtung: jedes Post ein erzähltes Video mit Sprecherstimme (25–45 s), schnelle Schnitte, emotionale aber wahre Überschrift. Läufe zeitlich von krass.erforscht getrennt (6:15, 10:40, 16:20, 19:35).
 - 2026-11-16: Analyse und Strategie eingeführt (von krass.erforscht übernommen), Regeln 1–4 aufgestellt, Fenster 20:45 ergänzt.

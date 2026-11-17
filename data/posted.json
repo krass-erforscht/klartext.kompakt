@@ -20,7 +20,9 @@
       "comments": 5,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 16,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 11,
@@ -28,9 +30,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 11
+      "views": 11,
+      "ig_reels_avg_watch_time": 2854,
+      "ig_reels_video_view_total_time": 37108
     },
-    "statsAt": "2026-11-16T06:16:46.375Z"
+    "statsAt": "2026-11-17T05:16:46.474Z"
   },
   {
     "id": "2026-10-29-macbook-touch",
@@ -52,7 +56,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 14,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 106,
@@ -60,9 +66,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 113
+      "views": 113,
+      "ig_reels_avg_watch_time": 3493,
+      "ig_reels_video_view_total_time": 370311
     },
-    "statsAt": "2026-11-16T06:16:46.890Z"
+    "statsAt": "2026-11-17T05:16:47.731Z"
   },
   {
     "id": "2026-10-29-tankrabatt",
@@ -83,7 +91,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 14,
+      "profile_visits": 1
     },
     "reelStats": {
       "reach": 17,
@@ -91,9 +101,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 17
+      "views": 17,
+      "ig_reels_avg_watch_time": 3383,
+      "ig_reels_video_view_total_time": 57511
     },
-    "statsAt": "2026-11-16T06:16:47.618Z"
+    "statsAt": "2026-11-17T05:16:48.592Z"
   },
   {
     "id": "2026-10-30-novemberwetter",
@@ -114,9 +126,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 216
+      "views": 216,
+      "ig_reels_avg_watch_time": 3562,
+      "ig_reels_video_view_total_time": 723152
     },
-    "statsAt": "2026-11-16T06:16:48.034Z"
+    "statsAt": "2026-11-17T05:16:48.942Z"
   },
   {
     "id": "2026-10-30-zwergplanet",
@@ -137,7 +151,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 12,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 22,
@@ -145,9 +161,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 24
+      "views": 24,
+      "ig_reels_avg_watch_time": 2508,
+      "ig_reels_video_view_total_time": 55176
     },
-    "statsAt": "2026-11-16T06:16:48.800Z"
+    "statsAt": "2026-11-17T05:16:49.917Z"
   },
   {
     "id": "2026-10-31-zverev",
@@ -168,7 +186,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 22,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 110,
@@ -176,9 +196,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 117
+      "views": 117,
+      "ig_reels_avg_watch_time": 2421,
+      "ig_reels_video_view_total_time": 266369
     },
-    "statsAt": "2026-11-16T06:16:49.349Z"
+    "statsAt": "2026-11-17T05:16:51.775Z"
   },
   {
     "id": "2026-10-31-inflation",
@@ -199,7 +221,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 10,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 3,
@@ -207,9 +231,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 4
+      "views": 4,
+      "ig_reels_avg_watch_time": 1745,
+      "ig_reels_video_view_total_time": 6982
     },
-    "statsAt": "2026-11-16T06:16:50.029Z"
+    "statsAt": "2026-11-17T05:16:52.671Z"
   },
   {
     "id": "2026-11-01-zollgebuehr",
@@ -230,7 +256,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 9,
+      "profile_visits": 1
     },
     "reelStats": {
       "reach": 172,
@@ -238,9 +266,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 194
+      "views": 194,
+      "ig_reels_avg_watch_time": 4107,
+      "ig_reels_video_view_total_time": 702422
     },
-    "statsAt": "2026-11-16T06:16:50.519Z"
+    "statsAt": "2026-11-17T05:16:53.347Z"
   },
   {
     "id": "2026-11-01-gasspeicher",
@@ -262,7 +292,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 14,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 20,
@@ -270,9 +302,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 22
+      "views": 22,
+      "ig_reels_avg_watch_time": 1631,
+      "ig_reels_video_view_total_time": 34253
     },
-    "statsAt": "2026-11-16T06:16:51.018Z"
+    "statsAt": "2026-11-17T05:16:54.195Z"
   },
   {
     "id": "2026-11-02-antonelli",
@@ -294,7 +328,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "follows": 0
+      "follows": 0,
+      "views": 11,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 135,
@@ -302,9 +338,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 1,
-      "views": 147
+      "views": 147,
+      "ig_reels_avg_watch_time": 3639,
+      "ig_reels_video_view_total_time": 494919
     },
-    "statsAt": "2026-11-16T06:16:51.611Z"
+    "statsAt": "2026-11-17T05:16:55.176Z"
   },
   {
     "id": "2026-11-02-handyblitzer",
@@ -326,7 +364,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 12,
+      "profile_visits": 1
     },
     "reelStats": {
       "reach": 81,
@@ -334,9 +374,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 89
+      "views": 89,
+      "ig_reels_avg_watch_time": 3963,
+      "ig_reels_video_view_total_time": 325040
     },
-    "statsAt": "2026-11-16T06:16:52.147Z"
+    "statsAt": "2026-11-17T05:16:56.036Z"
   },
   {
     "id": "2026-11-03-dinoblut",
@@ -357,7 +399,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 10,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 23,
@@ -365,9 +409,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 25
+      "views": 25,
+      "ig_reels_avg_watch_time": 5633,
+      "ig_reels_video_view_total_time": 129562
     },
-    "statsAt": "2026-11-16T06:16:53.020Z"
+    "statsAt": "2026-11-17T05:16:57.454Z"
   },
   {
     "id": "2026-11-04-digitalerfuehrerschein",
@@ -388,7 +434,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 10,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 27,
@@ -396,9 +444,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 29
+      "views": 29,
+      "ig_reels_avg_watch_time": 1861,
+      "ig_reels_video_view_total_time": 53972
     },
-    "statsAt": "2026-11-16T06:16:53.575Z"
+    "statsAt": "2026-11-17T05:16:58.796Z"
   },
   {
     "id": "2026-11-04-hitzeuebung",
@@ -420,7 +470,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 9,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 113,
@@ -428,9 +480,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 127
+      "views": 127,
+      "ig_reels_avg_watch_time": 5940,
+      "ig_reels_video_view_total_time": 665369
     },
-    "statsAt": "2026-11-16T06:16:54.126Z"
+    "statsAt": "2026-11-17T05:17:00.272Z"
   },
   {
     "id": "2026-11-05-energiebilanz",
@@ -450,7 +504,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 12,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 123,
@@ -458,9 +514,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 130
+      "views": 130,
+      "ig_reels_avg_watch_time": 4850,
+      "ig_reels_video_view_total_time": 596600
     },
-    "statsAt": "2026-11-16T06:16:54.638Z"
+    "statsAt": "2026-11-17T05:17:01.128Z"
   },
   {
     "id": "2026-11-05-kane",
@@ -482,7 +540,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 12,
+      "profile_visits": 1
     },
     "reelStats": {
       "reach": 144,
@@ -490,9 +550,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 150
+      "views": 150,
+      "ig_reels_avg_watch_time": 2318,
+      "ig_reels_video_view_total_time": 333864
     },
-    "statsAt": "2026-11-16T06:16:55.141Z"
+    "statsAt": "2026-11-17T05:17:02.536Z"
   },
   {
     "id": "2026-11-06-rechenzentren",
@@ -513,7 +575,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 7,
+      "profile_visits": 1
     },
     "reelStats": {
       "reach": 143,
@@ -521,9 +585,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 156
+      "views": 156,
+      "ig_reels_avg_watch_time": 3058,
+      "ig_reels_video_view_total_time": 449538
     },
-    "statsAt": "2026-11-16T06:16:55.762Z"
+    "statsAt": "2026-11-17T05:17:03.816Z"
   },
   {
     "id": "2026-11-06-ronaldo",
@@ -545,7 +611,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 17,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 115,
@@ -553,9 +621,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 118
+      "views": 118,
+      "ig_reels_avg_watch_time": 3062,
+      "ig_reels_video_view_total_time": 352192
     },
-    "statsAt": "2026-11-16T06:16:56.316Z"
+    "statsAt": "2026-11-17T05:17:04.875Z"
   },
   {
     "id": "2026-11-07-klima15",
@@ -576,9 +646,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 6,
+      "profile_visits": 0
     },
-    "statsAt": "2026-11-16T06:16:56.610Z"
+    "statsAt": "2026-11-17T05:17:05.147Z"
   },
   {
     "id": "2026-11-07-tiktok",
@@ -601,7 +673,9 @@
       "comments": 0,
       "shares": 2,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 7,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 107,
@@ -609,9 +683,11 @@
       "comments": 0,
       "shares": 2,
       "saved": 0,
-      "views": 117
+      "views": 117,
+      "ig_reels_avg_watch_time": 2298,
+      "ig_reels_video_view_total_time": 243597
     },
-    "statsAt": "2026-11-16T06:16:58.278Z"
+    "statsAt": "2026-11-17T05:17:06.944Z"
   },
   {
     "id": "2026-11-08-vogelgrippe",
@@ -632,7 +708,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 6,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 142,
@@ -640,9 +718,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 150
+      "views": 150,
+      "ig_reels_avg_watch_time": 3164,
+      "ig_reels_video_view_total_time": 452565
     },
-    "statsAt": "2026-11-16T06:16:58.788Z"
+    "statsAt": "2026-11-17T05:17:07.807Z"
   },
   {
     "id": "2026-11-08-elektronik",
@@ -663,7 +743,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 4,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 61,
@@ -671,9 +753,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 62
+      "views": 62,
+      "ig_reels_avg_watch_time": 2335,
+      "ig_reels_video_view_total_time": 140122
     },
-    "statsAt": "2026-11-16T06:16:59.350Z"
+    "statsAt": "2026-11-17T05:17:08.931Z"
   },
   {
     "id": "2026-11-09-formel1",
@@ -695,7 +779,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 13,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 135,
@@ -703,9 +789,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 149
+      "views": 149,
+      "ig_reels_avg_watch_time": 3556,
+      "ig_reels_video_view_total_time": 476592
     },
-    "statsAt": "2026-11-16T06:17:00.039Z"
+    "statsAt": "2026-11-17T05:17:10.033Z"
   },
   {
     "id": "2026-11-09-cop31",
@@ -727,7 +815,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 11,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 40,
@@ -735,9 +825,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 47
+      "views": 47,
+      "ig_reels_avg_watch_time": 7739,
+      "ig_reels_video_view_total_time": 309575
     },
-    "statsAt": "2026-11-16T06:17:00.577Z"
+    "statsAt": "2026-11-17T05:17:10.994Z"
   },
   {
     "id": "2026-11-10-co2",
@@ -757,9 +849,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 120
+      "views": 120,
+      "ig_reels_avg_watch_time": 6099,
+      "ig_reels_video_view_total_time": 677072
     },
-    "statsAt": "2026-11-16T06:17:01.018Z"
+    "statsAt": "2026-11-17T05:17:11.267Z"
   },
   {
     "id": "2026-11-10-sportvereine",
@@ -781,7 +875,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 2,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 104,
@@ -789,9 +885,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 108
+      "views": 108,
+      "ig_reels_avg_watch_time": 2547,
+      "ig_reels_video_view_total_time": 252223
     },
-    "statsAt": "2026-11-16T06:17:01.573Z"
+    "statsAt": "2026-11-17T05:17:11.841Z"
   },
   {
     "id": "2026-11-11-tickets",
@@ -812,7 +910,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 8,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 32,
@@ -820,9 +920,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 33
+      "views": 33,
+      "ig_reels_avg_watch_time": 1067,
+      "ig_reels_video_view_total_time": 35230
     },
-    "statsAt": "2026-11-16T06:17:02.227Z"
+    "statsAt": "2026-11-17T05:17:12.789Z"
   },
   {
     "id": "2026-11-11-koenigssee",
@@ -845,7 +947,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 1,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 79,
@@ -853,9 +957,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 82
+      "views": 82,
+      "ig_reels_avg_watch_time": 2762,
+      "ig_reels_video_view_total_time": 215468
     },
-    "statsAt": "2026-11-16T06:17:02.727Z"
+    "statsAt": "2026-11-17T05:17:13.790Z"
   },
   {
     "id": "2026-11-12-eishockey",
@@ -877,7 +983,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 1,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 174,
@@ -885,9 +993,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 194
+      "views": 194,
+      "ig_reels_avg_watch_time": 5977,
+      "ig_reels_video_view_total_time": 1040151
     },
-    "statsAt": "2026-11-16T06:17:03.511Z"
+    "statsAt": "2026-11-17T05:17:14.955Z"
   },
   {
     "id": "2026-11-12-klima",
@@ -908,7 +1018,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 3,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 113,
@@ -916,9 +1028,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 126
+      "views": 126,
+      "ig_reels_avg_watch_time": 3917,
+      "ig_reels_video_view_total_time": 438809
     },
-    "statsAt": "2026-11-16T06:17:04.358Z"
+    "statsAt": "2026-11-17T05:17:16.019Z"
   },
   {
     "id": "2026-11-13-belgrad",
@@ -940,7 +1054,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 2,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 104,
@@ -948,9 +1064,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 110
+      "views": 110,
+      "ig_reels_avg_watch_time": 4796,
+      "ig_reels_video_view_total_time": 503613
     },
-    "statsAt": "2026-11-16T06:17:05.079Z"
+    "statsAt": "2026-11-17T05:17:16.780Z"
   },
   {
     "id": "2026-11-13-microsoft",
@@ -973,7 +1091,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 3,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 106,
@@ -981,9 +1101,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 111
+      "views": 111,
+      "ig_reels_avg_watch_time": 4061,
+      "ig_reels_video_view_total_time": 430531
     },
-    "statsAt": "2026-11-16T06:17:05.700Z"
+    "statsAt": "2026-11-17T05:17:17.335Z"
   },
   {
     "id": "2026-11-14-paketpreise",
@@ -1005,7 +1127,9 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 3,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 126,
@@ -1013,9 +1137,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 129
+      "views": 129,
+      "ig_reels_avg_watch_time": 2768,
+      "ig_reels_video_view_total_time": 346045
     },
-    "statsAt": "2026-11-16T06:17:06.172Z"
+    "statsAt": "2026-11-17T05:17:18.363Z"
   },
   {
     "id": "2026-11-15-aicher",
@@ -1068,12 +1194,14 @@
     "format": "zusammen",
     "reelMediaId": "17955083670305880",
     "stats": {
-      "reach": 142,
+      "reach": 143,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "follows": 0
+      "follows": 0,
+      "views": 2,
+      "profile_visits": 0
     },
     "reelStats": {
       "reach": 141,
@@ -1081,9 +1209,11 @@
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 148
+      "views": 148,
+      "ig_reels_avg_watch_time": 5458,
+      "ig_reels_video_view_total_time": 769581
     },
-    "statsAt": "2026-11-16T06:17:06.738Z"
+    "statsAt": "2026-11-17T05:17:19.366Z"
   },
   {
     "id": "2026-11-16-stbrown",
@@ -1136,6 +1266,27 @@
     ],
     "mediaId": "18140973949729310",
     "format": "bilder",
-    "reelMediaId": "18082420034742137"
+    "reelMediaId": "18082420034742137",
+    "stats": {
+      "reach": 133,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "follows": 0,
+      "views": 1,
+      "profile_visits": 0
+    },
+    "reelStats": {
+      "reach": 132,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 139,
+      "ig_reels_avg_watch_time": 4964,
+      "ig_reels_video_view_total_time": 660286
+    },
+    "statsAt": "2026-11-17T05:17:20.343Z"
   }
 ]

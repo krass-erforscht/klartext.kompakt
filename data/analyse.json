@@ -1,11 +1,12 @@
 {
-  "datum": "2026-11-16T11:17:20.062Z",
+  "datum": "2026-11-17T05:17:20.727Z",
   "hinweise": [
+    "Format: „video“ erreicht im Mittel 158 Konten, „zusammen“ nur 73 (2 bzw. 2 Posts).",
     "Thema: „sport“ erreicht im Mittel 127,5 Konten, „geld“ nur 21 (10 bzw. 3 Posts).",
     "Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (19 bzw. 4 Posts).",
     "Uhrzeit: „7 Uhr“ erreicht im Mittel 132 Konten, „18 Uhr“ nur 52,5 (16 bzw. 8 Posts).",
-    "Wochentag: „So“ erreicht im Mittel 136 Konten, „Mi“ nur 34 (5 bzw. 5 Posts).",
-    "Frage oder Aussage: „Aussage“ erreicht im Mittel 112 Konten, „Frage“ nur 34 (31 bzw. 3 Posts)."
+    "Wochentag: „So“ erreicht im Mittel 139,5 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).",
+    "Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (32 bzw. 3 Posts)."
   ],
   "watchCorr": null,
   "vergleich": [
@@ -19,7 +20,7 @@
           "reichweite": 158,
           "likes_pro_1000": 15.822784810126583,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 4.8305
         },
         {
           "wert": "bilder",
@@ -27,15 +28,15 @@
           "reichweite": 110,
           "likes_pro_1000": 27.504244482173174,
           "teilen_speichern_pro_1000": 1.0186757215619693,
-          "wiedergabe_s": 3.676
+          "wiedergabe_s": 3.164
         },
         {
           "wert": "zusammen",
-          "posts": 1,
-          "reichweite": 3,
-          "likes_pro_1000": 333.3333333333333,
+          "posts": 2,
+          "reichweite": 73,
+          "likes_pro_1000": 13.698630136986301,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 5.458
         }
       ]
     },
@@ -49,7 +50,7 @@
           "reichweite": 127.5,
           "likes_pro_1000": 19.77848101265823,
           "teilen_speichern_pro_1000": 0.7911392405063291,
-          "wiedergabe_s": 3.676
+          "wiedergabe_s": 3.309
         },
         {
           "wert": "umwelt",
@@ -57,7 +58,7 @@
           "reichweite": 118,
           "likes_pro_1000": 18.737672583826427,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 4.3835
         },
         {
           "wert": "digital",
@@ -65,7 +66,7 @@
           "reichweite": 109,
           "likes_pro_1000": 23.17880794701987,
           "teilen_speichern_pro_1000": 3.3112582781456954,
-          "wiedergabe_s": null
+          "wiedergabe_s": 2.9139999999999997
         },
         {
           "wert": "alltag",
@@ -73,15 +74,15 @@
           "reichweite": 29.5,
           "likes_pro_1000": 65.08875739644971,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 2.507
         },
         {
           "wert": "welt",
-          "posts": 2,
+          "posts": 3,
           "reichweite": 28,
-          "likes_pro_1000": 125,
+          "likes_pro_1000": 40.20100502512563,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 5.458
         },
         {
           "wert": "geld",
@@ -89,7 +90,7 @@
           "reichweite": 21,
           "likes_pro_1000": 70.06369426751593,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 2.768
         }
       ]
     },
@@ -103,15 +104,15 @@
           "reichweite": 119,
           "likes_pro_1000": 22.526934378060723,
           "teilen_speichern_pro_1000": 1.4691478942213516,
-          "wiedergabe_s": 3.676
+          "wiedergabe_s": 3.113
         },
         {
           "wert": "ueberraschend",
-          "posts": 11,
-          "reichweite": 87,
-          "likes_pro_1000": 30.40173724212812,
+          "posts": 12,
+          "reichweite": 98,
+          "likes_pro_1000": 27.25563909774436,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 3.94
         },
         {
           "wert": "locker",
@@ -119,7 +120,7 @@
           "reichweite": 70.5,
           "likes_pro_1000": 43.18936877076412,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 2.902
         }
       ]
     },
@@ -133,15 +134,15 @@
           "reichweite": 132,
           "likes_pro_1000": 18.26722338204593,
           "teilen_speichern_pro_1000": 0.521920668058455,
-          "wiedergabe_s": 3.676
+          "wiedergabe_s": 3.562
         },
         {
           "wert": "12 Uhr",
-          "posts": 10,
-          "reichweite": 97.5,
-          "likes_pro_1000": 33.72093023255814,
+          "posts": 11,
+          "reichweite": 108,
+          "likes_pro_1000": 29.91026919242273,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 3.963
         },
         {
           "wert": "18 Uhr",
@@ -149,7 +150,7 @@
           "reichweite": 52.5,
           "likes_pro_1000": 47.131147540983605,
           "teilen_speichern_pro_1000": 4.0983606557377055,
-          "wiedergabe_s": null
+          "wiedergabe_s": 2.6545
         }
       ]
     },
@@ -159,11 +160,11 @@
       "gruppen": [
         {
           "wert": "So",
-          "posts": 5,
-          "reichweite": 136,
-          "likes_pro_1000": 21.85792349726776,
+          "posts": 6,
+          "reichweite": 139.5,
+          "likes_pro_1000": 18.78612716763006,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 3.676
+          "wiedergabe_s": 3.42
         },
         {
           "wert": "Do",
@@ -171,7 +172,7 @@
           "reichweite": 121,
           "likes_pro_1000": 28.530670470756064,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 3.705
         },
         {
           "wert": "Fr",
@@ -179,7 +180,7 @@
           "reichweite": 113.5,
           "likes_pro_1000": 19.635343618513325,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 3.312
         },
         {
           "wert": "Mo",
@@ -187,7 +188,7 @@
           "reichweite": 112,
           "likes_pro_1000": 22.058823529411764,
           "teilen_speichern_pro_1000": 2.450980392156863,
-          "wiedergabe_s": null
+          "wiedergabe_s": 3.801
         },
         {
           "wert": "Sa",
@@ -195,7 +196,7 @@
           "reichweite": 110,
           "likes_pro_1000": 27.397260273972602,
           "teilen_speichern_pro_1000": 5.47945205479452,
-          "wiedergabe_s": null
+          "wiedergabe_s": 2.3594999999999997
         },
         {
           "wert": "Di",
@@ -203,7 +204,7 @@
           "reichweite": 106,
           "likes_pro_1000": 20.5761316872428,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 5.633
         },
         {
           "wert": "Mi",
@@ -211,7 +212,7 @@
           "reichweite": 34,
           "likes_pro_1000": 59.64912280701754,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 2.762
         }
       ]
     },
@@ -225,15 +226,15 @@
           "reichweite": 113.5,
           "likes_pro_1000": 22.108172127911565,
           "teilen_speichern_pro_1000": 1.1843663639952626,
-          "wiedergabe_s": 3.676
+          "wiedergabe_s": 3.559
         },
         {
           "wert": "kurz (≤45 Zeichen)",
-          "posts": 10,
-          "reichweite": 85,
-          "likes_pro_1000": 42.40766073871409,
+          "posts": 11,
+          "reichweite": 106,
+          "likes_pro_1000": 36.61327231121282,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 2.7005
         }
       ]
     },
@@ -243,11 +244,11 @@
       "gruppen": [
         {
           "wert": "ohne Zahl",
-          "posts": 18,
-          "reichweite": 111,
-          "likes_pro_1000": 24.33862433862434,
-          "teilen_speichern_pro_1000": 1.0582010582010584,
-          "wiedergabe_s": 3.676
+          "posts": 19,
+          "reichweite": 112,
+          "likes_pro_1000": 23.11854402361043,
+          "teilen_speichern_pro_1000": 0.9837678307919331,
+          "wiedergabe_s": 3.164
         },
         {
           "wert": "mit Zahl",
@@ -255,7 +256,7 @@
           "reichweite": 105.5,
           "likes_pro_1000": 29.839883551673942,
           "teilen_speichern_pro_1000": 0.727802037845706,
-          "wiedergabe_s": null
+          "wiedergabe_s": 3.639
         }
       ]
     },
@@ -265,11 +266,11 @@
       "gruppen": [
         {
           "wert": "Aussage",
-          "posts": 31,
-          "reichweite": 112,
-          "likes_pro_1000": 25.600505689001263,
-          "teilen_speichern_pro_1000": 0.9481668773704172,
-          "wiedergabe_s": 3.676
+          "posts": 32,
+          "reichweite": 113.5,
+          "likes_pro_1000": 24.795887511339583,
+          "teilen_speichern_pro_1000": 0.9071666162685212,
+          "wiedergabe_s": 3.493
         },
         {
           "wert": "Frage",
@@ -277,7 +278,7 @@
           "reichweite": 34,
           "likes_pro_1000": 60,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 3.383
         }
       ]
     },
@@ -287,11 +288,11 @@
       "gruppen": [
         {
           "wert": "16–25 s",
-          "posts": 2,
-          "reichweite": 158,
-          "likes_pro_1000": 15.822784810126583,
+          "posts": 3,
+          "reichweite": 143,
+          "likes_pro_1000": 13.071895424836601,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": null
+          "wiedergabe_s": 5.458
         },
         {
           "wert": "über 25 s",
@@ -321,14 +322,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 21,
-      "aufrufe": null,
+      "aufrufe": 16,
       "likes": 8,
       "kommentare": 5,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 2.854,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 380.9523809523809,
       "teilen_speichern_pro_1000": 0
@@ -349,14 +350,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 112,
-      "aufrufe": null,
+      "aufrufe": 14,
       "likes": 4,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 3.493,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 35.714285714285715,
       "teilen_speichern_pro_1000": 0
@@ -377,14 +378,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 23,
-      "aufrufe": null,
+      "aufrufe": 14,
       "likes": 4,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 1,
+      "wiedergabe_s": 3.383,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 173.91304347826087,
       "teilen_speichern_pro_1000": 0
@@ -412,8 +413,8 @@
       "saves": 0,
       "follows": null,
       "profilbesuche": null,
-      "wiedergabe_s": null,
-      "wiedergabe_anteil": null,
+      "wiedergabe_s": 3.562,
+      "wiedergabe_anteil": 0.17809999999999998,
       "likes_pro_1000": 19.32367149758454,
       "teilen_speichern_pro_1000": 0
     },
@@ -433,14 +434,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 28,
-      "aufrufe": null,
+      "aufrufe": 12,
       "likes": 4,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 2.508,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 142.85714285714286,
       "teilen_speichern_pro_1000": 0
@@ -461,14 +462,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 116,
-      "aufrufe": null,
+      "aufrufe": 22,
       "likes": 5,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 2.421,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 43.10344827586207,
       "teilen_speichern_pro_1000": 0
@@ -489,14 +490,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 8,
-      "aufrufe": null,
+      "aufrufe": 10,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 1.745,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 375,
       "teilen_speichern_pro_1000": 0
@@ -517,14 +518,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 178,
-      "aufrufe": null,
+      "aufrufe": 9,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 1,
+      "wiedergabe_s": 4.107,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 16.853932584269664,
       "teilen_speichern_pro_1000": 0
@@ -545,14 +546,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 25,
-      "aufrufe": null,
+      "aufrufe": 14,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 1.631,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 120,
       "teilen_speichern_pro_1000": 0
@@ -573,14 +574,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 141,
-      "aufrufe": null,
+      "aufrufe": 11,
       "likes": 4,
       "kommentare": 0,
       "shares": 0,
       "saves": 1,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 3.639,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 28.368794326241133,
       "teilen_speichern_pro_1000": 7.092198581560283
@@ -601,14 +602,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 87,
-      "aufrufe": null,
+      "aufrufe": 12,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 1,
+      "wiedergabe_s": 3.963,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 34.48275862068965,
       "teilen_speichern_pro_1000": 0
@@ -629,14 +630,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 28,
-      "aufrufe": null,
+      "aufrufe": 10,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 5.633,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 107.14285714285714,
       "teilen_speichern_pro_1000": 0
@@ -657,14 +658,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 32,
-      "aufrufe": null,
+      "aufrufe": 10,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 1.861,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 93.75,
       "teilen_speichern_pro_1000": 0
@@ -685,14 +686,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 118,
-      "aufrufe": null,
+      "aufrufe": 9,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 5.94,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 25.423728813559325,
       "teilen_speichern_pro_1000": 0
@@ -713,14 +714,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 127,
-      "aufrufe": null,
+      "aufrufe": 12,
       "likes": 4,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 4.85,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 31.496062992125985,
       "teilen_speichern_pro_1000": 0
@@ -741,14 +742,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 149,
-      "aufrufe": null,
+      "aufrufe": 12,
       "likes": 4,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 1,
+      "wiedergabe_s": 2.318,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 26.845637583892618,
       "teilen_speichern_pro_1000": 0
@@ -769,14 +770,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 146,
-      "aufrufe": null,
+      "aufrufe": 7,
       "likes": 2,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 1,
+      "wiedergabe_s": 3.058,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 13.698630136986301,
       "teilen_speichern_pro_1000": 0
@@ -797,14 +798,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 119,
-      "aufrufe": null,
+      "aufrufe": 17,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 3.062,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 25.210084033613445,
       "teilen_speichern_pro_1000": 0
@@ -825,13 +826,13 @@
       "test": null,
       "symbolvideo": "Symbolvideo",
       "reichweite": 3,
-      "aufrufe": null,
+      "aufrufe": 6,
       "likes": 1,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
+      "profilbesuche": 0,
       "wiedergabe_s": null,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 333.3333333333333,
@@ -853,14 +854,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 110,
-      "aufrufe": null,
+      "aufrufe": 7,
       "likes": 1,
       "kommentare": 0,
       "shares": 2,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 2.298,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 9.09090909090909,
       "teilen_speichern_pro_1000": 18.18181818181818
@@ -881,14 +882,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 146,
-      "aufrufe": null,
+      "aufrufe": 6,
       "likes": 2,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 3.164,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 13.698630136986301,
       "teilen_speichern_pro_1000": 0
@@ -909,14 +910,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 64,
-      "aufrufe": null,
+      "aufrufe": 4,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 2.335,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 46.875,
       "teilen_speichern_pro_1000": 0
@@ -937,14 +938,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 137,
-      "aufrufe": null,
+      "aufrufe": 13,
       "likes": 1,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 3.556,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 7.299270072992701,
       "teilen_speichern_pro_1000": 0
@@ -965,14 +966,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 43,
-      "aufrufe": null,
+      "aufrufe": 11,
       "likes": 1,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 7.739,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 23.25581395348837,
       "teilen_speichern_pro_1000": 0
@@ -1000,8 +1001,8 @@
       "saves": 0,
       "follows": null,
       "profilbesuche": null,
-      "wiedergabe_s": null,
-      "wiedergabe_anteil": null,
+      "wiedergabe_s": 6.099,
+      "wiedergabe_anteil": 0.24396,
       "likes_pro_1000": 9.174311926605505,
       "teilen_speichern_pro_1000": 0
     },
@@ -1021,14 +1022,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 106,
-      "aufrufe": null,
+      "aufrufe": 2,
       "likes": 1,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 2.547,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 9.433962264150942,
       "teilen_speichern_pro_1000": 0
@@ -1049,14 +1050,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 34,
-      "aufrufe": null,
+      "aufrufe": 8,
       "likes": 1,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 1.067,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 29.41176470588235,
       "teilen_speichern_pro_1000": 0
@@ -1077,14 +1078,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 80,
-      "aufrufe": null,
+      "aufrufe": 1,
       "likes": 2,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 2.762,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 25,
       "teilen_speichern_pro_1000": 0
@@ -1105,14 +1106,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 175,
-      "aufrufe": null,
+      "aufrufe": 1,
       "likes": 3,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 5.977,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 17.142857142857142,
       "teilen_speichern_pro_1000": 0
@@ -1133,14 +1134,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 115,
-      "aufrufe": null,
+      "aufrufe": 3,
       "likes": 1,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 3.917,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 8.695652173913043,
       "teilen_speichern_pro_1000": 0
@@ -1161,14 +1162,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 105,
-      "aufrufe": null,
+      "aufrufe": 2,
       "likes": 1,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 4.796,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 9.523809523809526,
       "teilen_speichern_pro_1000": 0
@@ -1189,14 +1190,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 108,
-      "aufrufe": null,
+      "aufrufe": 3,
       "likes": 0,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 4.061,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 0,
       "teilen_speichern_pro_1000": 0
@@ -1217,14 +1218,14 @@
       "test": null,
       "symbolvideo": null,
       "reichweite": 128,
-      "aufrufe": null,
+      "aufrufe": 3,
       "likes": 0,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": 0,
-      "profilbesuche": null,
-      "wiedergabe_s": null,
+      "profilbesuche": 0,
+      "wiedergabe_s": 2.768,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 0,
       "teilen_speichern_pro_1000": 0
@@ -1255,6 +1256,34 @@
       "wiedergabe_s": 3.676,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 7.352941176470588,
+      "teilen_speichern_pro_1000": 0
+    },
+    {
+      "id": "2026-11-15-starship",
+      "datum": "2026-11-15",
+      "titel": "So sieht ein Starship-Start aus dem All aus",
+      "format": "zusammen",
+      "thema": "welt",
+      "ton": "ueberraschend",
+      "uhrzeit": "12 Uhr",
+      "wochentag": "So",
+      "ueberschrift": "kurz (≤45 Zeichen)",
+      "zahl_im_titel": "ohne Zahl",
+      "frage_im_titel": "Aussage",
+      "videolaenge": "16–25 s",
+      "test": null,
+      "symbolvideo": "Symbolvideo",
+      "reichweite": 143,
+      "aufrufe": 2,
+      "likes": 1,
+      "kommentare": 0,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "profilbesuche": 0,
+      "wiedergabe_s": 5.458,
+      "wiedergabe_anteil": null,
+      "likes_pro_1000": 6.993006993006993,
       "teilen_speichern_pro_1000": 0
     }
   ]

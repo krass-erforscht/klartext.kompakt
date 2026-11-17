@@ -1,21 +1,22 @@
-# Algorithmus-Analyse (2026-11-16)
+# Algorithmus-Analyse (2026-11-17)
 
-34 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
-Gesamtreichweite: 3.264 Konten, Median pro Post: 109,5.
+35 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
+Gesamtreichweite: 3.407 Konten, Median pro Post: 110.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
+- Format: „video“ erreicht im Mittel 158 Konten, „zusammen“ nur 73 (2 bzw. 2 Posts).
 - Thema: „sport“ erreicht im Mittel 127,5 Konten, „geld“ nur 21 (10 bzw. 3 Posts).
 - Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (19 bzw. 4 Posts).
 - Uhrzeit: „7 Uhr“ erreicht im Mittel 132 Konten, „18 Uhr“ nur 52,5 (16 bzw. 8 Posts).
-- Wochentag: „So“ erreicht im Mittel 136 Konten, „Mi“ nur 34 (5 bzw. 5 Posts).
-- Frage oder Aussage: „Aussage“ erreicht im Mittel 112 Konten, „Frage“ nur 34 (31 bzw. 3 Posts).
+- Wochentag: „So“ erreicht im Mittel 139,5 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).
+- Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (32 bzw. 3 Posts).
 
 ## Top 3
 
-- **Wetter zum Wochenende: Nebel, Wolken und kühler** (2026-10-30, video, umwelt/sachlich, 7 Uhr): 207 Konten, 4 Likes, 0 Shares, 0 Saves
-- **Ab heute: 2 Euro Gebühr für Bestellungen aus Fernost** (2026-11-01, bilder, digital/ueberraschend, 7 Uhr): 178 Konten, 3 Likes, 0 Shares, 0 Saves
-- **Eishockey-WM: Deutschlands Frauen weichen Rekordweltmeister Kanada aus** (2026-11-12, bilder, sport/sachlich, 7 Uhr): 175 Konten, 3 Likes, 0 Shares, 0 Saves
+- **Wetter zum Wochenende: Nebel, Wolken und kühler** (2026-10-30, video, umwelt/sachlich, 7 Uhr): 207 Konten, 4 Likes, 0 Shares, 0 Saves, Ø 3,6 s geschaut
+- **Ab heute: 2 Euro Gebühr für Bestellungen aus Fernost** (2026-11-01, bilder, digital/ueberraschend, 7 Uhr): 178 Konten, 3 Likes, 0 Shares, 0 Saves, Ø 4,1 s geschaut
+- **Eishockey-WM: Deutschlands Frauen weichen Rekordweltmeister Kanada aus** (2026-11-12, bilder, sport/sachlich, 7 Uhr): 175 Konten, 3 Likes, 0 Shares, 0 Saves, Ø 6 s geschaut
 
 ## Flop 3
 
@@ -29,115 +30,116 @@ Gesamtreichweite: 3.264 Konten, Median pro Post: 109,5.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| video | 2 | 158 | 15,8 | 0 | – |
-| bilder | 31 | 110 | 27,5 | 1 | 3,7 |
-| zusammen | 1 | 3 | 333,3 | 0 | – |
+| video | 2 | 158 | 15,8 | 0 | 4,8 |
+| bilder | 31 | 110 | 27,5 | 1 | 3,2 |
+| zusammen | 2 | 73 | 13,7 | 0 | 5,5 |
 
 ### Thema
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sport | 10 | 127,5 | 19,8 | 0,8 | 3,7 |
-| umwelt | 9 | 118 | 18,7 | 0 | – |
-| digital | 6 | 109 | 23,2 | 3,3 | – |
-| alltag | 4 | 29,5 | 65,1 | 0 | – |
-| welt | 2 | 28 | 125 | 0 | – |
-| geld | 3 | 21 | 70,1 | 0 | – |
+| sport | 10 | 127,5 | 19,8 | 0,8 | 3,3 |
+| umwelt | 9 | 118 | 18,7 | 0 | 4,4 |
+| digital | 6 | 109 | 23,2 | 3,3 | 2,9 |
+| alltag | 4 | 29,5 | 65,1 | 0 | 2,5 |
+| welt | 3 | 28 | 40,2 | 0 | 5,5 |
+| geld | 3 | 21 | 70,1 | 0 | 2,8 |
 
 ### Ton
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sachlich | 19 | 119 | 22,5 | 1,5 | 3,7 |
-| ueberraschend | 11 | 87 | 30,4 | 0 | – |
-| locker | 4 | 70,5 | 43,2 | 0 | – |
+| sachlich | 19 | 119 | 22,5 | 1,5 | 3,1 |
+| ueberraschend | 12 | 98 | 27,3 | 0 | 3,9 |
+| locker | 4 | 70,5 | 43,2 | 0 | 2,9 |
 
 ### Uhrzeit
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| 7 Uhr | 16 | 132 | 18,3 | 0,5 | 3,7 |
-| 12 Uhr | 10 | 97,5 | 33,7 | 0 | – |
-| 18 Uhr | 8 | 52,5 | 47,1 | 4,1 | – |
+| 7 Uhr | 16 | 132 | 18,3 | 0,5 | 3,6 |
+| 12 Uhr | 11 | 108 | 29,9 | 0 | 4 |
+| 18 Uhr | 8 | 52,5 | 47,1 | 4,1 | 2,7 |
 
 ### Wochentag
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| So | 5 | 136 | 21,9 | 0 | 3,7 |
-| Do | 6 | 121 | 28,5 | 0 | – |
-| Fr | 6 | 113,5 | 19,6 | 0 | – |
-| Mo | 4 | 112 | 22,1 | 2,5 | – |
-| Sa | 5 | 110 | 27,4 | 5,5 | – |
-| Di | 3 | 106 | 20,6 | 0 | – |
-| Mi | 5 | 34 | 59,6 | 0 | – |
+| So | 6 | 139,5 | 18,8 | 0 | 3,4 |
+| Do | 6 | 121 | 28,5 | 0 | 3,7 |
+| Fr | 6 | 113,5 | 19,6 | 0 | 3,3 |
+| Mo | 4 | 112 | 22,1 | 2,5 | 3,8 |
+| Sa | 5 | 110 | 27,4 | 5,5 | 2,4 |
+| Di | 3 | 106 | 20,6 | 0 | 5,6 |
+| Mi | 5 | 34 | 59,6 | 0 | 2,8 |
 
 ### Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| lang (>45 Zeichen) | 24 | 113,5 | 22,1 | 1,2 | 3,7 |
-| kurz (≤45 Zeichen) | 10 | 85 | 42,4 | 0 | – |
+| lang (>45 Zeichen) | 24 | 113,5 | 22,1 | 1,2 | 3,6 |
+| kurz (≤45 Zeichen) | 11 | 106 | 36,6 | 0 | 2,7 |
 
 ### Zahl in der Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| ohne Zahl | 18 | 111 | 24,3 | 1,1 | 3,7 |
-| mit Zahl | 16 | 105,5 | 29,8 | 0,7 | – |
+| ohne Zahl | 19 | 112 | 23,1 | 1 | 3,2 |
+| mit Zahl | 16 | 105,5 | 29,8 | 0,7 | 3,6 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 31 | 112 | 25,6 | 0,9 | 3,7 |
-| Frage | 3 | 34 | 60 | 0 | – |
+| Aussage | 32 | 113,5 | 24,8 | 0,9 | 3,5 |
+| Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| 16–25 s | 2 | 158 | 15,8 | 0 | – |
+| 16–25 s | 3 | 143 | 13,1 | 0 | 5,5 |
 | über 25 s | 1 | 3 | 333,3 | 0 | – |
 
 ## Alle Posts
 
 | Datum | Titel | Format | Reichweite | Aufrufe | Likes | Shares | Saves | Follows | Ø geschaut | Anteil geschaut |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | Elterngeld soll zum ersten Mal steigen | bilder | 21 | – | 8 | 0 | 0 | 0 | – | – |
-| 2026-10-29 | Apple bringt das erste MacBook mit Touchscree | bilder | 112 | – | 4 | 0 | 0 | 0 | – | – |
-| 2026-10-29 | Tankrabatt: Kommen die 17 Cent wirklich bei d | bilder | 23 | – | 4 | 0 | 0 | 0 | – | – |
-| 2026-10-30 | Wetter zum Wochenende: Nebel, Wolken und kühl | video | 207 | 216 | 4 | 0 | 0 | – | – | – |
-| 2026-10-30 | Astronomen finden womöglich einen neuen Zwerg | bilder | 28 | – | 4 | 0 | 0 | 0 | – | – |
-| 2026-10-31 | Alexander Zverev wird Nummer 1 der Tennis-Wel | bilder | 116 | – | 5 | 0 | 0 | 0 | – | – |
-| 2026-10-31 | Inflation sinkt im Oktober auf 2,8 Prozent | bilder | 8 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-01 | Ab heute: 2 Euro Gebühr für Bestellungen aus  | bilder | 178 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-01 | Gasspeicher nicht so voll wie vorgeschrieben | bilder | 25 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-02 | Kimi Antonelli ist mit 20 der jüngste Formel- | bilder | 141 | – | 4 | 0 | 1 | 0 | – | – |
-| 2026-11-02 | Handy-Blitzer sollen bald überall in Deutschl | bilder | 87 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-03 | Forscher finden Blut-Spuren in 115 Millionen  | bilder | 28 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-04 | Der Führerschein soll noch im November aufs H | bilder | 32 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-04 | Deutschland probt den Ernstfall: 45 Grad und  | bilder | 118 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-05 | Deutschland verbraucht 2026 weniger Energie | bilder | 127 | – | 4 | 0 | 0 | 0 | – | – |
-| 2026-11-05 | Harry Kane bleibt bis 2029 beim FC Bayern | bilder | 149 | – | 4 | 0 | 0 | 0 | – | – |
-| 2026-11-06 | Rechenzentren könnten doppelt so viel Wasser  | bilder | 146 | – | 2 | 0 | 0 | 0 | – | – |
-| 2026-11-06 | Cristiano Ronaldo hört im Nationalteam auf | bilder | 119 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-07 | So hat sich die Erde seit 1880 erwärmt | zusammen | 3 | – | 1 | 0 | 0 | 0 | – | – |
-| 2026-11-07 | EU wirft TikTok vor: Der Algorithmus gefährde | bilder | 110 | – | 1 | 2 | 0 | 0 | – | – |
-| 2026-11-08 | Vogelgrippe: Das Risiko in Deutschland gilt j | bilder | 146 | – | 2 | 0 | 0 | 0 | – | – |
-| 2026-11-08 | Handys und Laptops werden teurer | bilder | 64 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-09 | Regenchaos in Brasilien: Norris gewinnt, Merc | bilder | 137 | – | 1 | 0 | 0 | 0 | – | – |
-| 2026-11-09 | Klimakonferenz COP31: Mehr Strom statt Öl, Ga | bilder | 43 | – | 1 | 0 | 0 | 0 | – | – |
-| 2026-11-10 | Weniger CO₂ aus Kohle, Öl und Gas | video | 109 | 120 | 1 | 0 | 0 | – | – | – |
-| 2026-11-10 | Rekord: Sportvereine knacken die 30 Millionen | bilder | 106 | – | 1 | 0 | 0 | 0 | – | – |
-| 2026-11-11 | Tickets weiterverkaufen: bald höchstens 20 Eu | bilder | 34 | – | 1 | 0 | 0 | 0 | – | – |
-| 2026-11-11 | Nach 5 Jahren Pause: Die älteste Kunsteisbahn | bilder | 80 | – | 2 | 0 | 0 | 0 | – | – |
-| 2026-11-12 | Eishockey-WM: Deutschlands Frauen weichen Rek | bilder | 175 | – | 3 | 0 | 0 | 0 | – | – |
-| 2026-11-12 | Mehr Ökostrom denn je, trotzdem steuert die W | bilder | 115 | – | 1 | 0 | 0 | 0 | – | – |
-| 2026-11-13 | Geisterspiel in Belgrad: Das DFB-Team spielt  | bilder | 105 | – | 1 | 0 | 0 | 0 | – | – |
-| 2026-11-13 | Outlook, Teams, Copilot: Microsoft ist weltwe | bilder | 108 | – | 0 | 0 | 0 | 0 | – | – |
-| 2026-11-14 | DHL: Päckchen und Pakete sollen ab Januar teu | bilder | 128 | – | 0 | 0 | 0 | 0 | – | – |
+| 2026-10-28 | Elterngeld soll zum ersten Mal steigen | bilder | 21 | 16 | 8 | 0 | 0 | 0 | 2,9 s | – |
+| 2026-10-29 | Apple bringt das erste MacBook mit Touchscree | bilder | 112 | 14 | 4 | 0 | 0 | 0 | 3,5 s | – |
+| 2026-10-29 | Tankrabatt: Kommen die 17 Cent wirklich bei d | bilder | 23 | 14 | 4 | 0 | 0 | 0 | 3,4 s | – |
+| 2026-10-30 | Wetter zum Wochenende: Nebel, Wolken und kühl | video | 207 | 216 | 4 | 0 | 0 | – | 3,6 s | 18 % |
+| 2026-10-30 | Astronomen finden womöglich einen neuen Zwerg | bilder | 28 | 12 | 4 | 0 | 0 | 0 | 2,5 s | – |
+| 2026-10-31 | Alexander Zverev wird Nummer 1 der Tennis-Wel | bilder | 116 | 22 | 5 | 0 | 0 | 0 | 2,4 s | – |
+| 2026-10-31 | Inflation sinkt im Oktober auf 2,8 Prozent | bilder | 8 | 10 | 3 | 0 | 0 | 0 | 1,7 s | – |
+| 2026-11-01 | Ab heute: 2 Euro Gebühr für Bestellungen aus  | bilder | 178 | 9 | 3 | 0 | 0 | 0 | 4,1 s | – |
+| 2026-11-01 | Gasspeicher nicht so voll wie vorgeschrieben | bilder | 25 | 14 | 3 | 0 | 0 | 0 | 1,6 s | – |
+| 2026-11-02 | Kimi Antonelli ist mit 20 der jüngste Formel- | bilder | 141 | 11 | 4 | 0 | 1 | 0 | 3,6 s | – |
+| 2026-11-02 | Handy-Blitzer sollen bald überall in Deutschl | bilder | 87 | 12 | 3 | 0 | 0 | 0 | 4 s | – |
+| 2026-11-03 | Forscher finden Blut-Spuren in 115 Millionen  | bilder | 28 | 10 | 3 | 0 | 0 | 0 | 5,6 s | – |
+| 2026-11-04 | Der Führerschein soll noch im November aufs H | bilder | 32 | 10 | 3 | 0 | 0 | 0 | 1,9 s | – |
+| 2026-11-04 | Deutschland probt den Ernstfall: 45 Grad und  | bilder | 118 | 9 | 3 | 0 | 0 | 0 | 5,9 s | – |
+| 2026-11-05 | Deutschland verbraucht 2026 weniger Energie | bilder | 127 | 12 | 4 | 0 | 0 | 0 | 4,9 s | – |
+| 2026-11-05 | Harry Kane bleibt bis 2029 beim FC Bayern | bilder | 149 | 12 | 4 | 0 | 0 | 0 | 2,3 s | – |
+| 2026-11-06 | Rechenzentren könnten doppelt so viel Wasser  | bilder | 146 | 7 | 2 | 0 | 0 | 0 | 3,1 s | – |
+| 2026-11-06 | Cristiano Ronaldo hört im Nationalteam auf | bilder | 119 | 17 | 3 | 0 | 0 | 0 | 3,1 s | – |
+| 2026-11-07 | So hat sich die Erde seit 1880 erwärmt | zusammen | 3 | 6 | 1 | 0 | 0 | 0 | – | – |
+| 2026-11-07 | EU wirft TikTok vor: Der Algorithmus gefährde | bilder | 110 | 7 | 1 | 2 | 0 | 0 | 2,3 s | – |
+| 2026-11-08 | Vogelgrippe: Das Risiko in Deutschland gilt j | bilder | 146 | 6 | 2 | 0 | 0 | 0 | 3,2 s | – |
+| 2026-11-08 | Handys und Laptops werden teurer | bilder | 64 | 4 | 3 | 0 | 0 | 0 | 2,3 s | – |
+| 2026-11-09 | Regenchaos in Brasilien: Norris gewinnt, Merc | bilder | 137 | 13 | 1 | 0 | 0 | 0 | 3,6 s | – |
+| 2026-11-09 | Klimakonferenz COP31: Mehr Strom statt Öl, Ga | bilder | 43 | 11 | 1 | 0 | 0 | 0 | 7,7 s | – |
+| 2026-11-10 | Weniger CO₂ aus Kohle, Öl und Gas | video | 109 | 120 | 1 | 0 | 0 | – | 6,1 s | 24 % |
+| 2026-11-10 | Rekord: Sportvereine knacken die 30 Millionen | bilder | 106 | 2 | 1 | 0 | 0 | 0 | 2,5 s | – |
+| 2026-11-11 | Tickets weiterverkaufen: bald höchstens 20 Eu | bilder | 34 | 8 | 1 | 0 | 0 | 0 | 1,1 s | – |
+| 2026-11-11 | Nach 5 Jahren Pause: Die älteste Kunsteisbahn | bilder | 80 | 1 | 2 | 0 | 0 | 0 | 2,8 s | – |
+| 2026-11-12 | Eishockey-WM: Deutschlands Frauen weichen Rek | bilder | 175 | 1 | 3 | 0 | 0 | 0 | 6 s | – |
+| 2026-11-12 | Mehr Ökostrom denn je, trotzdem steuert die W | bilder | 115 | 3 | 1 | 0 | 0 | 0 | 3,9 s | – |
+| 2026-11-13 | Geisterspiel in Belgrad: Das DFB-Team spielt  | bilder | 105 | 2 | 1 | 0 | 0 | 0 | 4,8 s | – |
+| 2026-11-13 | Outlook, Teams, Copilot: Microsoft ist weltwe | bilder | 108 | 3 | 0 | 0 | 0 | 0 | 4,1 s | – |
+| 2026-11-14 | DHL: Päckchen und Pakete sollen ab Januar teu | bilder | 128 | 3 | 0 | 0 | 0 | 0 | 2,8 s | – |
 | 2026-11-15 | Ski alpin: Emma Aicher gewinnt zum ersten Mal | bilder | 136 | – | 1 | 0 | 0 | 0 | 3,7 s | – |
+| 2026-11-15 | So sieht ein Starship-Start aus dem All aus | zusammen | 143 | 2 | 1 | 0 | 0 | 0 | 5,5 s | – |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.
@@ -154,3 +156,4 @@ Gesamtreichweite: 3.264 Konten, Median pro Post: 109,5.
 - 2026-11-15 (mittags): Der Aicher-Post vom Morgen (bekannte Einzelsportlerin, Fotos von ihr selbst) liegt nach rund 5 Stunden bei 135 Konten und damit schon über Belgrad (105) und auf dem Weg zu Eishockey (175); die Hypothese „Einzelsportlerin mit eigenen Fotos zieht mehr“ deutet sich an (Stichprobe 1, Zahlen jung). Mittags war Umwelt dran, es gab aber nur schwache Umwelt-Meldungen; deshalb die größte Nachricht des Tages (SpaceX fängt die Starship-Oberstufe erstmals nach einem Orbitalflug auf, 6 Redaktionen) als Welt-Post im Ton „überraschend“, erstmals seit dem 7.11. wieder im Format „zusammen“ (Karussell mit echtem NASA-Video von der ISS als zweiter Folie, als Symbolvideo gekennzeichnet). Welt lag bisher bei Ø 28 Konten (nur 2 Posts), zusammen bei 3 Konten (1 Post). Hypothese für morgen: Ein spektakuläres, viel berichtetes Ereignis mit bewegtem Bild holt Welt und „zusammen“ deutlich über ihren bisherigen Schnitt (über 100 Konten nach 24 h); Stichprobe 1, Mittags-Fenster.
 - 2026-11-16 (morgens): Der Starship-Post (Welt, „zusammen“ mit NASA-Symbolvideo, mittags) liegt nach rund 19 Stunden bei 142 Konten: weit über dem bisherigen Welt-Schnitt (Ø 28) und über dem Mittags-Schnitt (Ø 91), sein Folien-Reel erreichte 141. Die Hypothese „großes Ereignis mit bewegtem Bild holt Welt und zusammen über 100“ hat sich bestätigt (Stichprobe 1). Der Aicher-Post (Einzelsportlerin mit eigenen Fotos) blieb nach 24 Stunden bei 135 Konten, unter Eishockey (175): Ein bekanntes Gesicht allein hebt die Reichweite nicht deutlich, entscheidend bleibt eher das Fenster. Speichern/Teilen und Follower sind weiter bei 0. Heute morgens Sport im stärksten Fenster, erstmals „zusammen“ am Morgen: Amon-Ra St. Brown beim NFL-Spiel in München (Deutsch-Amerikaner, Rekord 35 Punkte), Fotos von ihm selbst als Archiv-Symbolbilder, echtes NFL-Touchdown-Video (Chicago 2021) als Symbolvideo, Merk-Folie „2027 Berlin“. Hypothese für morgen: „zusammen“ im Morgen-Fenster schlägt den Morgen-Schnitt (Ø 120) deutlich (über 150 Konten nach 24 h), weil Video-Folie und starkes Fenster sich addieren; Stichprobe 1.
 - 2026-11-16 (mittags, Vorbereitung für 20:45): Mittags war nicht dran; der Post für das neue Spät-Fenster (20:45, noch ungetestet) ist vorbereitet. Geplant war Umwelt, es gab aber nur schwache Umwelt-Meldungen (Wetter, Klimakonferenz-Woche); deshalb die größere Nachricht des Tages: Vulcan-Fehlstart, Amazon verliert 40 Satelliten für sein Satelliten-Internet Leo (5 Redaktionen), als Digital-Post im Ton sachlich. format.js wählte heute „bilder“ (Lernrunde), drei gemeinfreie Archivfotos von NASA/US Space Force als Symbolbilder; Regel im Test: `teilen-anreiz` (CTA „Schick das jemandem, der Raketenstarts live verfolgt“). Hypothese: Das 20:45-Fenster erreicht mehr Konten als das 18:15-Fenster (Ø 0,48× des Format-Medians), wie bei krass.erforscht; Stichprobe 1.
+- 2026-11-17 (morgens, Vorbereitung für abends): Morgens war nicht dran (heute abends und spät); der Abend-Post ist vorbereitet. Der Vulcan-Post im neuen Spät-Fenster (20:45) ist noch keine 24 Stunden alt, das Fenster bleibt vorerst ohne belastbare Zahl. Geplant war Alltag (Lernrunde), es gab aber nur schwache Alltags-Meldungen (die Stromsteuer-Entscheidung fällt erst heute im Koalitionsausschuss); deshalb Teslas 3-Milliarden-Ausbau in Grünheide für Robotaxis (tagesschau, ZDF, t3n) als Digital-Post, erstmals im neuen Format: erzähltes Video mit Sprecherstimme, aus sechs freien Fotos geschnitten (Wikimedia-Videosuche gedrosselt). Regel im Test: `aussage-titel`. Hypothese: Das erzählte Video mit Stimme und Untertiteln erreicht auch im schwachen Abend-Fenster mehr als dessen bisherigen Schnitt (0,48× des Format-Medians) und hält die Zuschauer länger (Zuschaudauer über 4 s); Stichprobe 1.
