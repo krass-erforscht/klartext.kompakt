@@ -1,0 +1,154 @@
+{
+  "id": "2026-11-17-dfb",
+  "date": "2026-11-16T21:35:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "video",
+  "test": "teilen-anreiz",
+  "vorbereitet": true,
+  "sources": [
+    {
+      "name": "Sportschau",
+      "url": "https://www.sportschau.de/fussball/nationalmannschaft/50-deutschland-gegen-niederlande-wie-im-rausch,deutschland-niederlande-spielbericht-102.html"
+    },
+    {
+      "name": "Sportschau (Termine)",
+      "url": "https://www.sportschau.de/fussball/nationsleague/nations-league-finalturnier-wird-freitag-ausgelost,nations-league-auslosung-104.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/fussball-nations-league-deutschland-dfb-niederlande-spielbericht-100.html"
+    },
+    {
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/deutsche-fussball-nationalmannschaft-mit-kantersieg-gegen-niederlande-im-viertelfinale-der-nations-l-102.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-17-dfb-4.jpg",
+    "credit": "Bryan Berlin / Wikimedia Commons",
+    "short": "Bryan Berlin, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/w/index.php?curid=195373429",
+    "symbolbild": true,
+    "position": "top"
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "**5:0** gegen die Niederlande: DFB-Elf steht im Viertelfinale"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Ein Abend wie im **Rausch**",
+      "text": [
+        "Deutschland hat am Montagabend in der Nations League die Niederlande mit **5:0** geschlagen, vor 71.765 Fans im Berliner Olympiastadion.",
+        "Zur Pause stand es nur 1:0. Dann trafen **Florian Wirtz** zweimal, Nico Schlotterbeck und Brajan Gruda."
+      ],
+      "image": {
+        "file": "images/2026-11-17-dfb-2.jpg",
+        "credit": "Thomas Wolf, www.foto-tw.de / Wikimedia Commons",
+        "short": "Thomas Wolf, CC BY-SA 3.0 DE, via Wikimedia Commons",
+        "license": "CC BY-SA 3.0 DE",
+        "page": "https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin_2015.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "5:0",
+      "title": "Der höchste Sieg unter Bundestrainer Jürgen Klopp",
+      "text": [
+        "Das erste Tor schoss **Derry Scherhant** – sein erstes für die Nationalmannschaft."
+      ],
+      "image": {
+        "file": "images/2026-11-17-dfb-3.jpg",
+        "credit": "IsakFotografi / Flickr",
+        "short": "IsakFotografi, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/21949667@N08/2118102579",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Merk dir **Freitag, 12 Uhr**",
+      "text": [
+        "Deutschland ist Gruppensieger. Am Freitag wird ausgelost, gegen wen es im Viertelfinale geht. Möglich sind zum Beispiel **Spanien** oder **Belgien**.",
+        "Gespielt wird im **März** mit Hin- und Rückspiel, das Finalturnier folgt vom 9. bis 13. Juni 2027."
+      ],
+      "image": {
+        "file": "images/2026-11-17-dfb-7.jpg",
+        "credit": "Granada / Wikimedia Commons",
+        "short": "Granada, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=69669198",
+        "symbolbild": true,
+        "position": "top"
+      }
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Jetzt erst mal **Winterpause**",
+      "text": [
+        "Es war das letzte Länderspiel des Jahres. Am 6. Dezember werden außerdem die Gruppen für die Qualifikation zur EM 2028 ausgelost.",
+        "Bundestrainer Klopp sagte nach dem Spiel, er sei von der Qualität seines Teams nicht überrascht."
+      ],
+      "image": {
+        "file": "images/2026-11-17-dfb-5.jpg",
+        "credit": "Дмитрий Голубович / Wikimedia Commons",
+        "short": "Dmitri Golubowitsch, CC BY-SA 3.0, via Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=62794875",
+        "symbolbild": true,
+        "position": "top"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Teilen",
+      "title": "Schick das jemandem, der das Spiel **verpasst** hat. **Folge uns** für mehr."
+    }
+  ],
+  "video": {
+    "file": "videos/2026-11-17-dfb.mp4",
+    "start": 0,
+    "duration": 40,
+    "credit": "Fotos: YantsImages, Bryan Berlin, Dmitri Golubowitsch, Granada, Thomas Wolf (CC BY-SA); IsakFotografi, Tim Reckmann, Fan First Matchday, Hossein Zohrevand (CC BY); a4gpa (CC BY-SA 2.0)",
+    "short": "Symbolbilder (nicht vom Spiel) · Fotos: YantsImages, Bryan Berlin, Golubowitsch, Granada, T. Wolf, IsakFotografi, T. Reckmann, Fan First Matchday, H. Zohrevand, a4gpa (CC BY/BY-SA)",
+    "license": "CC BY-SA 4.0 / CC BY-SA 3.0 / CC BY 2.0 / CC BY 3.0 / CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Alan_Franco_21,_Florian_Wirtz_17_Ecuador_v_Germany_at_2026_Fifa_World_Cup_by_YantsImages_02.jpg",
+    "symbolisch": true,
+    "headline": "5:0 gegen die Niederlande: Die DFB-Elf spielt sich in den Rausch ⚽",
+    "voice": [
+      "Fünf zu null gegen die Niederlande, so hoch hat Deutschland unter Jürgen Klopp noch nie gewonnen.",
+      "Über einundsiebzigtausend Fans waren am Montagabend im Berliner Olympiastadion.",
+      "Zur Pause stand es nur eins zu null, durch Derry Scherhants erstes Tor für Deutschland.",
+      "Danach trafen Florian Wirtz gleich zweimal, Nico Schlotterbeck und Brajan Gruda.",
+      "Und was heißt das jetzt?",
+      "Deutschland ist Gruppensieger und steht im Viertelfinale der Nations League.",
+      "Am Freitag um zwölf Uhr wird der Gegner ausgelost, möglich sind zum Beispiel Spanien oder Belgien.",
+      "Gespielt wird im März, das Finalturnier folgt im Juni.",
+      "Schick das jemandem, der das Spiel verpasst hat.",
+      "Spanien oder Belgien, wen wünschst du dir?"
+    ],
+    "voiceText": [
+      "5:0 gegen die Niederlande, so hoch hat Deutschland unter Jürgen Klopp noch nie gewonnen.",
+      "Über 71.000 Fans waren am Montagabend im Berliner Olympiastadion.",
+      "Zur Pause stand es nur 1:0, durch Derry Scherhants erstes Tor für Deutschland.",
+      "Danach trafen Florian Wirtz gleich zweimal, Nico Schlotterbeck und Brajan Gruda.",
+      "Und was heißt das jetzt?",
+      "Deutschland ist Gruppensieger und steht im Viertelfinale der Nations League.",
+      "Am Freitag um 12 Uhr wird der Gegner ausgelost, möglich sind zum Beispiel Spanien oder Belgien.",
+      "Gespielt wird im März, das Finalturnier folgt im Juni.",
+      "Schick das jemandem, der das Spiel verpasst hat.",
+      "Spanien oder Belgien, wen wünschst du dir?"
+    ],
+    "voiceSpeed": 1.2
+  },
+  "caption": "5:0 gegen die Niederlande: Die Nationalmannschaft hat am Montagabend im Berliner Olympiastadion ihren höchsten Sieg unter Bundestrainer Jürgen Klopp gefeiert. Nach dem 1:0 durch Derry Scherhant trafen Florian Wirtz (2), Nico Schlotterbeck und Brajan Gruda. Deutschland ist Gruppensieger und steht im Viertelfinale der Nations League; am Freitag um 12 Uhr wird der Gegner ausgelost, gespielt wird im März.\n\nSpanien oder Belgien – wen wünschst du dir? 👇 Schick das jemandem, der das Spiel verpasst hat.\n\nQuellen: Sportschau, ZDFheute, Deutschlandfunk · Text und Stimme mit KI erstellt\nFotos (Symbolbilder, nicht vom Spiel gegen die Niederlande): YantsImages, CC BY-SA 4.0; Bryan Berlin, CC BY-SA 4.0; Dmitri Golubowitsch, CC BY-SA 3.0; Granada, CC BY-SA 4.0; Thomas Wolf (foto-tw.de), CC BY-SA 3.0 DE; Fan First Matchday, CC BY 3.0; Hossein Zohrevand, CC BY 4.0 – alle via Wikimedia Commons; IsakFotografi, CC BY 2.0; Tim Reckmann (a59.de), CC BY 2.0; a4gpa, CC BY-SA 2.0 – alle via Flickr\n#nachrichten #dfbteam #nationsleague #klopp #wirtz"
+}

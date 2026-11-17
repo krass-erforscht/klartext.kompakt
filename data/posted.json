@@ -1158,13 +1158,13 @@
     "format": "bilder",
     "reelMediaId": "17964396539997946",
     "stats": {
-      "reach": 136,
+      "reach": 137,
       "likes": 1,
       "comments": 0,
       "shares": 0,
       "saved": 0,
       "follows": 0,
-      "views": 0,
+      "views": 2,
       "profile_visits": 0
     },
     "reelStats": {
@@ -1177,7 +1177,7 @@
       "ig_reels_avg_watch_time": 3676,
       "ig_reels_video_view_total_time": 499970
     },
-    "statsAt": "2026-11-16T11:17:18.932Z"
+    "statsAt": "2026-11-17T09:41:41.089Z"
   },
   {
     "id": "2026-11-15-starship",
@@ -1230,26 +1230,26 @@
     "format": "zusammen",
     "reelMediaId": "18136813213765205",
     "stats": {
-      "reach": 218,
-      "likes": 2,
+      "reach": 392,
+      "likes": 4,
       "comments": 0,
       "shares": 0,
-      "saved": 0,
+      "saved": 1,
       "follows": 0,
       "views": 1,
       "profile_visits": 0
     },
     "reelStats": {
-      "reach": 218,
-      "likes": 2,
+      "reach": 391,
+      "likes": 4,
       "comments": 0,
       "shares": 0,
-      "saved": 0,
-      "views": 233,
-      "ig_reels_avg_watch_time": 3762,
-      "ig_reels_video_view_total_time": 820168
+      "saved": 1,
+      "views": 424,
+      "ig_reels_avg_watch_time": 5156,
+      "ig_reels_video_view_total_time": 2036986
     },
-    "statsAt": "2026-11-16T11:17:19.754Z"
+    "statsAt": "2026-11-17T09:41:41.686Z"
   },
   {
     "id": "2026-11-16-vulcan",

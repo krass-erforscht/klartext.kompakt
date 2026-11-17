@@ -1,22 +1,21 @@
 # Algorithmus-Analyse (2026-11-17)
 
-35 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
-Gesamtreichweite: 3.407 Konten, Median pro Post: 110.
+36 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
+Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
-- Format: „video“ erreicht im Mittel 158 Konten, „zusammen“ nur 73 (2 bzw. 2 Posts).
-- Thema: „sport“ erreicht im Mittel 127,5 Konten, „geld“ nur 21 (10 bzw. 3 Posts).
-- Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (19 bzw. 4 Posts).
-- Uhrzeit: „7 Uhr“ erreicht im Mittel 132 Konten, „18 Uhr“ nur 52,5 (16 bzw. 8 Posts).
-- Wochentag: „So“ erreicht im Mittel 139,5 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).
-- Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (32 bzw. 3 Posts).
+- Thema: „sport“ erreicht im Mittel 137 Konten, „geld“ nur 21 (11 bzw. 3 Posts).
+- Ton: „sachlich“ erreicht im Mittel 123 Konten, „locker“ nur 70,5 (20 bzw. 4 Posts).
+- Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).
+- Wochentag: „So“ erreicht im Mittel 140 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).
+- Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (33 bzw. 3 Posts).
 
 ## Top 3
 
+- **So sieht ein Touchdown im Stadion aus** (2026-11-16, zusammen, sport/sachlich, 7 Uhr): 392 Konten, 4 Likes, 0 Shares, 1 Saves, Ø 5,2 s geschaut
 - **Wetter zum Wochenende: Nebel, Wolken und kühler** (2026-10-30, video, umwelt/sachlich, 7 Uhr): 207 Konten, 4 Likes, 0 Shares, 0 Saves, Ø 3,6 s geschaut
 - **Ab heute: 2 Euro Gebühr für Bestellungen aus Fernost** (2026-11-01, bilder, digital/ueberraschend, 7 Uhr): 178 Konten, 3 Likes, 0 Shares, 0 Saves, Ø 4,1 s geschaut
-- **Eishockey-WM: Deutschlands Frauen weichen Rekordweltmeister Kanada aus** (2026-11-12, bilder, sport/sachlich, 7 Uhr): 175 Konten, 3 Likes, 0 Shares, 0 Saves, Ø 6 s geschaut
 
 ## Flop 3
 
@@ -31,14 +30,14 @@ Gesamtreichweite: 3.407 Konten, Median pro Post: 110.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | video | 2 | 158 | 15,8 | 0 | 4,8 |
+| zusammen | 3 | 143 | 11,2 | 1,9 | 5,3 |
 | bilder | 31 | 110 | 27,5 | 1 | 3,2 |
-| zusammen | 2 | 73 | 13,7 | 0 | 5,5 |
 
 ### Thema
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sport | 10 | 127,5 | 19,8 | 0,8 | 3,3 |
+| sport | 11 | 137 | 17,5 | 1,2 | 3,6 |
 | umwelt | 9 | 118 | 18,7 | 0 | 4,4 |
 | digital | 6 | 109 | 23,2 | 3,3 | 2,9 |
 | alltag | 4 | 29,5 | 65,1 | 0 | 2,5 |
@@ -49,7 +48,7 @@ Gesamtreichweite: 3.407 Konten, Median pro Post: 110.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sachlich | 19 | 119 | 22,5 | 1,5 | 3,1 |
+| sachlich | 20 | 123 | 20,5 | 1,6 | 3,2 |
 | ueberraschend | 12 | 98 | 27,3 | 0 | 3,9 |
 | locker | 4 | 70,5 | 43,2 | 0 | 2,9 |
 
@@ -57,7 +56,7 @@ Gesamtreichweite: 3.407 Konten, Median pro Post: 110.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| 7 Uhr | 16 | 132 | 18,3 | 0,5 | 3,6 |
+| 7 Uhr | 17 | 137 | 16,9 | 0,9 | 3,6 |
 | 12 Uhr | 11 | 108 | 29,9 | 0 | 4 |
 | 18 Uhr | 8 | 52,5 | 47,1 | 4,1 | 2,7 |
 
@@ -65,10 +64,10 @@ Gesamtreichweite: 3.407 Konten, Median pro Post: 110.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| So | 6 | 139,5 | 18,8 | 0 | 3,4 |
+| So | 6 | 140 | 18,8 | 0 | 3,4 |
+| Mo | 5 | 137 | 16,3 | 2,5 | 4 |
 | Do | 6 | 121 | 28,5 | 0 | 3,7 |
 | Fr | 6 | 113,5 | 19,6 | 0 | 3,3 |
-| Mo | 4 | 112 | 22,1 | 2,5 | 3,8 |
 | Sa | 5 | 110 | 27,4 | 5,5 | 2,4 |
 | Di | 3 | 106 | 20,6 | 0 | 5,6 |
 | Mi | 5 | 34 | 59,6 | 0 | 2,8 |
@@ -78,26 +77,27 @@ Gesamtreichweite: 3.407 Konten, Median pro Post: 110.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | lang (>45 Zeichen) | 24 | 113,5 | 22,1 | 1,2 | 3,6 |
-| kurz (≤45 Zeichen) | 11 | 106 | 36,6 | 0 | 2,7 |
+| kurz (≤45 Zeichen) | 12 | 107,5 | 28,4 | 0,8 | 2,9 |
 
 ### Zahl in der Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| ohne Zahl | 19 | 112 | 23,1 | 1 | 3,2 |
+| ohne Zahl | 20 | 115,5 | 21 | 1,2 | 3,3 |
 | mit Zahl | 16 | 105,5 | 29,8 | 0,7 | 3,6 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 32 | 113,5 | 24,8 | 0,9 | 3,5 |
+| Aussage | 33 | 115 | 23,2 | 1,1 | 3,5 |
 | Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
+| bis 15 s | 1 | 392 | 10,2 | 2,6 | 5,2 |
 | 16–25 s | 3 | 143 | 13,1 | 0 | 5,5 |
 | über 25 s | 1 | 3 | 333,3 | 0 | – |
 
@@ -138,8 +138,9 @@ Gesamtreichweite: 3.407 Konten, Median pro Post: 110.
 | 2026-11-13 | Geisterspiel in Belgrad: Das DFB-Team spielt  | bilder | 105 | 2 | 1 | 0 | 0 | 0 | 4,8 s | – |
 | 2026-11-13 | Outlook, Teams, Copilot: Microsoft ist weltwe | bilder | 108 | 3 | 0 | 0 | 0 | 0 | 4,1 s | – |
 | 2026-11-14 | DHL: Päckchen und Pakete sollen ab Januar teu | bilder | 128 | 3 | 0 | 0 | 0 | 0 | 2,8 s | – |
-| 2026-11-15 | Ski alpin: Emma Aicher gewinnt zum ersten Mal | bilder | 136 | – | 1 | 0 | 0 | 0 | 3,7 s | – |
+| 2026-11-15 | Ski alpin: Emma Aicher gewinnt zum ersten Mal | bilder | 137 | 2 | 1 | 0 | 0 | 0 | 3,7 s | – |
 | 2026-11-15 | So sieht ein Starship-Start aus dem All aus | zusammen | 143 | 2 | 1 | 0 | 0 | 0 | 5,5 s | – |
+| 2026-11-16 | So sieht ein Touchdown im Stadion aus | zusammen | 392 | 1 | 4 | 0 | 1 | 0 | 5,2 s | – |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.
@@ -157,3 +158,4 @@ Gesamtreichweite: 3.407 Konten, Median pro Post: 110.
 - 2026-11-16 (morgens): Der Starship-Post (Welt, „zusammen“ mit NASA-Symbolvideo, mittags) liegt nach rund 19 Stunden bei 142 Konten: weit über dem bisherigen Welt-Schnitt (Ø 28) und über dem Mittags-Schnitt (Ø 91), sein Folien-Reel erreichte 141. Die Hypothese „großes Ereignis mit bewegtem Bild holt Welt und zusammen über 100“ hat sich bestätigt (Stichprobe 1). Der Aicher-Post (Einzelsportlerin mit eigenen Fotos) blieb nach 24 Stunden bei 135 Konten, unter Eishockey (175): Ein bekanntes Gesicht allein hebt die Reichweite nicht deutlich, entscheidend bleibt eher das Fenster. Speichern/Teilen und Follower sind weiter bei 0. Heute morgens Sport im stärksten Fenster, erstmals „zusammen“ am Morgen: Amon-Ra St. Brown beim NFL-Spiel in München (Deutsch-Amerikaner, Rekord 35 Punkte), Fotos von ihm selbst als Archiv-Symbolbilder, echtes NFL-Touchdown-Video (Chicago 2021) als Symbolvideo, Merk-Folie „2027 Berlin“. Hypothese für morgen: „zusammen“ im Morgen-Fenster schlägt den Morgen-Schnitt (Ø 120) deutlich (über 150 Konten nach 24 h), weil Video-Folie und starkes Fenster sich addieren; Stichprobe 1.
 - 2026-11-16 (mittags, Vorbereitung für 20:45): Mittags war nicht dran; der Post für das neue Spät-Fenster (20:45, noch ungetestet) ist vorbereitet. Geplant war Umwelt, es gab aber nur schwache Umwelt-Meldungen (Wetter, Klimakonferenz-Woche); deshalb die größere Nachricht des Tages: Vulcan-Fehlstart, Amazon verliert 40 Satelliten für sein Satelliten-Internet Leo (5 Redaktionen), als Digital-Post im Ton sachlich. format.js wählte heute „bilder“ (Lernrunde), drei gemeinfreie Archivfotos von NASA/US Space Force als Symbolbilder; Regel im Test: `teilen-anreiz` (CTA „Schick das jemandem, der Raketenstarts live verfolgt“). Hypothese: Das 20:45-Fenster erreicht mehr Konten als das 18:15-Fenster (Ø 0,48× des Format-Medians), wie bei krass.erforscht; Stichprobe 1.
 - 2026-11-17 (morgens, Vorbereitung für abends): Morgens war nicht dran (heute abends und spät); der Abend-Post ist vorbereitet. Der Vulcan-Post im neuen Spät-Fenster (20:45) ist noch keine 24 Stunden alt, das Fenster bleibt vorerst ohne belastbare Zahl. Geplant war Alltag (Lernrunde), es gab aber nur schwache Alltags-Meldungen (die Stromsteuer-Entscheidung fällt erst heute im Koalitionsausschuss); deshalb Teslas 3-Milliarden-Ausbau in Grünheide für Robotaxis (tagesschau, ZDF, t3n) als Digital-Post, erstmals im neuen Format: erzähltes Video mit Sprecherstimme, aus sechs freien Fotos geschnitten (Wikimedia-Videosuche gedrosselt). Regel im Test: `aussage-titel`. Hypothese: Das erzählte Video mit Stimme und Untertiteln erreicht auch im schwachen Abend-Fenster mehr als dessen bisherigen Schnitt (0,48× des Format-Medians) und hält die Zuschauer länger (Zuschaudauer über 4 s); Stichprobe 1.
+- 2026-11-17 (mittags, Vorbereitung für 20:45): Mittags war nicht dran (heute abends und spät); der Spät-Post ist vorbereitet. Geplant war Alltag (Lernrunde), die größte Alltags-Meldung (Stromsteuer) wird aber erst heute im Koalitionsausschuss entschieden; deshalb die stärkere Geschichte des Tages aus dem stärksten Schwerpunkt: Sport, DFB-Elf 5:0 gegen die Niederlande und Viertelfinale (über 10 Redaktionen), als erzähltes Video mit Stimme aus zehn freien Fotos (Wikimedia-Videos gedrosselt). Regel im Test: `teilen-anreiz` (gesprochen und in der Caption: „Schick das jemandem, der das Spiel verpasst hat“) plus A-oder-B-Frage am Ende. Hypothese: Ein Sport-Video mit Stimme im Spät-Fenster holt mehr als der Vulcan-Post (Bilder, gleiches Fenster), und die gesprochene Teil-Aufforderung bringt erstmals mindestens eine Teilung; Stichprobe 1.

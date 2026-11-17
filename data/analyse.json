@@ -1,12 +1,11 @@
 {
-  "datum": "2026-11-17T05:17:20.727Z",
+  "datum": "2026-11-17T09:41:42.004Z",
   "hinweise": [
-    "Format: „video“ erreicht im Mittel 158 Konten, „zusammen“ nur 73 (2 bzw. 2 Posts).",
-    "Thema: „sport“ erreicht im Mittel 127,5 Konten, „geld“ nur 21 (10 bzw. 3 Posts).",
-    "Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (19 bzw. 4 Posts).",
-    "Uhrzeit: „7 Uhr“ erreicht im Mittel 132 Konten, „18 Uhr“ nur 52,5 (16 bzw. 8 Posts).",
-    "Wochentag: „So“ erreicht im Mittel 139,5 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).",
-    "Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (32 bzw. 3 Posts)."
+    "Thema: „sport“ erreicht im Mittel 137 Konten, „geld“ nur 21 (11 bzw. 3 Posts).",
+    "Ton: „sachlich“ erreicht im Mittel 123 Konten, „locker“ nur 70,5 (20 bzw. 4 Posts).",
+    "Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).",
+    "Wochentag: „So“ erreicht im Mittel 140 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).",
+    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (33 bzw. 3 Posts)."
   ],
   "watchCorr": null,
   "vergleich": [
@@ -23,20 +22,20 @@
           "wiedergabe_s": 4.8305
         },
         {
+          "wert": "zusammen",
+          "posts": 3,
+          "reichweite": 143,
+          "likes_pro_1000": 11.152416356877323,
+          "teilen_speichern_pro_1000": 1.858736059479554,
+          "wiedergabe_s": 5.307
+        },
+        {
           "wert": "bilder",
           "posts": 31,
           "reichweite": 110,
-          "likes_pro_1000": 27.504244482173174,
-          "teilen_speichern_pro_1000": 1.0186757215619693,
+          "likes_pro_1000": 27.494908350305497,
+          "teilen_speichern_pro_1000": 1.0183299389002036,
           "wiedergabe_s": 3.164
-        },
-        {
-          "wert": "zusammen",
-          "posts": 2,
-          "reichweite": 73,
-          "likes_pro_1000": 13.698630136986301,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.458
         }
       ]
     },
@@ -46,11 +45,11 @@
       "gruppen": [
         {
           "wert": "sport",
-          "posts": 10,
-          "reichweite": 127.5,
-          "likes_pro_1000": 19.77848101265823,
-          "teilen_speichern_pro_1000": 0.7911392405063291,
-          "wiedergabe_s": 3.309
+          "posts": 11,
+          "reichweite": 137,
+          "likes_pro_1000": 17.501508750754375,
+          "teilen_speichern_pro_1000": 1.2070006035003018,
+          "wiedergabe_s": 3.556
         },
         {
           "wert": "umwelt",
@@ -100,11 +99,11 @@
       "gruppen": [
         {
           "wert": "sachlich",
-          "posts": 19,
-          "reichweite": 119,
-          "likes_pro_1000": 22.526934378060723,
-          "teilen_speichern_pro_1000": 1.4691478942213516,
-          "wiedergabe_s": 3.113
+          "posts": 20,
+          "reichweite": 123,
+          "likes_pro_1000": 20.533880903490758,
+          "teilen_speichern_pro_1000": 1.6427104722792607,
+          "wiedergabe_s": 3.164
         },
         {
           "wert": "ueberraschend",
@@ -130,11 +129,11 @@
       "gruppen": [
         {
           "wert": "7 Uhr",
-          "posts": 16,
-          "reichweite": 132,
-          "likes_pro_1000": 18.26722338204593,
-          "teilen_speichern_pro_1000": 0.521920668058455,
-          "wiedergabe_s": 3.562
+          "posts": 17,
+          "reichweite": 137,
+          "likes_pro_1000": 16.89042875703768,
+          "teilen_speichern_pro_1000": 0.8661758336942399,
+          "wiedergabe_s": 3.6005
         },
         {
           "wert": "12 Uhr",
@@ -161,10 +160,18 @@
         {
           "wert": "So",
           "posts": 6,
-          "reichweite": 139.5,
-          "likes_pro_1000": 18.78612716763006,
+          "reichweite": 140,
+          "likes_pro_1000": 18.75901875901876,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 3.42
+        },
+        {
+          "wert": "Mo",
+          "posts": 5,
+          "reichweite": 137,
+          "likes_pro_1000": 16.25,
+          "teilen_speichern_pro_1000": 2.5,
+          "wiedergabe_s": 3.963
         },
         {
           "wert": "Do",
@@ -181,14 +188,6 @@
           "likes_pro_1000": 19.635343618513325,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 3.312
-        },
-        {
-          "wert": "Mo",
-          "posts": 4,
-          "reichweite": 112,
-          "likes_pro_1000": 22.058823529411764,
-          "teilen_speichern_pro_1000": 2.450980392156863,
-          "wiedergabe_s": 3.801
         },
         {
           "wert": "Sa",
@@ -224,17 +223,17 @@
           "wert": "lang (>45 Zeichen)",
           "posts": 24,
           "reichweite": 113.5,
-          "likes_pro_1000": 22.108172127911565,
-          "teilen_speichern_pro_1000": 1.1843663639952626,
+          "likes_pro_1000": 22.099447513812155,
+          "teilen_speichern_pro_1000": 1.1838989739542227,
           "wiedergabe_s": 3.559
         },
         {
           "wert": "kurz (≤45 Zeichen)",
-          "posts": 11,
-          "reichweite": 106,
-          "likes_pro_1000": 36.61327231121282,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 2.7005
+          "posts": 12,
+          "reichweite": 107.5,
+          "likes_pro_1000": 28.43601895734597,
+          "teilen_speichern_pro_1000": 0.7898894154818326,
+          "wiedergabe_s": 2.854
         }
       ]
     },
@@ -244,11 +243,11 @@
       "gruppen": [
         {
           "wert": "ohne Zahl",
-          "posts": 19,
-          "reichweite": 112,
-          "likes_pro_1000": 23.11854402361043,
-          "teilen_speichern_pro_1000": 0.9837678307919331,
-          "wiedergabe_s": 3.164
+          "posts": 20,
+          "reichweite": 115.5,
+          "likes_pro_1000": 21.022258862324815,
+          "teilen_speichern_pro_1000": 1.2366034624896949,
+          "wiedergabe_s": 3.3285
         },
         {
           "wert": "mit Zahl",
@@ -266,11 +265,11 @@
       "gruppen": [
         {
           "wert": "Aussage",
-          "posts": 32,
-          "reichweite": 113.5,
-          "likes_pro_1000": 24.795887511339583,
-          "teilen_speichern_pro_1000": 0.9071666162685212,
-          "wiedergabe_s": 3.493
+          "posts": 33,
+          "reichweite": 115,
+          "likes_pro_1000": 23.243243243243242,
+          "teilen_speichern_pro_1000": 1.0810810810810811,
+          "wiedergabe_s": 3.5244999999999997
         },
         {
           "wert": "Frage",
@@ -286,6 +285,14 @@
       "merkmal": "videolaenge",
       "name": "Videolänge",
       "gruppen": [
+        {
+          "wert": "bis 15 s",
+          "posts": 1,
+          "reichweite": 392,
+          "likes_pro_1000": 10.204081632653061,
+          "teilen_speichern_pro_1000": 2.5510204081632653,
+          "wiedergabe_s": 5.156
+        },
         {
           "wert": "16–25 s",
           "posts": 3,
@@ -1245,8 +1252,8 @@
       "videolaenge": null,
       "test": null,
       "symbolvideo": null,
-      "reichweite": 136,
-      "aufrufe": null,
+      "reichweite": 137,
+      "aufrufe": 2,
       "likes": 1,
       "kommentare": 0,
       "shares": 0,
@@ -1255,7 +1262,7 @@
       "profilbesuche": 0,
       "wiedergabe_s": 3.676,
       "wiedergabe_anteil": null,
-      "likes_pro_1000": 7.352941176470588,
+      "likes_pro_1000": 7.299270072992701,
       "teilen_speichern_pro_1000": 0
     },
     {
@@ -1285,6 +1292,34 @@
       "wiedergabe_anteil": null,
       "likes_pro_1000": 6.993006993006993,
       "teilen_speichern_pro_1000": 0
+    },
+    {
+      "id": "2026-11-16-stbrown",
+      "datum": "2026-11-16",
+      "titel": "So sieht ein Touchdown im Stadion aus",
+      "format": "zusammen",
+      "thema": "sport",
+      "ton": "sachlich",
+      "uhrzeit": "7 Uhr",
+      "wochentag": "Mo",
+      "ueberschrift": "kurz (≤45 Zeichen)",
+      "zahl_im_titel": "ohne Zahl",
+      "frage_im_titel": "Aussage",
+      "videolaenge": "bis 15 s",
+      "test": null,
+      "symbolvideo": "Symbolvideo",
+      "reichweite": 392,
+      "aufrufe": 1,
+      "likes": 4,
+      "kommentare": 0,
+      "shares": 0,
+      "saves": 1,
+      "follows": 0,
+      "profilbesuche": 0,
+      "wiedergabe_s": 5.156,
+      "wiedergabe_anteil": null,
+      "likes_pro_1000": 10.204081632653061,
+      "teilen_speichern_pro_1000": 2.5510204081632653
     }
   ]
 }
