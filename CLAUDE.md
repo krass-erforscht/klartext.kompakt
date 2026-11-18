@@ -48,7 +48,9 @@ A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gese
    auf neue Entwicklungen prüfen (Nachrichten können sich in Stunden ändern) und wenn nötig aktualisieren.
    Liegt im Posting-Fenster schon eine fertige, gerenderte Post-Datei von heute vor: nach dieser Prüfung direkt mit Schritt 10 veröffentlichen.
    Nur wenn Kommentare beantwortet wurden, dem Nutzer kurz schreiben, wie viele; sonst keine Nachricht.
-   Zwei Posts pro Tag in zwei von vier Fenstern (Läufe um 6:15, 10:40, 16:20 und 19:35 Uhr; veröffentlicht wird frühestens zu Beginn des Fensters: morgens ab 6, mittags ab 11, abends ab 16, spät ab 20 Uhr). Welche Fenster dran sind, entscheidet die Reichweite
+   Zwei Posts pro Tag in zwei von vier Fenstern (Läufe um 6:15, 10:40, 16:20 und 19:35 Uhr; veröffentlicht wird frühestens zu Beginn des Fensters: morgens ab 6, mittags ab 11, abends ab 16, spät ab 20 Uhr).
+   **Ist der Post vor Fensterbeginn fertig: nicht aufhören, sondern bis zum Fensterbeginn warten und dann veröffentlichen**
+   (z. B. `until [ $(TZ=Europe/Berlin date +%H%M) -ge 1100 ]; do sleep 20; done` im Hintergrund). Welche Fenster dran sind, entscheidet die Reichweite
    im Verhältnis zum Median des jeweiligen Formats (siehe „Immer nach der besten Reichweite“).
 1. `npm ci`
 2. **Lernen:** `node insights.js` (nur mit Token, holt Reichweite, Aufrufe, Zuschaudauer und Follower), dann **`node analyse.js`**.
