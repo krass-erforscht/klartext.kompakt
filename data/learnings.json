@@ -1,11 +1,11 @@
 {
-  "aktualisiert": "2026-11-17T15:22:25.306Z",
+  "aktualisiert": "2026-11-18T05:18:11.298Z",
   "ranking": [
     {
       "gruppe": "thema:digital",
-      "posts": 7,
-      "punkte": 4.19,
-      "reichweite": 105,
+      "posts": 8,
+      "punkte": 3.66,
+      "reichweite": 106,
       "follower": 0
     },
     {
@@ -59,16 +59,16 @@
     },
     {
       "gruppe": "ton:sachlich",
-      "posts": 18,
-      "punkte": 2.34,
-      "reichweite": 141,
+      "posts": 20,
+      "punkte": 2.1,
+      "reichweite": 139,
       "follower": 0
     },
     {
       "gruppe": "thema:sport",
-      "posts": 11,
-      "punkte": 2.25,
-      "reichweite": 151,
+      "posts": 12,
+      "punkte": 2.07,
+      "reichweite": 149,
       "follower": 0
     },
     {
@@ -79,17 +79,17 @@
       "follower": 0
     },
     {
-      "gruppe": "format:video",
-      "posts": 2,
-      "punkte": 1.42,
-      "reichweite": 158,
-      "follower": 0
-    },
-    {
       "gruppe": "format:zusammen",
       "posts": 2,
       "punkte": 1.37,
       "reichweite": 268,
+      "follower": 0
+    },
+    {
+      "gruppe": "format:video",
+      "posts": 4,
+      "punkte": 0.71,
+      "reichweite": 139,
       "follower": 0
     },
     {
@@ -108,9 +108,16 @@
     },
     {
       "gruppe": "uhrzeit:20",
+      "posts": 2,
+      "punkte": 0,
+      "reichweite": 135,
+      "follower": 0
+    },
+    {
+      "gruppe": "uhrzeit:16",
       "posts": 1,
       "punkte": 0,
-      "reichweite": 133,
+      "reichweite": 106,
       "follower": 0
     }
   ]

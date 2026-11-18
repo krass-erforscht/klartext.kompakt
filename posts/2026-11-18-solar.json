@@ -1,0 +1,152 @@
+{
+  "id": "2026-11-18-solar",
+  "date": "2026-11-18T05:16:00Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "sachlich",
+  "format": "video",
+  "test": "aussage-titel",
+  "vorbereitet": true,
+  "sources": [
+    {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html"
+    },
+    {
+      "name": "IRENA",
+      "url": "https://www.pv-magazine.com/2026/04/02/global-solar-additions-reached-record-511-gw-in-2025-says-irena"
+    },
+    {
+      "name": "Kraftfahrt-Bundesamt",
+      "url": "https://www.electrive.net/2026/11/04/elektroautos-nun-schon-bei-37-prozent-marktanteil/"
+    },
+    {
+      "name": "Energy Watch Group/LUT",
+      "url": "https://www.pv-magazine-india.com/?p=9861"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-18-solar.jpg",
+    "credit": "Paora / Wikimedia Commons",
+    "short": "Paora, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:K%C5%8Dwhai_Park_Solar_Farm_PA01.jpg",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Umwelt",
+      "title": "Solarstrom ist **30-mal** so stark gewachsen wie vorhergesagt"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Eine Prognose, die **völlig daneben** lag",
+      "text": [
+        "2006 erwartete die Internationale Energieagentur (IEA), dass sich Solarstrom bis 2030 etwa **verfünfundzwanzigfacht**.",
+        "Laut tagesschau ist die weltweite Solar-Leistung heute schon rund **750-mal** so groß wie damals – vier Jahre vor 2030."
+      ],
+      "image": {
+        "file": "images/2026-11-18-solar.jpg",
+        "credit": "Paora / Wikimedia Commons",
+        "short": "Paora, CC0, via Wikimedia Commons",
+        "license": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:K%C5%8Dwhai_Park_Solar_Farm_PA01.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "511 GW",
+      "title": "So viel Solarleistung kam 2025 weltweit neu dazu – Rekord",
+      "text": [
+        "Rund **ein Drittel** des Stroms weltweit stammt inzwischen aus Sonne, Wind und Wasserkraft."
+      ],
+      "image": {
+        "file": "images/2026-11-18-solar-4.jpg",
+        "credit": "Nikolai Twin / Wikimedia Commons",
+        "short": "Nikolai Twin, CC BY 4.0, via Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Balkonkraftwerk2.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Strom vom **eigenen Balkon**",
+      "text": [
+        "Solarmodule und Batterien sind viel günstiger geworden. Darum holen sich immer mehr Haushalte eigene Anlagen aufs Dach oder an den Balkon.",
+        "Im Oktober war in Deutschland schon **mehr als jedes dritte** neue Auto ein reines E-Auto (37 Prozent, Kraftfahrt-Bundesamt)."
+      ],
+      "image": {
+        "file": "images/2026-11-18-solar-2.jpg",
+        "credit": "Triplec85 / Wikimedia Commons",
+        "short": "Triplec85, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:2023-05-05_Sogenanntes_Balkonkraftwerk,_eine_Mini-PV-Anlage,_in_Tauberbischofsheim_01.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Gut, aber **noch nicht genug**",
+      "text": [
+        "Neuer Strom kommt meist aus Sonne und Wind. Aber Kohle-, Öl- und Gasanlagen werden zu langsam abgeschaltet.",
+        "Darum steuert die Welt laut tagesschau weiter auf rund **2,8 Grad** Erwärmung zu. Gerade läuft die Weltklimakonferenz in Antalya."
+      ],
+      "image": {
+        "file": "images/2026-11-18-solar-3.jpg",
+        "credit": "Håkan Dahlström / Flickr",
+        "short": "Håkan Dahlström, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/93755244@N00/8638198650",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Folgen",
+      "title": "Hast du schon Solar auf Dach oder Balkon? **Folge uns** für Nachrichten in 30 Sekunden."
+    }
+  ],
+  "video": {
+    "file": "videos/2026-11-18-solar.mp4",
+    "start": 0,
+    "duration": 41,
+    "credit": "Videos: Tobi Kellner (CC0), SE FPV (CC BY 3.0); Fotos: Paora (CC0), Triplec85 (CC BY-SA 4.0), Håkan Dahlström (CC BY 2.0), Nikolai Twin (CC BY 4.0)",
+    "short": "Symbolvideo · Videos: Tobi Kellner (CC0), SE FPV (CC BY 3.0) · Fotos: Paora, Triplec85, H. Dahlström, N. Twin (CC0/CC BY/CC BY-SA)",
+    "license": "CC0 / CC BY 3.0 / CC BY 2.0 / CC BY 4.0 / CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Agrivoltaics_pilot_plant_at_Heggelbach_Farm_in_Germany_01.webm",
+    "symbolisch": true,
+    "headline": "Solarstrom wächst viel schneller, als Experten je dachten ☀️",
+    "voice": [
+      "Vor zwanzig Jahren sagte die Internationale Energieagentur: Solarstrom wächst bis zweitausenddreißig um das Fünfundzwanzigfache.",
+      "Heute ist es laut tagesschau schon rund das Siebenhundertfünfzigfache.",
+      "Allein im letzten Jahr kamen weltweit über fünfhundert Gigawatt Solaranlagen dazu, so viel wie nie.",
+      "Rund ein Drittel des Stroms weltweit kommt inzwischen aus Sonne, Wind und Wasserkraft.",
+      "Was heißt das für dich?",
+      "Solarmodule und Batterien sind viel günstiger geworden, darum holen sich immer mehr Haushalte eigene Anlagen aufs Dach oder an den Balkon.",
+      "Und im Oktober war in Deutschland schon mehr als jedes dritte neue Auto ein reines Elektroauto.",
+      "Aber: Kohle, Öl und Gas verschwinden zu langsam, darum steuert die Welt weiter auf fast drei Grad Erwärmung zu.",
+      "Hast du schon Solar auf dem Dach oder am Balkon, ja oder nein?"
+    ],
+    "voiceText": [
+      "Vor 20 Jahren sagte die Internationale Energieagentur: Solarstrom wächst bis 2030 um das 25-Fache.",
+      "Heute ist es laut tagesschau schon rund das 750-Fache.",
+      "Allein im letzten Jahr kamen weltweit über 500 Gigawatt Solaranlagen dazu, so viel wie nie.",
+      "Rund ein Drittel des Stroms weltweit kommt inzwischen aus Sonne, Wind und Wasserkraft.",
+      "Was heißt das für dich?",
+      "Solarmodule und Batterien sind viel günstiger geworden, darum holen sich immer mehr Haushalte eigene Anlagen aufs Dach oder an den Balkon.",
+      "Und im Oktober war in Deutschland schon mehr als jedes dritte neue Auto ein reines Elektroauto.",
+      "Aber: Kohle, Öl und Gas verschwinden zu langsam, darum steuert die Welt weiter auf fast 3 Grad Erwärmung zu.",
+      "Hast du schon Solar auf dem Dach oder am Balkon, ja oder nein?"
+    ],
+    "voiceSpeed": 1.2
+  },
+  "caption": "Solarstrom wächst viel schneller, als selbst Experten erwartet haben: 2006 sagte die Internationale Energieagentur bis 2030 ein Wachstum um das 25-Fache voraus – laut tagesschau ist die weltweite Solarleistung heute schon rund 750-mal so groß. Allein 2025 kamen laut IRENA 511 Gigawatt dazu, ein Rekord. Rund ein Drittel des Stroms weltweit ist erneuerbar, und in Deutschland war im Oktober mehr als jedes dritte neue Auto ein reines E-Auto. Trotzdem steuert die Welt weiter auf rund 2,8 Grad Erwärmung zu, weil Kohle, Öl und Gas zu langsam verschwinden.\n\nHast du schon Solar auf Dach oder Balkon – ja oder nein? 👇\n\nQuellen: tagesschau, IRENA, Kraftfahrt-Bundesamt, Energy Watch Group/LUT · Text und Stimme mit KI erstellt\nSymbolvideo/Symbolbilder: Videos Tobi Kellner, CC0; SE FPV, CC BY 3.0 – via Wikimedia Commons. Fotos: Paora, CC0; Triplec85, CC BY-SA 4.0; Nikolai Twin, CC BY 4.0 – via Wikimedia Commons; Håkan Dahlström, CC BY 2.0, via Flickr\n#nachrichten #solarenergie #klimaschutz #balkonkraftwerk #energiewende"
+}

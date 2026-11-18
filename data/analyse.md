@@ -1,15 +1,15 @@
-# Algorithmus-Analyse (2026-11-17)
+# Algorithmus-Analyse (2026-11-18)
 
-36 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
-Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
+37 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
+Gesamtreichweite: 3.934 Konten, Median pro Post: 112.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
 - Thema: „sport“ erreicht im Mittel 137 Konten, „geld“ nur 21 (11 bzw. 3 Posts).
-- Ton: „sachlich“ erreicht im Mittel 123 Konten, „locker“ nur 70,5 (20 bzw. 4 Posts).
+- Ton: „sachlich“ erreicht im Mittel 127 Konten, „locker“ nur 70,5 (21 bzw. 4 Posts).
 - Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).
 - Wochentag: „So“ erreicht im Mittel 140 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).
-- Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (33 bzw. 3 Posts).
+- Frage oder Aussage: „Aussage“ erreicht im Mittel 115,5 Konten, „Frage“ nur 34 (34 bzw. 3 Posts).
 
 ## Top 3
 
@@ -31,7 +31,7 @@ Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
 |---|---|---|---|---|---|
 | video | 2 | 158 | 15,8 | 0 | 4,8 |
 | zusammen | 3 | 143 | 11,2 | 1,9 | 5,3 |
-| bilder | 31 | 110 | 27,5 | 1 | 3,2 |
+| bilder | 32 | 111 | 26,3 | 1 | 3,3 |
 
 ### Thema
 
@@ -39,7 +39,7 @@ Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
 |---|---|---|---|---|---|
 | sport | 11 | 137 | 17,5 | 1,2 | 3,6 |
 | umwelt | 9 | 118 | 18,7 | 0 | 4,4 |
-| digital | 6 | 109 | 23,2 | 3,3 | 2,9 |
+| digital | 7 | 110 | 19 | 2,7 | 3,5 |
 | alltag | 4 | 29,5 | 65,1 | 0 | 2,5 |
 | welt | 3 | 28 | 40,2 | 0 | 5,5 |
 | geld | 3 | 21 | 70,1 | 0 | 2,8 |
@@ -48,7 +48,7 @@ Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sachlich | 20 | 123 | 20,5 | 1,6 | 3,2 |
+| sachlich | 21 | 127 | 19,5 | 1,6 | 3,4 |
 | ueberraschend | 12 | 98 | 27,3 | 0 | 3,9 |
 | locker | 4 | 70,5 | 43,2 | 0 | 2,9 |
 
@@ -57,6 +57,7 @@ Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | 7 Uhr | 17 | 137 | 16,9 | 0,9 | 3,6 |
+| 20 Uhr | 1 | 134 | 0 | 0 | 5 |
 | 12 Uhr | 11 | 108 | 29,9 | 0 | 4 |
 | 18 Uhr | 8 | 52,5 | 47,1 | 4,1 | 2,7 |
 
@@ -65,7 +66,7 @@ Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | So | 6 | 140 | 18,8 | 0 | 3,4 |
-| Mo | 5 | 137 | 16,3 | 2,5 | 4 |
+| Mo | 6 | 135,5 | 13,9 | 2,1 | 4,5 |
 | Do | 6 | 121 | 28,5 | 0 | 3,7 |
 | Fr | 6 | 113,5 | 19,6 | 0 | 3,3 |
 | Sa | 5 | 110 | 27,4 | 5,5 | 2,4 |
@@ -76,7 +77,7 @@ Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| lang (>45 Zeichen) | 24 | 113,5 | 22,1 | 1,2 | 3,6 |
+| lang (>45 Zeichen) | 25 | 115 | 21 | 1,1 | 3,6 |
 | kurz (≤45 Zeichen) | 12 | 107,5 | 28,4 | 0,8 | 2,9 |
 
 ### Zahl in der Überschrift
@@ -84,13 +85,13 @@ Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | ohne Zahl | 20 | 115,5 | 21 | 1,2 | 3,3 |
-| mit Zahl | 16 | 105,5 | 29,8 | 0,7 | 3,6 |
+| mit Zahl | 17 | 106 | 27,2 | 0,7 | 3,8 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 33 | 115 | 23,2 | 1,1 | 3,5 |
+| Aussage | 34 | 115,5 | 22,4 | 1 | 3,6 |
 | Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
@@ -141,6 +142,7 @@ Gesamtreichweite: 3.800 Konten, Median pro Post: 111.
 | 2026-11-15 | Ski alpin: Emma Aicher gewinnt zum ersten Mal | bilder | 137 | 2 | 1 | 0 | 0 | 0 | 3,7 s | – |
 | 2026-11-15 | So sieht ein Starship-Start aus dem All aus | zusammen | 143 | 2 | 1 | 0 | 0 | 0 | 5,5 s | – |
 | 2026-11-16 | So sieht ein Touchdown im Stadion aus | zusammen | 392 | 1 | 4 | 0 | 1 | 0 | 5,2 s | – |
+| 2026-11-16 | Rakete versagt: Amazon verliert 40 Satelliten | bilder | 134 | 3 | 0 | 0 | 0 | 0 | 5 s | – |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.

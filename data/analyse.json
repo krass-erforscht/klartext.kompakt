@@ -1,11 +1,11 @@
 {
-  "datum": "2026-11-17T15:23:28.920Z",
+  "datum": "2026-11-18T05:18:11.368Z",
   "hinweise": [
     "Thema: „sport“ erreicht im Mittel 137 Konten, „geld“ nur 21 (11 bzw. 3 Posts).",
-    "Ton: „sachlich“ erreicht im Mittel 123 Konten, „locker“ nur 70,5 (20 bzw. 4 Posts).",
+    "Ton: „sachlich“ erreicht im Mittel 127 Konten, „locker“ nur 70,5 (21 bzw. 4 Posts).",
     "Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).",
     "Wochentag: „So“ erreicht im Mittel 140 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).",
-    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (33 bzw. 3 Posts)."
+    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115,5 Konten, „Frage“ nur 34 (34 bzw. 3 Posts)."
   ],
   "watchCorr": null,
   "vergleich": [
@@ -31,11 +31,11 @@
         },
         {
           "wert": "bilder",
-          "posts": 31,
-          "reichweite": 110,
-          "likes_pro_1000": 27.494908350305497,
-          "teilen_speichern_pro_1000": 1.0183299389002036,
-          "wiedergabe_s": 3.164
+          "posts": 32,
+          "reichweite": 111,
+          "likes_pro_1000": 26.298701298701296,
+          "teilen_speichern_pro_1000": 0.974025974025974,
+          "wiedergabe_s": 3.2735000000000003
         }
       ]
     },
@@ -61,11 +61,11 @@
         },
         {
           "wert": "digital",
-          "posts": 6,
-          "reichweite": 109,
-          "likes_pro_1000": 23.17880794701987,
-          "teilen_speichern_pro_1000": 3.3112582781456954,
-          "wiedergabe_s": 2.9139999999999997
+          "posts": 7,
+          "reichweite": 110,
+          "likes_pro_1000": 18.970189701897016,
+          "teilen_speichern_pro_1000": 2.710027100271003,
+          "wiedergabe_s": 3.493
         },
         {
           "wert": "alltag",
@@ -99,11 +99,11 @@
       "gruppen": [
         {
           "wert": "sachlich",
-          "posts": 20,
-          "reichweite": 123,
-          "likes_pro_1000": 20.533880903490758,
-          "teilen_speichern_pro_1000": 1.6427104722792607,
-          "wiedergabe_s": 3.164
+          "posts": 21,
+          "reichweite": 127,
+          "likes_pro_1000": 19.46282600233554,
+          "teilen_speichern_pro_1000": 1.557026080186843,
+          "wiedergabe_s": 3.363
         },
         {
           "wert": "ueberraschend",
@@ -134,6 +134,14 @@
           "likes_pro_1000": 16.89042875703768,
           "teilen_speichern_pro_1000": 0.8661758336942399,
           "wiedergabe_s": 3.6005
+        },
+        {
+          "wert": "20 Uhr",
+          "posts": 1,
+          "reichweite": 134,
+          "likes_pro_1000": 0,
+          "teilen_speichern_pro_1000": 0,
+          "wiedergabe_s": 4.964
         },
         {
           "wert": "12 Uhr",
@@ -167,11 +175,11 @@
         },
         {
           "wert": "Mo",
-          "posts": 5,
-          "reichweite": 137,
-          "likes_pro_1000": 16.25,
-          "teilen_speichern_pro_1000": 2.5,
-          "wiedergabe_s": 3.963
+          "posts": 6,
+          "reichweite": 135.5,
+          "likes_pro_1000": 13.918629550321198,
+          "teilen_speichern_pro_1000": 2.1413276231263385,
+          "wiedergabe_s": 4.4635
         },
         {
           "wert": "Do",
@@ -221,11 +229,11 @@
       "gruppen": [
         {
           "wert": "lang (>45 Zeichen)",
-          "posts": 24,
-          "reichweite": 113.5,
-          "likes_pro_1000": 22.099447513812155,
-          "teilen_speichern_pro_1000": 1.1838989739542227,
-          "wiedergabe_s": 3.559
+          "posts": 25,
+          "reichweite": 115,
+          "likes_pro_1000": 20.98950524737631,
+          "teilen_speichern_pro_1000": 1.1244377811094453,
+          "wiedergabe_s": 3.562
         },
         {
           "wert": "kurz (≤45 Zeichen)",
@@ -251,11 +259,11 @@
         },
         {
           "wert": "mit Zahl",
-          "posts": 16,
-          "reichweite": 105.5,
-          "likes_pro_1000": 29.839883551673942,
-          "teilen_speichern_pro_1000": 0.727802037845706,
-          "wiedergabe_s": 3.639
+          "posts": 17,
+          "reichweite": 106,
+          "likes_pro_1000": 27.188328912466844,
+          "teilen_speichern_pro_1000": 0.6631299734748011,
+          "wiedergabe_s": 3.7779999999999996
         }
       ]
     },
@@ -265,11 +273,11 @@
       "gruppen": [
         {
           "wert": "Aussage",
-          "posts": 33,
-          "reichweite": 115,
-          "likes_pro_1000": 23.243243243243242,
-          "teilen_speichern_pro_1000": 1.0810810810810811,
-          "wiedergabe_s": 3.5244999999999997
+          "posts": 34,
+          "reichweite": 115.5,
+          "likes_pro_1000": 22.430881585811164,
+          "teilen_speichern_pro_1000": 1.0432968179447053,
+          "wiedergabe_s": 3.556
         },
         {
           "wert": "Frage",
@@ -1320,6 +1328,34 @@
       "wiedergabe_anteil": null,
       "likes_pro_1000": 10.204081632653061,
       "teilen_speichern_pro_1000": 2.5510204081632653
+    },
+    {
+      "id": "2026-11-16-vulcan",
+      "datum": "2026-11-16",
+      "titel": "Rakete versagt: Amazon verliert 40 Satelliten für sein Internet aus dem All",
+      "format": "bilder",
+      "thema": "digital",
+      "ton": "sachlich",
+      "uhrzeit": "20 Uhr",
+      "wochentag": "Mo",
+      "ueberschrift": "lang (>45 Zeichen)",
+      "zahl_im_titel": "mit Zahl",
+      "frage_im_titel": "Aussage",
+      "videolaenge": null,
+      "test": "teilen-anreiz",
+      "symbolvideo": null,
+      "reichweite": 134,
+      "aufrufe": 3,
+      "likes": 0,
+      "kommentare": 0,
+      "shares": 0,
+      "saves": 0,
+      "follows": 0,
+      "profilbesuche": 0,
+      "wiedergabe_s": 4.964,
+      "wiedergabe_anteil": null,
+      "likes_pro_1000": 0,
+      "teilen_speichern_pro_1000": 0
     }
   ]
 }
