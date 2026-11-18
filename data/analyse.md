@@ -1,14 +1,14 @@
 # Algorithmus-Analyse (2026-11-18)
 
 37 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
-Gesamtreichweite: 3.934 Konten, Median pro Post: 112.
+Gesamtreichweite: 3.935 Konten, Median pro Post: 112.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
 - Thema: „sport“ erreicht im Mittel 137 Konten, „geld“ nur 21 (11 bzw. 3 Posts).
 - Ton: „sachlich“ erreicht im Mittel 127 Konten, „locker“ nur 70,5 (21 bzw. 4 Posts).
 - Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).
-- Wochentag: „So“ erreicht im Mittel 140 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).
+- Wochentag: „So“ erreicht im Mittel 140,5 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).
 - Frage oder Aussage: „Aussage“ erreicht im Mittel 115,5 Konten, „Frage“ nur 34 (34 bzw. 3 Posts).
 
 ## Top 3
@@ -65,7 +65,7 @@ Gesamtreichweite: 3.934 Konten, Median pro Post: 112.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| So | 6 | 140 | 18,8 | 0 | 3,4 |
+| So | 6 | 140,5 | 18,7 | 0 | 3,4 |
 | Mo | 6 | 135,5 | 13,9 | 2,1 | 4,5 |
 | Do | 6 | 121 | 28,5 | 0 | 3,7 |
 | Fr | 6 | 113,5 | 19,6 | 0 | 3,3 |
@@ -139,7 +139,7 @@ Gesamtreichweite: 3.934 Konten, Median pro Post: 112.
 | 2026-11-13 | Geisterspiel in Belgrad: Das DFB-Team spielt  | bilder | 105 | 2 | 1 | 0 | 0 | 0 | 4,8 s | – |
 | 2026-11-13 | Outlook, Teams, Copilot: Microsoft ist weltwe | bilder | 108 | 3 | 0 | 0 | 0 | 0 | 4,1 s | – |
 | 2026-11-14 | DHL: Päckchen und Pakete sollen ab Januar teu | bilder | 128 | 3 | 0 | 0 | 0 | 0 | 2,8 s | – |
-| 2026-11-15 | Ski alpin: Emma Aicher gewinnt zum ersten Mal | bilder | 137 | 2 | 1 | 0 | 0 | 0 | 3,7 s | – |
+| 2026-11-15 | Ski alpin: Emma Aicher gewinnt zum ersten Mal | bilder | 138 | 4 | 1 | 0 | 0 | 0 | 3,7 s | – |
 | 2026-11-15 | So sieht ein Starship-Start aus dem All aus | zusammen | 143 | 2 | 1 | 0 | 0 | 0 | 5,5 s | – |
 | 2026-11-16 | So sieht ein Touchdown im Stadion aus | zusammen | 392 | 1 | 4 | 0 | 1 | 0 | 5,2 s | – |
 | 2026-11-16 | Rakete versagt: Amazon verliert 40 Satelliten | bilder | 134 | 3 | 0 | 0 | 0 | 0 | 5 s | – |
