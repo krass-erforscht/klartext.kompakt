@@ -1339,5 +1339,20 @@
       "ig_reels_video_view_total_time": 711631
     },
     "statsAt": "2026-11-18T05:18:11.088Z"
+  },
+  {
+    "id": "2026-11-18-solar",
+    "postedAt": "2026-11-18T19:01:17.382Z",
+    "topic": "umwelt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wissen/klima/erneuerbare-energien-fortschritte-100.html",
+      "https://www.pv-magazine.com/2026/04/02/global-solar-additions-reached-record-511-gw-in-2025-says-irena",
+      "https://www.electrive.net/2026/11/04/elektroautos-nun-schon-bei-37-prozent-marktanteil/",
+      "https://www.pv-magazine-india.com/?p=9861"
+    ],
+    "mediaId": "18117270038325604",
+    "format": "video"
   }
 ]
