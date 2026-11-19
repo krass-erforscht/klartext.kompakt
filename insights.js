@@ -1,7 +1,7 @@
 // Holt die Statistiken aller veröffentlichten Posts und fasst zusammen, was am besten läuft: node insights.js
 const fs = require('fs');
 const API = 'https://graph.instagram.com/v23.0';
-const { TOKEN_VAR } = require('./config');
+const { TOKEN_VAR, HANDLE } = require('./config');
 const IG_TOKEN = process.env[TOKEN_VAR];
 const METRICS = ['reach', 'likes', 'comments', 'shares', 'saved', 'follows', 'views', 'profile_visits'];
 // Bei Reels zusätzlich die Wiedergabezeit: wie lange Leute im Schnitt zuschauen (eines der wichtigsten Signale für den Algorithmus)
@@ -14,6 +14,9 @@ async function insights(mediaId, metrics) {
 }
 
 (async () => {
+  // Sicherheitsprüfung wie in publish.js/comments.js: nur Zahlen des eigenen Kontos holen
+  const me = await (await fetch(`${API}/me?fields=username&access_token=${IG_TOKEN}`)).json();
+  if (me.username !== HANDLE.slice(1)) { console.error(`Token gehört zu @${me.username || '?'}, nicht zu ${HANDLE}. Abbruch.`); process.exit(1); }
   const posted = fs.existsSync('data/posted.json') ? JSON.parse(fs.readFileSync('data/posted.json')) : [];
   for (const p of posted) {
     // Instagram begrenzt die Zahl der Anfragen pro Stunde (gilt für beide Accounts derselben App zusammen):
