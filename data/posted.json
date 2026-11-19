@@ -1365,5 +1365,20 @@
       "ig_reels_video_view_total_time": 608499
     },
     "statsAt": "2026-11-19T05:16:50.162Z"
+  },
+  {
+    "id": "2026-11-19-stromsteuer",
+    "postedAt": "2026-11-19T05:36:51.132Z",
+    "topic": "geld",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html",
+      "https://www.zdfheute.de/politik/deutschland/stromsteuer-senkung-beispiel-rechnung-100.html",
+      "https://www.mdr.de/nachrichten/deutschland/politik/spritpreis-strompreis-benzin-diesel-strom-koalition,stromsteuer-142.html",
+      "https://www.deutschlandfunk.de/was-bedeutet-die-senkung-der-stromsteuer-fuer-privathaushalte-kommunen-und-unternehmen-102.html"
+    ],
+    "mediaId": "18062992895800624",
+    "format": "video"
   }
 ]

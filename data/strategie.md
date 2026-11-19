@@ -40,6 +40,7 @@ Aus der YouTube-Auswertung von krass.erforscht (240 meistgesehene deutsche Wisse
 - Verglichen wird die Reichweite im Verhältnis zum Median des Formats. Stand 2026-11-16: morgens 1,2×, mittags 0,89×, abends 0,48×, spät noch ungetestet.
 
 ## Verlauf
+- 2026-11-19 (morgens): Keine Regeländerung (erst 3 Stimm-Videos, je unter 1 Tag bis 2 Tage alt). Stromsteuer-Post (Geld) mit `teilen-anreiz` im Test (letzter Post hatte `aussage-titel`). Auffällig: Stimm-Videos werden im Schnitt nur ~6 s geschaut – Einstieg wird nächster Prüfpunkt.
 - 2026-11-18 (morgens): Keine Regeländerung (DFB-Post noch keine 24 h alt, erst 2 Posts im Stimm-Format). Mittags-Post (Solar-Ausbau, Umwelt) vorbereitet mit `aussage-titel` im Test; Stromsteuer-Ergebnis war noch nicht verkündet, bleibt für den 10:40-Lauf.
 - 2026-11-17 (mittags): Keine Regeländerung (noch zu wenige Posts im neuen Video-Format). Spät-Post (20:45) vorbereitet mit `teilen-anreiz` im Test (Tesla-Post abends hat `aussage-titel`).
 - 2026-11-17 (morgens): Keine Regeländerung (Vulcan noch keine 24 h alt). Abend-Post vorbereitet mit `aussage-titel` im Test, erstes erzähltes Video mit Stimme.
