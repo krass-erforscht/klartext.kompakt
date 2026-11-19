@@ -2152,8 +2152,8 @@
     "mood": "staunen",
     "file": "music/files/incompetech-Kevin_MacLeod-Crinoline_Dreams.mp3",
     "seconds": 246,
-    "used": 0,
-    "lastUsed": null
+    "used": 1,
+    "lastUsed": "2026-11-19T18:53:24.340Z"
   },
   {
     "source": "incompetech",
@@ -2600,6 +2600,34 @@
     "mood": "nuetzlich",
     "file": "music/files/incompetech-Kevin_MacLeod-Fig_Leaf_Rag_-_distressed.mp3",
     "seconds": 209,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "The Parting",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Parting.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-The_Parting.mp3",
+    "seconds": 184,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Wretched Destroyer",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Wretched%20Destroyer.mp3",
+    "mood": "staunen",
+    "file": "music/files/incompetech-Kevin_MacLeod-Wretched_Destroyer.mp3",
+    "seconds": 198,
     "used": 0,
     "lastUsed": null
   }
