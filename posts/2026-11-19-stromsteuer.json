@@ -1,0 +1,139 @@
+{
+  "id": "2026-11-19-stromsteuer",
+  "date": "2026-11-18T08:55:00Z",
+  "category": "Geld",
+  "topic": "geld",
+  "tone": "sachlich",
+  "format": "video",
+  "test": "teilen-anreiz",
+  "sources": [
+    { "name": "tagesschau", "url": "https://www.tagesschau.de/inland/innenpolitik/was-bringt-stromsteuer-senkung-koalitionsausschuss-100.html" },
+    { "name": "ZDFheute", "url": "https://www.zdfheute.de/politik/deutschland/stromsteuer-senkung-beispiel-rechnung-100.html" },
+    { "name": "MDR", "url": "https://www.mdr.de/nachrichten/deutschland/politik/spritpreis-strompreis-benzin-diesel-strom-koalition,stromsteuer-142.html" },
+    { "name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/was-bedeutet-die-senkung-der-stromsteuer-fuer-privathaushalte-kommunen-und-unternehmen-102.html" }
+  ],
+  "image": {
+    "file": "images/2026-11-19-stromsteuer.jpg",
+    "credit": "Tim Reckmann | a59.de / Flickr",
+    "short": "Tim Reckmann, CC BY 2.0, via Flickr",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/115225894@N07/12163393064",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Geld",
+      "title": "Die Stromsteuer soll ab Januar **fast ganz** wegfallen"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Union und SPD haben sich **geeinigt**",
+      "text": [
+        "Die Spitzen der Koalition wollen die Stromsteuer **für alle** senken – für Haushalte und Betriebe.",
+        "Ab 1. Januar 2027 soll sie von **2,05 Cent** auf **0,1 Cent** pro Kilowattstunde fallen. Das ist das Mindestmaß, das die EU erlaubt."
+      ],
+      "image": {
+        "file": "images/2026-11-19-stromsteuer-2.jpg",
+        "credit": "Novoklimov / Wikimedia Commons",
+        "short": "Novoklimov, CC0, via Wikimedia Commons",
+        "license": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Anchor_pylon_of_high-voltage_overhead_power_line_750_kV.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "93 €",
+      "title": "So viel könnte eine Familie zu dritt im Jahr sparen",
+      "text": [
+        "Laut Verivox: allein wohnend rund **35 €**, zu zweit rund **65 €** im Jahr."
+      ],
+      "image": {
+        "file": "images/2026-11-19-stromsteuer-3.jpg",
+        "credit": "24oranges.nl / Flickr",
+        "short": "24oranges.nl, CC BY-SA 2.0, via Flickr",
+        "license": "CC BY-SA 2.0",
+        "page": "https://www.flickr.com/photos/30091649@N06/4403469217",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Strom wird **etwas** billiger",
+      "text": [
+        "Laut Verivox schreiben die meisten Stromtarife vor, dass Versorger die Senkung an ihre Kunden **weitergeben**.",
+        "Pro Monat sind das meist **unter 10 Euro** – für eine Familie knapp 8 Euro."
+      ],
+      "image": {
+        "file": "images/2026-11-19-stromsteuer-4.jpg",
+        "credit": "Tim Reckmann | a59.de / Flickr",
+        "short": "Tim Reckmann, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/115225894@N07/12163639896",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Erst mal **nur für ein Jahr**",
+      "text": [
+        "Bezahlt ist die Senkung nur für 2027. Verlängert werden soll sie, wenn im Haushalt 2028 Geld dafür gefunden wird.",
+        "Auch ein **Spritpreisdeckel** soll im Januar kommen. Wie er genau funktioniert, ist noch offen."
+      ],
+      "image": {
+        "file": "images/2026-11-19-stromsteuer-5.jpg",
+        "credit": "BlackIceNRW / Wikimedia Commons",
+        "short": "BlackIceNRW, CC BY-SA 3.0, via Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Preismast,_Aral-Tankstelle_in_D%C3%BCsseldorf,_L%C3%BCtticher_Stra%C3%9Fe,_Benzinpreise_2011.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Teilen",
+      "title": "Kennst du jemanden, der über seine Stromrechnung stöhnt? **Schick ihm das.**"
+    }
+  ],
+  "video": {
+    "file": "videos/2026-11-19-stromsteuer.mp4",
+    "start": 0,
+    "duration": 41,
+    "credit": "Fotos: Tim Reckmann (CC BY 2.0), Novoklimov (CC0), 24oranges.nl (CC BY-SA 2.0), Images_of_Money (CC BY 2.0), Matthew Paul Argall (CC BY 2.0), BlackIceNRW (CC BY-SA 3.0), theowl84 (CC BY 2.0)",
+    "short": "Symbolbilder · Fotos: T. Reckmann, Novoklimov, 24oranges.nl, Images_of_Money, M. P. Argall, BlackIceNRW, theowl84 (CC0/CC BY/CC BY-SA)",
+    "license": "CC0 / CC BY 2.0 / CC BY-SA 2.0 / CC BY-SA 3.0",
+    "page": "https://www.flickr.com/photos/115225894@N07/12163393064",
+    "symbolisch": true,
+    "headline": "Stromsteuer soll fast ganz wegfallen – so viel könntest du sparen ⚡",
+    "voice": [
+      "Ab Januar soll Strom für alle billiger werden, aber wie viel sparst du wirklich?",
+      "Union und SPD haben sich geeinigt: Die Stromsteuer soll fast komplett wegfallen.",
+      "Statt gut zwei Cent pro Kilowattstunde nur noch ein Zehntel Cent.",
+      "Was heißt das für dich?",
+      "Wer allein wohnt, spart laut Verivox rund fünfunddreißig Euro im Jahr.",
+      "Zu zweit sind es etwa fünfundsechzig Euro, eine Familie zu dritt spart etwa dreiundneunzig Euro.",
+      "Der Haken: Bezahlt ist die Senkung erst einmal nur für ein Jahr.",
+      "Auch ein Deckel für die Spritpreise soll kommen, die Details sind aber noch offen.",
+      "Schick das jemandem, der über seine Stromrechnung stöhnt."
+    ],
+    "voiceText": [
+      "Ab Januar soll Strom für alle billiger werden, aber wie viel sparst du wirklich?",
+      "Union und SPD haben sich geeinigt: Die Stromsteuer soll fast komplett wegfallen.",
+      "Statt gut 2 Cent pro Kilowattstunde nur noch 0,1 Cent.",
+      "Was heißt das für dich?",
+      "Wer allein wohnt, spart laut Verivox rund 35 Euro im Jahr.",
+      "Zu zweit sind es etwa 65 Euro, eine Familie zu dritt spart etwa 93 Euro.",
+      "Der Haken: Bezahlt ist die Senkung erst einmal nur für 1 Jahr.",
+      "Auch ein Deckel für die Spritpreise soll kommen, die Details sind aber noch offen.",
+      "Schick das jemandem, der über seine Stromrechnung stöhnt."
+    ],
+    "voiceSpeed": 1.2
+  },
+  "caption": "Stromsteuer: Ab Januar 2027 soll sie fast ganz wegfallen – von 2,05 auf 0,1 Cent pro Kilowattstunde. Darauf haben sich Union und SPD im Koalitionsausschuss geeinigt. Laut Verivox spart ein Single-Haushalt damit rund 35 Euro im Jahr, zu zweit rund 65 Euro, eine Familie zu dritt rund 93 Euro. Der Haken: Bezahlt ist die Senkung erst einmal nur für 2027. Auch ein Spritpreisdeckel soll kommen, die Details sind noch offen.\n\nSchick das jemandem, der über seine Stromrechnung stöhnt 📩 Und: Merkst du so eine Senkung überhaupt – ja oder nein?\n\nQuellen: tagesschau, ZDFheute, MDR, Deutschlandfunk, Verivox · Text und Stimme mit KI erstellt\nSymbolbilder: Fotos Tim Reckmann | a59.de, CC BY 2.0; 24oranges.nl, CC BY-SA 2.0; Images_of_Money, CC BY 2.0; Matthew Paul Argall, CC BY 2.0; theowl84, CC BY 2.0 – via Flickr. Novoklimov, CC0; BlackIceNRW, CC BY-SA 3.0 – via Wikimedia Commons\n#nachrichten #stromsteuer #strompreis #energiekosten #sparen"
+}
