@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-19-vangogh",
+  "date": "2026-11-19T06:00:00Z",
+  "category": "Welt",
+  "topic": "welt",
+  "tone": "ueberraschend",
+  "format": "video",
+  "test": "aussage-titel",
+  "sources": [
+    { "name": "tagesschau", "url": "https://www.tagesschau.de/kultur/van-gogh-bluehende-kastanienbaeume-100.html" },
+    { "name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/sotheby-s-van-gogh-gemaelde-erzielt-bei-autkion-in-new-york-rekordpreis-von-190-4-millionen-dollar-102.html" },
+    { "name": "The Art Newspaper", "url": "https://theartnewspaper.com/2026/10/02/the-story-behind-the-180m-van-gogh-up-for-auction-this-november" }
+  ],
+  "image": { "file": "images/2026-11-19-vangogh.jpg", "credit": "Vincent van Gogh, „Blühende Kastanienbäume“ (1890), gemeinfrei, via Wikimedia Commons", "short": "Gemälde: Vincent van Gogh (1890), gemeinfrei", "license": "Public Domain", "page": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Bl%C3%BChende_Kastanienb%C3%A4ume.jpeg" },
+  "video": {
+    "file": "videos/2026-11-19-vangogh.mp4", "start": 0, "duration": 38,
+    "credit": "Vincent van Gogh, „Blühende Kastanienbäume“ (1890) und Selbstbildnis (1887), gemeinfrei, via Wikimedia Commons",
+    "short": "Gemälde: Vincent van Gogh, gemeinfrei", "license": "Public Domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Bl%C3%BChende_Kastanienb%C3%A4ume.jpeg",
+    "symbolisch": false,
+    "headline": "**190,4 Millionen Dollar** für dieses Bild von van Gogh 🎨",
+    "voice": [
+      "Hundertneunzig Komma vier Millionen Dollar für ein einziges Bild.",
+      "So viel wurde noch nie für ein Gemälde von Vincent van Gogh bezahlt.",
+      "Es heißt Blühende Kastanienbäume und wurde in New York bei Sotheby's versteigert.",
+      "Van Gogh malte es zwei Monate vor seinem Tod, in Auvers-sur-Oise in Frankreich.",
+      "Geschätzt war es auf hundertachtzig Millionen Dollar.",
+      "Die Erben der jüdischen Verlegerfamilie Fischer hatten Fragen zum Verkauf des Bildes in der NS-Zeit gestellt.",
+      "Einen Tag vor der Auktion meldete Sotheby's eine Einigung mit ihnen.",
+      "Wäre dir ein Bild so viel Geld wert, ja oder nein? Folge für Nachrichten in dreißig Sekunden."
+    ],
+    "voiceText": [
+      "190,4 Millionen Dollar für ein einziges Bild.",
+      "So viel wurde noch nie für ein Gemälde von Vincent van Gogh bezahlt.",
+      "Es heißt „Blühende Kastanienbäume“ und wurde in New York bei Sotheby's versteigert.",
+      "Van Gogh malte es 2 Monate vor seinem Tod, in Auvers-sur-Oise in Frankreich.",
+      "Geschätzt war es auf 180 Millionen Dollar.",
+      "Die Erben der jüdischen Verlegerfamilie Fischer hatten Fragen zum Verkauf des Bildes in der NS-Zeit gestellt.",
+      "Einen Tag vor der Auktion meldete Sotheby's eine Einigung mit ihnen.",
+      "Wäre dir ein Bild so viel Geld wert, ja oder nein? Folge für Nachrichten in 30 Sekunden."
+    ]
+  },
+  "slides": [
+    { "type": "cover", "label": "Welt", "title": "**190,4 Millionen Dollar** für ein Bild von van Gogh" },
+    { "label": "Rekord", "title": "So teuer war noch **kein van Gogh**", "text": ["„Blühende Kastanienbäume“ wurde bei Sotheby's in New York versteigert. Geschätzt war es auf 180 Millionen Dollar."] },
+    { "type": "cta", "label": "Mehr davon?", "title": "Nachrichten, die dich betreffen. Kurz erklärt." }
+  ],
+  "caption": "Van Gogh: Für 190,4 Millionen US-Dollar ist sein Gemälde „Blühende Kastanienbäume“ bei Sotheby's in New York versteigert worden – so viel wurde noch nie für ein Bild des Malers bezahlt. Er malte es zwei Monate vor seinem Tod in Auvers-sur-Oise. Einen Tag vor der Auktion meldete Sotheby's eine Einigung mit den Erben der jüdischen Verlegerfamilie Fischer, die Fragen zum Verkauf in der NS-Zeit gestellt hatten.\n\nWäre dir ein Bild so viel Geld wert? 👇\n\nQuellen: tagesschau, Deutschlandfunk, The Art Newspaper · Text und Stimme mit KI erstellt\nGemälde: Vincent van Gogh, „Blühende Kastanienbäume“ (1890) und Selbstbildnis (1887), gemeinfrei, via Wikimedia Commons\n#nachrichten #vangogh #kunst #auktion #rekord"
+}
