@@ -1,14 +1,14 @@
 {
-  "datum": "2026-11-19T18:36:44.477Z",
+  "datum": "2026-11-20T05:17:39.047Z",
   "hinweise": [
     "Thema: „sport“ erreicht im Mittel 137,5 Konten, „geld“ nur 21 (12 bzw. 3 Posts).",
-    "Ton: „sachlich“ erreicht im Mittel 127 Konten, „locker“ nur 70,5 (23 bzw. 4 Posts).",
-    "Uhrzeit: „20 Uhr“ erreicht im Mittel 142,5 Konten, „18 Uhr“ nur 52,5 (2 bzw. 8 Posts).",
-    "Wochentag: „So“ erreicht im Mittel 141 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).",
-    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115,5 Konten, „Frage“ nur 34 (36 bzw. 3 Posts).",
-    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (schwacher Zusammenhang)."
+    "Ton: „sachlich“ erreicht im Mittel 123 Konten, „locker“ nur 70,5 (24 bzw. 4 Posts).",
+    "Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).",
+    "Wochentag: „So“ erreicht im Mittel 141 Konten, „Mi“ nur 57 (6 bzw. 6 Posts).",
+    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (37 bzw. 3 Posts).",
+    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,6 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter)."
   ],
-  "watchCorr": 0.4,
+  "watchCorr": 0.6,
   "vergleich": [
     {
       "merkmal": "format",
@@ -23,20 +23,20 @@
           "wiedergabe_s": 5.307
         },
         {
-          "wert": "video",
-          "posts": 4,
-          "reichweite": 129.5,
-          "likes_pro_1000": 12.216404886561953,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.6525
-        },
-        {
           "wert": "bilder",
           "posts": 32,
           "reichweite": 111,
           "likes_pro_1000": 27.2461887771651,
           "teilen_speichern_pro_1000": 0.9730781706130393,
           "wiedergabe_s": 3.2735000000000003
+        },
+        {
+          "wert": "video",
+          "posts": 5,
+          "reichweite": 109,
+          "likes_pro_1000": 13.274336283185841,
+          "teilen_speichern_pro_1000": 0,
+          "wiedergabe_s": 5.849
         }
       ]
     },
@@ -54,11 +54,11 @@
         },
         {
           "wert": "umwelt",
-          "posts": 9,
-          "reichweite": 118,
-          "likes_pro_1000": 18.737672583826427,
+          "posts": 10,
+          "reichweite": 116.5,
+          "likes_pro_1000": 18.766756032171582,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 4.3835
+          "wiedergabe_s": 4.85
         },
         {
           "wert": "digital",
@@ -100,11 +100,11 @@
       "gruppen": [
         {
           "wert": "sachlich",
-          "posts": 23,
-          "reichweite": 127,
-          "likes_pro_1000": 19.448373408769445,
-          "teilen_speichern_pro_1000": 1.4144271570014144,
-          "wiedergabe_s": 3.6005
+          "posts": 24,
+          "reichweite": 123,
+          "likes_pro_1000": 19.43402659393113,
+          "teilen_speichern_pro_1000": 1.3637913399249915,
+          "wiedergabe_s": 3.639
         },
         {
           "wert": "ueberraschend",
@@ -129,20 +129,20 @@
       "name": "Uhrzeit",
       "gruppen": [
         {
-          "wert": "20 Uhr",
-          "posts": 2,
-          "reichweite": 142.5,
-          "likes_pro_1000": 7.017543859649123,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.4065
-        },
-        {
           "wert": "7 Uhr",
           "posts": 17,
           "reichweite": 137,
           "likes_pro_1000": 17.308524448290783,
           "teilen_speichern_pro_1000": 0.8654262224145391,
           "wiedergabe_s": 3.6005
+        },
+        {
+          "wert": "20 Uhr",
+          "posts": 3,
+          "reichweite": 135,
+          "likes_pro_1000": 10.256410256410257,
+          "teilen_speichern_pro_1000": 0,
+          "wiedergabe_s": 5.849
         },
         {
           "wert": "12 Uhr",
@@ -224,11 +224,11 @@
         },
         {
           "wert": "Mi",
-          "posts": 5,
-          "reichweite": 34,
-          "likes_pro_1000": 59.44055944055944,
+          "posts": 6,
+          "reichweite": 57,
+          "likes_pro_1000": 48.59335038363171,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 2.762
+          "wiedergabe_s": 2.808
         }
       ]
     },
@@ -238,11 +238,11 @@
       "gruppen": [
         {
           "wert": "lang (>45 Zeichen)",
-          "posts": 27,
-          "reichweite": 115,
-          "likes_pro_1000": 20.833333333333332,
-          "teilen_speichern_pro_1000": 1.0245901639344264,
-          "wiedergabe_s": 3.639
+          "posts": 28,
+          "reichweite": 113.5,
+          "likes_pro_1000": 20.771513353115726,
+          "teilen_speichern_pro_1000": 0.9891196834817012,
+          "wiedergabe_s": 3.6574999999999998
         },
         {
           "wert": "kurz (≤45 Zeichen)",
@@ -268,11 +268,11 @@
         },
         {
           "wert": "mit Zahl",
-          "posts": 19,
-          "reichweite": 107,
-          "likes_pro_1000": 24.915062287655722,
-          "teilen_speichern_pro_1000": 0.5662514156285391,
-          "wiedergabe_s": 4.0120000000000005
+          "posts": 20,
+          "reichweite": 106.5,
+          "likes_pro_1000": 24.585783003741316,
+          "teilen_speichern_pro_1000": 0.5344735435595938,
+          "wiedergabe_s": 4.107
         }
       ]
     },
@@ -282,11 +282,11 @@
       "gruppen": [
         {
           "wert": "Aussage",
-          "posts": 36,
-          "reichweite": 115.5,
-          "likes_pro_1000": 22.466422466422465,
-          "teilen_speichern_pro_1000": 0.9768009768009768,
-          "wiedergabe_s": 3.562
+          "posts": 37,
+          "reichweite": 115,
+          "likes_pro_1000": 22.38095238095238,
+          "teilen_speichern_pro_1000": 0.9523809523809523,
+          "wiedergabe_s": 3.6005
         },
         {
           "wert": "Frage",
@@ -320,11 +320,11 @@
         },
         {
           "wert": "über 25 s",
-          "posts": 3,
-          "reichweite": 107,
-          "likes_pro_1000": 11.538461538461538,
+          "posts": 4,
+          "reichweite": 106,
+          "likes_pro_1000": 13.698630136986301,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.6525
+          "wiedergabe_s": 5.849
         }
       ]
     },
@@ -342,11 +342,11 @@
         },
         {
           "wert": "aussage-titel",
-          "posts": 1,
-          "reichweite": 107,
-          "likes_pro_1000": 9.345794392523365,
+          "posts": 2,
+          "reichweite": 106,
+          "likes_pro_1000": 14.150943396226415,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.456
+          "wiedergabe_s": 5.6815
         }
       ]
     }
@@ -1442,6 +1442,34 @@
       "wiedergabe_s": 5.849,
       "wiedergabe_anteil": 0.146225,
       "likes_pro_1000": 6.666666666666667,
+      "teilen_speichern_pro_1000": 0
+    },
+    {
+      "id": "2026-11-18-solar",
+      "datum": "2026-11-18",
+      "titel": "Solarstrom wächst 30-mal stärker als vorhergesagt ☀️",
+      "format": "video",
+      "thema": "umwelt",
+      "ton": "sachlich",
+      "uhrzeit": "20 Uhr",
+      "wochentag": "Mi",
+      "ueberschrift": "lang (>45 Zeichen)",
+      "zahl_im_titel": "mit Zahl",
+      "frage_im_titel": "Aussage",
+      "videolaenge": "über 25 s",
+      "test": "aussage-titel",
+      "symbolvideo": "Symbolvideo",
+      "reichweite": 105,
+      "aufrufe": 118,
+      "likes": 2,
+      "kommentare": 0,
+      "shares": 0,
+      "saves": 0,
+      "follows": null,
+      "profilbesuche": null,
+      "wiedergabe_s": 5.907,
+      "wiedergabe_anteil": 0.1440731707317073,
+      "likes_pro_1000": 19.04761904761905,
       "teilen_speichern_pro_1000": 0
     }
   ]

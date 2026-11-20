@@ -1,16 +1,16 @@
-# Algorithmus-Analyse (2026-11-19)
+# Algorithmus-Analyse (2026-11-20)
 
-39 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
-Gesamtreichweite: 4.195 Konten, Median pro Post: 112.
+40 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
+Gesamtreichweite: 4.300 Konten, Median pro Post: 111.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
 - Thema: „sport“ erreicht im Mittel 137,5 Konten, „geld“ nur 21 (12 bzw. 3 Posts).
-- Ton: „sachlich“ erreicht im Mittel 127 Konten, „locker“ nur 70,5 (23 bzw. 4 Posts).
-- Uhrzeit: „20 Uhr“ erreicht im Mittel 142,5 Konten, „18 Uhr“ nur 52,5 (2 bzw. 8 Posts).
-- Wochentag: „So“ erreicht im Mittel 141 Konten, „Mi“ nur 34 (6 bzw. 5 Posts).
-- Frage oder Aussage: „Aussage“ erreicht im Mittel 115,5 Konten, „Frage“ nur 34 (36 bzw. 3 Posts).
-- Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (schwacher Zusammenhang).
+- Ton: „sachlich“ erreicht im Mittel 123 Konten, „locker“ nur 70,5 (24 bzw. 4 Posts).
+- Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).
+- Wochentag: „So“ erreicht im Mittel 141 Konten, „Mi“ nur 57 (6 bzw. 6 Posts).
+- Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (37 bzw. 3 Posts).
+- Zuschau-Anteil und Reichweite: Rangkorrelation 0,6 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter).
 
 ## Top 3
 
@@ -31,15 +31,15 @@ Gesamtreichweite: 4.195 Konten, Median pro Post: 112.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | zusammen | 3 | 144 | 13 | 1,9 | 5,3 |
-| video | 4 | 129,5 | 12,2 | 0 | 5,7 |
 | bilder | 32 | 111 | 27,2 | 1 | 3,3 |
+| video | 5 | 109 | 13,3 | 0 | 5,8 |
 
 ### Thema
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | sport | 12 | 137,5 | 16,6 | 1,1 | 3,6 |
-| umwelt | 9 | 118 | 18,7 | 0 | 4,4 |
+| umwelt | 10 | 116,5 | 18,8 | 0 | 4,9 |
 | digital | 8 | 109 | 20,1 | 2,4 | 3,8 |
 | alltag | 4 | 29,5 | 65,1 | 0 | 2,5 |
 | welt | 3 | 28 | 45 | 0 | 5,5 |
@@ -49,7 +49,7 @@ Gesamtreichweite: 4.195 Konten, Median pro Post: 112.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sachlich | 23 | 127 | 19,4 | 1,4 | 3,6 |
+| sachlich | 24 | 123 | 19,4 | 1,4 | 3,6 |
 | ueberraschend | 12 | 98 | 28,1 | 0 | 3,9 |
 | locker | 4 | 70,5 | 43,2 | 0 | 2,9 |
 
@@ -57,8 +57,8 @@ Gesamtreichweite: 4.195 Konten, Median pro Post: 112.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| 20 Uhr | 2 | 142,5 | 7 | 0 | 5,4 |
 | 7 Uhr | 17 | 137 | 17,3 | 0,9 | 3,6 |
+| 20 Uhr | 3 | 135 | 10,3 | 0 | 5,8 |
 | 12 Uhr | 11 | 108 | 31,9 | 0 | 4 |
 | 16 Uhr | 1 | 107 | 9,3 | 0 | 5,5 |
 | 18 Uhr | 8 | 52,5 | 47,1 | 4,1 | 2,7 |
@@ -73,13 +73,13 @@ Gesamtreichweite: 4.195 Konten, Median pro Post: 112.
 | Fr | 6 | 113,5 | 21 | 0 | 3,3 |
 | Sa | 5 | 110 | 30,1 | 5,5 | 2,4 |
 | Di | 5 | 107 | 14 | 0 | 5,6 |
-| Mi | 5 | 34 | 59,4 | 0 | 2,8 |
+| Mi | 6 | 57 | 48,6 | 0 | 2,8 |
 
 ### Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| lang (>45 Zeichen) | 27 | 115 | 20,8 | 1 | 3,6 |
+| lang (>45 Zeichen) | 28 | 113,5 | 20,8 | 1 | 3,7 |
 | kurz (≤45 Zeichen) | 12 | 107,5 | 29,2 | 0,8 | 2,9 |
 
 ### Zahl in der Überschrift
@@ -87,13 +87,13 @@ Gesamtreichweite: 4.195 Konten, Median pro Post: 112.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | ohne Zahl | 20 | 115,5 | 22,2 | 1,2 | 3,3 |
-| mit Zahl | 19 | 107 | 24,9 | 0,6 | 4 |
+| mit Zahl | 20 | 106,5 | 24,6 | 0,5 | 4,1 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 36 | 115,5 | 22,5 | 1 | 3,6 |
+| Aussage | 37 | 115 | 22,4 | 1 | 3,6 |
 | Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
@@ -102,14 +102,14 @@ Gesamtreichweite: 4.195 Konten, Median pro Post: 112.
 |---|---|---|---|---|---|
 | bis 15 s | 1 | 392 | 10,2 | 2,6 | 5,2 |
 | 16–25 s | 3 | 144 | 15,2 | 0 | 5,5 |
-| über 25 s | 3 | 107 | 11,5 | 0 | 5,7 |
+| über 25 s | 4 | 106 | 13,7 | 0 | 5,8 |
 
 ### Getestete Regel (Feld „test“ im Post)
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | teilen-anreiz | 2 | 142,5 | 7 | 0 | 5,4 |
-| aussage-titel | 1 | 107 | 9,3 | 0 | 5,5 |
+| aussage-titel | 2 | 106 | 14,2 | 0 | 5,7 |
 
 ## Alle Posts
 
@@ -154,6 +154,7 @@ Gesamtreichweite: 4.195 Konten, Median pro Post: 112.
 | 2026-11-16 | Rakete versagt: Amazon verliert 40 Satelliten | bilder | 135 | 5 | 1 | 0 | 0 | 0 | 5 s | – |
 | 2026-11-17 | Robotaxis aus Brandenburg: Tesla will 3 Milli | video | 107 | 114 | 1 | 0 | 0 | – | 5,5 s | 14 % |
 | 2026-11-17 | 5:0 gegen die Niederlande: Die DFB-Elf spielt | video | 150 | 161 | 1 | 0 | 0 | – | 5,8 s | 15 % |
+| 2026-11-18 | Solarstrom wächst 30-mal stärker als vorherge | video | 105 | 118 | 2 | 0 | 0 | – | 5,9 s | 14 % |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.
@@ -175,3 +176,4 @@ Gesamtreichweite: 4.195 Konten, Median pro Post: 112.
 - 2026-11-17 (abends): Tesla-Post (Digital, erstes erzähltes Video mit Stimme, aus Fotos geschnitten) um 16:23 Uhr veröffentlicht; Zahlen folgen. Der Vulcan-Post im neuen Spät-Fenster (20:45) liegt nach rund 20 Stunden bei 133 Konten und damit deutlich über dem bisherigen Abend-Schnitt (0,48× des Medians, Ø um 50); das spricht vorsichtig für 20:45 statt 18:15 (Stichprobe 1). Bester Post bleibt St. Brown (zusammen, morgens) mit 392 Konten. Hypothese für morgen: Das Stimm-Video erreicht nach 24 h mindestens so viele Konten wie die letzten Bilder-Posts (um 135) und eine längere Zuschaudauer als deren Folien-Reels (rund 5 s); Stichprobe 1.
 - 2026-11-18 (morgens, Vorbereitung für mittags): Morgens war nicht dran (heute mittags und spät); der Mittags-Post ist vorbereitet. Der DFB-Post (spät, Stimm-Video aus Fotos) liegt nach rund 10 Stunden bei 135 Konten, Zuschaudauer im Schnitt 5,2 s – ähnlich wie der Vulcan-Post im selben Fenster. Geplant war Sport, es gab aber nur schwache Sport-Meldungen (gestern schon DFB) und die Stromsteuer-Einigung war noch nicht verkündet; deshalb Umwelt (zweitbester Schwerpunkt): Solarstrom wächst rund 30-mal stärker als 2006 von der IEA vorhergesagt (tagesschau, IRENA, KBA). Zum ersten Mal überwiegend **echtes bewegtes Material** (Drohnenflüge über Solarparks und Windräder, CC0/CC BY) statt nur Fotos. Regel im Test: `aussage-titel`. Hypothese: Echte Drohnen-Videos halten länger als Foto-Zooms (Zuschaudauer über 6 s statt rund 5 s); Stichprobe 1.
 - 2026-11-19 (morgens): Stromsteuer-Post (Geld, Stimm-Video aus Fotos, Test `teilen-anreiz`, Frage-Einstieg „aber wie viel sparst du wirklich?“) um 6:36 Uhr veröffentlicht. Die drei bisherigen Stimm-Videos liegen bei 105–150 Konten (Tesla 107, DFB 150, Solar 105 nach ~10 h), im Rahmen des Gesamt-Medians (112), aber nicht darüber; geschaut werden nur Ø 5,5–5,9 Sekunden von rund 40 – die meisten wischen also schon nach dem ersten Satz weiter. Geteilt oder gespeichert wurde keins. Erkenntnis: Die Stimme allein hebt die Reichweite noch nicht; entscheidend ist, ob der erste Satz in 3 Sekunden fesselt. Hypothese für morgen: Ein Einstieg, der sofort eine persönliche Zahl nennt („Bis zu 93 Euro im Jahr …“), hält länger als eine allgemeine Frage; Vergleich der Zuschaudauer mit Solar und DFB (Stichprobe 1, nur Richtung). Geld lag bisher bei Ø 21 Konten, aber nur 3 Posts und meist im schwachen Abend-Fenster.
+- 2026-11-20 (morgens): Ohne `KLARTEXT_IG_TOKEN` keine neuen Zahlen; die Hypothese vom Vortag (persönliche Zahl im Einstieg) bleibt offen. Geplant war Sport (FIFA-Kandidaturen), gewählt wurde die stärkere, bildstarke Geschichte: das höchste Windrad der Welt (365 m, Schipkau) ist am Netz (MDR, Spiegel, Gicon), als Umwelt-Post im Ton „überraschend“ mit **echten Fotos genau dieser Anlage** plus Drohnen-Symbolvideo, Vergleichs-Hook „Fast so hoch wie der Berliner Fernsehturm“. Regel im Test: `teilen-anreiz` (gesprochen: „Schick das jemandem, der Windräder liebt“). Hypothese: Ein Vergleichs-Hook mit einem bekannten Bauwerk und echtes Bild des Ereignisses halten länger als die bisherigen ~6 s Zuschaudauer; Stichprobe 1.

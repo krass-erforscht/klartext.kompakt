@@ -1,0 +1,112 @@
+{
+  "id": "2026-11-20-windrad",
+  "date": "2026-11-19T15:48:00Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "ueberraschend",
+  "format": "video",
+  "test": "teilen-anreiz",
+  "sources": [
+    {
+      "name": "MDR Wissen",
+      "url": "https://www.mdr.de/wissen/umwelt-klima/hoehenwindturm-lausitz-geht-ans-netz,hoehenwindrad-114.html"
+    },
+    {
+      "name": "Spiegel",
+      "url": "https://www.spiegel.de/wirtschaft/windenergie-in-brandenburg-hoechstes-windrad-der-welt-geht-in-betrieb-a-eddc2afd-3bd5-4bde-9528-71b3d7c10c92"
+    },
+    {
+      "name": "Gicon (Unternehmensangaben)",
+      "url": "https://www.gicon.de"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-20-windrad.jpg",
+    "credit": "Mysli / Wikimedia Commons, CC BY-SA 4.0",
+    "short": "Mysli, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Errichteter_GICON_Hoehenwindturm.jpg",
+    "symbolbild": false,
+    "position": "top"
+  },
+  "video": {
+    "file": "videos/2026-11-20-windrad.mp4",
+    "start": 0,
+    "duration": 45,
+    "credit": "Fotos des Höhenwindturms in Schipkau: Mysli (CC BY-SA 4.0) und Osidor (CC0, Kontrast verstärkt); Drohnenflug an einem Windrad in Estland als Symbolvideo: Sillerkiil (CC BY-SA 4.0); alle via Wikimedia Commons",
+    "short": "Fotos Schipkau: Mysli, CC BY-SA 4.0; Osidor, CC0 · Drohnenflug Estland (Symbolvideo): Sillerkiil, CC BY-SA 4.0 · Wikimedia Commons",
+    "license": "CC BY-SA 4.0 / CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Errichteter_GICON_Hoehenwindturm.jpg",
+    "symbolisch": true,
+    "headline": "**365 Meter:** Das höchste Windrad der Welt dreht sich jetzt 🌬️",
+    "voice": [
+      "Fast so hoch wie der Berliner Fernsehturm: Das ist jetzt das höchste Windrad der Welt.",
+      "Es steht in Schipkau in der Lausitz und liefert seit Donnerstag Strom.",
+      "Dreihundertfünfundsechzig Meter ist es hoch, die Rotoren drehen sich in dreihundert Metern Höhe.",
+      "Was heißt das für dich?",
+      "Dort oben weht der Wind stärker und gleichmäßiger als weiter unten.",
+      "Laut der Firma Gicon kann das Windrad doppelt so viel Strom liefern wie ein normales.",
+      "Das soll für bis zu siebentausendfünfhundert Haushalte reichen.",
+      "Der Trick: Der innere Turm wurde wie ein Teleskop nach oben ausgefahren.",
+      "Ob sich das lohnt, zeigen die nächsten Monate.",
+      "Schick das jemandem, der Windräder liebt, und folge für Nachrichten in dreißig Sekunden."
+    ],
+    "voiceText": [
+      "Fast so hoch wie der Berliner Fernsehturm: Das ist jetzt das höchste Windrad der Welt.",
+      "Es steht in Schipkau in der Lausitz und liefert seit Donnerstag Strom.",
+      "365 Meter ist es hoch, die Rotoren drehen sich in 300 Metern Höhe.",
+      "Was heißt das für dich?",
+      "Dort oben weht der Wind stärker und gleichmäßiger als weiter unten.",
+      "Laut der Firma Gicon kann das Windrad doppelt so viel Strom liefern wie ein normales.",
+      "Das soll für bis zu 7.500 Haushalte reichen.",
+      "Der Trick: Der innere Turm wurde wie ein Teleskop nach oben ausgefahren.",
+      "Ob sich das lohnt, zeigen die nächsten Monate.",
+      "Schick das jemandem, der Windräder liebt, und folge für Nachrichten in 30 Sekunden."
+    ],
+    "voiceSpeed": 1.2
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Umwelt",
+      "title": "Das **höchste Windrad der Welt** liefert jetzt Strom"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "**365 Meter** hoch, in der Lausitz",
+      "text": [
+        "Der Höhenwindturm in Schipkau (Brandenburg) ist seit Donnerstag am Netz. Die Rotoren drehen sich in **300 Metern** Höhe."
+      ],
+      "image": {
+        "file": "images/2026-11-20-windrad-2.jpg",
+        "credit": "Osidor / Wikimedia Commons, CC0 (Kontrast verstärkt)",
+        "short": "Osidor, CC0, via Wikimedia Commons",
+        "license": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:2026-10-27-schipkau-wake-vortex.jpg",
+        "symbolbild": false,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "7.500",
+      "title": "Haushalte soll das Windrad mit Strom versorgen können",
+      "text": [
+        "Laut Hersteller Gicon kann es **doppelt so viel** Strom liefern wie ein normales Windrad. Bisheriger Rekord: 285 Meter."
+      ]
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Fünf weitere Türme **geplant**",
+      "text": [
+        "Der Bau kostete 25 Millionen Euro. Ob die Höhe wirklich so viel mehr Strom bringt, zeigen die nächsten Monate."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Schick's weiter",
+      "title": "Kennst du jemanden, der Windräder liebt? **Teilen!**"
+    }
+  ],
+  "caption": "Windrad-Rekord: Das höchste Windrad der Welt liefert jetzt Strom – 365 Meter hoch, in Schipkau in der Lausitz. Die Rotoren drehen sich in 300 Metern Höhe, wo der Wind stärker und gleichmäßiger weht. Laut Hersteller Gicon soll es Strom für bis zu 7.500 Haushalte liefern; fünf weitere Türme sind geplant.\n\nWürdest du so ein Windrad gern mal von nahem sehen? 👇 Schick das jemandem, der Windräder liebt!\n\nQuellen: MDR Wissen, Spiegel, Gicon · Text und Stimme mit KI erstellt\nFotos des Windrads: Mysli, CC BY-SA 4.0; Osidor, CC0 (Kontrast verstärkt) · Symbolvideo (Drohnenflug an einem Windrad in Estland): Sillerkiil, CC BY-SA 4.0 · alle via Wikimedia Commons\n#nachrichten #windkraft #windrad #energiewende #lausitz"
+}
