@@ -1,0 +1,133 @@
+{
+  "id": "2026-11-20-ratenkauf",
+  "date": "2026-11-20T09:22:00Z",
+  "category": "Geld",
+  "topic": "geld",
+  "tone": "sachlich",
+  "format": "video",
+  "test": "aussage-titel",
+  "sources": [
+    {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/kleinkredite-neue-regeln-verschuldung-100.html"
+    },
+    {
+      "name": "MDR",
+      "url": "https://www.mdr.de/nachrichten/deutschland/gesellschaft/spaeter-zahlen-neue-regeln-schufa-kredit,ratenkauf-100.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-20-ratenkauf.jpg",
+    "credit": "Bogdan Hoyaux / Europäische Kommission, CC BY 4.0, via Wikimedia Commons",
+    "short": "Bogdan Hoyaux / EU-Kommission, CC BY 4.0, via Wikimedia Commons",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shopping_online_with_bank_card.jpg",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "file": "videos/2026-11-20-ratenkauf.mp4",
+    "start": 0,
+    "duration": 45,
+    "credit": "Symbolfotos: Bogdan Hoyaux / EU-Kommission (CC BY 4.0), Zuko.io Images (CC BY 2.0), Anselm Schüler (CC BY-SA 4.0), Shixart1985 (CC BY 2.0), alle via Wikimedia Commons; Tim Reckmann (CC BY 2.0) und Robbert Noordzij (CC BY 2.0), via Flickr",
+    "short": "Hoyaux/EU-Kommission, CC BY 4.0 · Zuko.io, CC BY 2.0 · A. Schüler, CC BY-SA 4.0 · Shixart1985, CC BY 2.0 · T. Reckmann, CC BY 2.0 · R. Noordzij, CC BY 2.0",
+    "license": "CC BY 4.0 / CC BY 2.0 / CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shopping_online_with_bank_card.jpg",
+    "symbolisch": true,
+    "headline": "Ab heute: **Ratenkauf** mit Klarna & Co. wird strenger geprüft 💳",
+    "voice": [
+      "Ab heute wird es schwerer, im Internet in Raten zu bezahlen.",
+      "Neue europäische Regeln gelten jetzt auch für „Jetzt kaufen, später zahlen“.",
+      "Was heißt das für dich?",
+      "Anbieter wie Klarna müssen auch bei kleinen Beträgen prüfen, ob du die Raten bezahlen kannst.",
+      "Zum Beispiel mit einer schnellen Abfrage bei der Schufa.",
+      "Bisher galten für Ratenkäufe unter zweihundert Euro kaum Regeln.",
+      "Außerdem müssen Kosten, Laufzeit und Bedingungen genauer erklärt werden.",
+      "Lehnt ein Computer deinen Ratenkauf ab, kannst du eine Erklärung verlangen, und ein Mensch prüft noch einmal.",
+      "Der klassische Kauf auf Rechnung direkt beim Händler bleibt ohne Prüfung.",
+      "Zahlst du lieber sofort oder später? Schreib es in die Kommentare."
+    ],
+    "voiceText": [
+      "Ab heute wird es schwerer, im Internet in Raten zu bezahlen.",
+      "Neue europäische Regeln gelten jetzt auch für „Jetzt kaufen, später zahlen“.",
+      "Was heißt das für dich?",
+      "Anbieter wie Klarna müssen auch bei kleinen Beträgen prüfen, ob du die Raten bezahlen kannst.",
+      "Zum Beispiel mit einer schnellen Abfrage bei der Schufa.",
+      "Bisher galten für Ratenkäufe unter 200 Euro kaum Regeln.",
+      "Außerdem müssen Kosten, Laufzeit und Bedingungen genauer erklärt werden.",
+      "Lehnt ein Computer deinen Ratenkauf ab, kannst du eine Erklärung verlangen, und ein Mensch prüft noch einmal.",
+      "Der klassische Kauf auf Rechnung direkt beim Händler bleibt ohne Prüfung.",
+      "Zahlst du lieber sofort oder später? Schreib es in die Kommentare."
+    ],
+    "voiceSpeed": 1.2
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Geld",
+      "title": "Ab heute wird **Ratenkauf** im Internet strenger geprüft"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Neue **EU-Regeln** für Kleinkredite",
+      "text": [
+        "Seit dem **20. November** gilt die neue EU-Verbraucherkreditrichtlinie. Sie umfasst jetzt auch „Jetzt kaufen, später zahlen“-Angebote."
+      ],
+      "image": {
+        "file": "images/2026-11-20-ratenkauf-2.jpg",
+        "credit": "Zuko.io Images, CC BY 2.0, via Wikimedia Commons",
+        "short": "Zuko.io Images, CC BY 2.0, via Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Ecommerce_Shopping_Cart_Abandonment_Concept.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Anbieter müssen **prüfen**, ob du zahlen kannst",
+      "text": [
+        "Auch bei kleinen Beträgen, etwa per Schufa-Abfrage. Lehnt ein Computer ab, kannst du eine **Erklärung** und eine Prüfung durch einen Menschen verlangen."
+      ],
+      "image": {
+        "file": "images/2026-11-20-ratenkauf-3.jpg",
+        "credit": "Anselm Schüler, CC BY-SA 4.0, via Wikimedia Commons",
+        "short": "Anselm Schüler, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Payment_terminal_at_self-checkout.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "15 %",
+      "title": "zahlen einen 1.000-Euro-Einkauf am liebsten in Raten",
+      "text": [
+        "Laut einer Umfrage des Vergleichsportals Verivox. Vor zwei Jahren waren es noch **9 %**."
+      ]
+    },
+    {
+      "label": "Gut zu wissen",
+      "title": "Kauf auf **Rechnung** bleibt wie bisher",
+      "text": [
+        "Zahlst du direkt beim Händler nach Erhalt der Ware, ohne Zahlungsdienst dazwischen, gibt es keine neue Prüfung."
+      ],
+      "image": {
+        "file": "images/2026-11-20-ratenkauf-4.jpg",
+        "credit": "Tim Reckmann, CC BY 2.0, via Flickr",
+        "short": "Tim Reckmann, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/115225894@N07/13904995945",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Merken & folgen",
+      "title": "Speichern für den nächsten Online-Einkauf – und **folgen** für Nachrichten in 30 Sekunden"
+    }
+  ],
+  "caption": "Ratenkauf wird strenger: Seit heute müssen Anbieter von „Jetzt kaufen, später zahlen“ wie Klarna auch bei kleinen Beträgen prüfen, ob du die Raten bezahlen kannst – das verlangt die neue EU-Verbraucherkreditrichtlinie. Lehnt ein Computer ab, kannst du eine Erklärung und eine Prüfung durch einen Menschen verlangen. Der klassische Kauf auf Rechnung direkt beim Händler bleibt wie bisher.\n\nZahlst du online lieber sofort oder später? 👇\n\nQuellen: tagesschau, MDR, Verivox-Umfrage · Text und Stimme mit KI erstellt\nSymbolfotos: Bogdan Hoyaux / EU-Kommission, CC BY 4.0; Zuko.io Images, CC BY 2.0; Anselm Schüler, CC BY-SA 4.0; Shixart1985, CC BY 2.0 (alle via Wikimedia Commons); Tim Reckmann, CC BY 2.0, und Robbert Noordzij, CC BY 2.0 (via Flickr)\n#nachrichten #ratenkauf #klarna #buynowpaylater #verbraucherschutz"
+}
