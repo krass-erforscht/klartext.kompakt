@@ -2740,8 +2740,8 @@
     "mood": "nuetzlich",
     "file": "music/files/incompetech-Kevin_MacLeod-Newer_Wave.mp3",
     "seconds": 175,
-    "used": 0,
-    "lastUsed": null
+    "used": 1,
+    "lastUsed": "2026-11-20T10:06:17.278Z"
   },
   {
     "source": "incompetech",
@@ -2754,6 +2754,48 @@
     "mood": "nuetzlich",
     "file": "music/files/incompetech-Kevin_MacLeod-Angevin.mp3",
     "seconds": 281,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Still Pickin",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Still%20Pickin.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Still_Pickin.mp3",
+    "seconds": 298,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "Townie Loop",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Townie%20Loop.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-Townie_Loop.mp3",
+    "seconds": 155,
+    "used": 0,
+    "lastUsed": null
+  },
+  {
+    "source": "incompetech",
+    "title": "The Entertainer",
+    "artist": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com",
+    "url": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Entertainer.mp3",
+    "mood": "nuetzlich",
+    "file": "music/files/incompetech-Kevin_MacLeod-The_Entertainer.mp3",
+    "seconds": 193,
     "used": 0,
     "lastUsed": null
   }
