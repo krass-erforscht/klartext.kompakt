@@ -1380,5 +1380,19 @@
     ],
     "mediaId": "18062992895800624",
     "format": "video"
+  },
+  {
+    "id": "2026-11-21-riemann",
+    "postedAt": "2026-11-21T19:01:32.972Z",
+    "topic": "digital",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.n-tv.de/panorama/Forscher-will-groesstes-Raetsel-der-Mathematik-mit-KI-geloest-haben-id31560711.html",
+    "sourceUrls": [
+      "https://www.n-tv.de/panorama/Forscher-will-groesstes-Raetsel-der-Mathematik-mit-KI-geloest-haben-id31560711.html",
+      "https://www.spiegel.de/wissenschaft/riemann-vermutung-mathematiker-behauptet-mit-ki-einen-beweis-fuer-den-heiligen-gral-der-mathematik-gefunden-zu-haben-a-cb24fb59-9f4e-44f7-a7cc-c3c19418721b",
+      "https://www.deutschlandfunk.de/anthropic-forscher-will-riemannsche-hypothese-mit-ki-geloest-haben-106.html"
+    ],
+    "mediaId": "18103438121451145",
+    "format": "video"
   }
 ]
