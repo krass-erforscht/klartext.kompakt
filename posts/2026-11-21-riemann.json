@@ -6,6 +6,7 @@
   "tone": "ueberraschend",
   "format": "video",
   "test": "teilen-anreiz",
+  "vorbereitet": true,
   "sources": [
     {
       "name": "n-tv",
