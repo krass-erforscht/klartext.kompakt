@@ -1,0 +1,56 @@
+[
+ {
+  "text": "Ein Rätsel, an dem Mathematiker seit hundertsiebenundsechzig Jahren scheitern, soll jetzt gelöst sein, mit Hilfe einer KI.",
+  "start": 0.0,
+  "end": 8.04,
+  "score": 0.9
+ },
+ {
+  "text": "Es geht um die Riemannsche Vermutung über die Primzahlen, also Zahlen wie zwei, drei, fünf und sieben.",
+  "start": 8.49,
+  "end": 16.05,
+  "score": 0.92
+ },
+ {
+  "text": "Ein Forscher der Firma Anthropic sagt, er habe den Beweis zusammen mit deren KI Claude gefunden.",
+  "start": 16.5,
+  "end": 22.84,
+  "score": 0.87
+ },
+ {
+  "text": "Was heißt das für dich?",
+  "start": 23.29,
+  "end": 24.73,
+  "score": 1.0
+ },
+ {
+  "text": "Erst einmal abwarten, denn von Fachleuten geprüft ist der Beweis noch nicht.",
+  "start": 25.18,
+  "end": 30.0,
+  "score": 1.0
+ },
+ {
+  "text": "Ausgeschrieben wäre er tausende Seiten lang, und der Forscher will ihn selbst erst noch verstehen.",
+  "start": 30.45,
+  "end": 36.31,
+  "score": 1.0
+ },
+ {
+  "text": "Stimmt er, winkt eine Million Dollar Preisgeld.",
+  "start": 36.76,
+  "end": 40.0,
+  "score": 1.0
+ },
+ {
+  "text": "Ein Experte spricht schon vom größten Ereignis in der Geschichte der Mathematik, kennt aber bisher nur Notizen.",
+  "start": 40.45,
+  "end": 47.97,
+  "score": 1.0
+ },
+ {
+  "text": "Schick das jemandem, der Mathe liebt oder hasst.",
+  "start": 48.42,
+  "end": 51.88,
+  "score": 0.88
+ }
+]

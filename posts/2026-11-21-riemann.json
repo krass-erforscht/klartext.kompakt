@@ -1,0 +1,135 @@
+{
+  "id": "2026-11-21-riemann",
+  "date": "2026-11-20T22:59:00Z",
+  "category": "Digital",
+  "topic": "digital",
+  "tone": "ueberraschend",
+  "format": "video",
+  "test": "teilen-anreiz",
+  "sources": [
+    {
+      "name": "n-tv",
+      "url": "https://www.n-tv.de/panorama/Forscher-will-groesstes-Raetsel-der-Mathematik-mit-KI-geloest-haben-id31560711.html"
+    },
+    {
+      "name": "Spiegel",
+      "url": "https://www.spiegel.de/wissenschaft/riemann-vermutung-mathematiker-behauptet-mit-ki-einen-beweis-fuer-den-heiligen-gral-der-mathematik-gefunden-zu-haben-a-cb24fb59-9f4e-44f7-a7cc-c3c19418721b"
+    },
+    {
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/anthropic-forscher-will-riemannsche-hypothese-mit-ki-geloest-haben-106.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-21-riemann.jpg",
+    "credit": "Jan Homann, gemeinfrei, via Wikimedia Commons",
+    "short": "Jan Homann, gemeinfrei, via Wikimedia Commons",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Complex_zeta.jpg",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "file": "videos/2026-11-21-riemann.mp4",
+    "start": 0,
+    "duration": 45,
+    "credit": "Grafiken und Fotos: Jan Homann (gemeinfrei), Bernhard Riemann, Porträts (gemeinfrei), Conscious (CC BY-SA 3.0), alle via Wikimedia Commons; thepatrick (CC BY 2.0) und dullhunk (CC BY 2.0), via Flickr",
+    "short": "J. Homann, gemeinfrei · Riemann-Porträts, gemeinfrei · Conscious, CC BY-SA 3.0 · thepatrick, CC BY 2.0 · dullhunk, CC BY 2.0",
+    "license": "Public domain / CC BY-SA 3.0 / CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Complex_zeta.jpg",
+    "symbolisch": true,
+    "headline": "KI soll 167 Jahre altes **Mathe-Rätsel** gelöst haben 🧮",
+    "voice": [
+      "Ein Rätsel, an dem Mathematiker seit hundertsiebenundsechzig Jahren scheitern, soll jetzt gelöst sein, mit Hilfe einer KI.",
+      "Es geht um die Riemannsche Vermutung über die Primzahlen, also Zahlen wie zwei, drei, fünf und sieben.",
+      "Ein Forscher der Firma Anthropic sagt, er habe den Beweis zusammen mit deren KI Claude gefunden.",
+      "Was heißt das für dich?",
+      "Erst einmal abwarten, denn von Fachleuten geprüft ist der Beweis noch nicht.",
+      "Ausgeschrieben wäre er tausende Seiten lang, und der Forscher will ihn selbst erst noch verstehen.",
+      "Stimmt er, winkt eine Million Dollar Preisgeld.",
+      "Ein Experte spricht schon vom größten Ereignis in der Geschichte der Mathematik, kennt aber bisher nur Notizen.",
+      "Schick das jemandem, der Mathe liebt oder hasst."
+    ],
+    "voiceText": [
+      "Ein Rätsel, an dem Mathematiker seit 167 Jahren scheitern, soll jetzt gelöst sein, mit Hilfe einer KI.",
+      "Es geht um die Riemannsche Vermutung über die Primzahlen, also Zahlen wie 2, 3, 5 und 7.",
+      "Ein Forscher der Firma Anthropic sagt, er habe den Beweis zusammen mit deren KI Claude gefunden.",
+      "Was heißt das für dich?",
+      "Erst einmal abwarten, denn von Fachleuten geprüft ist der Beweis noch nicht.",
+      "Ausgeschrieben wäre er Tausende Seiten lang, und der Forscher will ihn selbst erst noch verstehen.",
+      "Stimmt er, winkt 1 Million Dollar Preisgeld.",
+      "Ein Experte spricht schon vom größten Ereignis in der Geschichte der Mathematik, kennt aber bisher nur Notizen.",
+      "Schick das jemandem, der Mathe liebt oder hasst."
+    ],
+    "voiceSpeed": 1.2
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Digital",
+      "title": "KI soll ein **167 Jahre altes** Mathe-Rätsel gelöst haben"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Ein Forscher meldet einen **Beweis**",
+      "text": [
+        "Levent Alpöge arbeitet für die KI-Firma Anthropic. Er sagt, er habe mit deren KI **Claude** die Riemannsche Vermutung bewiesen."
+      ],
+      "image": {
+        "file": "images/2026-11-21-riemann-4.jpg",
+        "credit": "thepatrick, CC BY 2.0, via Flickr",
+        "short": "thepatrick, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/93529274@N00/1508924823",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Worum geht es?",
+      "title": "Das Rätsel der **Primzahlen**",
+      "text": [
+        "Bernhard Riemann stellte die Vermutung **1859** auf. Sie beschreibt, wie Primzahlen wie 2, 3, 5 und 7 verteilt sind – eine der wichtigsten offenen Fragen der Mathematik."
+      ],
+      "image": {
+        "file": "images/2026-11-21-riemann-2.jpg",
+        "credit": "Bernhard Riemann, Porträt, Urheber unbekannt, gemeinfrei, via Wikimedia Commons",
+        "short": "Porträt Bernhard Riemann, gemeinfrei, via Wikimedia Commons",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg",
+        "symbolbild": false,
+        "position": "top"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "1 Mio.",
+      "title": "Dollar Preisgeld für die Lösung",
+      "text": [
+        "Das Clay Mathematics Institute zahlt aber erst, wenn der Beweis in einer Fachzeitschrift erschienen ist und **zwei Jahre** Prüfung übersteht."
+      ]
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Von Fachleuten noch **nicht geprüft**",
+      "text": [
+        "Ausgeschrieben wäre der Beweis Tausende Seiten lang. Alpöge will ihn erst selbst verstehen und aufschreiben – dann können andere ihn prüfen."
+      ],
+      "image": {
+        "file": "images/2026-11-21-riemann-3.jpg",
+        "credit": "Conscious, CC BY-SA 3.0, via Wikimedia Commons",
+        "short": "Conscious, CC BY-SA 3.0, via Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "page": "https://commons.wikimedia.org/w/index.php?curid=939039",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Teilen & folgen",
+      "title": "Schick das jemandem, der Mathe **liebt** – oder hasst. Und folge für Nachrichten in 30 Sekunden"
+    }
+  ],
+  "caption": "Riemannsche Vermutung gelöst? Ein Forscher der KI-Firma Anthropic sagt, er habe mit der KI Claude einen Beweis für eines der berühmtesten Rätsel der Mathematik gefunden – 167 Jahre nachdem Bernhard Riemann es aufgestellt hat. Geprüft ist der Beweis von Fachleuten noch nicht; ausgeschrieben wäre er Tausende Seiten lang. Auf die Lösung ist 1 Million Dollar Preisgeld ausgesetzt.\n\nSchick das jemandem, der Mathe liebt – oder hasst 😉 Glaubst du, dass KI bald die großen Rätsel der Wissenschaft löst?\n\nQuellen: n-tv, Spiegel, Deutschlandfunk · Text und Stimme mit KI erstellt\nGrafiken und Fotos: Jan Homann, gemeinfrei; Porträts Bernhard Riemann, gemeinfrei; Conscious, CC BY-SA 3.0 (alle via Wikimedia Commons); thepatrick, CC BY 2.0, und dullhunk, CC BY 2.0 (via Flickr)\n#nachrichten #mathematik #ki #riemann #primzahlen"
+}
