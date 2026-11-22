@@ -1416,5 +1416,20 @@
       "ig_reels_video_view_total_time": 630327
     },
     "statsAt": "2026-11-22T05:17:29.122Z"
+  },
+  {
+    "id": "2026-11-22-zverev",
+    "postedAt": "2026-11-22T05:36:51.348Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.n-tv.de/sport/tennis/Alexander-Zverev-spielt-gegen-Alcaraz-um-Finals-Titel-id31562666.html",
+    "sourceUrls": [
+      "https://www.n-tv.de/sport/tennis/Alexander-Zverev-spielt-gegen-Alcaraz-um-Finals-Titel-id31562666.html",
+      "https://www.zdfheute.de/sport/tennis-atp-finals-alexander-zverev-endspiel-100.html",
+      "https://www.sportschau.de/tennis/atp/zverev-folgt-alcaraz-ins-traumfinale,spielbericht-atp-finals-zverev-medvedev-100.html",
+      "https://www.deutschlandfunk.de/zverev-spielt-im-finale-von-turin-gegen-alcaraz-104.html"
+    ],
+    "mediaId": "18043026416645353",
+    "format": "video"
   }
 ]
