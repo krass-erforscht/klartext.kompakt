@@ -1,10 +1,10 @@
 {
-  "aktualisiert": "2026-11-19T05:16:50.268Z",
+  "aktualisiert": "2026-11-22T05:17:29.227Z",
   "ranking": [
     {
       "gruppe": "thema:digital",
-      "posts": 8,
-      "punkte": 3.95,
+      "posts": 9,
+      "punkte": 3.62,
       "reichweite": 106,
       "follower": 0
     },
@@ -23,17 +23,10 @@
       "follower": 0
     },
     {
-      "gruppe": "ton:ueberraschend",
-      "posts": 10,
-      "punkte": 2.9,
-      "reichweite": 101,
-      "follower": 0
-    },
-    {
       "gruppe": "format:bilder",
       "posts": 26,
-      "punkte": 2.78,
-      "reichweite": 113,
+      "punkte": 2.81,
+      "reichweite": 114,
       "follower": 0
     },
     {
@@ -41,6 +34,13 @@
       "posts": 9,
       "punkte": 2.76,
       "reichweite": 105,
+      "follower": 0
+    },
+    {
+      "gruppe": "ton:ueberraschend",
+      "posts": 11,
+      "punkte": 2.72,
+      "reichweite": 102,
       "follower": 0
     },
     {
@@ -53,22 +53,29 @@
     {
       "gruppe": "uhrzeit:7",
       "posts": 16,
-      "punkte": 2.42,
+      "punkte": 2.48,
       "reichweite": 144,
       "follower": 0
     },
     {
       "gruppe": "ton:sachlich",
-      "posts": 21,
-      "punkte": 2.29,
-      "reichweite": 138,
+      "posts": 22,
+      "punkte": 2.23,
+      "reichweite": 137,
       "follower": 0
     },
     {
       "gruppe": "thema:sport",
       "posts": 12,
-      "punkte": 2.12,
+      "punkte": 2.2,
       "reichweite": 151,
+      "follower": 0
+    },
+    {
+      "gruppe": "format:zusammen",
+      "posts": 2,
+      "punkte": 1.84,
+      "reichweite": 269,
       "follower": 0
     },
     {
@@ -79,13 +86,6 @@
       "follower": 0
     },
     {
-      "gruppe": "format:zusammen",
-      "posts": 2,
-      "punkte": 1.71,
-      "reichweite": 268,
-      "follower": 0
-    },
-    {
       "gruppe": "thema:welt",
       "posts": 1,
       "punkte": 1.39,
@@ -93,17 +93,17 @@
       "follower": 0
     },
     {
-      "gruppe": "format:video",
-      "posts": 5,
-      "punkte": 1.27,
-      "reichweite": 136,
+      "gruppe": "uhrzeit:20",
+      "posts": 4,
+      "punkte": 1.06,
+      "reichweite": 125,
       "follower": 0
     },
     {
-      "gruppe": "uhrzeit:20",
-      "posts": 3,
-      "punkte": 1.1,
-      "reichweite": 130,
+      "gruppe": "format:video",
+      "posts": 7,
+      "punkte": 1.04,
+      "reichweite": 127,
       "follower": 0
     },
     {
@@ -115,9 +115,16 @@
     },
     {
       "gruppe": "thema:geld",
+      "posts": 2,
+      "punkte": 0.39,
+      "reichweite": 115,
+      "follower": 0
+    },
+    {
+      "gruppe": "uhrzeit:6",
       "posts": 1,
-      "punkte": 0.78,
-      "reichweite": 128,
+      "punkte": 0,
+      "reichweite": 101,
       "follower": 0
     }
   ]

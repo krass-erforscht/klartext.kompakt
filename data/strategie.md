@@ -40,6 +40,7 @@ Aus der YouTube-Auswertung von krass.erforscht (240 meistgesehene deutsche Wisse
 - Verglichen wird die Reichweite im Verhältnis zum Median des Formats. Stand 2026-11-16: morgens 1,2×, mittags 0,89×, abends 0,48×, spät noch ungetestet.
 
 ## Verlauf
+- 2026-11-22 (morgens): Keine Regeländerung (neue Zahlen da, aber Stimm-Videos noch zu wenige für Bestätigung). Zverev-Alcaraz-Post (Sport, stärkster Schwerpunkt; Finale heute 18 Uhr) mit `aussage-titel` im Test (letzter Post hatte `teilen-anreiz`).
 - 2026-11-21 (morgens): Keine Regeländerung (ohne Token keine neuen Zahlen). Riemann-Post (Digital, KI löst angeblich Mathe-Rätsel; als Behauptung gekennzeichnet) mit `teilen-anreiz` im Test (letzter Post hatte `aussage-titel`).
 - 2026-11-20 (mittags): Keine Regeländerung (ohne Token keine neuen Zahlen). Ratenkauf-Post (Geld statt Sport: im Sport heute nichts Starkes; neue EU-Regeln gelten ab heute und betreffen viele) mit `aussage-titel` im Test (Morgen-Post hatte `teilen-anreiz`).
 - 2026-11-20 (morgens): Keine Regeländerung (ohne Token keine neuen Zahlen abrufbar). Windrad-Post (Umwelt statt Sport: echtes Foto der Anlage, starke Geschichte) mit `teilen-anreiz` im Test (letzter Post hatte `aussage-titel`).

@@ -1,0 +1,139 @@
+{
+  "id": "2026-11-22-zverev",
+  "date": "2026-11-21T21:12:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "video",
+  "test": "aussage-titel",
+  "sources": [
+    {
+      "name": "n-tv",
+      "url": "https://www.n-tv.de/sport/tennis/Alexander-Zverev-spielt-gegen-Alcaraz-um-Finals-Titel-id31562666.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/tennis-atp-finals-alexander-zverev-endspiel-100.html"
+    },
+    {
+      "name": "Sportschau",
+      "url": "https://www.sportschau.de/tennis/atp/zverev-folgt-alcaraz-ins-traumfinale,spielbericht-atp-finals-zverev-medvedev-100.html"
+    },
+    {
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/zverev-spielt-im-finale-von-turin-gegen-alcaraz-104.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-22-zverev.jpg",
+    "credit": "si.robi, CC BY-SA 2.0, via Wikimedia Commons",
+    "short": "si.robi, CC BY-SA 2.0, via Wikimedia Commons",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Zverev_MCM23_(20).jpg",
+    "symbolbild": true,
+    "position": "top"
+  },
+  "video": {
+    "file": "videos/2026-11-22-zverev.mp4",
+    "start": 0,
+    "duration": 40,
+    "credit": "Fotos (Archiv, nicht vom heutigen Finale): si.robi (CC BY-SA 2.0), Bruce The Deus (CC BY-SA 4.0), OMAR.ERRE (CC BY 4.0), Rap57 (CC BY-SA 4.0), Keith Allison (CC BY-SA 2.0), Like tears in rain (CC BY-SA 4.0), Oleg Yunakov (CC BY-SA 4.0), Rick Munroe (CC BY-SA 4.0), alle via Wikimedia Commons",
+    "short": "Archivfotos: si.robi · Bruce The Deus · OMAR.ERRE · Rap57 · Keith Allison · Like tears in rain · Oleg Yunakov · Rick Munroe, CC BY/BY-SA, Wikimedia Commons",
+    "license": "CC BY 4.0 / CC BY-SA 2.0 / CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:ATP_Finals_2021,_Medvedev_vs_Zverev_(Italy,_2021).png",
+    "symbolisch": true,
+    "headline": "Zverev gegen Alcaraz: Heute Abend geht es um die **Tennis-Krone** 🎾",
+    "voice": [
+      "Die Nummer eins gegen die Nummer zwei der Tenniswelt: Heute Abend spielt Alexander Zverev um die Krone des Jahres.",
+      "Im Finale der ATP Finals in Turin trifft er auf den Spanier Carlos Alcaraz.",
+      "Was heißt das für dich?",
+      "Einschalten lohnt sich, los geht es um achtzehn Uhr.",
+      "Zverev hat dieses Turnier schon zweimal gewonnen, zweitausendachtzehn und zweitausendeinundzwanzig.",
+      "Alcaraz noch nie, dafür hat er schon sieben Grand-Slam-Titel.",
+      "Beide haben in Turin bisher jedes Spiel gewonnen.",
+      "Und Zverev hat noch kein einziges Aufschlagspiel abgegeben.",
+      "Wer holt den Titel: Zverev oder Alcaraz?"
+    ],
+    "voiceText": [
+      "Die Nummer 1 gegen die Nummer 2 der Tenniswelt: Heute Abend spielt Alexander Zverev um die Krone des Jahres.",
+      "Im Finale der ATP Finals in Turin trifft er auf den Spanier Carlos Alcaraz.",
+      "Was heißt das für dich?",
+      "Einschalten lohnt sich, los geht es um 18 Uhr.",
+      "Zverev hat dieses Turnier schon zweimal gewonnen, 2018 und 2021.",
+      "Alcaraz noch nie, dafür hat er schon 7 Grand-Slam-Titel.",
+      "Beide haben in Turin bisher jedes Spiel gewonnen.",
+      "Und Zverev hat noch kein einziges Aufschlagspiel abgegeben.",
+      "Wer holt den Titel: Zverev oder Alcaraz?"
+    ],
+    "voiceSpeed": 1.2
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "Nummer 1 gegen Nummer 2: Zverev spielt heute um den **Titel**"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Traumfinale bei den **ATP Finals**",
+      "text": [
+        "Beim Saisonfinale der acht besten Tennisprofis in Turin hat Zverev im Halbfinale Daniil Medwedew besiegt: **7:6, 6:4**. Im Endspiel wartet Carlos Alcaraz."
+      ],
+      "image": {
+        "file": "images/2026-11-22-zverev-2.jpg",
+        "credit": "Bruce The Deus, CC BY-SA 4.0, via Wikimedia Commons",
+        "short": "Arena in Turin 2021, Bruce The Deus, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:ATP_Finals_2021,_Medvedev_vs_Zverev_(Italy,_2021).png",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Der Gegner",
+      "title": "Alcaraz will seinen **ersten** Titel hier",
+      "text": [
+        "Der Spanier hat schon **sieben** Grand-Slam-Turniere gewonnen, die ATP Finals aber noch nie. Zverev gewann sie **2018** und **2021**."
+      ],
+      "image": {
+        "file": "images/2026-11-22-zverev-3.jpg",
+        "credit": "OMAR.ERRE, CC BY 4.0, via Wikimedia Commons",
+        "short": "OMAR.ERRE, CC BY 4.0, via Wikimedia Commons",
+        "license": "CC BY 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Carlos_Alcaraz_Argentina_Open_2024.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "0",
+      "title": "Aufschlagspiele hat Zverev im Turnier abgegeben",
+      "text": [
+        "Beide Finalisten haben **alle vier** Spiele in Turin gewonnen. Das letzte Duell, im Halbfinale der Australian Open, ging knapp an Alcaraz."
+      ]
+    },
+    {
+      "label": "Merk dir das",
+      "title": "Heute, **18 Uhr**",
+      "text": [
+        "Das Finale läuft live bei Sky. Für Zverev wäre es die Krönung seines Jahres mit zwei Grand-Slam-Siegen in **Paris** und **New York**. Danach geht es für ihn zum Davis Cup."
+      ],
+      "image": {
+        "file": "images/2026-11-22-zverev-4.jpg",
+        "credit": "Rick Munroe, CC BY-SA 4.0, via Wikimedia Commons",
+        "short": "Rick Munroe, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Alexander_Zverev_in_Miami.jpg",
+        "symbolbild": true,
+        "position": "top"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Deine Wahl",
+      "title": "Zverev oder Alcaraz? Schreib deinen Tipp in die Kommentare – und folge für Nachrichten in 30 Sekunden"
+    }
+  ],
+  "caption": "Zverev gegen Alcaraz: Heute um 18 Uhr spielt die Nummer 1 der Tenniswelt gegen die Nummer 2 um den Titel bei den ATP Finals in Turin. Alexander Zverev hat das Saisonfinale der acht Besten schon 2018 und 2021 gewonnen, Carlos Alcaraz noch nie – dafür hat der Spanier sieben Grand-Slam-Titel. Beide haben in Turin bisher jedes Spiel gewonnen.\n\nWer holt den Titel – Zverev oder Alcaraz? Dein Tipp in die Kommentare 🎾\n\nQuellen: n-tv, ZDFheute, Sportschau, Deutschlandfunk · Text und Stimme mit KI erstellt\nFotos (Archiv, nicht vom heutigen Finale), alle via Wikimedia Commons: si.robi, CC BY-SA 2.0; Bruce The Deus, CC BY-SA 4.0; OMAR.ERRE, CC BY 4.0; Rap57, CC BY-SA 4.0; Keith Allison, CC BY-SA 2.0; Like tears in rain, CC BY-SA 4.0; Oleg Yunakov, CC BY-SA 4.0; Rick Munroe, CC BY-SA 4.0\n#nachrichten #tennis #zverev #alcaraz #atpfinals"
+}
