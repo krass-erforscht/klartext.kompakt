@@ -1,0 +1,136 @@
+{
+  "id": "2026-11-22-merkur",
+  "date": "2026-11-22T06:04:00Z",
+  "category": "Weltraum",
+  "topic": "welt",
+  "tone": "locker",
+  "format": "video",
+  "test": "teilen-anreiz",
+  "vorbereitet": true,
+  "sources": [
+    {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/wissen/weltraum/merkur-sonde-esa-100.html"
+    },
+    {
+      "name": "n-tv",
+      "url": "https://www.n-tv.de/wissen/Merkur-Sonde-erreicht-ihren-Zielplaneten-id31563093.html"
+    },
+    {
+      "name": "ESA",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-22-merkur.jpg",
+    "credit": "ESA/BepiColombo/MTM, CC BY-SA 3.0 IGO (Vorbeiflug am Merkur im Januar 2025)",
+    "short": "Vorbeiflug 2025: ESA/BepiColombo/MTM, CC BY-SA 3.0 IGO",
+    "license": "CC BY-SA 3.0 IGO",
+    "page": "https://www.esa.int/media/bepicolombo-s-sixth-mercury-flyby-the-movie",
+    "symbolbild": false,
+    "position": "center"
+  },
+  "video": {
+    "file": "videos/2026-11-22-merkur.mp4",
+    "start": 0,
+    "duration": 42,
+    "credit": "Aufnahmen der Sonde bei früheren Vorbeiflügen (2024/2025) und ESA-Visualisierung: ESA/BepiColombo/MTM, CC BY-SA 3.0 IGO; Merkur-Globus: NASA/MESSENGER, NASA Scientific Visualization Studio (gemeinfrei); Sonne: NASA/GSFC/SDO (gemeinfrei)",
+    "short": "Archiv (frühere Vorbeiflüge): ESA/BepiColombo/MTM, CC BY-SA 3.0 IGO · NASA (gemeinfrei)",
+    "license": "CC BY-SA 3.0 IGO / Public Domain (NASA)",
+    "page": "https://www.esa.int/media/bepicolombo-s-sixth-mercury-flyby-the-movie",
+    "symbolisch": false,
+    "headline": "Nach 8 Jahren im All: Europas Sonde ist am **Merkur** angekommen 🚀",
+    "voice": [
+      "Acht Jahre war diese Sonde unterwegs, und jetzt ist sie endlich angekommen: am Merkur.",
+      "BepiColombo ist eine Mission von Europa und Japan, gesteuert aus Darmstadt.",
+      "Seit zweitausendachtzehn hat sie mehr als zehn Milliarden Kilometer zurückgelegt.",
+      "Was heißt das für dich?",
+      "Bald gibt es neue Bilder vom am wenigsten erforschten Planeten im inneren Sonnensystem.",
+      "Dort ist die Sonne bis zu zehnmal stärker als bei uns.",
+      "Damit es nicht zu heiß wird, dreht sich einer der Satelliten fünfzehnmal pro Minute.",
+      "Ab April sollen die beiden Satelliten forschen: Gibt es dort Wasser, und woraus besteht der Planet?",
+      "Schick das jemandem, der den Weltraum liebt, und folge für Nachrichten in dreißig Sekunden."
+    ],
+    "voiceText": [
+      "8 Jahre war diese Sonde unterwegs, und jetzt ist sie endlich angekommen: am Merkur.",
+      "BepiColombo ist eine Mission von Europa und Japan, gesteuert aus Darmstadt.",
+      "Seit 2018 hat sie mehr als 10 Milliarden Kilometer zurückgelegt.",
+      "Was heißt das für dich?",
+      "Bald gibt es neue Bilder vom am wenigsten erforschten Planeten im inneren Sonnensystem.",
+      "Dort ist die Sonne bis zu 10-mal stärker als bei uns.",
+      "Damit es nicht zu heiß wird, dreht sich einer der Satelliten 15-mal pro Minute.",
+      "Ab April sollen die beiden Satelliten forschen: Gibt es dort Wasser, und woraus besteht der Planet?",
+      "Schick das jemandem, der den Weltraum liebt, und folge für Nachrichten in 30 Sekunden."
+    ],
+    "voiceSpeed": 1.2
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Weltraum",
+      "title": "Nach 8 Jahren Reise: Europas Sonde ist am **Merkur** angekommen"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "BepiColombo kreist jetzt um den **Merkur**",
+      "text": [
+        "Die Sonde von Europa (ESA) und Japan (JAXA) ist in eine Umlaufbahn um den sonnennächsten Planeten eingetreten. Gesteuert wird sie aus **Darmstadt**."
+      ],
+      "image": {
+        "file": "images/2026-11-22-merkur-2.jpg",
+        "credit": "ESA/BepiColombo/MTM, CC BY-SA 3.0 IGO",
+        "short": "Vorbeiflug 2024: ESA/BepiColombo/MTM, CC BY-SA 3.0 IGO",
+        "license": "CC BY-SA 3.0 IGO",
+        "page": "https://www.esa.int/media/bepicolombo-s-fourth-mercury-flyby-the-movie",
+        "symbolbild": false,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "10 Mrd. km",
+      "title": "hat die Sonde seit 2018 zurückgelegt",
+      "text": [
+        "Unterwegs flog sie mehrmals an Erde, Venus und Merkur vorbei, um abzubremsen. Die Mission kostet rund **1,7 Milliarden Euro**."
+      ]
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Neues vom **unbekanntesten** Nachbarn",
+      "text": [
+        "Laut ESA ist der Merkur der am wenigsten erforschte Planet im inneren Sonnensystem. Gibt es dort **Wasser**? Woraus besteht er? Das soll die Mission klären."
+      ],
+      "image": {
+        "file": "images/2026-11-22-merkur-3.jpg",
+        "credit": "NASA/MESSENGER, NASA Scientific Visualization Studio, gemeinfrei",
+        "short": "NASA/MESSENGER, NASA SVS, gemeinfrei",
+        "license": "Public Domain (NASA)",
+        "page": "https://svs.gsfc.nasa.gov/14110",
+        "symbolbild": false,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Ab **April** wird geforscht",
+      "text": [
+        "Im Dezember sollen sich die beiden Satelliten trennen und ihre eigenen Bahnen ansteuern. Die Sonne ist dort bis zu **10-mal** stärker, darum dreht sich ein Satellit 15-mal pro Minute."
+      ],
+      "image": {
+        "file": "images/2026-11-22-merkur-4.jpg",
+        "credit": "ESA, CC BY-SA 3.0 IGO (Visualisierung aus Aufnahmen der Sonde)",
+        "short": "ESA-Visualisierung, CC BY-SA 3.0 IGO",
+        "license": "CC BY-SA 3.0 IGO",
+        "page": "https://www.esa.int/media/fly-over-mercury-with-bepicolombo",
+        "symbolbild": false,
+        "position": "center"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Teilen & folgen",
+      "title": "Schick das jemandem, der den Weltraum liebt – und folge für Nachrichten in 30 Sekunden"
+    }
+  ],
+  "caption": "Merkur-Sonde BepiColombo ist am Ziel: Nach acht Jahren und mehr als zehn Milliarden Kilometern kreist die europäisch-japanische Sonde jetzt um den sonnennächsten Planeten. Gesteuert wird sie aus Darmstadt, ab April 2027 sollen ihre beiden Satelliten forschen – zum Beispiel, ob es auf dem Merkur Wasser gibt.\n\nWas würdest du vom Merkur am liebsten wissen? Schick das jemandem, der den Weltraum liebt 🚀\n\nQuellen: tagesschau, n-tv, ESA · Text und Stimme mit KI erstellt\nBilder/Video: Aufnahmen der Sonde bei früheren Vorbeiflügen 2024/2025 und ESA-Visualisierung: ESA/BepiColombo/MTM, CC BY-SA 3.0 IGO, via esa.int; Merkur-Globus: NASA/MESSENGER, NASA SVS (gemeinfrei); Sonne: NASA/GSFC/SDO (gemeinfrei)\n#nachrichten #weltraum #merkur #bepicolombo #esa"
+}

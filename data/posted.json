@@ -1430,6 +1430,17 @@
       "https://www.deutschlandfunk.de/zverev-spielt-im-finale-von-turin-gegen-alcaraz-104.html"
     ],
     "mediaId": "18043026416645353",
-    "format": "video"
+    "format": "video",
+    "stats": {
+      "reach": 233,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 264,
+      "ig_reels_avg_watch_time": 11940,
+      "ig_reels_video_view_total_time": 2758210
+    },
+    "statsAt": "2026-11-22T09:41:23.859Z"
   }
 ]
