@@ -1442,5 +1442,19 @@
       "ig_reels_video_view_total_time": 2758210
     },
     "statsAt": "2026-11-22T09:41:23.859Z"
+  },
+  {
+    "id": "2026-11-22-merkur",
+    "postedAt": "2026-11-22T19:00:54.736Z",
+    "topic": "welt",
+    "tone": "locker",
+    "sourceUrl": "https://www.tagesschau.de/wissen/weltraum/merkur-sonde-esa-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wissen/weltraum/merkur-sonde-esa-100.html",
+      "https://www.n-tv.de/wissen/Merkur-Sonde-erreicht-ihren-Zielplaneten-id31563093.html",
+      "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+    ],
+    "mediaId": "18185512282427483",
+    "format": "video"
   }
 ]
