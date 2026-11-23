@@ -1,0 +1,139 @@
+{
+  "id": "2026-11-23-bvb",
+  "date": "2026-11-22T23:00:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "sachlich",
+  "format": "video",
+  "test": "kurz-video",
+  "sources": [
+    {
+      "name": "Sportschau",
+      "url": "https://www.sportschau.de/regional/wdr/wdr-bvb-holt-sich-in-moenchengladbach-die-tabellenfuehrung-100.html"
+    },
+    {
+      "name": "Sportschau",
+      "url": "https://www.sportschau.de/kane-verletzt-wirbel-um-musiala-ist-dortmunds-chance,bundesliga-update-spieltag-10-100.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/fussball-bundesliga/video/fc-bayern-muenchen-1-fc-koeln-saison-2026-27-100.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/fussball-bundesliga/video/borussia-moenchengladbach-borussia-dortmund-saison-2026-27-100.html"
+    },
+    {
+      "name": "n-tv",
+      "url": "https://www.n-tv.de/sport/fussball/Der-FC-Bayern-hat-Sorge-vor-neuen-Wintertransfers-id31565028.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-23-bvb.jpg",
+    "credit": "achimh, CC BY-SA 2.0, via Flickr",
+    "short": "Dortmunder Stadion (Archiv), achimh, CC BY-SA 2.0, via Flickr",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/8599338@N04/2698403540",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "file": "videos/2026-11-23-bvb.mp4",
+    "start": 0,
+    "duration": 32,
+    "credit": "Fotos (Archiv, nicht vom aktuellen Spieltag): achimh (CC BY-SA 2.0, Flickr), Der-wuppertaler (CC BY-SA 3.0), Arne Müseler (CC BY-SA 3.0 de), az1172 (CC BY-SA 2.0, Flickr), YantsImages (CC BY-SA 4.0), Håkan Dahlström (CC BY 2.0, Flickr), Richard Bartz (CC BY-SA 2.5)",
+    "short": "Archivfotos: achimh · Der-wuppertaler · Arne Müseler · az1172 · YantsImages · Håkan Dahlström · Richard Bartz, CC BY/BY-SA, Wikimedia Commons/Flickr",
+    "license": "CC BY 2.0 / CC BY-SA 2.0 / CC BY-SA 2.5 / CC BY-SA 3.0 / CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Signal_iduna_park_stadium_dortmund_2.jpg",
+    "symbolisch": true,
+    "headline": "Bayern verliert die Spitze: Dortmund ist neuer **Tabellenführer** ⚽",
+    "voice": [
+      "Der FC Bayern ist nicht mehr Tabellenführer: Borussia Dortmund steht jetzt ganz oben.",
+      "Was heißt das für dich?",
+      "Die Bundesliga wird so spannend wie lange nicht.",
+      "Die Bayern spielten zu Hause nur eins zu eins gegen Köln.",
+      "Dortmund gewann in Mönchengladbach eins zu null und ist noch ungeschlagen.",
+      "Dazu kommt: Bayern-Stürmer Harry Kane ist schwer verletzt und fällt laut Sportschau monatelang aus.",
+      "Wer wird Meister: Dortmund oder doch wieder Bayern?"
+    ],
+    "voiceText": [
+      "Der FC Bayern ist nicht mehr Tabellenführer: Borussia Dortmund steht jetzt ganz oben.",
+      "Was heißt das für dich?",
+      "Die Bundesliga wird so spannend wie lange nicht.",
+      "Die Bayern spielten zu Hause nur 1:1 gegen Köln.",
+      "Dortmund gewann in Mönchengladbach 1:0 und ist noch ungeschlagen.",
+      "Dazu kommt: Bayern-Stürmer Harry Kane ist schwer verletzt und fällt laut Sportschau monatelang aus.",
+      "Wer wird Meister: Dortmund oder doch wieder Bayern?"
+    ],
+    "voiceSpeed": 1.2
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Sport",
+      "title": "Dortmund ist neuer **Tabellenführer** – Bayern nicht mehr vorn"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Bayern patzt, Dortmund **nutzt es**",
+      "text": [
+        "Der FC Bayern kam zu Hause gegen Köln nur zu einem **1:1**. Dortmund gewann in Mönchengladbach **1:0**, Felix Nmecha traf in der 80. Minute."
+      ],
+      "image": {
+        "file": "images/2026-11-23-bvb-2.jpg",
+        "credit": "YantsImages, CC BY-SA 4.0, via Wikimedia Commons",
+        "short": "Nmecha bei der WM 2026 (Archiv), YantsImages, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Felix_Nmecha_23_Ecuador_v_Germany_at_2026_Fifa_World_Cup_by_YantsImages_04.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Für dich",
+      "title": "Das Meisterrennen ist **offen**",
+      "text": [
+        "Nach dem 10. Spieltag führt Dortmund, noch ohne Niederlage. Dahinter lauern laut Sportschau **Leipzig** und **Freiburg**. Die Bayern sind nicht mehr allein vorne."
+      ],
+      "image": {
+        "file": "images/2026-11-23-bvb-3.jpg",
+        "credit": "Arne Müseler / arne-mueseler.com, CC BY-SA 3.0 de, via Wikimedia Commons",
+        "short": "Arne Müseler, CC BY-SA 3.0 de, via Wikimedia Commons",
+        "license": "CC BY-SA 3.0 de",
+        "page": "https://commons.wikimedia.org/wiki/File:Signal_iduna_park_stadium_dortmund_2.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Bayern ohne Kane",
+      "title": "Bayerns Torjäger fällt **monatelang** aus",
+      "text": [
+        "Harry Kane musste gegen Köln verletzt raus. Laut Sportschau ist ein Band am Sprunggelenk gerissen, er wurde schon operiert. Auch Michael Olise wurde verletzt ausgewechselt."
+      ],
+      "image": {
+        "file": "images/2026-11-23-bvb-4.jpg",
+        "credit": "Håkan Dahlström, CC BY 2.0, via Flickr",
+        "short": "Kabine in der Allianz Arena (Archiv), Håkan Dahlström, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/93755244@N00/53456561072",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "32",
+      "title": "Tore hat RB Leipzig nach 10 Spielen",
+      "text": [
+        "So viele schafften laut Sportschau bisher nur die Bayern (**7-mal**) und Eintracht Frankfurt 1974/75. Auch Leipzig mischt also oben mit."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Deine Wahl",
+      "title": "Dortmund oder Bayern – wer wird Meister? Schreib deinen Tipp in die Kommentare und folge für Nachrichten in 30 Sekunden"
+    }
+  ],
+  "caption": "Bundesliga: Borussia Dortmund ist neuer Tabellenführer, der FC Bayern nicht mehr vorne. Die Bayern kamen zu Hause gegen Köln nur zu einem 1:1, Dortmund gewann in Mönchengladbach 1:0 und ist weiter ungeschlagen. Dazu fällt Bayern-Stürmer Harry Kane laut Sportschau mit einer Verletzung am Sprunggelenk monatelang aus.\n\nWer wird am Ende Meister – Dortmund, Bayern oder Leipzig? Dein Tipp in die Kommentare ⚽\n\nQuellen: Sportschau, ZDFheute, n-tv · Text und Stimme mit KI erstellt\nFotos (Archiv, nicht vom aktuellen Spieltag): achimh, CC BY-SA 2.0, via Flickr; Der-wuppertaler, CC BY-SA 3.0, via Wikimedia Commons; Arne Müseler, CC BY-SA 3.0 de, via Wikimedia Commons; az1172, CC BY-SA 2.0, via Flickr; YantsImages, CC BY-SA 4.0, via Wikimedia Commons; Håkan Dahlström, CC BY 2.0, via Flickr; Richard Bartz, CC BY-SA 2.5, via Wikimedia Commons\n#nachrichten #bundesliga #bvb #fcbayern #harrykane"
+}

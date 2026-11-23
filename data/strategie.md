@@ -30,16 +30,20 @@ Aus der YouTube-Auswertung von krass.erforscht (240 meistgesehene deutsche Wisse
    Karussells allein erreichen 2–8 Konten. Am 7.11. fiel das Reel aus: 3 Konten. Nie ohne Reel posten.
 2. **Erzähltes Video mit Stimme, 25–45 s** – bestätigt per Entscheidung des Nutzers (2026-11-16, siehe CLAUDE.md „Richtung“):
    Posts mit echtem Video im Mittel 158 Konten (2 Posts), reine Bilder 95 (31 Posts); bei krass.erforscht gleiche Erfahrung.
-3. **Aussage statt Frage in der Überschrift** – im Test (seit 2026-11-16): Aussagen 112 Konten (31 Posts), Fragen 34 (3 Posts).
-   Titelfolie als klare Aussage mit der wichtigsten Tatsache. Test-Kurzname: `aussage-titel`.
+3. **Aussage statt Frage in der Überschrift** – bestätigt (2026-11-23): Aussagen 112 Konten (39 Posts), Fragen 34 (3 Posts, alle klar schwächer).
+   Titelfolie und Video-Überschrift als klare Aussage mit der wichtigsten Tatsache (Frage-Einstieg im gesprochenen Text bleibt erlaubt).
 4. **Zum Teilen bringen** – im Test (seit 2026-11-16): Teilen + Speichern liegt fast immer bei 0.
    Letzte Folie / Caption mit konkretem Anlass („Schick das jemandem, der … / Speichern für …“). Test-Kurzname: `teilen-anreiz`.
+   Stand 2026-11-23: mit 122 Konten (4 Posts), ohne 106,5 (2 Posts), Teilen aber in beiden Gruppen 0 – weiter im Test, abwechselnd.
+5. **Kürzeres Video (25–30 s statt 35–45 s)** – im Test (seit 2026-11-23): Videos 16–25 s erreichen im Median 144 Konten (3 Posts),
+   über 25 s nur 106,5 (6 Posts); geschaut werden ohnehin nur ~6 s. Innerhalb der Vorgabe 25–45 s das kurze Ende testen. Test-Kurzname: `kurz-video`.
 
 ## Uhrzeit Instagram
 - Seit 2026-11-16 vier Fenster: 7:15, 12:15, 18:15 und neu 20:45 Uhr (bei krass.erforscht inzwischen das beste Fenster).
 - Verglichen wird die Reichweite im Verhältnis zum Median des Formats. Stand 2026-11-16: morgens 1,2×, mittags 0,89×, abends 0,48×, spät noch ungetestet.
 
 ## Verlauf
+- 2026-11-23 (morgens): `aussage-titel` **bestätigt** (Aussagen 112 vs. Fragen 34 Konten, 39 vs. 3 Posts). Neu im Test: `kurz-video` (16–25 s: 144 vs. über 25 s: 106,5). BVB-Tabellenführung (Sport, stärkster Schwerpunkt) als ~28-s-Video mit `kurz-video`, ohne Teil-Aufforderung (Vergleich für `teilen-anreiz`).
 - 2026-11-22 (mittags, Vorbereitung für spät): Keine Regeländerung (Zverev-Post noch keine 24 h alt). Merkur-Post (Welt/Weltraum statt Geld: BepiColombo ist am Ziel, echte Kamerabilder der Sonde von ESA; Geld-Thema Spritpreisdeckel ist nur ein Entwurf im Ministerienstreit) mit `teilen-anreiz` im Test (Morgen-Post hatte `aussage-titel`).
 - 2026-11-22 (morgens): Keine Regeländerung (neue Zahlen da, aber Stimm-Videos noch zu wenige für Bestätigung). Zverev-Alcaraz-Post (Sport, stärkster Schwerpunkt; Finale heute 18 Uhr) mit `aussage-titel` im Test (letzter Post hatte `teilen-anreiz`).
 - 2026-11-21 (morgens): Keine Regeländerung (ohne Token keine neuen Zahlen). Riemann-Post (Digital, KI löst angeblich Mathe-Rätsel; als Behauptung gekennzeichnet) mit `teilen-anreiz` im Test (letzter Post hatte `aussage-titel`).

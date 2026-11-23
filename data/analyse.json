@@ -1,14 +1,14 @@
 {
-  "datum": "2026-11-22T09:41:24.091Z",
+  "datum": "2026-11-23T05:16:57.476Z",
   "hinweise": [
     "Thema: „sport“ erreicht im Mittel 137,5 Konten, „welt“ nur 28 (12 bzw. 3 Posts).",
     "Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (25 bzw. 4 Posts).",
     "Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).",
     "Wochentag: „So“ erreicht im Mittel 141 Konten, „Mi“ nur 57 (6 bzw. 6 Posts).",
-    "Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (38 bzw. 3 Posts).",
-    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (schwacher Zusammenhang)."
+    "Frage oder Aussage: „Aussage“ erreicht im Mittel 112 Konten, „Frage“ nur 34 (39 bzw. 3 Posts).",
+    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,1 (schwacher Zusammenhang)."
   ],
-  "watchCorr": 0.37142857142857144,
+  "watchCorr": 0.1428571428571429,
   "vergleich": [
     {
       "merkmal": "format",
@@ -32,11 +32,11 @@
         },
         {
           "wert": "video",
-          "posts": 6,
-          "reichweite": 108,
-          "likes_pro_1000": 11.553273427471117,
+          "posts": 7,
+          "reichweite": 109,
+          "likes_pro_1000": 11.235955056179774,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.878
+          "wiedergabe_s": 5.849
         }
       ]
     },
@@ -56,23 +56,23 @@
           "wert": "umwelt",
           "posts": 10,
           "reichweite": 116.5,
-          "likes_pro_1000": 18.766756032171582,
+          "likes_pro_1000": 18.75,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 4.85
         },
         {
           "wert": "digital",
-          "posts": 8,
+          "posts": 9,
           "reichweite": 109,
-          "likes_pro_1000": 20.070838252656433,
-          "teilen_speichern_pro_1000": 2.3612750885478158,
-          "wiedergabe_s": 3.777
+          "likes_pro_1000": 18.82845188284519,
+          "teilen_speichern_pro_1000": 2.092050209205021,
+          "wiedergabe_s": 4.061
         },
         {
           "wert": "geld",
           "posts": 4,
-          "reichweite": 61,
-          "likes_pro_1000": 46.51162790697674,
+          "reichweite": 61.5,
+          "likes_pro_1000": 46.33204633204633,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 2.811
         },
@@ -102,17 +102,17 @@
           "wert": "sachlich",
           "posts": 25,
           "reichweite": 119,
-          "likes_pro_1000": 19.433465085639,
-          "teilen_speichern_pro_1000": 1.3175230566534915,
+          "likes_pro_1000": 19.420671494404214,
+          "teilen_speichern_pro_1000": 1.3166556945358787,
           "wiedergabe_s": 3.6574999999999998
         },
         {
           "wert": "ueberraschend",
-          "posts": 12,
-          "reichweite": 98,
-          "likes_pro_1000": 28.142589118198874,
+          "posts": 13,
+          "reichweite": 109,
+          "likes_pro_1000": 26.382978723404253,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 3.94
+          "wiedergabe_s": 3.963
         },
         {
           "wert": "locker",
@@ -138,11 +138,11 @@
         },
         {
           "wert": "20 Uhr",
-          "posts": 3,
-          "reichweite": 135,
-          "likes_pro_1000": 10.256410256410257,
+          "posts": 4,
+          "reichweite": 122,
+          "likes_pro_1000": 10,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.849
+          "wiedergabe_s": 5.785
         },
         {
           "wert": "12 Uhr",
@@ -163,10 +163,10 @@
         {
           "wert": "6 Uhr",
           "posts": 1,
-          "reichweite": 101,
+          "reichweite": 102,
           "likes_pro_1000": 0,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 7.196
+          "wiedergabe_s": 7.151
         },
         {
           "wert": "18 Uhr",
@@ -202,7 +202,7 @@
           "wert": "Do",
           "posts": 7,
           "reichweite": 115,
-          "likes_pro_1000": 24.906600249066003,
+          "likes_pro_1000": 24.875621890547265,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 3.917
         },
@@ -216,11 +216,11 @@
         },
         {
           "wert": "Sa",
-          "posts": 5,
-          "reichweite": 110,
-          "likes_pro_1000": 30.136986301369863,
-          "teilen_speichern_pro_1000": 5.47945205479452,
-          "wiedergabe_s": 2.3594999999999997
+          "posts": 6,
+          "reichweite": 109.5,
+          "likes_pro_1000": 25.31645569620253,
+          "teilen_speichern_pro_1000": 4.219409282700422,
+          "wiedergabe_s": 2.421
         },
         {
           "wert": "Di",
@@ -234,7 +234,7 @@
           "wert": "Mi",
           "posts": 6,
           "reichweite": 57,
-          "likes_pro_1000": 48.59335038363171,
+          "likes_pro_1000": 48.46938775510204,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 2.808
         }
@@ -246,11 +246,11 @@
       "gruppen": [
         {
           "wert": "lang (>45 Zeichen)",
-          "posts": 29,
-          "reichweite": 112,
-          "likes_pro_1000": 20.414673046251995,
-          "teilen_speichern_pro_1000": 0.9569377990430622,
-          "wiedergabe_s": 3.676
+          "posts": 30,
+          "reichweite": 111,
+          "likes_pro_1000": 20.02464571780653,
+          "teilen_speichern_pro_1000": 0.9242144177449169,
+          "wiedergabe_s": 3.7965
         },
         {
           "wert": "kurz (≤45 Zeichen)",
@@ -270,17 +270,17 @@
           "wert": "ohne Zahl",
           "posts": 21,
           "reichweite": 112,
-          "likes_pro_1000": 22.11690363349131,
-          "teilen_speichern_pro_1000": 1.1848341232227488,
+          "likes_pro_1000": 22.108172127911565,
+          "teilen_speichern_pro_1000": 1.1843663639952626,
           "wiedergabe_s": 3.493
         },
         {
           "wert": "mit Zahl",
-          "posts": 20,
-          "reichweite": 106.5,
-          "likes_pro_1000": 24.585783003741316,
-          "teilen_speichern_pro_1000": 0.5344735435595938,
-          "wiedergabe_s": 4.107
+          "posts": 21,
+          "reichweite": 107,
+          "likes_pro_1000": 23.725391216557295,
+          "teilen_speichern_pro_1000": 0.5047955577990914,
+          "wiedergabe_s": 4.4515
         }
       ]
     },
@@ -290,11 +290,11 @@
       "gruppen": [
         {
           "wert": "Aussage",
-          "posts": 38,
-          "reichweite": 113.5,
-          "likes_pro_1000": 22.310016267720194,
-          "teilen_speichern_pro_1000": 0.9295840111550081,
-          "wiedergabe_s": 3.639
+          "posts": 39,
+          "reichweite": 112,
+          "likes_pro_1000": 21.975532396918897,
+          "teilen_speichern_pro_1000": 0.9062075215224287,
+          "wiedergabe_s": 3.6574999999999998
         },
         {
           "wert": "Frage",
@@ -328,11 +328,11 @@
         },
         {
           "wert": "über 25 s",
-          "posts": 5,
-          "reichweite": 105,
-          "likes_pro_1000": 10.729613733905579,
+          "posts": 6,
+          "reichweite": 106.5,
+          "likes_pro_1000": 10.398613518197575,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.878
+          "wiedergabe_s": 5.849
         }
       ]
     },
@@ -342,19 +342,19 @@
       "gruppen": [
         {
           "wert": "teilen-anreiz",
-          "posts": 3,
-          "reichweite": 135,
-          "likes_pro_1000": 5.181347150259067,
+          "posts": 4,
+          "reichweite": 122,
+          "likes_pro_1000": 6.048387096774193,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.849
+          "wiedergabe_s": 5.785
         },
         {
           "wert": "aussage-titel",
           "posts": 2,
-          "reichweite": 106,
-          "likes_pro_1000": 14.150943396226415,
+          "reichweite": 106.5,
+          "likes_pro_1000": 14.084507042253522,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.6815
+          "wiedergabe_s": 5.659000000000001
         }
       ]
     }
@@ -1467,17 +1467,17 @@
       "videolaenge": "über 25 s",
       "test": "aussage-titel",
       "symbolvideo": "Symbolvideo",
-      "reichweite": 105,
-      "aufrufe": 118,
+      "reichweite": 106,
+      "aufrufe": 119,
       "likes": 2,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": null,
       "profilbesuche": null,
-      "wiedergabe_s": 5.907,
-      "wiedergabe_anteil": 0.1440731707317073,
-      "likes_pro_1000": 19.04761904761905,
+      "wiedergabe_s": 5.862,
+      "wiedergabe_anteil": 0.14297560975609758,
+      "likes_pro_1000": 18.867924528301884,
       "teilen_speichern_pro_1000": 0
     },
     {
@@ -1495,17 +1495,45 @@
       "videolaenge": "über 25 s",
       "test": "teilen-anreiz",
       "symbolvideo": "Symbolvideo",
-      "reichweite": 101,
-      "aufrufe": 109,
+      "reichweite": 102,
+      "aufrufe": 111,
       "likes": 0,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": null,
       "profilbesuche": null,
-      "wiedergabe_s": 7.196,
-      "wiedergabe_anteil": 0.1755121951219512,
+      "wiedergabe_s": 7.151,
+      "wiedergabe_anteil": 0.17441463414634145,
       "likes_pro_1000": 0,
+      "teilen_speichern_pro_1000": 0
+    },
+    {
+      "id": "2026-11-21-riemann",
+      "datum": "2026-11-21",
+      "titel": "KI soll 167 Jahre altes Mathe-Rätsel gelöst haben 🧮",
+      "format": "video",
+      "thema": "digital",
+      "ton": "ueberraschend",
+      "uhrzeit": "20 Uhr",
+      "wochentag": "Sa",
+      "ueberschrift": "lang (>45 Zeichen)",
+      "zahl_im_titel": "mit Zahl",
+      "frage_im_titel": "Aussage",
+      "videolaenge": "über 25 s",
+      "test": "teilen-anreiz",
+      "symbolvideo": "Symbolvideo",
+      "reichweite": 109,
+      "aufrufe": 116,
+      "likes": 1,
+      "kommentare": 0,
+      "shares": 0,
+      "saves": 0,
+      "follows": null,
+      "profilbesuche": null,
+      "wiedergabe_s": 5.721,
+      "wiedergabe_anteil": 0.12713333333333335,
+      "likes_pro_1000": 9.174311926605505,
       "teilen_speichern_pro_1000": 0
     }
   ]

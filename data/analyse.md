@@ -1,7 +1,7 @@
-# Algorithmus-Analyse (2026-11-22)
+# Algorithmus-Analyse (2026-11-23)
 
-41 Posts ausgewertet (mind. 1 Tag alt). Follower: 6 (seit 2026-11-16: +1).
-Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
+42 Posts ausgewertet (mind. 1 Tag alt). Follower: 6 (seit 2026-11-16: +1).
+Gesamtreichweite: 4.514 Konten, Median pro Post: 109,5.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
@@ -9,8 +9,8 @@ Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
 - Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (25 bzw. 4 Posts).
 - Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).
 - Wochentag: „So“ erreicht im Mittel 141 Konten, „Mi“ nur 57 (6 bzw. 6 Posts).
-- Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (38 bzw. 3 Posts).
-- Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (schwacher Zusammenhang).
+- Frage oder Aussage: „Aussage“ erreicht im Mittel 112 Konten, „Frage“ nur 34 (39 bzw. 3 Posts).
+- Zuschau-Anteil und Reichweite: Rangkorrelation 0,1 (schwacher Zusammenhang).
 
 ## Top 3
 
@@ -32,7 +32,7 @@ Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
 |---|---|---|---|---|---|
 | zusammen | 3 | 144 | 14,8 | 1,9 | 5,3 |
 | bilder | 32 | 111 | 27,6 | 1 | 3,3 |
-| video | 6 | 108 | 11,6 | 0 | 5,9 |
+| video | 7 | 109 | 11,2 | 0 | 5,8 |
 
 ### Thema
 
@@ -40,8 +40,8 @@ Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
 |---|---|---|---|---|---|
 | sport | 12 | 137,5 | 17,7 | 1,1 | 3,6 |
 | umwelt | 10 | 116,5 | 18,8 | 0 | 4,9 |
-| digital | 8 | 109 | 20,1 | 2,4 | 3,8 |
-| geld | 4 | 61 | 46,5 | 0 | 2,8 |
+| digital | 9 | 109 | 18,8 | 2,1 | 4,1 |
+| geld | 4 | 61,5 | 46,3 | 0 | 2,8 |
 | alltag | 4 | 29,5 | 65,1 | 0 | 2,5 |
 | welt | 3 | 28 | 45 | 0 | 5,5 |
 
@@ -50,7 +50,7 @@ Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | sachlich | 25 | 119 | 19,4 | 1,3 | 3,7 |
-| ueberraschend | 12 | 98 | 28,1 | 0 | 3,9 |
+| ueberraschend | 13 | 109 | 26,4 | 0 | 4 |
 | locker | 4 | 70,5 | 43,2 | 0 | 2,9 |
 
 ### Uhrzeit
@@ -58,10 +58,10 @@ Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | 7 Uhr | 17 | 137 | 18,2 | 0,9 | 3,6 |
-| 20 Uhr | 3 | 135 | 10,3 | 0 | 5,8 |
+| 20 Uhr | 4 | 122 | 10 | 0 | 5,8 |
 | 12 Uhr | 11 | 108 | 31,9 | 0 | 4 |
 | 16 Uhr | 1 | 107 | 9,3 | 0 | 5,5 |
-| 6 Uhr | 1 | 101 | 0 | 0 | 7,2 |
+| 6 Uhr | 1 | 102 | 0 | 0 | 7,2 |
 | 18 Uhr | 8 | 52,5 | 47,1 | 4,1 | 2,7 |
 
 ### Wochentag
@@ -72,15 +72,15 @@ Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
 | Mo | 6 | 136 | 16 | 2,1 | 4,5 |
 | Do | 7 | 115 | 24,9 | 0 | 3,9 |
 | Fr | 6 | 113,5 | 21 | 0 | 3,3 |
-| Sa | 5 | 110 | 30,1 | 5,5 | 2,4 |
+| Sa | 6 | 109,5 | 25,3 | 4,2 | 2,4 |
 | Di | 5 | 107 | 14 | 0 | 5,6 |
-| Mi | 6 | 57 | 48,6 | 0 | 2,8 |
+| Mi | 6 | 57 | 48,5 | 0 | 2,8 |
 
 ### Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| lang (>45 Zeichen) | 29 | 112 | 20,4 | 1 | 3,7 |
+| lang (>45 Zeichen) | 30 | 111 | 20 | 0,9 | 3,8 |
 | kurz (≤45 Zeichen) | 12 | 107,5 | 30 | 0,8 | 2,9 |
 
 ### Zahl in der Überschrift
@@ -88,13 +88,13 @@ Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | ohne Zahl | 21 | 112 | 22,1 | 1,2 | 3,5 |
-| mit Zahl | 20 | 106,5 | 24,6 | 0,5 | 4,1 |
+| mit Zahl | 21 | 107 | 23,7 | 0,5 | 4,5 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 38 | 113,5 | 22,3 | 0,9 | 3,6 |
+| Aussage | 39 | 112 | 22 | 0,9 | 3,7 |
 | Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
@@ -103,14 +103,14 @@ Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
 |---|---|---|---|---|---|
 | bis 15 s | 1 | 393 | 12,7 | 2,5 | 5,2 |
 | 16–25 s | 3 | 144 | 15,2 | 0 | 5,5 |
-| über 25 s | 5 | 105 | 10,7 | 0 | 5,9 |
+| über 25 s | 6 | 106,5 | 10,4 | 0 | 5,8 |
 
 ### Getestete Regel (Feld „test“ im Post)
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| teilen-anreiz | 3 | 135 | 5,2 | 0 | 5,8 |
-| aussage-titel | 2 | 106 | 14,2 | 0 | 5,7 |
+| teilen-anreiz | 4 | 122 | 6 | 0 | 5,8 |
+| aussage-titel | 2 | 106,5 | 14,1 | 0 | 5,7 |
 
 ## Alle Posts
 
@@ -155,8 +155,9 @@ Gesamtreichweite: 4.403 Konten, Median pro Post: 110.
 | 2026-11-16 | Rakete versagt: Amazon verliert 40 Satelliten | bilder | 135 | 5 | 1 | 0 | 0 | 0 | 5 s | – |
 | 2026-11-17 | Robotaxis aus Brandenburg: Tesla will 3 Milli | video | 107 | 114 | 1 | 0 | 0 | – | 5,5 s | 14 % |
 | 2026-11-17 | 5:0 gegen die Niederlande: Die DFB-Elf spielt | video | 150 | 161 | 1 | 0 | 0 | – | 5,8 s | 15 % |
-| 2026-11-18 | Solarstrom wächst 30-mal stärker als vorherge | video | 105 | 118 | 2 | 0 | 0 | – | 5,9 s | 14 % |
-| 2026-11-19 | Stromsteuer soll fast ganz wegfallen – so vie | video | 101 | 109 | 0 | 0 | 0 | – | 7,2 s | 18 % |
+| 2026-11-18 | Solarstrom wächst 30-mal stärker als vorherge | video | 106 | 119 | 2 | 0 | 0 | – | 5,9 s | 14 % |
+| 2026-11-19 | Stromsteuer soll fast ganz wegfallen – so vie | video | 102 | 111 | 0 | 0 | 0 | – | 7,2 s | 17 % |
+| 2026-11-21 | KI soll 167 Jahre altes Mathe-Rätsel gelöst h | video | 109 | 116 | 1 | 0 | 0 | – | 5,7 s | 13 % |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.
