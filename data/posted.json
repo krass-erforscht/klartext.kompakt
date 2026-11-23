@@ -1494,5 +1494,31 @@
       "ig_reels_video_view_total_time": 393062
     },
     "statsAt": "2026-11-23T09:41:40.813Z"
+  },
+  {
+    "id": "2026-11-23-klimagipfel",
+    "postedAt": "2026-11-23T15:22:28.781Z",
+    "topic": "umwelt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/wissen/klima/klimakonferenz/weltklimakonferenz-cop31-antalya-kein-abschlussdokument-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wissen/klima/klimakonferenz/weltklimakonferenz-cop31-antalya-kein-abschlussdokument-100.html",
+      "https://www.zdfheute.de/politik/ausland/cop-31-tuerkei-endet-ergebnislos-100.html",
+      "https://www.dw.com/de/klimakonferenz-scheitert-am-streit-um-fossile-energien-und-am-geld/a-80014116",
+      "https://www.mdr.de/video/mdr-videos/a/video-1688132.html"
+    ],
+    "mediaId": "18137671103500675",
+    "format": "video",
+    "stats": {
+      "reach": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 0,
+      "ig_reels_avg_watch_time": 0,
+      "ig_reels_video_view_total_time": 0
+    },
+    "statsAt": "2026-11-23T15:22:35.751Z"
   }
 ]
