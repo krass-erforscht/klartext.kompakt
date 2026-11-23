@@ -1,0 +1,280 @@
+{
+ "duration": 45.27173913043479,
+ "fps": 30,
+ "shots": [
+  {
+   "name": "signal",
+   "start": 0,
+   "end": 4.480434782608696
+  },
+  {
+   "name": "nah",
+   "start": 4.480434782608696,
+   "end": 9.150000000000002
+  },
+  {
+   "name": "weit",
+   "start": 9.150000000000002,
+   "end": 12.74130434782609
+  },
+  {
+   "name": "signal",
+   "start": 12.74130434782609,
+   "end": 16.941304347826087
+  },
+  {
+   "name": "erde",
+   "start": 16.941304347826087,
+   "end": 20.045652173913044
+  },
+  {
+   "name": "helio",
+   "start": 20.045652173913044,
+   "end": 24.263043478260872
+  },
+  {
+   "name": "schnell",
+   "start": 24.263043478260872,
+   "end": 26.880434782608695
+  },
+  {
+   "name": "geraete",
+   "start": 26.880434782608695,
+   "end": 30.419565217391305
+  },
+  {
+   "name": "echo",
+   "start": 30.419565217391305,
+   "end": 34.93260869565217
+  },
+  {
+   "name": "platte",
+   "start": 34.93260869565217,
+   "end": 40.22826086956522
+  },
+  {
+   "name": "signal",
+   "start": 40.22826086956522,
+   "end": 45.27173913043479
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0.15,
+   "end": 4.480434782608696,
+   "big": "1 Tag",
+   "sub": "braucht ein Funkspruch zur Sonde"
+  },
+  {
+   "start": 4.680434782608696,
+   "end": 9.150000000000002,
+   "big": "1 Lichttag",
+   "sub": "Entfernung zur Erde, laut NASA"
+  },
+  {
+   "start": 9.350000000000001,
+   "end": 12.74130434782609,
+   "big": "25,9 Mrd. km",
+   "sub": "so weit kommt Licht in 24 Stunden"
+  },
+  {
+   "start": 17.141304347826086,
+   "end": 20.045652173913044,
+   "big": "1977",
+   "sub": "Start am 5. September, Cape Canaveral"
+  },
+  {
+   "start": 20.245652173913044,
+   "end": 24.263043478260872,
+   "big": "2012",
+   "sub": "Eintritt in den interstellaren Raum"
+  },
+  {
+   "start": 24.46304347826087,
+   "end": 26.880434782608695,
+   "big": "17 km/s",
+   "sub": "gegenüber der Sonne"
+  },
+  {
+   "start": 27.080434782608695,
+   "end": 30.419565217391305,
+   "big": "2 von 11",
+   "sub": "Messgeräten sind noch eingeschaltet"
+  },
+  {
+   "start": 30.619565217391305,
+   "end": 34.93260869565217,
+   "big": "2 Tage",
+   "sub": "bis eine Antwort zurückkommt"
+  },
+  {
+   "start": 35.13260869565217,
+   "end": 40.22826086956522,
+   "big": "55 Sprachen",
+   "sub": "Grüße auf der Goldenen Schallplatte"
+  }
+ ],
+ "captions": [
+  {
+   "text": "Ein ganzer Tag.",
+   "start": 0.15,
+   "end": 1.0766709928617781
+  },
+  {
+   "text": "So lange braucht jetzt",
+   "start": 1.0766709928617781,
+   "end": 2.4357884490590527
+  },
+  {
+   "text": "ein Funkspruch zu dieser",
+   "start": 2.4357884490590527,
+   "end": 3.918462037637898
+  },
+  {
+   "text": "Sonde.",
+   "start": 3.918462037637898,
+   "end": 4.289130434782609
+  },
+  {
+   "text": "Voyager 1 ist laut",
+   "start": 4.680434782608696,
+   "end": 5.985666912306559
+  },
+  {
+   "text": "NASA einen Lichttag von",
+   "start": 5.985666912306559,
+   "end": 7.653463522476052
+  },
+  {
+   "text": "der Erde entfernt.",
+   "start": 7.653463522476052,
+   "end": 8.958695652173915
+  },
+  {
+   "text": "Rund 25,9 Milliarden Kilometer.",
+   "start": 9.350000000000001,
+   "end": 12.55
+  },
+  {
+   "text": "So weit ist noch",
+   "start": 12.941304347826089,
+   "end": 13.940306486101212
+  },
+  {
+   "text": "nie etwas gekommen,",
+   "start": 13.940306486101212,
+   "end": 15.126621525302923
+  },
+  {
+   "text": "das Menschen gebaut haben.",
+   "start": 15.126621525302923,
+   "end": 16.75
+  },
+  {
+   "text": "Gestartet ist sie im",
+   "start": 17.141304347826086,
+   "end": 18.6916149068323
+  },
+  {
+   "text": "September 1977.",
+   "start": 18.6916149068323,
+   "end": 19.854347826086958
+  },
+  {
+   "text": "Seit 2012 fliegt sie",
+   "start": 20.245652173913044,
+   "end": 21.77608695652174
+  },
+  {
+   "text": "durch den interstellaren Raum.",
+   "start": 21.77608695652174,
+   "end": 24.071739130434786
+  },
+  {
+   "text": "Mit 17 Kilometern pro",
+   "start": 24.46304347826087,
+   "end": 26.075037481259372
+  },
+  {
+   "text": "Sekunde.",
+   "start": 26.075037481259372,
+   "end": 26.68913043478261
+  },
+  {
+   "text": "Von 11 Messgeräten an",
+   "start": 27.080434782608695,
+   "end": 28.61774519716886
+  },
+  {
+   "text": "Bord laufen nur noch",
+   "start": 28.61774519716886,
+   "end": 30.081850353892825
+  },
+  {
+   "text": "2.",
+   "start": 30.081850353892825,
+   "end": 30.228260869565222
+  },
+  {
+   "text": "Wer ihr heute etwas",
+   "start": 30.619565217391305,
+   "end": 32.06980676328502
+  },
+  {
+   "text": "funkt,",
+   "start": 32.06980676328502,
+   "end": 32.52777777777778
+  },
+  {
+   "text": "wartet 2 Tage auf",
+   "start": 32.52777777777778,
+   "end": 33.82536231884058
+  },
+  {
+   "text": "die Antwort.",
+   "start": 33.82536231884058,
+   "end": 34.74130434782609
+  },
+  {
+   "text": "An Bord ist eine",
+   "start": 35.13260869565217,
+   "end": 36.39824684431977
+  },
+  {
+   "text": "goldene Schallplatte,",
+   "start": 36.39824684431977,
+   "end": 38.059396914446
+  },
+  {
+   "text": "mit Grüßen in 55",
+   "start": 38.059396914446,
+   "end": 39.325035063113596
+  },
+  {
+   "text": "Sprachen.",
+   "start": 39.325035063113596,
+   "end": 40.03695652173912
+  },
+  {
+   "text": "Ein ganzer Tag.",
+   "start": 40.42826086956522,
+   "end": 41.378293316028554
+  },
+  {
+   "text": "So lange braucht jetzt",
+   "start": 41.378293316028554,
+   "end": 42.771674237508115
+  },
+  {
+   "text": "ein Funkspruch zu dieser",
+   "start": 42.771674237508115,
+   "end": 44.29172615184945
+  },
+  {
+   "text": "Sonde.",
+   "start": 44.29172615184945,
+   "end": 44.67173913043479
+  }
+ ],
+ "source": "Quellen: NASA, t3n (Nov. 2026) · Größen und Abstände nicht maßstabsgetreu"
+}
