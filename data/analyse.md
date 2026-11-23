@@ -1,22 +1,22 @@
 # Algorithmus-Analyse (2026-11-23)
 
-42 Posts ausgewertet (mind. 1 Tag alt). Follower: 6 (seit 2026-11-16: +1).
-Gesamtreichweite: 4.514 Konten, Median pro Post: 109,5.
+43 Posts ausgewertet (mind. 1 Tag alt). Follower: 6 (seit 2026-11-16: +1).
+Gesamtreichweite: 4.747 Konten, Median pro Post: 110.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
-- Thema: „sport“ erreicht im Mittel 137,5 Konten, „welt“ nur 28 (12 bzw. 3 Posts).
-- Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (25 bzw. 4 Posts).
-- Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).
-- Wochentag: „So“ erreicht im Mittel 141 Konten, „Mi“ nur 57 (6 bzw. 6 Posts).
-- Frage oder Aussage: „Aussage“ erreicht im Mittel 112 Konten, „Frage“ nur 34 (39 bzw. 3 Posts).
-- Zuschau-Anteil und Reichweite: Rangkorrelation 0,1 (schwacher Zusammenhang).
+- Thema: „sport“ erreicht im Mittel 138 Konten, „welt“ nur 28 (13 bzw. 3 Posts).
+- Ton: „sachlich“ erreicht im Mittel 123 Konten, „locker“ nur 70,5 (26 bzw. 4 Posts).
+- Uhrzeit: „6 Uhr“ erreicht im Mittel 167,5 Konten, „18 Uhr“ nur 52,5 (2 bzw. 8 Posts).
+- Wochentag: „So“ erreicht im Mittel 144 Konten, „Mi“ nur 57 (7 bzw. 6 Posts).
+- Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (40 bzw. 3 Posts).
+- Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter).
 
 ## Top 3
 
 - **So sieht ein Touchdown im Stadion aus** (2026-11-16, zusammen, sport/sachlich, 7 Uhr): 393 Konten, 5 Likes, 0 Shares, 1 Saves, Ø 5,2 s geschaut
+- **Zverev gegen Alcaraz: Heute Abend geht es um die Tennis-Krone 🎾** (2026-11-22, video, sport/sachlich, 6 Uhr): 233 Konten, 1 Likes, 0 Shares, 0 Saves, Ø 11,9 s geschaut
 - **Wetter zum Wochenende: Nebel, Wolken und kühler** (2026-10-30, video, umwelt/sachlich, 7 Uhr): 207 Konten, 4 Likes, 0 Shares, 0 Saves, Ø 3,6 s geschaut
-- **Ab heute: 2 Euro Gebühr für Bestellungen aus Fernost** (2026-11-01, bilder, digital/ueberraschend, 7 Uhr): 178 Konten, 3 Likes, 0 Shares, 0 Saves, Ø 4,1 s geschaut
 
 ## Flop 3
 
@@ -32,13 +32,13 @@ Gesamtreichweite: 4.514 Konten, Median pro Post: 109,5.
 |---|---|---|---|---|---|
 | zusammen | 3 | 144 | 14,8 | 1,9 | 5,3 |
 | bilder | 32 | 111 | 27,6 | 1 | 3,3 |
-| video | 7 | 109 | 11,2 | 0 | 5,8 |
+| video | 8 | 109 | 9,8 | 0 | 5,9 |
 
 ### Thema
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sport | 12 | 137,5 | 17,7 | 1,1 | 3,6 |
+| sport | 13 | 138 | 16,2 | 1 | 3,6 |
 | umwelt | 10 | 116,5 | 18,8 | 0 | 4,9 |
 | digital | 9 | 109 | 18,8 | 2,1 | 4,1 |
 | geld | 4 | 61,5 | 46,3 | 0 | 2,8 |
@@ -49,7 +49,7 @@ Gesamtreichweite: 4.514 Konten, Median pro Post: 109,5.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sachlich | 25 | 119 | 19,4 | 1,3 | 3,7 |
+| sachlich | 26 | 123 | 18,3 | 1,2 | 3,7 |
 | ueberraschend | 13 | 109 | 26,4 | 0 | 4 |
 | locker | 4 | 70,5 | 43,2 | 0 | 2,9 |
 
@@ -57,18 +57,18 @@ Gesamtreichweite: 4.514 Konten, Median pro Post: 109,5.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
+| 6 Uhr | 2 | 167,5 | 3 | 0 | 9,5 |
 | 7 Uhr | 17 | 137 | 18,2 | 0,9 | 3,6 |
 | 20 Uhr | 4 | 122 | 10 | 0 | 5,8 |
 | 12 Uhr | 11 | 108 | 31,9 | 0 | 4 |
 | 16 Uhr | 1 | 107 | 9,3 | 0 | 5,5 |
-| 6 Uhr | 1 | 102 | 0 | 0 | 7,2 |
 | 18 Uhr | 8 | 52,5 | 47,1 | 4,1 | 2,7 |
 
 ### Wochentag
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| So | 6 | 141 | 21,6 | 0 | 3,4 |
+| So | 7 | 144 | 17,2 | 0 | 3,7 |
 | Mo | 6 | 136 | 16 | 2,1 | 4,5 |
 | Do | 7 | 115 | 24,9 | 0 | 3,9 |
 | Fr | 6 | 113,5 | 21 | 0 | 3,3 |
@@ -80,21 +80,21 @@ Gesamtreichweite: 4.514 Konten, Median pro Post: 109,5.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| lang (>45 Zeichen) | 30 | 111 | 20 | 0,9 | 3,8 |
+| lang (>45 Zeichen) | 31 | 112 | 19 | 0,9 | 3,9 |
 | kurz (≤45 Zeichen) | 12 | 107,5 | 30 | 0,8 | 2,9 |
 
 ### Zahl in der Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| ohne Zahl | 21 | 112 | 22,1 | 1,2 | 3,5 |
+| ohne Zahl | 22 | 115,5 | 20,6 | 1,1 | 3,5 |
 | mit Zahl | 21 | 107 | 23,7 | 0,5 | 4,5 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 39 | 112 | 22 | 0,9 | 3,7 |
+| Aussage | 40 | 113,5 | 21,1 | 0,9 | 3,7 |
 | Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
@@ -103,14 +103,14 @@ Gesamtreichweite: 4.514 Konten, Median pro Post: 109,5.
 |---|---|---|---|---|---|
 | bis 15 s | 1 | 393 | 12,7 | 2,5 | 5,2 |
 | 16–25 s | 3 | 144 | 15,2 | 0 | 5,5 |
-| über 25 s | 6 | 106,5 | 10,4 | 0 | 5,8 |
+| über 25 s | 7 | 107 | 8,6 | 0 | 5,9 |
 
 ### Getestete Regel (Feld „test“ im Post)
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | teilen-anreiz | 4 | 122 | 6 | 0 | 5,8 |
-| aussage-titel | 2 | 106,5 | 14,1 | 0 | 5,7 |
+| aussage-titel | 3 | 107 | 9 | 0 | 5,9 |
 
 ## Alle Posts
 
@@ -158,6 +158,7 @@ Gesamtreichweite: 4.514 Konten, Median pro Post: 109,5.
 | 2026-11-18 | Solarstrom wächst 30-mal stärker als vorherge | video | 106 | 119 | 2 | 0 | 0 | – | 5,9 s | 14 % |
 | 2026-11-19 | Stromsteuer soll fast ganz wegfallen – so vie | video | 102 | 111 | 0 | 0 | 0 | – | 7,2 s | 17 % |
 | 2026-11-21 | KI soll 167 Jahre altes Mathe-Rätsel gelöst h | video | 109 | 116 | 1 | 0 | 0 | – | 5,7 s | 13 % |
+| 2026-11-22 | Zverev gegen Alcaraz: Heute Abend geht es um  | video | 233 | 264 | 1 | 0 | 0 | – | 11,9 s | 30 % |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.
@@ -184,3 +185,4 @@ Gesamtreichweite: 4.514 Konten, Median pro Post: 109,5.
 - 2026-11-21 (morgens): Weiter ohne `KLARTEXT_IG_TOKEN`, keine neuen Zahlen. Geplant war Digital (Ton locker); gewählt wurde die überraschendste Digital-Meldung des Tages: Ein Anthropic-Forscher sagt, er habe mit der KI Claude die Riemannsche Vermutung bewiesen (n-tv, Spiegel, Deutschlandfunk) – ehrlich als Behauptung erzählt („soll“, „noch nicht geprüft“), Ton daher „überraschend“. Stimm-Video aus sechs freien Grafiken und Fotos (Wikimedia-Videosuche gedrosselt), Neugier-Einstieg mit Zahl („seit 167 Jahren“). Regel im Test: `teilen-anreiz` (gesprochen: „Schick das jemandem, der Mathe liebt oder hasst“). Hypothese: Ein Wissenschafts-Rekord mit Staunen-Effekt wird öfter geteilt als Verbraucher-Meldungen; Stichprobe 1.
 - 2026-11-22 (morgens): Wieder mit Zahlen (41 Posts, Follower 6). Die sechs Stimm-Videos liegen im Median bei 108 Konten, knapp unter dem Gesamt-Median (110), werden aber am längsten geschaut (Ø 5,9 s gegenüber 3,3 s bei Bildern); Teilen und Speichern bleiben bei 0. Sonntag ist bisher der stärkste Wochentag (Median 141), 7 Uhr das stärkste Fenster (137). Heute Sport (stärkster Schwerpunkt, Median 137,5): Zverev gegen Alcaraz im Finale der ATP Finals (18 Uhr), Stimm-Video aus neun freien Archivfotos mit Schnitt alle 4,5 s, Einstieg „Die Nummer eins gegen die Nummer zwei“, Ende mit A-oder-B-Frage als Kommentar-Anreiz. Regel im Test: `aussage-titel`. Hypothese: Ein bevorstehendes Duell mit zwei bekannten Namen und Tipp-Frage bringt mehr Kommentare als bisherige Posts (fast immer 0); Stichprobe 1.
 - 2026-11-22 (mittags, Vorbereitung für spät): Mittags war nicht dran; der Spät-Post (20 Uhr) ist vorbereitet. Geplant war Geld (Ton locker), gewählt wurde die Merkur-Ankunft von BepiColombo, weil es dazu erstmals echte Aufnahmen der Sonde selbst gibt (ESA, frei lizenziert) statt Symbolfotos. Getestet wird damit, ob echtes, spektakuläres Bildmaterial die kurze Zuschaudauer (Ø ~5 s) erhöht; Einstieg mit Zahl („Acht Jahre …“), CTA zum Teilen. Stichprobe: ein Post, also nur ein Hinweis.
+- 2026-11-23 (morgens): Der Zverev-Post (Sport, Stimm-Video aus Archivfotos, Schnitt alle ~4,5 s, Duell zweier bekannter Namen) ist mit 233 Konten nach rund 24 Stunden das beste Stimm-Video bisher und wird mit Ø 11,9 s doppelt so lange geschaut wie die übrigen (~6 s); der Merkur-Post (echte ESA-Bilder) liegt nach rund 10 Stunden bei 146 Konten, 7,6 s Zuschaudauer und bringt die **erste Teilung** überhaupt (mit `teilen-anreiz`). Schnelle Schnitte und bekannte Namen scheinen die Zuschaudauer zu heben. Regel `aussage-titel` ist jetzt bestätigt, neu im Test `kurz-video`. Heute Sport (BVB neuer Tabellenführer, Bayern patzt, Kane fällt aus): 30-s-Video aus neun Archivfotos mit Schnitt alle ~3,5 s, ohne Teil-Aufforderung. Hypothese: Das kürzere 30-s-Video wird anteilig weiter geschaut und erreicht mindestens den Sport-Median (137,5 Konten); Stichprobe 1.

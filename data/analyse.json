@@ -1,14 +1,14 @@
 {
-  "datum": "2026-11-23T05:16:57.476Z",
+  "datum": "2026-11-23T05:37:46.169Z",
   "hinweise": [
-    "Thema: „sport“ erreicht im Mittel 137,5 Konten, „welt“ nur 28 (12 bzw. 3 Posts).",
-    "Ton: „sachlich“ erreicht im Mittel 119 Konten, „locker“ nur 70,5 (25 bzw. 4 Posts).",
-    "Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).",
-    "Wochentag: „So“ erreicht im Mittel 141 Konten, „Mi“ nur 57 (6 bzw. 6 Posts).",
-    "Frage oder Aussage: „Aussage“ erreicht im Mittel 112 Konten, „Frage“ nur 34 (39 bzw. 3 Posts).",
-    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,1 (schwacher Zusammenhang)."
+    "Thema: „sport“ erreicht im Mittel 138 Konten, „welt“ nur 28 (13 bzw. 3 Posts).",
+    "Ton: „sachlich“ erreicht im Mittel 123 Konten, „locker“ nur 70,5 (26 bzw. 4 Posts).",
+    "Uhrzeit: „6 Uhr“ erreicht im Mittel 167,5 Konten, „18 Uhr“ nur 52,5 (2 bzw. 8 Posts).",
+    "Wochentag: „So“ erreicht im Mittel 144 Konten, „Mi“ nur 57 (7 bzw. 6 Posts).",
+    "Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (40 bzw. 3 Posts).",
+    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter)."
   ],
-  "watchCorr": 0.1428571428571429,
+  "watchCorr": 0.4285714285714286,
   "vergleich": [
     {
       "merkmal": "format",
@@ -32,11 +32,11 @@
         },
         {
           "wert": "video",
-          "posts": 7,
+          "posts": 8,
           "reichweite": 109,
-          "likes_pro_1000": 11.235955056179774,
+          "likes_pro_1000": 9.795191451469279,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.849
+          "wiedergabe_s": 5.8555
         }
       ]
     },
@@ -46,11 +46,11 @@
       "gruppen": [
         {
           "wert": "sport",
-          "posts": 12,
-          "reichweite": 137.5,
-          "likes_pro_1000": 17.679558011049725,
-          "teilen_speichern_pro_1000": 1.1049723756906078,
-          "wiedergabe_s": 3.5975
+          "posts": 13,
+          "reichweite": 138,
+          "likes_pro_1000": 16.152716593245227,
+          "teilen_speichern_pro_1000": 0.9789525208027412,
+          "wiedergabe_s": 3.639
         },
         {
           "wert": "umwelt",
@@ -100,11 +100,11 @@
       "gruppen": [
         {
           "wert": "sachlich",
-          "posts": 25,
-          "reichweite": 119,
-          "likes_pro_1000": 19.420671494404214,
-          "teilen_speichern_pro_1000": 1.3166556945358787,
-          "wiedergabe_s": 3.6574999999999998
+          "posts": 26,
+          "reichweite": 123,
+          "likes_pro_1000": 18.34301436869459,
+          "teilen_speichern_pro_1000": 1.2228676245796393,
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "ueberraschend",
@@ -128,6 +128,14 @@
       "merkmal": "uhrzeit",
       "name": "Uhrzeit",
       "gruppen": [
+        {
+          "wert": "6 Uhr",
+          "posts": 2,
+          "reichweite": 167.5,
+          "likes_pro_1000": 2.985074626865672,
+          "teilen_speichern_pro_1000": 0,
+          "wiedergabe_s": 9.5455
+        },
         {
           "wert": "7 Uhr",
           "posts": 17,
@@ -161,14 +169,6 @@
           "wiedergabe_s": 5.456
         },
         {
-          "wert": "6 Uhr",
-          "posts": 1,
-          "reichweite": 102,
-          "likes_pro_1000": 0,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 7.151
-        },
-        {
           "wert": "18 Uhr",
           "posts": 8,
           "reichweite": 52.5,
@@ -184,11 +184,11 @@
       "gruppen": [
         {
           "wert": "So",
-          "posts": 6,
-          "reichweite": 141,
-          "likes_pro_1000": 21.58273381294964,
+          "posts": 7,
+          "reichweite": 144,
+          "likes_pro_1000": 17.241379310344826,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 3.42
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "Mo",
@@ -246,11 +246,11 @@
       "gruppen": [
         {
           "wert": "lang (>45 Zeichen)",
-          "posts": 30,
-          "reichweite": 111,
-          "likes_pro_1000": 20.02464571780653,
-          "teilen_speichern_pro_1000": 0.9242144177449169,
-          "wiedergabe_s": 3.7965
+          "posts": 31,
+          "reichweite": 112,
+          "likes_pro_1000": 18.970968669157802,
+          "teilen_speichern_pro_1000": 0.8623167576889911,
+          "wiedergabe_s": 3.917
         },
         {
           "wert": "kurz (≤45 Zeichen)",
@@ -268,11 +268,11 @@
       "gruppen": [
         {
           "wert": "ohne Zahl",
-          "posts": 21,
-          "reichweite": 112,
-          "likes_pro_1000": 22.108172127911565,
-          "teilen_speichern_pro_1000": 1.1843663639952626,
-          "wiedergabe_s": 3.493
+          "posts": 22,
+          "reichweite": 115.5,
+          "likes_pro_1000": 20.607375271149678,
+          "teilen_speichern_pro_1000": 1.0845986984815619,
+          "wiedergabe_s": 3.5244999999999997
         },
         {
           "wert": "mit Zahl",
@@ -290,11 +290,11 @@
       "gruppen": [
         {
           "wert": "Aussage",
-          "posts": 39,
-          "reichweite": 112,
-          "likes_pro_1000": 21.975532396918897,
-          "teilen_speichern_pro_1000": 0.9062075215224287,
-          "wiedergabe_s": 3.6574999999999998
+          "posts": 40,
+          "reichweite": 113.5,
+          "likes_pro_1000": 21.08887454271573,
+          "teilen_speichern_pro_1000": 0.8607703894986013,
+          "wiedergabe_s": 3.676
         },
         {
           "wert": "Frage",
@@ -328,11 +328,11 @@
         },
         {
           "wert": "über 25 s",
-          "posts": 6,
-          "reichweite": 106.5,
-          "likes_pro_1000": 10.398613518197575,
+          "posts": 7,
+          "reichweite": 107,
+          "likes_pro_1000": 8.641975308641975,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.849
+          "wiedergabe_s": 5.8555
         }
       ]
     },
@@ -350,11 +350,11 @@
         },
         {
           "wert": "aussage-titel",
-          "posts": 2,
-          "reichweite": 106.5,
-          "likes_pro_1000": 14.084507042253522,
+          "posts": 3,
+          "reichweite": 107,
+          "likes_pro_1000": 8.968609865470851,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.659000000000001
+          "wiedergabe_s": 5.862
         }
       ]
     }
@@ -1534,6 +1534,34 @@
       "wiedergabe_s": 5.721,
       "wiedergabe_anteil": 0.12713333333333335,
       "likes_pro_1000": 9.174311926605505,
+      "teilen_speichern_pro_1000": 0
+    },
+    {
+      "id": "2026-11-22-zverev",
+      "datum": "2026-11-22",
+      "titel": "Zverev gegen Alcaraz: Heute Abend geht es um die Tennis-Krone 🎾",
+      "format": "video",
+      "thema": "sport",
+      "ton": "sachlich",
+      "uhrzeit": "6 Uhr",
+      "wochentag": "So",
+      "ueberschrift": "lang (>45 Zeichen)",
+      "zahl_im_titel": "ohne Zahl",
+      "frage_im_titel": "Aussage",
+      "videolaenge": "über 25 s",
+      "test": "aussage-titel",
+      "symbolvideo": "Symbolvideo",
+      "reichweite": 233,
+      "aufrufe": 264,
+      "likes": 1,
+      "kommentare": 0,
+      "shares": 0,
+      "saves": 0,
+      "follows": null,
+      "profilbesuche": null,
+      "wiedergabe_s": 11.94,
+      "wiedergabe_anteil": 0.2985,
+      "likes_pro_1000": 4.291845493562231,
       "teilen_speichern_pro_1000": 0
     }
   ]

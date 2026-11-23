@@ -1467,5 +1467,21 @@
       "ig_reels_video_view_total_time": 1101071
     },
     "statsAt": "2026-11-23T05:16:57.249Z"
+  },
+  {
+    "id": "2026-11-23-bvb",
+    "postedAt": "2026-11-23T05:37:42.550Z",
+    "topic": "sport",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.sportschau.de/regional/wdr/wdr-bvb-holt-sich-in-moenchengladbach-die-tabellenfuehrung-100.html",
+    "sourceUrls": [
+      "https://www.sportschau.de/regional/wdr/wdr-bvb-holt-sich-in-moenchengladbach-die-tabellenfuehrung-100.html",
+      "https://www.sportschau.de/kane-verletzt-wirbel-um-musiala-ist-dortmunds-chance,bundesliga-update-spieltag-10-100.html",
+      "https://www.zdfheute.de/sport/fussball-bundesliga/video/fc-bayern-muenchen-1-fc-koeln-saison-2026-27-100.html",
+      "https://www.zdfheute.de/sport/fussball-bundesliga/video/borussia-moenchengladbach-borussia-dortmund-saison-2026-27-100.html",
+      "https://www.n-tv.de/sport/fussball/Der-FC-Bayern-hat-Sorge-vor-neuen-Wintertransfers-id31565028.html"
+    ],
+    "mediaId": "18094548239228427",
+    "format": "video"
   }
 ]
