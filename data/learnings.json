@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "2026-11-23T05:16:57.392Z",
+  "aktualisiert": "2026-11-23T09:41:40.939Z",
   "ranking": [
     {
       "gruppe": "thema:digital",
@@ -66,16 +66,16 @@
     },
     {
       "gruppe": "ton:sachlich",
-      "posts": 23,
-      "punkte": 2.15,
-      "reichweite": 141,
+      "posts": 24,
+      "punkte": 2.06,
+      "reichweite": 146,
       "follower": 0
     },
     {
       "gruppe": "thema:sport",
-      "posts": 13,
-      "punkte": 2.07,
-      "reichweite": 157,
+      "posts": 14,
+      "punkte": 1.93,
+      "reichweite": 165,
       "follower": 0
     },
     {
@@ -101,9 +101,9 @@
     },
     {
       "gruppe": "format:video",
-      "posts": 9,
-      "punkte": 1.23,
-      "reichweite": 141,
+      "posts": 10,
+      "punkte": 1.12,
+      "reichweite": 153,
       "follower": 0
     },
     {
@@ -122,9 +122,9 @@
     },
     {
       "gruppe": "uhrzeit:6",
-      "posts": 2,
-      "punkte": 0.21,
-      "reichweite": 168,
+      "posts": 3,
+      "punkte": 0.18,
+      "reichweite": 200,
       "follower": 0
     }
   ]

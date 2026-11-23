@@ -1,0 +1,131 @@
+{
+  "id": "2026-11-23-klimagipfel",
+  "date": "2026-11-22T15:30:00Z",
+  "category": "Umwelt",
+  "topic": "umwelt",
+  "tone": "sachlich",
+  "format": "video",
+  "test": "teilen-anreiz",
+  "vorbereitet": true,
+  "sources": [
+    {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/wissen/klima/klimakonferenz/weltklimakonferenz-cop31-antalya-kein-abschlussdokument-100.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/politik/ausland/cop-31-tuerkei-endet-ergebnislos-100.html"
+    },
+    {
+      "name": "Deutsche Welle",
+      "url": "https://www.dw.com/de/klimakonferenz-scheitert-am-streit-um-fossile-energien-und-am-geld/a-80014116"
+    },
+    {
+      "name": "MDR",
+      "url": "https://www.mdr.de/video/mdr-videos/a/video-1688132.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-23-klimagipfel.jpg",
+    "credit": "peggydavis66, CC BY-SA 2.0, via Flickr",
+    "short": "Kohlekraftwerk, peggydavis66, CC BY-SA 2.0, via Flickr",
+    "license": "CC BY-SA 2.0",
+    "page": "https://www.flickr.com/photos/11441121@N04/2471730096",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "file": "videos/2026-11-23-klimagipfel.mp4",
+    "start": 0,
+    "duration": 42,
+    "credit": "NASA (Erde von der ISS, Temperaturkarte NASA SVS, Meereis NASA Goddard; gemeinfrei); Fotos (Symbolbilder): peggydavis66 (CC BY-SA 2.0), eutrophication&hypoxia (CC BY 2.0), Håkan Dahlström (CC BY 2.0), via Flickr",
+    "short": "Symbolvideo: NASA (gemeinfrei) · Fotos: peggydavis66, eutrophication&hypoxia, Håkan Dahlström, CC BY/BY-SA, Flickr",
+    "license": "Public Domain (NASA) / CC BY 2.0 / CC BY-SA 2.0",
+    "page": "https://images.nasa.gov/details/Earth%20Views%20from%20the%20International%20Space%20Station",
+    "symbolisch": true,
+    "headline": "Klimagipfel ohne Einigung: Kohle, Öl und Gas standen nicht mal im Text 🌍",
+    "voice": [
+      "Fast zweihundert Länder haben zwei Wochen lang verhandelt – und am Ende gibt es keinen gemeinsamen Text.",
+      "Die Weltklimakonferenz in der Türkei ist ohne Abschlusserklärung zu Ende gegangen.",
+      "Der Grund: Im Entwurf kamen Kohle, Öl und Gas nicht einmal vor.",
+      "Die Europäische Union und viele bedrohte Inselstaaten haben ihn deshalb abgelehnt.",
+      "Was heißt das für dich?",
+      "Frühere Beschlüsse wie das Pariser Klimaabkommen gelten weiter.",
+      "Und rund achtzig Länder, auch Deutschland, wollen bis zweitausendfünfunddreißig viel mehr Energie als Strom nutzen.",
+      "Schick das jemandem, der sich fürs Klima interessiert.",
+      "Was ist dir lieber: gar keine Einigung oder ein schwacher Kompromiss?"
+    ],
+    "voiceText": [
+      "Fast 200 Länder haben 2 Wochen lang verhandelt – und am Ende gibt es keinen gemeinsamen Text.",
+      "Die Weltklimakonferenz in der Türkei ist ohne Abschlusserklärung zu Ende gegangen.",
+      "Der Grund: Im Entwurf kamen Kohle, Öl und Gas nicht einmal vor.",
+      "Die Europäische Union und viele bedrohte Inselstaaten haben ihn deshalb abgelehnt.",
+      "Was heißt das für dich?",
+      "Frühere Beschlüsse wie das Pariser Klimaabkommen gelten weiter.",
+      "Und rund 80 Länder, auch Deutschland, wollen bis 2035 viel mehr Energie als Strom nutzen.",
+      "Schick das jemandem, der sich fürs Klima interessiert.",
+      "Was ist dir lieber: gar keine Einigung oder ein schwacher Kompromiss?"
+    ],
+    "voiceSpeed": 1.2
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Umwelt",
+      "title": "Weltklimakonferenz endet **ohne Einigung** – Kohle, Öl und Gas fehlten im Text"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Kein gemeinsamer **Abschlusstext**",
+      "text": [
+        "Zwei Wochen und eine Rekord-Verlängerung lang verhandelten **196 Länder** in Antalya (Türkei). Am Ende lehnten die EU, Panama und bedrohte Inselstaaten wie die **Marshallinseln** den Entwurf ab."
+      ],
+      "image": {
+        "file": "images/2026-11-23-klimagipfel-2.jpg",
+        "credit": "eutrophication&hypoxia, CC BY 2.0, via Flickr",
+        "short": "Kohlekraftwerk, eutrophication&hypoxia, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/48722974@N07/4538083341",
+        "symbolbild": true,
+        "position": "top"
+      }
+    },
+    {
+      "label": "Der Streitpunkt",
+      "title": "Kohle, Öl und Gas **nicht erwähnt**",
+      "text": [
+        "Der Entwurf enthielt kein klares Bekenntnis zum Abschied von Kohle, Öl und Gas, nur einen Verweis auf einen Beschluss von **2023** aus Dubai. Ölstaaten wollten stattdessen mehr CO₂-Speicherung im Boden."
+      ]
+    },
+    {
+      "label": "Was heißt das für dich?",
+      "title": "Bisherige Ziele **gelten weiter**",
+      "text": [
+        "Frühere Beschlüsse wie das **Pariser Klimaabkommen** bleiben bestehen. Rund **80 Länder**, darunter Deutschland, wollen außerdem freiwillig mehr Energie als Strom nutzen, etwa für E-Autos und Wärmepumpen."
+      ],
+      "image": {
+        "file": "images/2026-11-23-klimagipfel-3.jpg",
+        "credit": "Håkan Dahlström, CC BY 2.0, via Flickr",
+        "short": "Ladesäule, Håkan Dahlström, CC BY 2.0, via Flickr",
+        "license": "CC BY 2.0",
+        "page": "https://www.flickr.com/photos/93755244@N00/8638198650",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "35 %",
+      "title": "Strom-Anteil bis 2035",
+      "text": [
+        "So viel der weltweit genutzten Energie soll laut dieser freiwilligen Initiative bis **2035** Strom sein. Heute sind es rund **20 Prozent**. Ob der Strom aus Wind und Sonne kommen muss, ist nicht festgelegt."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Deine Meinung",
+      "title": "Lieber keine Einigung oder ein schwacher Kompromiss? Schreib es in die Kommentare und schick das jemandem, der sich fürs Klima interessiert"
+    }
+  ],
+  "caption": "Weltklimakonferenz COP31 endet ohne Einigung: Fast 200 Länder haben sich in Antalya nicht auf eine gemeinsame Abschlusserklärung geeinigt. Die EU und bedrohte Inselstaaten lehnten den Entwurf ab, weil Kohle, Öl und Gas darin nicht einmal erwähnt wurden. Frühere Beschlüsse wie das Pariser Klimaabkommen gelten weiter, rund 80 Länder wollen freiwillig mehr auf Strom umsteigen.\n\nLieber gar keine Einigung oder ein schwacher Kompromiss – was meinst du? 🌍 Schick das jemandem, der sich fürs Klima interessiert.\n\nQuellen: tagesschau, ZDFheute, Deutsche Welle, MDR · Text und Stimme mit KI erstellt\n#nachrichten #klimakonferenz #cop31 #klimaschutz #klimawandel"
+}

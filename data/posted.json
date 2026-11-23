@@ -1432,16 +1432,16 @@
     "mediaId": "18043026416645353",
     "format": "video",
     "stats": {
-      "reach": 233,
-      "likes": 1,
+      "reach": 364,
+      "likes": 2,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 264,
-      "ig_reels_avg_watch_time": 11940,
-      "ig_reels_video_view_total_time": 2758210
+      "views": 420,
+      "ig_reels_avg_watch_time": 11885,
+      "ig_reels_video_view_total_time": 4326161
     },
-    "statsAt": "2026-11-22T09:41:23.859Z"
+    "statsAt": "2026-11-23T09:41:40.546Z"
   },
   {
     "id": "2026-11-22-merkur",
@@ -1482,6 +1482,17 @@
       "https://www.n-tv.de/sport/fussball/Der-FC-Bayern-hat-Sorge-vor-neuen-Wintertransfers-id31565028.html"
     ],
     "mediaId": "18094548239228427",
-    "format": "video"
+    "format": "video",
+    "stats": {
+      "reach": 134,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 137,
+      "ig_reels_avg_watch_time": 2955,
+      "ig_reels_video_view_total_time": 393062
+    },
+    "statsAt": "2026-11-23T09:41:40.813Z"
   }
 ]
