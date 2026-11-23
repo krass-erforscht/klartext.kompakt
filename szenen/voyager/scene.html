@@ -1,0 +1,173 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;width:720px;height:1280px;overflow:hidden;background:#000;font-family:"DejaVu Sans",Arial,sans-serif}
+  canvas{position:absolute;inset:0}
+  .ov{position:absolute;left:44px;right:44px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.7)}
+  #big{top:150px;font-size:86px;font-weight:800;letter-spacing:-.02em;line-height:1;opacity:0}
+  #sub{top:246px;font-size:28px;color:rgba(255,255,255,.85);opacity:0}
+  #cap{bottom:330px;text-align:center}
+  #cap span{display:inline-block;background:rgba(46,93,52,.88);padding:8px 18px;font-size:30px;font-weight:700;border-radius:4px;text-shadow:none}
+  #src{bottom:270px;font-size:17px;color:rgba(255,255,255,.7)}
+  #tag{top:60px;font-size:18px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+  #handle{top:60px;text-align:right;font-size:18px;color:rgba(255,255,255,.7)}
+</style>
+<script type="importmap">{"imports":{"three":"http://szene.local/three.module.min.js"}}</script>
+</head><body>
+<div id="tag" class="ov">Visualisierung</div>
+<div id="handle" class="ov">@tagesbild.kompakt</div>
+<div id="big" class="ov"></div>
+<div id="sub" class="ov"></div>
+<div id="cap" class="ov"><span id="capt"></span></div>
+<div id="src" class="ov"></div>
+<script type="module">
+import * as THREE from 'three';
+
+const W = 720, H = 1280;
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setSize(W, H); renderer.setPixelRatio(1);
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.1;
+document.body.prepend(renderer.domElement);
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x02030a);
+const camera = new THREE.PerspectiveCamera(42, W / H, 0.05, 20000);
+
+// Fester Zufall, damit jedes Rendering gleich aussieht
+let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+
+// Sterne
+const starGeo = new THREE.BufferGeometry(), N = 9000, pos = new Float32Array(N * 3), col = new Float32Array(N * 3);
+for (let i = 0; i < N; i++) {
+  const r = 3000 + rnd() * 6000, th = rnd() * Math.PI * 2, ph = Math.acos(2 * rnd() - 1);
+  pos.set([r * Math.sin(ph) * Math.cos(th), r * Math.cos(ph), r * Math.sin(ph) * Math.sin(th)], i * 3);
+  const w = 0.6 + rnd() * 0.4, warm = rnd();
+  col.set([w, w * (0.9 + 0.1 * warm), w * (0.85 + 0.15 * (1 - warm))], i * 3);
+}
+starGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+starGeo.setAttribute('color', new THREE.BufferAttribute(col, 3));
+const stars = new THREE.Points(starGeo, new THREE.PointsMaterial({ size: 2.2, sizeAttenuation: false, vertexColors: true }));
+scene.add(stars);
+
+// Leuchtpunkt-Textur (Sonne, Signal)
+function glowTex(inner, outer) {
+  const c = document.createElement('canvas'); c.width = c.height = 256;
+  const g = c.getContext('2d'), gr = g.createRadialGradient(128, 128, 0, 128, 128, 128);
+  gr.addColorStop(0, inner); gr.addColorStop(0.25, outer); gr.addColorStop(1, 'rgba(0,0,0,0)');
+  g.fillStyle = gr; g.fillRect(0, 0, 256, 256);
+  return new THREE.CanvasTexture(c);
+}
+const sun = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex('rgba(255,250,235,1)', 'rgba(255,190,110,.35)'), blending: THREE.AdditiveBlending, depthWrite: false }));
+sun.position.set(-260, 60, -560); sun.scale.set(170, 170, 1); scene.add(sun);
+const sunLight = new THREE.DirectionalLight(0xfff0dd, 3.2); sunLight.position.copy(sun.position); scene.add(sunLight);
+scene.add(new THREE.AmbientLight(0x334466, 0.5));
+// Aufhelllicht an der Kamera, damit die Sonde nicht nur als Schattenriss erscheint
+const fill = new THREE.PointLight(0xbfd4ff, 1.6, 0, 0); camera.add(fill); scene.add(camera);
+
+// Erde (klein, weit weg) mit Atmosphäre
+const earthPos = new THREE.Vector3(-150, 20, -500);
+const earthTex = (() => { const c = document.createElement('canvas'); c.width = 512; c.height = 256; const g = c.getContext('2d');
+  g.fillStyle = '#1d4f9e'; g.fillRect(0, 0, 512, 256);
+  for (let i = 0; i < 60; i++) { g.fillStyle = rnd() < 0.5 ? '#3f7a3a' : '#8a7a4a'; g.beginPath(); g.ellipse(rnd() * 512, 40 + rnd() * 176, 10 + rnd() * 40, 6 + rnd() * 22, rnd() * 3, 0, Math.PI * 2); g.fill(); }
+  g.fillStyle = 'rgba(255,255,255,.55)'; for (let i = 0; i < 90; i++) { g.beginPath(); g.ellipse(rnd() * 512, rnd() * 256, 8 + rnd() * 30, 2 + rnd() * 6, 0, 0, Math.PI * 2); g.fill(); }
+  return new THREE.CanvasTexture(c); })();
+const earth = new THREE.Mesh(new THREE.SphereGeometry(6, 64, 40), new THREE.MeshStandardMaterial({ map: earthTex, emissive: 0x081428, roughness: 0.7 }));
+earth.position.copy(earthPos); scene.add(earth);
+const atmo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex('rgba(120,180,255,.9)', 'rgba(60,120,255,.25)'), blending: THREE.AdditiveBlending, depthWrite: false }));
+atmo.position.copy(earthPos); atmo.scale.set(30, 30, 1); scene.add(atmo);
+
+// Voyager (vereinfacht): Bus, Parabolantenne, Ausleger mit Radionuklidbatterien, Magnetometer-Ausleger
+const voyager = new THREE.Group(); scene.add(voyager);
+const white = new THREE.MeshStandardMaterial({ color: 0xe8e6df, metalness: 0.3, roughness: 0.45 });
+const gold = new THREE.MeshStandardMaterial({ color: 0xc8962e, metalness: 0.5, roughness: 0.35 });
+const dark = new THREE.MeshStandardMaterial({ color: 0x40403c, metalness: 0.6, roughness: 0.5 });
+const bus = new THREE.Mesh(new THREE.CylinderGeometry(0.9, 0.9, 0.6, 10), dark); voyager.add(bus);
+const dishPts = []; for (let i = 0; i <= 20; i++) { const x = i / 20 * 1.85; dishPts.push(new THREE.Vector2(x, x * x * 0.18)); }
+const dish = new THREE.Mesh(new THREE.LatheGeometry(dishPts, 48), new THREE.MeshStandardMaterial({ color: 0xf2f0ea, metalness: 0.2, roughness: 0.5, side: THREE.DoubleSide }));
+dish.position.y = 0.35; voyager.add(dish);
+const feed = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.04, 0.9), white); feed.position.y = 0.8; voyager.add(feed);
+const boom = (len, ang, mat, r = 0.04) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(r, r, len), mat); m.rotation.z = Math.PI / 2; m.position.x = Math.cos(ang) * len / 2; m.position.z = Math.sin(ang) * len / 2; m.rotation.y = -ang; voyager.add(m); return m; };
+boom(2.6, 0.3, white);
+for (let i = 0; i < 3; i++) { const r = new THREE.Mesh(new THREE.CylinderGeometry(0.18, 0.18, 0.35, 12), dark); r.rotation.z = Math.PI / 2; r.position.set(Math.cos(0.3) * (1.6 + i * 0.4), -0.05, Math.sin(0.3) * (1.6 + i * 0.4)); r.rotation.y = -0.3; voyager.add(r); }
+boom(13, Math.PI + 0.5, white, 0.02);
+const sciBoom = boom(2.3, Math.PI - 0.4, white);
+const record = new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.3, 0.02, 40), gold); record.rotation.z = Math.PI / 2; record.position.set(0.9, -0.05, 0); voyager.add(record);
+// 11 Messgeräte-Lämpchen: später gehen 9 aus
+const lamps = [];
+for (let i = 0; i < 11; i++) {
+  const l = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex('rgba(160,255,190,1)', 'rgba(80,220,140,.4)'), blending: THREE.AdditiveBlending, depthWrite: false }));
+  const a = i / 11 * Math.PI * 2; l.position.set(Math.cos(a) * 0.95, -0.15, Math.sin(a) * 0.95); l.scale.set(0.45, 0.45, 1); voyager.add(l); lamps.push(l);
+}
+voyager.position.set(0, 0, 0);
+
+// Signal (Lichtpuls) zwischen Erde und Sonde
+const pulse = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex('rgba(255,255,255,1)', 'rgba(140,200,255,.5)'), blending: THREE.AdditiveBlending, depthWrite: false }));
+pulse.scale.set(14, 14, 1); scene.add(pulse);
+const lineGeo = new THREE.BufferGeometry().setFromPoints([earthPos, new THREE.Vector3(0, 0, 0)]);
+const line = new THREE.Line(lineGeo, new THREE.LineDashedMaterial({ color: 0x9cc8ff, dashSize: 6, gapSize: 6, transparent: true, opacity: 0.0 }));
+line.computeLineDistances(); scene.add(line);
+
+// Heliosphäre: Blase um die Sonne, die Voyager 2012 verlassen hat
+const helio = new THREE.Mesh(new THREE.SphereGeometry(380, 64, 48), new THREE.ShaderMaterial({
+  transparent: true, depthWrite: false, side: THREE.DoubleSide, blending: THREE.AdditiveBlending,
+  uniforms: { o: { value: 0 } },
+  vertexShader: 'varying vec3 n; varying vec3 v; void main(){ n=normalize(normalMatrix*normal); vec4 mv=modelViewMatrix*vec4(position,1.); v=normalize(-mv.xyz); gl_Position=projectionMatrix*mv; }',
+  fragmentShader: 'uniform float o; varying vec3 n; varying vec3 v; void main(){ float f=pow(1.-abs(dot(n,v)),3.); gl_FragColor=vec4(vec3(.55,.75,1.)*f*o, f*o); }',
+}));
+helio.position.copy(sun.position); scene.add(helio);
+
+// Großaufnahme der Goldenen Schallplatte (eigene Szene vor der Kamera)
+const recTex = (() => { const c = document.createElement('canvas'); c.width = c.height = 512; const g = c.getContext('2d');
+  const gr = g.createRadialGradient(256, 256, 20, 256, 256, 256); gr.addColorStop(0, '#f3d27a'); gr.addColorStop(1, '#a8741c'); g.fillStyle = gr; g.fillRect(0, 0, 512, 512);
+  g.strokeStyle = 'rgba(90,55,10,.35)'; for (let r = 60; r < 250; r += 3) { g.beginPath(); g.arc(256, 256, r, 0, Math.PI * 2); g.stroke(); }
+  g.fillStyle = '#7a5214'; g.beginPath(); g.arc(256, 256, 40, 0, Math.PI * 2); g.fill(); return new THREE.CanvasTexture(c); })();
+const bigRecord = new THREE.Mesh(new THREE.CircleGeometry(1, 96), new THREE.MeshStandardMaterial({ map: recTex, metalness: 0.35, roughness: 0.4, emissive: 0x2a1a05 }));
+bigRecord.visible = false; scene.add(bigRecord);
+
+// Kamera-Hilfen
+const ease = x => x < 0 ? 0 : x > 1 ? 1 : x * x * (3 - 2 * x);
+const lerpV = (a, b, k) => new THREE.Vector3().lerpVectors(a, b, k);
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+
+// Einstellungen: jede hat Kamera-Start/-Ende und optionale Effekte
+const SHOTS = {
+  signal: (k) => { camera.position.copy(lerpV(V(3.5, 1.4, 10), V(2.6, 1.0, 7.5), k)); camera.lookAt(lerpV(V(-30, 4, -90), V(-80, 10, -250), k)); return { pulse: k, line: 0.0 }; },
+  weit: (k) => { camera.position.copy(lerpV(V(-40, 60, 120), V(-70, 50, 90), k)); camera.lookAt(V(-75, 10, -250)); return { pulse: null, line: ease(k * 2) }; },
+  nah: (k) => { const a = 0.6 + k * 1.2; camera.position.set(Math.cos(a) * 10, 1.8 + k, Math.sin(a) * 10); camera.lookAt(0, 0.3, 0); return {}; },
+  erde: (k) => { const toSun = sun.position.clone().sub(earthPos).normalize(); const side = V(0, 0, 1); camera.position.copy(earthPos.clone().add(toSun.clone().multiplyScalar(14 + 8 * (1 - k))).add(side.multiplyScalar(14))); camera.lookAt(earthPos); return {}; },
+  helio: (k) => { camera.position.copy(lerpV(V(500, 260, 700), V(420, 200, 560), k)); camera.lookAt(sun.position.clone().lerp(V(0, 0, 0), 0.3)); return { helio: Math.min(1, k * 2) }; },
+  schnell: (k) => { camera.position.set(7 - k * 2, 1.2, 9 - k * 3); camera.lookAt(-2, 0, -12); return { streak: true }; },
+  geraete: (k) => { camera.position.copy(lerpV(V(3.2, -1.4, 3.2), V(2.4, -1.0, 2.4), k)); camera.lookAt(0, -0.15, 0); return { lampsOff: k }; },
+  echo: (k) => { camera.position.copy(lerpV(V(-30, 40, 80), V(-45, 35, 60), k)); camera.lookAt(V(-75, 10, -250)); return { pulse: k < 0.5 ? k * 2 : 2 - k * 2, line: 1 }; },
+  platte: (k) => { camera.position.set(0, 0, 3.6 - k * 0.7); camera.lookAt(0, 0, 0); return { record: k }; },
+};
+
+let cfg = null;
+window.setup = (c) => { cfg = c; document.getElementById('src').textContent = c.source; };
+
+window.frame = (t) => {
+  const shot = cfg.shots.find(s => t >= s.start && t < s.end) || cfg.shots.at(-1);
+  const k = (t - shot.start) / Math.max(shot.end - shot.start, 0.01);
+  // Standard-Zustand
+  bigRecord.visible = false; voyager.visible = true; helio.material.uniforms.o.value = 0; line.material.opacity = 0; pulse.visible = false;
+  lamps.forEach(l => { l.material.opacity = 1; });
+  stars.scale.set(1, 1, 1);
+  const fx = SHOTS[shot.name](ease(k)) || {};
+  if (fx.pulse != null) { pulse.visible = true; pulse.position.copy(lerpV(earthPos, V(0, 0, 0), fx.pulse)); pulse.scale.setScalar(6 + 10 * Math.sin(t * 6) ** 2); }
+  if (fx.line) line.material.opacity = 0.7 * fx.line;
+  if (fx.helio) helio.material.uniforms.o.value = 0.9 * fx.helio;
+  if (fx.streak) stars.scale.set(1, 1, 1 + 0.6 * k);
+  if (fx.lampsOff != null) lamps.forEach((l, i) => { if (i >= 2) l.material.opacity = Math.max(0, 1 - (fx.lampsOff * 11 - (i - 2))); });
+  if (fx.record != null) { bigRecord.visible = true; voyager.visible = false; bigRecord.position.set(0, 0, 0); bigRecord.rotation.set(-0.35, 0.25 + fx.record * 0.6, 0); }
+  voyager.rotation.y = t * 0.03;
+  earth.rotation.y = t * 0.2;
+  renderer.render(scene, camera);
+  // Texte: große Zahl oben, Untertitel unten
+  const o = cfg.overlays.find(x => t >= x.start && t < x.end);
+  const fade = o ? Math.min(1, (t - o.start) / 0.35, (o.end - t) / 0.35) : 0;
+  big.textContent = o ? o.big : ''; sub.textContent = o ? o.sub : '';
+  big.style.opacity = sub.style.opacity = fade;
+  const c = cfg.captions.find(x => t >= x.start && t < x.end);
+  capt.textContent = c ? c.text : ''; capt.style.visibility = c ? 'visible' : 'hidden';
+};
+window.ready = true;
+</script></body></html>
