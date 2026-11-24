@@ -1,0 +1,253 @@
+{
+ "duration": 34.38478260869565,
+ "fps": 30,
+ "shots": [
+  {
+   "typ": "zahl",
+   "wert": "70 %",
+   "einheit": "Rabatt?",
+   "big": "27. November",
+   "sub": "Black Friday",
+   "start": 0,
+   "end": 4.828260869565218
+  },
+  {
+   "typ": "zahl",
+   "wert": "15",
+   "einheit": "Produktgruppen geprüft",
+   "big": "15",
+   "sub": "Produktgruppen, Stiftung Warentest (2025)",
+   "start": 4.828260869565218,
+   "end": 9.497826086956524
+  },
+  {
+   "typ": "menge",
+   "von": 15,
+   "markiert": 3,
+   "big": "3 von 15",
+   "sub": "mit mindestens 20 % billigeren Angeboten",
+   "start": 9.497826086956524,
+   "end": 15.57608695652174
+  },
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-24-blackfriday.jpg",
+   "symbolbild": true,
+   "credit": "Donald Trung Quoc Don, CC BY-SA 4.0, via Wikimedia Commons",
+   "big": "",
+   "sub": "",
+   "start": 15.57608695652174,
+   "end": 17.445652173913047
+  },
+  {
+   "typ": "balken",
+   "stil": "muenzen",
+   "werte": [
+    {
+     "name": "echter Preis",
+     "wert": 6,
+     "text": "Markt"
+    },
+    {
+     "name": "Listenpreis",
+     "wert": 9,
+     "text": "UVP"
+    }
+   ],
+   "hervor": 1,
+   "big": "UVP",
+   "sub": "liegt oft über dem echten Marktpreis",
+   "start": 17.445652173913047,
+   "end": 24.27173913043478
+  },
+  {
+   "typ": "datum",
+   "tag": "30",
+   "monat": "Tage",
+   "big": "30 Tage",
+   "sub": "niedrigster Preis muss genannt werden",
+   "start": 24.27173913043478,
+   "end": 30.245652173913047
+  },
+  {
+   "typ": "zahl",
+   "wert": "70 %",
+   "einheit": "zuschlagen oder abwarten?",
+   "big": "",
+   "sub": "",
+   "start": 30.245652173913047,
+   "end": 34.38478260869565
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0.15,
+   "end": 4.828260869565218,
+   "big": "27. November",
+   "sub": "Black Friday"
+  },
+  {
+   "start": 5.0282608695652184,
+   "end": 9.497826086956524,
+   "big": "15",
+   "sub": "Produktgruppen, Stiftung Warentest (2025)"
+  },
+  {
+   "start": 9.697826086956523,
+   "end": 15.57608695652174,
+   "big": "3 von 15",
+   "sub": "mit mindestens 20 % billigeren Angeboten"
+  },
+  {
+   "start": 17.645652173913046,
+   "end": 24.27173913043478,
+   "big": "UVP",
+   "sub": "liegt oft über dem echten Marktpreis"
+  },
+  {
+   "start": 24.47173913043478,
+   "end": 30.245652173913047,
+   "big": "30 Tage",
+   "sub": "niedrigster Preis muss genannt werden"
+  }
+ ],
+ "captions": [
+  {
+   "text": "70 % Rabatt am",
+   "start": 0.15,
+   "end": 1.2147015475313192
+  },
+  {
+   "text": "Black Friday?",
+   "start": 1.2147015475313192,
+   "end": 2.2033529845246873
+  },
+  {
+   "text": "Oft steckt viel weniger",
+   "start": 2.2033529845246873,
+   "end": 3.9525055268975686
+  },
+  {
+   "text": "dahinter.",
+   "start": 3.9525055268975686,
+   "end": 4.636956521739131
+  },
+  {
+   "text": "Die Stiftung Warentest hat",
+   "start": 5.0282608695652184,
+   "end": 6.766304347826088
+  },
+  {
+   "text": "letztes Jahr 15 Produktgruppen",
+   "start": 6.766304347826088,
+   "end": 8.771739130434783
+  },
+  {
+   "text": "geprüft.",
+   "start": 8.771739130434783,
+   "end": 9.306521739130435
+  },
+  {
+   "text": "Nur bei 3 davon",
+   "start": 9.697826086956523,
+   "end": 10.835217391304349
+  },
+  {
+   "text": "gab es überhaupt Produkte,",
+   "start": 10.835217391304349,
+   "end": 12.806695652173914
+  },
+  {
+   "text": "die mindestens 20 %",
+   "start": 12.806695652173914,
+   "end": 14.247391304347827
+  },
+  {
+   "text": "billiger waren.",
+   "start": 14.247391304347827,
+   "end": 15.384782608695653
+  },
+  {
+   "text": "Was heißt das für",
+   "start": 15.77608695652174,
+   "end": 16.918379446640316
+  },
+  {
+   "text": "dich?",
+   "start": 16.918379446640316,
+   "end": 17.254347826086956
+  },
+  {
+   "text": "Viele Händler rechnen den",
+   "start": 17.645652173913046,
+   "end": 19.304101299865533
+  },
+  {
+   "text": "Rabatt vom Listenpreis des",
+   "start": 19.304101299865533,
+   "end": 21.028888390856117
+  },
+  {
+   "text": "Herstellers aus,",
+   "start": 21.028888390856117,
+   "end": 22.09029583146571
+  },
+  {
+   "text": "den im Laden kaum",
+   "start": 22.09029583146571,
+   "end": 23.2180412371134
+  },
+  {
+   "text": "jemand zahlt.",
+   "start": 23.2180412371134,
+   "end": 24.080434782608695
+  },
+  {
+   "text": "Achte lieber auf den",
+   "start": 24.47173913043478,
+   "end": 25.55574081891093
+  },
+  {
+   "text": "niedrigsten Preis der letzten",
+   "start": 25.55574081891093,
+   "end": 27.12754326720135
+  },
+  {
+   "text": "30 Tage.",
+   "start": 27.12754326720135,
+   "end": 27.561143942591812
+  },
+  {
+   "text": "Den muss ein Händler",
+   "start": 27.561143942591812,
+   "end": 28.64514563106796
+  },
+  {
+   "text": "bei Preissenkungen nennen.",
+   "start": 28.64514563106796,
+   "end": 30.054347826086957
+  },
+  {
+   "text": "Und du:",
+   "start": 30.445652173913047,
+   "end": 30.922670807453418
+  },
+  {
+   "text": "am Freitag zuschlagen oder",
+   "start": 30.922670807453418,
+   "end": 32.69445430346051
+  },
+  {
+   "text": "lieber abwarten?",
+   "start": 32.69445430346051,
+   "end": 33.78478260869564
+  }
+ ],
+ "handle": "@tagesbild.kompakt",
+ "colors": {
+  "accent": "#e8412c",
+  "mark": "#ffd23f"
+ },
+ "capColor": "rgba(232,65,44,.92)",
+ "source": "Quellen: tagesschau, ZDFheute, MDR · Münzstapel schematisch"
+}

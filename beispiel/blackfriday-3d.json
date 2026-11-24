@@ -30,10 +30,10 @@
     "position": "center"
   },
   "video": {
-    "file": "videos/2026-11-24-blackfriday.mp4",
-    "duration": 31,
-    "credit": "Fotos (Archiv): Donald Trung Quoc Don (CC BY-SA 4.0, Wikimedia Commons), Shixart1985 (CC BY 2.0, Wikimedia Commons), MarkMoz12 (CC BY 2.0, Flickr), Explicatory (CC0, Wikimedia Commons)",
-    "license": "CC BY-SA 4.0 / CC BY 2.0 / CC0",
+    "file": "out/beispiel-blackfriday-3d/video-reel.mp4",
+    "duration": 34.4,
+    "credit": "eigene 3D-Visualisierung; Foto: Donald Trung Quoc Don, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "eigene Erstellung",
     "headline": "Black Friday: Viele **Rabatte** sind kleiner, als sie aussehen 🏷️",
     "voice": [
       "Siebzig Prozent Rabatt am Black Friday? Oft steckt viel weniger dahinter.",
