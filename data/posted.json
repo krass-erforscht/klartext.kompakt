@@ -1545,5 +1545,18 @@
       "ig_reels_video_view_total_time": 36610
     },
     "statsAt": "2026-11-24T09:41:33.815Z"
+  },
+  {
+    "id": "2026-11-24-schaltsekunde",
+    "postedAt": "2026-11-24T10:02:24.576Z",
+    "topic": "welt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/wissen/forschung/schaltsekunde-abschaffung-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wissen/forschung/schaltsekunde-abschaffung-100.html",
+      "https://de.euronews.com/2026/10/16/weltweite-zeitregelung-2027-schaltsekunde"
+    ],
+    "mediaId": "17897086773435485",
+    "format": "video"
   }
 ]
