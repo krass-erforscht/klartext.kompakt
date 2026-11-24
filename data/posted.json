@@ -1520,5 +1520,19 @@
       "ig_reels_video_view_total_time": 0
     },
     "statsAt": "2026-11-23T15:22:35.751Z"
+  },
+  {
+    "id": "2026-11-24-blackfriday",
+    "postedAt": "2026-11-24T05:50:40.857Z",
+    "topic": "alltag",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.tagesschau.de/wirtschaft/verbraucher/blackweek-preisfallen-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wirtschaft/verbraucher/blackweek-preisfallen-100.html",
+      "https://www.zdfheute.de/ratgeber/black-friday-cyber-monday-schnaeppchen-anbieter-abzocke-100.html",
+      "https://www.mdr.de/ratgeber/finanzen/rabatte-aktionen,deals-100.html"
+    ],
+    "mediaId": "18121365631795722",
+    "format": "video"
   }
 ]

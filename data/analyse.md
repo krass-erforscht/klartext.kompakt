@@ -1,15 +1,15 @@
 # Algorithmus-Analyse (2026-11-24)
 
-44 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
-Gesamtreichweite: 5.028 Konten, Median pro Post: 111.
+45 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
+Gesamtreichweite: 5.162 Konten, Median pro Post: 112.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
-- Thema: „sport“ erreicht im Mittel 138 Konten, „alltag“ nur 29,5 (13 bzw. 4 Posts).
-- Uhrzeit: „6 Uhr“ erreicht im Mittel 233 Konten, „18 Uhr“ nur 52,5 (2 bzw. 8 Posts).
+- Thema: „sport“ erreicht im Mittel 137,5 Konten, „alltag“ nur 29,5 (14 bzw. 4 Posts).
+- Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).
 - Wochentag: „So“ erreicht im Mittel 145 Konten, „Mi“ nur 57 (8 bzw. 6 Posts).
-- Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (41 bzw. 3 Posts).
-- Zuschau-Anteil und Reichweite: Rangkorrelation 0,5 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter).
+- Frage oder Aussage: „Aussage“ erreicht im Mittel 115,5 Konten, „Frage“ nur 34 (42 bzw. 3 Posts).
+- Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter).
 
 ## Top 3
 
@@ -30,14 +30,14 @@ Gesamtreichweite: 5.028 Konten, Median pro Post: 111.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | zusammen | 3 | 144 | 14,8 | 1,9 | 5,3 |
+| video | 10 | 121,5 | 8,5 | 0,7 | 6 |
 | bilder | 32 | 111 | 27,2 | 1 | 3,3 |
-| video | 9 | 109 | 9,3 | 0,7 | 6,1 |
 
 ### Thema
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sport | 13 | 138 | 15,6 | 0,9 | 3,6 |
+| sport | 14 | 137,5 | 14,7 | 0,9 | 3,6 |
 | umwelt | 10 | 116,5 | 18,8 | 0 | 4,9 |
 | digital | 9 | 109 | 18,8 | 2,1 | 4,1 |
 | welt | 4 | 86 | 28,6 | 2,9 | 5,5 |
@@ -48,7 +48,7 @@ Gesamtreichweite: 5.028 Konten, Median pro Post: 111.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sachlich | 26 | 123 | 17,6 | 1,2 | 3,7 |
+| sachlich | 27 | 127 | 17 | 1,1 | 3,6 |
 | locker | 5 | 116 | 31 | 2,2 | 3,4 |
 | ueberraschend | 13 | 109 | 26,4 | 0 | 4 |
 
@@ -56,9 +56,9 @@ Gesamtreichweite: 5.028 Konten, Median pro Post: 111.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| 6 Uhr | 2 | 233 | 4,3 | 0 | 9,5 |
 | 7 Uhr | 17 | 137 | 18,2 | 0,9 | 3,6 |
 | 20 Uhr | 5 | 135 | 9,2 | 1,5 | 5,9 |
+| 6 Uhr | 3 | 134 | 3,3 | 0 | 7,2 |
 | 12 Uhr | 11 | 108 | 31,9 | 0 | 4 |
 | 16 Uhr | 1 | 107 | 9,3 | 0 | 5,5 |
 | 18 Uhr | 8 | 52,5 | 45,1 | 4,1 | 2,7 |
@@ -68,7 +68,7 @@ Gesamtreichweite: 5.028 Konten, Median pro Post: 111.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | So | 8 | 145 | 14,9 | 0,8 | 3,9 |
-| Mo | 6 | 136 | 16 | 2,1 | 4,4 |
+| Mo | 7 | 135 | 14 | 1,9 | 4 |
 | Do | 7 | 115 | 24,9 | 0 | 3,9 |
 | Fr | 6 | 113,5 | 21 | 0 | 3,3 |
 | Sa | 6 | 109,5 | 25,3 | 4,2 | 2,4 |
@@ -79,21 +79,21 @@ Gesamtreichweite: 5.028 Konten, Median pro Post: 111.
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| lang (>45 Zeichen) | 32 | 113,5 | 18,1 | 1,1 | 3,9 |
+| lang (>45 Zeichen) | 33 | 115 | 17,5 | 1 | 3,9 |
 | kurz (≤45 Zeichen) | 12 | 107,5 | 29,2 | 0,8 | 2,9 |
 
 ### Zahl in der Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| ohne Zahl | 22 | 115,5 | 19,7 | 1 | 3,5 |
+| ohne Zahl | 23 | 119 | 18,8 | 1 | 3,5 |
 | mit Zahl | 22 | 108 | 22,5 | 0,9 | 4,8 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 41 | 115 | 20,1 | 1 | 3,8 |
+| Aussage | 42 | 115,5 | 19,6 | 1 | 3,7 |
 | Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
@@ -102,20 +102,21 @@ Gesamtreichweite: 5.028 Konten, Median pro Post: 111.
 |---|---|---|---|---|---|
 | bis 15 s | 1 | 393 | 12,7 | 2,5 | 5,2 |
 | 16–25 s | 3 | 144 | 15,2 | 0 | 5,5 |
-| über 25 s | 8 | 108 | 8,2 | 0,9 | 6,1 |
+| über 25 s | 9 | 109 | 7,3 | 0,8 | 6 |
 
 ### Echtes Video oder Symbolvideo
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | echtes Video | 1 | 150 | 6,7 | 6,7 | 8,1 |
-| Symbolvideo | 11 | 109 | 11,1 | 0,6 | 5,9 |
+| Symbolvideo | 12 | 121,5 | 10,4 | 0,5 | 5,8 |
 
 ### Getestete Regel (Feld „test“ im Post)
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | teilen-anreiz | 5 | 135 | 6,2 | 1,5 | 6,1 |
+| kurz-video | 1 | 134 | 0 | 0 | 3 |
 | aussage-titel | 3 | 107 | 8,7 | 0 | 5,9 |
 
 ## Alle Posts
@@ -166,6 +167,7 @@ Gesamtreichweite: 5.028 Konten, Median pro Post: 111.
 | 2026-11-21 | KI soll 167 Jahre altes Mathe-Rätsel gelöst h | video | 109 | 116 | 1 | 0 | 0 | – | 6,1 s | 14 % |
 | 2026-11-22 | Zverev gegen Alcaraz: Heute Abend geht es um  | video | 364 | 420 | 2 | 0 | 0 | – | 11,9 s | 30 % |
 | 2026-11-22 | Nach 8 Jahren im All: Europas Sonde ist am Me | video | 150 | 169 | 1 | 1 | 0 | – | 8,1 s | 19 % |
+| 2026-11-23 | Bayern verliert die Spitze: Dortmund ist neue | video | 134 | 137 | 0 | 0 | 0 | – | 3 s | 9 % |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.

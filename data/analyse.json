@@ -1,13 +1,13 @@
 {
-  "datum": "2026-11-24T05:18:13.250Z",
+  "datum": "2026-11-24T05:50:44.873Z",
   "hinweise": [
-    "Thema: „sport“ erreicht im Mittel 138 Konten, „alltag“ nur 29,5 (13 bzw. 4 Posts).",
-    "Uhrzeit: „6 Uhr“ erreicht im Mittel 233 Konten, „18 Uhr“ nur 52,5 (2 bzw. 8 Posts).",
+    "Thema: „sport“ erreicht im Mittel 137,5 Konten, „alltag“ nur 29,5 (14 bzw. 4 Posts).",
+    "Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).",
     "Wochentag: „So“ erreicht im Mittel 145 Konten, „Mi“ nur 57 (8 bzw. 6 Posts).",
-    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (41 bzw. 3 Posts).",
-    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,5 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter)."
+    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115,5 Konten, „Frage“ nur 34 (42 bzw. 3 Posts).",
+    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter)."
   ],
-  "watchCorr": 0.5166666666666666,
+  "watchCorr": 0.4181818181818182,
   "vergleich": [
     {
       "merkmal": "format",
@@ -22,20 +22,20 @@
           "wiedergabe_s": 5.307
         },
         {
+          "wert": "video",
+          "posts": 10,
+          "reichweite": 121.5,
+          "likes_pro_1000": 8.45253576072822,
+          "teilen_speichern_pro_1000": 0.6501950585175553,
+          "wiedergabe_s": 5.9755
+        },
+        {
           "wert": "bilder",
           "posts": 32,
           "reichweite": 111,
           "likes_pro_1000": 27.237354085603112,
           "teilen_speichern_pro_1000": 0.9727626459143969,
           "wiedergabe_s": 3.2735000000000003
-        },
-        {
-          "wert": "video",
-          "posts": 9,
-          "reichweite": 109,
-          "likes_pro_1000": 9.25925925925926,
-          "teilen_speichern_pro_1000": 0.7122507122507122,
-          "wiedergabe_s": 6.089
         }
       ]
     },
@@ -45,11 +45,11 @@
       "gruppen": [
         {
           "wert": "sport",
-          "posts": 13,
-          "reichweite": 138,
-          "likes_pro_1000": 15.639374425023,
-          "teilen_speichern_pro_1000": 0.9199632014719411,
-          "wiedergabe_s": 3.639
+          "posts": 14,
+          "reichweite": 137.5,
+          "likes_pro_1000": 14.731369150779896,
+          "teilen_speichern_pro_1000": 0.8665511265164644,
+          "wiedergabe_s": 3.5975
         },
         {
           "wert": "umwelt",
@@ -99,11 +99,11 @@
       "gruppen": [
         {
           "wert": "sachlich",
-          "posts": 26,
-          "reichweite": 123,
-          "likes_pro_1000": 17.636684303350968,
-          "teilen_speichern_pro_1000": 1.1757789535567313,
-          "wiedergabe_s": 3.657
+          "posts": 27,
+          "reichweite": 127,
+          "likes_pro_1000": 16.968325791855204,
+          "teilen_speichern_pro_1000": 1.1312217194570138,
+          "wiedergabe_s": 3.6479999999999997
         },
         {
           "wert": "locker",
@@ -128,14 +128,6 @@
       "name": "Uhrzeit",
       "gruppen": [
         {
-          "wert": "6 Uhr",
-          "posts": 2,
-          "reichweite": 233,
-          "likes_pro_1000": 4.291845493562231,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 9.518
-        },
-        {
           "wert": "7 Uhr",
           "posts": 17,
           "reichweite": 137,
@@ -150,6 +142,14 @@
           "likes_pro_1000": 9.230769230769232,
           "teilen_speichern_pro_1000": 1.5384615384615385,
           "wiedergabe_s": 5.862
+        },
+        {
+          "wert": "6 Uhr",
+          "posts": 3,
+          "reichweite": 134,
+          "likes_pro_1000": 3.3333333333333335,
+          "teilen_speichern_pro_1000": 0,
+          "wiedergabe_s": 7.151
         },
         {
           "wert": "12 Uhr",
@@ -191,11 +191,11 @@
         },
         {
           "wert": "Mo",
-          "posts": 6,
-          "reichweite": 136,
-          "likes_pro_1000": 16.025641025641026,
-          "teilen_speichern_pro_1000": 2.136752136752137,
-          "wiedergabe_s": 4.449
+          "posts": 7,
+          "reichweite": 135,
+          "likes_pro_1000": 14.018691588785046,
+          "teilen_speichern_pro_1000": 1.8691588785046729,
+          "wiedergabe_s": 3.963
         },
         {
           "wert": "Do",
@@ -245,11 +245,11 @@
       "gruppen": [
         {
           "wert": "lang (>45 Zeichen)",
-          "posts": 32,
-          "reichweite": 113.5,
-          "likes_pro_1000": 18.085106382978722,
-          "teilen_speichern_pro_1000": 1.0638297872340425,
-          "wiedergabe_s": 3.94
+          "posts": 33,
+          "reichweite": 115,
+          "likes_pro_1000": 17.46276322547509,
+          "teilen_speichern_pro_1000": 1.0272213662044172,
+          "wiedergabe_s": 3.917
         },
         {
           "wert": "kurz (≤45 Zeichen)",
@@ -267,11 +267,11 @@
       "gruppen": [
         {
           "wert": "ohne Zahl",
-          "posts": 22,
-          "reichweite": 115.5,
-          "likes_pro_1000": 19.675526406627547,
-          "teilen_speichern_pro_1000": 1.0355540214014498,
-          "wiedergabe_s": 3.5244999999999997
+          "posts": 23,
+          "reichweite": 119,
+          "likes_pro_1000": 18.805674694820194,
+          "teilen_speichern_pro_1000": 0.9897723523589574,
+          "wiedergabe_s": 3.493
         },
         {
           "wert": "mit Zahl",
@@ -289,11 +289,11 @@
       "gruppen": [
         {
           "wert": "Aussage",
-          "posts": 41,
-          "reichweite": 115,
-          "likes_pro_1000": 20.089285714285715,
-          "teilen_speichern_pro_1000": 1.0146103896103895,
-          "wiedergabe_s": 3.787
+          "posts": 42,
+          "reichweite": 115.5,
+          "likes_pro_1000": 19.5574871592256,
+          "teilen_speichern_pro_1000": 0.9877518767285659,
+          "wiedergabe_s": 3.657
         },
         {
           "wert": "Frage",
@@ -327,11 +327,11 @@
         },
         {
           "wert": "über 25 s",
-          "posts": 8,
-          "reichweite": 108,
-          "likes_pro_1000": 8.249312557286892,
-          "teilen_speichern_pro_1000": 0.9165902841429882,
-          "wiedergabe_s": 6.089
+          "posts": 9,
+          "reichweite": 109,
+          "likes_pro_1000": 7.346938775510203,
+          "teilen_speichern_pro_1000": 0.8163265306122449,
+          "wiedergabe_s": 5.9755
         }
       ]
     },
@@ -349,11 +349,11 @@
         },
         {
           "wert": "Symbolvideo",
-          "posts": 11,
-          "reichweite": 109,
-          "likes_pro_1000": 11.148272017837236,
-          "teilen_speichern_pro_1000": 0.5574136008918618,
-          "wiedergabe_s": 5.8555
+          "posts": 12,
+          "reichweite": 121.5,
+          "likes_pro_1000": 10.37344398340249,
+          "teilen_speichern_pro_1000": 0.5186721991701245,
+          "wiedergabe_s": 5.849
         }
       ]
     },
@@ -368,6 +368,14 @@
           "likes_pro_1000": 6.191950464396285,
           "teilen_speichern_pro_1000": 1.5479876160990713,
           "wiedergabe_s": 6.089
+        },
+        {
+          "wert": "kurz-video",
+          "posts": 1,
+          "reichweite": 134,
+          "likes_pro_1000": 0,
+          "teilen_speichern_pro_1000": 0,
+          "wiedergabe_s": 2.955
         },
         {
           "wert": "aussage-titel",
@@ -1612,6 +1620,34 @@
       "wiedergabe_anteil": 0.19273809523809526,
       "likes_pro_1000": 6.666666666666667,
       "teilen_speichern_pro_1000": 6.666666666666667
+    },
+    {
+      "id": "2026-11-23-bvb",
+      "datum": "2026-11-23",
+      "titel": "Bayern verliert die Spitze: Dortmund ist neuer Tabellenführer ⚽",
+      "format": "video",
+      "thema": "sport",
+      "ton": "sachlich",
+      "uhrzeit": "6 Uhr",
+      "wochentag": "Mo",
+      "ueberschrift": "lang (>45 Zeichen)",
+      "zahl_im_titel": "ohne Zahl",
+      "frage_im_titel": "Aussage",
+      "videolaenge": "über 25 s",
+      "test": "kurz-video",
+      "symbolvideo": "Symbolvideo",
+      "reichweite": 134,
+      "aufrufe": 137,
+      "likes": 0,
+      "kommentare": 0,
+      "shares": 0,
+      "saves": 0,
+      "follows": null,
+      "profilbesuche": null,
+      "wiedergabe_s": 2.955,
+      "wiedergabe_anteil": 0.09234375,
+      "likes_pro_1000": 0,
+      "teilen_speichern_pro_1000": 0
     }
   ]
 }
