@@ -21,3 +21,4 @@ Hier hält die App fest, was sie selbst verbessert hat (Datum, ein Satz).
 - 2026-11-16 (abends): Neue Richtung wie bei krass.erforscht: Sprecherstimme (stimme/), mitlaufende Untertitel und Szenenschnitte (clips.js, bilder-video.js) im Video-Reel, Format immer Video, Vorbilder-Auswertung in strategie.md, Läufe zeitlich von krass.erforscht getrennt.
 - 2026-11-16 (abends): Videos werden zusätzlich unter docs/v/ über GitHub Pages ausgeliefert (richtiger Dateityp, sofort verfügbar), jsDelivr nur noch als Ersatz.
 - 2026-11-19: insights.js prüft vor dem Abrufen der Zahlen, dass der Token zu @tagesbild.kompakt gehört (wie publish.js und comments.js), weil beide Accounts dieselbe Cloud-Umgebung nutzen.
+- 2026-11-24: find-video.js überspringt nach einer Wikimedia-Drosselung (429) die übrigen Wikimedia-Downloads, damit NASA-Kandidaten noch vor dem 90-s-Zeitlimit geladen werden (Test „atomic clock“: vorher 0, jetzt 2 Kandidaten).

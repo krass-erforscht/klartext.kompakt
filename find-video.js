@@ -128,11 +128,16 @@ if (!process.argv.includes('--url')) setTimeout(() => {
   }
   // Weiterzählen statt überschreiben: Kandidaten früherer Suchbegriffe bleiben erhalten
   let n = Math.max(0, ...fs.readdirSync(DIR).map(f => (f.match(new RegExp(`^${id}-v(\\d+)\\.(mp4|webm|ogv|mov)$`)) || [])[1] || 0).map(Number));
+  // Drosselt Wikimedia (429), die übrigen Wikimedia-Downloads überspringen: sonst läuft das Zeitlimit ab,
+  // bevor NASA/ESA-Kandidaten (andere Server, nicht gedrosselt) an der Reihe sind
+  const wm = u => /(^|\.)wikimedia\.org$/.test(new URL(u).hostname);
+  let wmBlocked = false;
   for (const c of found) {
     if (result.length >= 5) break;
+    if (wmBlocked && wm(c.url)) { console.error(`übersprungen (Wikimedia gedrosselt): ${c.title || c.url}`); continue; }
     const ext = (c.url.match(/\.(mp4|webm|ogv|mov)(\?|$)/i) || [, 'mp4'])[1].toLowerCase();
     try { result.push(await fetchCandidate(c, path.join(DIR, `${id}-v${++n}.${ext}`))); }
-    catch (e) { console.error(`${c.url}: ${e.message}`); }
+    catch (e) { console.error(`${c.url}: ${e.message}`); if (/429/.test(e.message) && wm(c.url)) wmBlocked = true; }
   }
   console.log(JSON.stringify(result, null, 2));
 })().catch(e => { console.error(e.message); process.exit(1); });
