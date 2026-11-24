@@ -2,67 +2,67 @@
  {
   "text": "Ein ganzer Tag. So lange braucht jetzt ein Funkspruch zu dieser Sonde.",
   "start": 0.0,
-  "end": 4.76,
-  "score": 1.0
+  "end": 4.74,
+  "score": 0.85
  },
  {
   "text": "Voyager eins ist laut NASA einen Lichttag von der Erde entfernt.",
-  "start": 5.21,
-  "end": 10.13,
+  "start": 5.19,
+  "end": 9.85,
   "score": 1.0
  },
  {
   "text": "Rund fünfundzwanzig Komma neun Milliarden Kilometer.",
-  "start": 10.58,
-  "end": 14.26,
-  "score": 0.8
+  "start": 10.3,
+  "end": 14.22,
+  "score": 1.0
  },
  {
   "text": "So weit ist noch nie etwas gekommen, das Menschen gebaut haben.",
-  "start": 14.71,
-  "end": 19.09,
+  "start": 14.67,
+  "end": 18.95,
   "score": 0.86
  },
  {
-  "text": "Gestartet ist sie im September neunzehnhundertsiebenundsiebzig.",
-  "start": 19.54,
-  "end": 22.66,
-  "score": 0.91
+  "text": "Gestartet ist sie vor neunundvierzig Jahren.",
+  "start": 19.4,
+  "end": 22.64,
+  "score": 1.0
  },
  {
   "text": "Seit zweitausendzwölf fliegt sie durch den interstellaren Raum.",
-  "start": 23.11,
-  "end": 27.51,
+  "start": 23.09,
+  "end": 27.63,
   "score": 1.0
  },
  {
   "text": "Mit siebzehn Kilometern pro Sekunde.",
-  "start": 27.96,
-  "end": 30.52,
-  "score": 0.89
+  "start": 28.08,
+  "end": 30.94,
+  "score": 1.0
  },
  {
   "text": "Von elf Messgeräten an Bord laufen nur noch zwei.",
-  "start": 30.97,
-  "end": 34.59,
+  "start": 31.39,
+  "end": 34.95,
   "score": 1.0
  },
  {
   "text": "Wer ihr heute etwas funkt, wartet zwei Tage auf die Antwort.",
-  "start": 35.04,
-  "end": 39.78,
-  "score": 0.9
- },
- {
-  "text": "An Bord ist eine goldene Schallplatte, mit Grüßen in fünfundfünfzig Sprachen.",
-  "start": 40.23,
-  "end": 45.87,
+  "start": 35.4,
+  "end": 39.6,
   "score": 1.0
  },
  {
+  "text": "An Bord ist eine goldene Schallplatte, mit Grüßen in fünfundfünfzig Sprachen.",
+  "start": 40.05,
+  "end": 45.53,
+  "score": 0.89
+ },
+ {
   "text": "Ein ganzer Tag. So lange braucht jetzt ein Funkspruch zu dieser Sonde.",
-  "start": 46.32,
-  "end": 51.2,
-  "score": 0.9
+  "start": 45.98,
+  "end": 50.74,
+  "score": 1.0
  }
 ]
