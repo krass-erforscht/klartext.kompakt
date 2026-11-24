@@ -1,5 +1,5 @@
 {
-  "datum": "2026-11-24T05:50:44.873Z",
+  "datum": "2026-11-24T09:41:34.073Z",
   "hinweise": [
     "Thema: „sport“ erreicht im Mittel 137,5 Konten, „alltag“ nur 29,5 (14 bzw. 4 Posts).",
     "Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).",
@@ -24,9 +24,9 @@
         {
           "wert": "video",
           "posts": 10,
-          "reichweite": 121.5,
-          "likes_pro_1000": 8.45253576072822,
-          "teilen_speichern_pro_1000": 0.6501950585175553,
+          "reichweite": 122,
+          "likes_pro_1000": 8.447043534762832,
+          "teilen_speichern_pro_1000": 0.649772579597141,
           "wiedergabe_s": 5.9755
         },
         {
@@ -47,8 +47,8 @@
           "wert": "sport",
           "posts": 14,
           "reichweite": 137.5,
-          "likes_pro_1000": 14.731369150779896,
-          "teilen_speichern_pro_1000": 0.8665511265164644,
+          "likes_pro_1000": 14.72498917280208,
+          "teilen_speichern_pro_1000": 0.8661758336942399,
           "wiedergabe_s": 3.5975
         },
         {
@@ -101,8 +101,8 @@
           "wert": "sachlich",
           "posts": 27,
           "reichweite": 127,
-          "likes_pro_1000": 16.968325791855204,
-          "teilen_speichern_pro_1000": 1.1312217194570138,
+          "likes_pro_1000": 16.963528413910094,
+          "teilen_speichern_pro_1000": 1.1309018942606728,
           "wiedergabe_s": 3.6479999999999997
         },
         {
@@ -146,8 +146,8 @@
         {
           "wert": "6 Uhr",
           "posts": 3,
-          "reichweite": 134,
-          "likes_pro_1000": 3.3333333333333335,
+          "reichweite": 135,
+          "likes_pro_1000": 3.327787021630616,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 7.151
         },
@@ -193,8 +193,8 @@
           "wert": "Mo",
           "posts": 7,
           "reichweite": 135,
-          "likes_pro_1000": 14.018691588785046,
-          "teilen_speichern_pro_1000": 1.8691588785046729,
+          "likes_pro_1000": 14.005602240896359,
+          "teilen_speichern_pro_1000": 1.8674136321195145,
           "wiedergabe_s": 3.963
         },
         {
@@ -247,8 +247,8 @@
           "wert": "lang (>45 Zeichen)",
           "posts": 33,
           "reichweite": 115,
-          "likes_pro_1000": 17.46276322547509,
-          "teilen_speichern_pro_1000": 1.0272213662044172,
+          "likes_pro_1000": 17.458279845956355,
+          "teilen_speichern_pro_1000": 1.0269576379974326,
           "wiedergabe_s": 3.917
         },
         {
@@ -269,8 +269,8 @@
           "wert": "ohne Zahl",
           "posts": 23,
           "reichweite": 119,
-          "likes_pro_1000": 18.805674694820194,
-          "teilen_speichern_pro_1000": 0.9897723523589574,
+          "likes_pro_1000": 18.799472295514512,
+          "teilen_speichern_pro_1000": 0.9894459102902375,
           "wiedergabe_s": 3.493
         },
         {
@@ -291,8 +291,8 @@
           "wert": "Aussage",
           "posts": 42,
           "reichweite": 115.5,
-          "likes_pro_1000": 19.5574871592256,
-          "teilen_speichern_pro_1000": 0.9877518767285659,
+          "likes_pro_1000": 19.55362433339917,
+          "teilen_speichern_pro_1000": 0.9875567845151096,
           "wiedergabe_s": 3.657
         },
         {
@@ -329,8 +329,8 @@
           "wert": "über 25 s",
           "posts": 9,
           "reichweite": 109,
-          "likes_pro_1000": 7.346938775510203,
-          "teilen_speichern_pro_1000": 0.8163265306122449,
+          "likes_pro_1000": 7.34094616639478,
+          "teilen_speichern_pro_1000": 0.8156606851549756,
           "wiedergabe_s": 5.9755
         }
       ]
@@ -350,9 +350,9 @@
         {
           "wert": "Symbolvideo",
           "posts": 12,
-          "reichweite": 121.5,
-          "likes_pro_1000": 10.37344398340249,
-          "teilen_speichern_pro_1000": 0.5186721991701245,
+          "reichweite": 122,
+          "likes_pro_1000": 10.368066355624675,
+          "teilen_speichern_pro_1000": 0.5184033177812338,
           "wiedergabe_s": 5.849
         }
       ]
@@ -372,10 +372,10 @@
         {
           "wert": "kurz-video",
           "posts": 1,
-          "reichweite": 134,
+          "reichweite": 135,
           "likes_pro_1000": 0,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 2.955
+          "wiedergabe_s": 2.972
         },
         {
           "wert": "aussage-titel",
@@ -1636,16 +1636,16 @@
       "videolaenge": "über 25 s",
       "test": "kurz-video",
       "symbolvideo": "Symbolvideo",
-      "reichweite": 134,
-      "aufrufe": 137,
+      "reichweite": 135,
+      "aufrufe": 138,
       "likes": 0,
       "kommentare": 0,
       "shares": 0,
       "saves": 0,
       "follows": null,
       "profilbesuche": null,
-      "wiedergabe_s": 2.955,
-      "wiedergabe_anteil": 0.09234375,
+      "wiedergabe_s": 2.972,
+      "wiedergabe_anteil": 0.092875,
       "likes_pro_1000": 0,
       "teilen_speichern_pro_1000": 0
     }

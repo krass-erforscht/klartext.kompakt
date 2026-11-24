@@ -1441,7 +1441,7 @@
       "ig_reels_avg_watch_time": 11885,
       "ig_reels_video_view_total_time": 4326161
     },
-    "statsAt": "2026-11-23T09:41:40.546Z"
+    "statsAt": "2026-11-24T09:41:33.327Z"
   },
   {
     "id": "2026-11-22-merkur",
@@ -1484,16 +1484,16 @@
     "mediaId": "18094548239228427",
     "format": "video",
     "stats": {
-      "reach": 134,
+      "reach": 135,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 137,
-      "ig_reels_avg_watch_time": 2955,
-      "ig_reels_video_view_total_time": 393062
+      "views": 138,
+      "ig_reels_avg_watch_time": 2972,
+      "ig_reels_video_view_total_time": 401245
     },
-    "statsAt": "2026-11-23T09:41:40.813Z"
+    "statsAt": "2026-11-24T09:41:33.615Z"
   },
   {
     "id": "2026-11-23-klimagipfel",
@@ -1533,6 +1533,17 @@
       "https://www.mdr.de/ratgeber/finanzen/rabatte-aktionen,deals-100.html"
     ],
     "mediaId": "18121365631795722",
-    "format": "video"
+    "format": "video",
+    "stats": {
+      "reach": 4,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 7,
+      "ig_reels_avg_watch_time": 7322,
+      "ig_reels_video_view_total_time": 36610
+    },
+    "statsAt": "2026-11-24T09:41:33.815Z"
   }
 ]

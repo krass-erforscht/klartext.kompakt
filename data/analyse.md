@@ -1,7 +1,7 @@
 # Algorithmus-Analyse (2026-11-24)
 
 45 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
-Gesamtreichweite: 5.162 Konten, Median pro Post: 112.
+Gesamtreichweite: 5.163 Konten, Median pro Post: 112.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
@@ -30,7 +30,7 @@ Gesamtreichweite: 5.162 Konten, Median pro Post: 112.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | zusammen | 3 | 144 | 14,8 | 1,9 | 5,3 |
-| video | 10 | 121,5 | 8,5 | 0,7 | 6 |
+| video | 10 | 122 | 8,4 | 0,6 | 6 |
 | bilder | 32 | 111 | 27,2 | 1 | 3,3 |
 
 ### Thema
@@ -58,7 +58,7 @@ Gesamtreichweite: 5.162 Konten, Median pro Post: 112.
 |---|---|---|---|---|---|
 | 7 Uhr | 17 | 137 | 18,2 | 0,9 | 3,6 |
 | 20 Uhr | 5 | 135 | 9,2 | 1,5 | 5,9 |
-| 6 Uhr | 3 | 134 | 3,3 | 0 | 7,2 |
+| 6 Uhr | 3 | 135 | 3,3 | 0 | 7,2 |
 | 12 Uhr | 11 | 108 | 31,9 | 0 | 4 |
 | 16 Uhr | 1 | 107 | 9,3 | 0 | 5,5 |
 | 18 Uhr | 8 | 52,5 | 45,1 | 4,1 | 2,7 |
@@ -109,14 +109,14 @@ Gesamtreichweite: 5.162 Konten, Median pro Post: 112.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | echtes Video | 1 | 150 | 6,7 | 6,7 | 8,1 |
-| Symbolvideo | 12 | 121,5 | 10,4 | 0,5 | 5,8 |
+| Symbolvideo | 12 | 122 | 10,4 | 0,5 | 5,8 |
 
 ### Getestete Regel (Feld „test“ im Post)
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | teilen-anreiz | 5 | 135 | 6,2 | 1,5 | 6,1 |
-| kurz-video | 1 | 134 | 0 | 0 | 3 |
+| kurz-video | 1 | 135 | 0 | 0 | 3 |
 | aussage-titel | 3 | 107 | 8,7 | 0 | 5,9 |
 
 ## Alle Posts
@@ -167,7 +167,7 @@ Gesamtreichweite: 5.162 Konten, Median pro Post: 112.
 | 2026-11-21 | KI soll 167 Jahre altes Mathe-Rätsel gelöst h | video | 109 | 116 | 1 | 0 | 0 | – | 6,1 s | 14 % |
 | 2026-11-22 | Zverev gegen Alcaraz: Heute Abend geht es um  | video | 364 | 420 | 2 | 0 | 0 | – | 11,9 s | 30 % |
 | 2026-11-22 | Nach 8 Jahren im All: Europas Sonde ist am Me | video | 150 | 169 | 1 | 1 | 0 | – | 8,1 s | 19 % |
-| 2026-11-23 | Bayern verliert die Spitze: Dortmund ist neue | video | 134 | 137 | 0 | 0 | 0 | – | 3 s | 9 % |
+| 2026-11-23 | Bayern verliert die Spitze: Dortmund ist neue | video | 135 | 138 | 0 | 0 | 0 | – | 3 s | 9 % |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.

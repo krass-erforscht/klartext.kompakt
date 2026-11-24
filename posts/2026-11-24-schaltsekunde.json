@@ -1,0 +1,123 @@
+{
+  "id": "2026-11-24-schaltsekunde",
+  "date": "2026-11-23T10:28:00Z",
+  "category": "Welt & Wissen",
+  "topic": "welt",
+  "tone": "sachlich",
+  "format": "video",
+  "test": "teilen-anreiz",
+  "sources": [
+    { "name": "tagesschau", "url": "https://www.tagesschau.de/wissen/forschung/schaltsekunde-abschaffung-100.html" },
+    { "name": "Euronews", "url": "https://de.euronews.com/2026/10/16/weltweite-zeitregelung-2027-schaltsekunde" }
+  ],
+  "image": {
+    "file": "images/2026-11-24-schaltsekunde.jpg",
+    "credit": "NASA/GSFC (DSCOVR EPIC), Public Domain",
+    "short": "Erde aus 1,5 Mio. km, NASA/GSFC, Public Domain",
+    "license": "Public Domain (NASA)",
+    "page": "https://images.nasa.gov/details/GSFC_20170515_Sunglints_m12600",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "file": "videos/2026-11-24-schaltsekunde.mp4",
+    "start": 0,
+    "duration": 38,
+    "credit": "NASA/GSFC (DSCOVR EPIC), NASA/JPL-Caltech (Deep Space Atomic Clock), beide Public Domain; ESO/P. Horálek (ALMA-Zeitraffer), CC BY 4.0",
+    "short": "NASA/GSFC · NASA/JPL-Caltech (Public Domain) · ESO (CC BY 4.0)",
+    "license": "Public Domain (NASA) / CC BY 4.0",
+    "page": "https://images.nasa.gov/details/JPL-20190618-TECHf-0001-Deep_Space_Atomic_Clock_Videofile",
+    "symbolisch": true,
+    "headline": "Die **Schaltsekunde** wird abgeschafft – das ändert sich ⏱️",
+    "voice": [
+      "Eine Minute mit einundsechzig Sekunden? Die gibt es bald nicht mehr.",
+      "Die Erde dreht sich nicht ganz gleichmäßig, Atomuhren dagegen schon.",
+      "Darum bekam die Weltzeit bisher siebenundzwanzig Mal eine zusätzliche Sekunde.",
+      "Jetzt hat die Generalkonferenz für Maß und Gewicht entschieden: Ab zweitausendsiebenundzwanzig ist damit Schluss.",
+      "Was heißt das für dich?",
+      "Im Alltag merkst du nichts. Aber Computer und Netzwerke kommen mit der Extra-Sekunde oft durcheinander.",
+      "Erst wenn die Abweichung eine ganze Stunde erreicht, wird wieder angepasst. Das dürfte etwa im Jahr dreitausend sein.",
+      "Schick das jemandem, der immer auf die Sekunde pünktlich sein will."
+    ],
+    "voiceText": [
+      "Eine Minute mit 61 Sekunden? Die gibt es bald nicht mehr.",
+      "Die Erde dreht sich nicht ganz gleichmäßig, Atomuhren dagegen schon.",
+      "Darum bekam die Weltzeit bisher 27 Mal eine zusätzliche Sekunde.",
+      "Jetzt hat die Generalkonferenz für Maß und Gewicht entschieden: Ab 2027 ist damit Schluss.",
+      "Was heißt das für dich?",
+      "Im Alltag merkst du nichts. Aber Computer und Netzwerke kommen mit der Extra-Sekunde oft durcheinander.",
+      "Erst wenn die Abweichung eine ganze Stunde erreicht, wird wieder angepasst. Das dürfte etwa im Jahr 3000 sein.",
+      "Schick das jemandem, der immer auf die Sekunde pünktlich sein will."
+    ],
+    "voiceSpeed": 1.2
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Welt & Wissen",
+      "title": "Die **Schaltsekunde** wird abgeschafft"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Schluss mit der **Extra-Sekunde**",
+      "text": [
+        "Die Generalkonferenz für Maß und Gewicht hat in Versailles beschlossen: Die Weltzeit bekommt **keine Schaltsekunden** mehr. Laut Euronews gilt das ab dem 20. Mai 2027."
+      ],
+      "image": {
+        "file": "images/2026-11-24-schaltsekunde-2.jpg",
+        "credit": "NASA/JPL-Caltech, Public Domain",
+        "short": "Atomuhr-Labor, NASA/JPL-Caltech, Public Domain",
+        "license": "Public Domain (NASA)",
+        "page": "https://images.nasa.gov/details/JPL-20190618-TECHf-0001-Deep_Space_Atomic_Clock_Videofile",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "27",
+      "title": "Schaltsekunden gab es seit 1972",
+      "text": [
+        "Die Erde dreht sich nicht ganz gleichmäßig, Atomuhren schon. Darum gab es nach Bedarf eine Minute mit **61 Sekunden**, zuletzt zum Jahreswechsel 2016/17."
+      ],
+      "image": {
+        "file": "images/2026-11-24-schaltsekunde-3.jpg",
+        "credit": "ESO/P. Horálek, CC BY 4.0",
+        "short": "Sternenhimmel über ALMA, ESO/P. Horálek, CC BY 4.0",
+        "license": "CC BY 4.0",
+        "page": "https://www.eso.org/public/videos/timelapse_horalek_alma4/",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Für dich",
+      "title": "Im Alltag merkst du **nichts**",
+      "text": [
+        "Die Extra-Sekunde brachte aber oft **Computer, Datenbanken und Netzwerke** durcheinander. Bald könnte sogar eine Sekunde fehlen müssen – darauf sind Systeme noch schlechter vorbereitet."
+      ],
+      "image": {
+        "file": "images/2026-11-24-schaltsekunde-4.jpg",
+        "credit": "NASA/JPL-Caltech, Public Domain",
+        "short": "Computer-Arbeitsplätze, NASA/JPL-Caltech, Public Domain",
+        "license": "Public Domain (NASA)",
+        "page": "https://images.nasa.gov/details/JPL-20190618-TECHf-0001-Deep_Space_Atomic_Clock_Videofile",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Wie geht es weiter?",
+      "title": "Angepasst wird erst nach **einer Stunde**",
+      "text": [
+        "Weltzeit und Sonnenzeit dürfen künftig bis zu einer Stunde auseinanderliegen. Wie dann angepasst wird, ist offen. Nötig wird das laut tagesschau erst **etwa im Jahr 3000**."
+      ]
+    },
+    {
+      "type": "cta",
+      "label": "Weitersagen",
+      "title": "Schick das jemandem, der immer auf die Sekunde pünktlich ist – und folge für Nachrichten in 30 Sekunden"
+    }
+  ],
+  "caption": "Die Schaltsekunde wird abgeschafft: Die Weltzeit bekommt künftig keine Extra-Sekunde mehr. Die Generalkonferenz für Maß und Gewicht hat entschieden, dass Atomzeit und Sonnenzeit bis zu einer Stunde auseinanderliegen dürfen. Seit 1972 gab es 27 Schaltsekunden, die nächste Anpassung wird erst etwa im Jahr 3000 nötig.\n\nHättest du gedacht, dass eine Minute auch mal 61 Sekunden haben kann? ⏱️ Schick das jemandem, der immer auf die Sekunde pünktlich ist.\n\nQuellen: tagesschau, Euronews (Beschluss der Generalkonferenz für Maß und Gewicht) · Text und Stimme mit KI erstellt\nVideo und Bilder (Symbolbilder): NASA/GSFC (DSCOVR EPIC) und NASA/JPL-Caltech, Public Domain; ESO/P. Horálek, CC BY 4.0, via eso.org\n#nachrichten #schaltsekunde #weltzeit #atomuhr #wissen"
+}

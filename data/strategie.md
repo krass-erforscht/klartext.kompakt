@@ -43,6 +43,7 @@ Aus der YouTube-Auswertung von krass.erforscht (240 meistgesehene deutsche Wisse
 - Verglichen wird die Reichweite im Verhältnis zum Median des Formats. Stand 2026-11-16: morgens 1,2×, mittags 0,89×, abends 0,48×, spät noch ungetestet.
 
 ## Verlauf
+- 2026-11-24 (mittags): Keine Regeländerung (Black-Week-Post noch keine 24 h alt). Schaltsekunde abgeschafft (Welt, laut schwerpunkt.js zum Weiterlernen dran; tagesschau + Euronews) mit `teilen-anreiz` im Test, ~36 s statt kurz (Morgen-Post hatte `kurz-video`).
 - 2026-11-24 (morgens): Keine Regeländerung (Klimagipfel noch keine 24 h alt, BVB-Zahlen noch nicht aktualisiert). Black-Week-Post (Alltag, laut schwerpunkt.js zum Weiterlernen dran; Fake-Rabatte, Stiftung-Warentest-Zahlen, 5 Redaktionen) mit `kurz-video` im Test (~30 s, ohne Teil-Aufforderung; letzter Post hatte `teilen-anreiz`).
 - 2026-11-23 (mittags, Vorbereitung für abends): Keine Regeländerung (BVB-Post noch keine 24 h alt). Klimagipfel-Post (Umwelt, laut schwerpunkt.js dran; COP31 endet ohne Einigung, über 7 Redaktionen) mit `teilen-anreiz` im Test, ~35 s statt kurz (Morgen-Post hatte `kurz-video`).
 - 2026-11-23 (morgens): `aussage-titel` **bestätigt** (Aussagen 112 vs. Fragen 34 Konten, 39 vs. 3 Posts). Neu im Test: `kurz-video` (16–25 s: 144 vs. über 25 s: 106,5). BVB-Tabellenführung (Sport, stärkster Schwerpunkt) als ~28-s-Video mit `kurz-video`, ohne Teil-Aufforderung (Vergleich für `teilen-anreiz`).
