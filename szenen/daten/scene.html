@@ -7,7 +7,7 @@
   html,body{margin:0;width:720px;height:1280px;overflow:hidden;background:#000;font-family:"DejaVu Sans",Arial,sans-serif}
   canvas{position:absolute;inset:0}
   .ov{position:absolute;left:44px;right:44px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.75)}
-  #big{top:150px;font-size:86px;font-weight:800;letter-spacing:-.02em;line-height:1;opacity:0}
+  #big{top:150px;font-size:86px;font-weight:800;letter-spacing:-.02em;line-height:1;opacity:0;white-space:nowrap}
   #sub{top:246px;font-size:28px;color:rgba(255,255,255,.88);opacity:0;line-height:1.25}
   #cap{bottom:330px;text-align:center}
   #cap span{display:inline-block;background:var(--cap);padding:8px 18px;font-size:30px;font-weight:700;border-radius:4px;text-shadow:none;max-width:600px}
@@ -137,7 +137,8 @@ const BUILD = {
   },
   // Balken (oder Münzstapel) zum Vergleich. { werte: [{ name, wert, text }], hervor: 1, stil: "muenzen" }
   balken(p) {
-    const g = new THREE.Group(), ws = p.werte, n = ws.length, max = Math.max(...ws.map(w => w.wert)), gap = 1.7, Hmax = 5.5;
+    const g = new THREE.Group(), ws = p.werte, n = ws.length, max = Math.max(...ws.map(w => w.wert)), Hmax = 5.5;
+    const gap = Math.max(1.7, Math.max(...ws.map(w => (w.name || '').length)) * 0.2 + 0.5);
     const hi = p.hervor ?? ws.findIndex(w => w.wert === max);
     const bars = ws.map((w, i) => {
       const x = (i - (n - 1) / 2) * gap, h = Math.max(0.05, w.wert / max * Hmax), col = i === hi ? C.accent : '#9fb3cf';
@@ -298,8 +299,8 @@ const BUILD = {
     g.add(block); g.position.y = 3;
     return { group: g, floor: true, update(k, tt) {
       const kk = ease(k * 1.6);
-      block.rotation.set(-0.15 + (1 - kk) * -1.2, (1 - kk) * 0.9 + Math.sin(tt * 0.7) * 0.05, 0);
-      block.position.y = (1 - kk) * 3;
+      block.rotation.set(-0.15 + (1 - kk) * -0.45, (1 - kk) * 0.7 + Math.sin(tt * 0.7) * 0.05, 0);
+      block.position.y = (1 - kk) * 1.2; block.scale.setScalar(0.6 + 0.4 * kk);
       const dd = fit(4.4, 4.6); camera.position.set(Math.sin(k * 0.5 - 0.25) * 4, 3.6, dd * (1.06 - 0.06 * k)); camera.lookAt(0, 3, 0);
     } };
   },
@@ -335,7 +336,13 @@ window.frame = (t) => {
   tag.textContent = s.typ === 'foto' ? (s.symbolbild ? 'Symbolbild' : 'Foto') : (cfg.tag || 'Visualisierung');
   const o = cfg.overlays.find(x => t >= x.start && t < x.end);
   const fade = o ? Math.min(1, (t - o.start) / 0.3, (o.end - t) / 0.3) : 0;
-  big.textContent = o ? o.big : ''; sub.textContent = o ? o.sub || '' : '';
+  if (big.textContent !== (o ? o.big : '')) {
+    // große Zahl immer einzeilig: Schrift verkleinern, bis sie passt; Unterzeile direkt darunter
+    big.textContent = o ? o.big : ''; let fs = 86; big.style.fontSize = fs + 'px';
+    while (big.scrollWidth > W - 88 && fs > 40) big.style.fontSize = (fs -= 4) + 'px';
+    sub.style.top = (150 + fs * 1.12) + 'px';
+  }
+  sub.textContent = o ? o.sub || '' : '';
   big.style.opacity = sub.style.opacity = fade;
   const c = cfg.captions.find(x => t >= x.start && t < x.end);
   capt.textContent = c ? c.text : ''; capt.style.visibility = c ? 'visible' : 'hidden';
