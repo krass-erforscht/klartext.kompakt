@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "2026-11-23T15:22:35.859Z",
+  "aktualisiert": "2026-11-24T05:18:29.447Z",
   "ranking": [
     {
       "gruppe": "thema:digital",
@@ -25,8 +25,8 @@
     {
       "gruppe": "ton:locker",
       "posts": 3,
-      "punkte": 2.82,
-      "reichweite": 133,
+      "punkte": 3.01,
+      "reichweite": 134,
       "follower": 0
     },
     {
@@ -51,17 +51,17 @@
       "follower": 0
     },
     {
+      "gruppe": "thema:welt",
+      "posts": 2,
+      "punkte": 2.69,
+      "reichweite": 147,
+      "follower": 0
+    },
+    {
       "gruppe": "uhrzeit:7",
       "posts": 16,
       "punkte": 2.48,
       "reichweite": 144,
-      "follower": 0
-    },
-    {
-      "gruppe": "thema:welt",
-      "posts": 2,
-      "punkte": 2.41,
-      "reichweite": 145,
       "follower": 0
     },
     {
@@ -95,15 +95,15 @@
     {
       "gruppe": "uhrzeit:20",
       "posts": 5,
-      "punkte": 1.53,
-      "reichweite": 129,
+      "punkte": 1.64,
+      "reichweite": 130,
       "follower": 0
     },
     {
       "gruppe": "format:video",
       "posts": 10,
-      "punkte": 1.12,
-      "reichweite": 153,
+      "punkte": 1.18,
+      "reichweite": 154,
       "follower": 0
     },
     {

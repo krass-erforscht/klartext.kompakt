@@ -1,14 +1,13 @@
 {
-  "datum": "2026-11-23T15:22:35.932Z",
+  "datum": "2026-11-24T05:18:13.250Z",
   "hinweise": [
-    "Thema: „sport“ erreicht im Mittel 138 Konten, „welt“ nur 28 (13 bzw. 3 Posts).",
-    "Ton: „sachlich“ erreicht im Mittel 123 Konten, „locker“ nur 70,5 (26 bzw. 4 Posts).",
+    "Thema: „sport“ erreicht im Mittel 138 Konten, „alltag“ nur 29,5 (13 bzw. 4 Posts).",
     "Uhrzeit: „6 Uhr“ erreicht im Mittel 233 Konten, „18 Uhr“ nur 52,5 (2 bzw. 8 Posts).",
-    "Wochentag: „So“ erreicht im Mittel 144 Konten, „Mi“ nur 57 (7 bzw. 6 Posts).",
-    "Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (40 bzw. 3 Posts).",
-    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter)."
+    "Wochentag: „So“ erreicht im Mittel 145 Konten, „Mi“ nur 57 (8 bzw. 6 Posts).",
+    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (41 bzw. 3 Posts).",
+    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,5 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter)."
   ],
-  "watchCorr": 0.4285714285714286,
+  "watchCorr": 0.5166666666666666,
   "vergleich": [
     {
       "merkmal": "format",
@@ -26,17 +25,17 @@
           "wert": "bilder",
           "posts": 32,
           "reichweite": 111,
-          "likes_pro_1000": 27.56160830090791,
+          "likes_pro_1000": 27.237354085603112,
           "teilen_speichern_pro_1000": 0.9727626459143969,
           "wiedergabe_s": 3.2735000000000003
         },
         {
           "wert": "video",
-          "posts": 8,
+          "posts": 9,
           "reichweite": 109,
-          "likes_pro_1000": 9.569377990430622,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.8555
+          "likes_pro_1000": 9.25925925925926,
+          "teilen_speichern_pro_1000": 0.7122507122507122,
+          "wiedergabe_s": 6.089
         }
       ]
     },
@@ -69,12 +68,20 @@
           "wiedergabe_s": 4.061
         },
         {
+          "wert": "welt",
+          "posts": 4,
+          "reichweite": 86,
+          "likes_pro_1000": 28.57142857142857,
+          "teilen_speichern_pro_1000": 2.857142857142857,
+          "wiedergabe_s": 5.5455000000000005
+        },
+        {
           "wert": "geld",
           "posts": 4,
           "reichweite": 61.5,
-          "likes_pro_1000": 46.33204633204633,
+          "likes_pro_1000": 42.471042471042466,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 2.811
+          "wiedergabe_s": 2.8085
         },
         {
           "wert": "alltag",
@@ -83,14 +90,6 @@
           "likes_pro_1000": 65.08875739644971,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 2.507
-        },
-        {
-          "wert": "welt",
-          "posts": 3,
-          "reichweite": 28,
-          "likes_pro_1000": 45,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.458
         }
       ]
     },
@@ -102,9 +101,17 @@
           "wert": "sachlich",
           "posts": 26,
           "reichweite": 123,
-          "likes_pro_1000": 17.930629041740154,
+          "likes_pro_1000": 17.636684303350968,
           "teilen_speichern_pro_1000": 1.1757789535567313,
-          "wiedergabe_s": 3.676
+          "wiedergabe_s": 3.657
+        },
+        {
+          "wert": "locker",
+          "posts": 5,
+          "reichweite": 116,
+          "likes_pro_1000": 31.042128603104214,
+          "teilen_speichern_pro_1000": 2.2172949002217295,
+          "wiedergabe_s": 3.383
         },
         {
           "wert": "ueberraschend",
@@ -113,14 +120,6 @@
           "likes_pro_1000": 26.382978723404253,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 3.963
-        },
-        {
-          "wert": "locker",
-          "posts": 4,
-          "reichweite": 70.5,
-          "likes_pro_1000": 43.18936877076412,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 2.902
         }
       ]
     },
@@ -146,11 +145,11 @@
         },
         {
           "wert": "20 Uhr",
-          "posts": 4,
-          "reichweite": 122,
-          "likes_pro_1000": 10,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.785
+          "posts": 5,
+          "reichweite": 135,
+          "likes_pro_1000": 9.230769230769232,
+          "teilen_speichern_pro_1000": 1.5384615384615385,
+          "wiedergabe_s": 5.862
         },
         {
           "wert": "12 Uhr",
@@ -172,7 +171,7 @@
           "wert": "18 Uhr",
           "posts": 8,
           "reichweite": 52.5,
-          "likes_pro_1000": 47.131147540983605,
+          "likes_pro_1000": 45.08196721311476,
           "teilen_speichern_pro_1000": 4.0983606557377055,
           "wiedergabe_s": 2.6545
         }
@@ -184,11 +183,11 @@
       "gruppen": [
         {
           "wert": "So",
-          "posts": 7,
-          "reichweite": 144,
-          "likes_pro_1000": 16.052880075542966,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 3.676
+          "posts": 8,
+          "reichweite": 145,
+          "likes_pro_1000": 14.88833746898263,
+          "teilen_speichern_pro_1000": 0.8271298593879239,
+          "wiedergabe_s": 3.882
         },
         {
           "wert": "Mo",
@@ -196,7 +195,7 @@
           "reichweite": 136,
           "likes_pro_1000": 16.025641025641026,
           "teilen_speichern_pro_1000": 2.136752136752137,
-          "wiedergabe_s": 4.4635
+          "wiedergabe_s": 4.449
         },
         {
           "wert": "Do",
@@ -234,7 +233,7 @@
           "wert": "Mi",
           "posts": 6,
           "reichweite": 57,
-          "likes_pro_1000": 48.46938775510204,
+          "likes_pro_1000": 45.91836734693878,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 2.808
         }
@@ -246,17 +245,17 @@
       "gruppen": [
         {
           "wert": "lang (>45 Zeichen)",
-          "posts": 31,
-          "reichweite": 112,
-          "likes_pro_1000": 18.5595567867036,
-          "teilen_speichern_pro_1000": 0.8310249307479224,
-          "wiedergabe_s": 3.917
+          "posts": 32,
+          "reichweite": 113.5,
+          "likes_pro_1000": 18.085106382978722,
+          "teilen_speichern_pro_1000": 1.0638297872340425,
+          "wiedergabe_s": 3.94
         },
         {
           "wert": "kurz (≤45 Zeichen)",
           "posts": 12,
           "reichweite": 107.5,
-          "likes_pro_1000": 29.96845425867508,
+          "likes_pro_1000": 29.17981072555205,
           "teilen_speichern_pro_1000": 0.7886435331230284,
           "wiedergabe_s": 2.854
         }
@@ -270,17 +269,17 @@
           "wert": "ohne Zahl",
           "posts": 22,
           "reichweite": 115.5,
-          "likes_pro_1000": 20.02071108042803,
+          "likes_pro_1000": 19.675526406627547,
           "teilen_speichern_pro_1000": 1.0355540214014498,
           "wiedergabe_s": 3.5244999999999997
         },
         {
           "wert": "mit Zahl",
-          "posts": 21,
-          "reichweite": 107,
-          "likes_pro_1000": 23.725391216557295,
-          "teilen_speichern_pro_1000": 0.5047955577990914,
-          "wiedergabe_s": 4.4515
+          "posts": 22,
+          "reichweite": 108,
+          "likes_pro_1000": 22.524636320976068,
+          "teilen_speichern_pro_1000": 0.9385265133740027,
+          "wiedergabe_s": 4.796
         }
       ]
     },
@@ -290,11 +289,11 @@
       "gruppen": [
         {
           "wert": "Aussage",
-          "posts": 40,
-          "reichweite": 113.5,
-          "likes_pro_1000": 20.719966513185433,
-          "teilen_speichern_pro_1000": 0.8371703641691084,
-          "wiedergabe_s": 3.676
+          "posts": 41,
+          "reichweite": 115,
+          "likes_pro_1000": 20.089285714285715,
+          "teilen_speichern_pro_1000": 1.0146103896103895,
+          "wiedergabe_s": 3.787
         },
         {
           "wert": "Frage",
@@ -328,10 +327,32 @@
         },
         {
           "wert": "über 25 s",
-          "posts": 7,
-          "reichweite": 107,
-          "likes_pro_1000": 8.501594048884165,
-          "teilen_speichern_pro_1000": 0,
+          "posts": 8,
+          "reichweite": 108,
+          "likes_pro_1000": 8.249312557286892,
+          "teilen_speichern_pro_1000": 0.9165902841429882,
+          "wiedergabe_s": 6.089
+        }
+      ]
+    },
+    {
+      "merkmal": "symbolvideo",
+      "name": "Echtes Video oder Symbolvideo",
+      "gruppen": [
+        {
+          "wert": "echtes Video",
+          "posts": 1,
+          "reichweite": 150,
+          "likes_pro_1000": 6.666666666666667,
+          "teilen_speichern_pro_1000": 6.666666666666667,
+          "wiedergabe_s": 8.095
+        },
+        {
+          "wert": "Symbolvideo",
+          "posts": 11,
+          "reichweite": 109,
+          "likes_pro_1000": 11.148272017837236,
+          "teilen_speichern_pro_1000": 0.5574136008918618,
           "wiedergabe_s": 5.8555
         }
       ]
@@ -342,11 +363,11 @@
       "gruppen": [
         {
           "wert": "teilen-anreiz",
-          "posts": 4,
-          "reichweite": 122,
-          "likes_pro_1000": 6.048387096774193,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.785
+          "posts": 5,
+          "reichweite": 135,
+          "likes_pro_1000": 6.191950464396285,
+          "teilen_speichern_pro_1000": 1.5479876160990713,
+          "wiedergabe_s": 6.089
         },
         {
           "wert": "aussage-titel",
@@ -377,7 +398,7 @@
       "symbolvideo": null,
       "reichweite": 21,
       "aufrufe": 16,
-      "likes": 8,
+      "likes": 7,
       "kommentare": 5,
       "shares": 0,
       "saves": 0,
@@ -385,7 +406,7 @@
       "profilbesuche": 0,
       "wiedergabe_s": 2.854,
       "wiedergabe_anteil": null,
-      "likes_pro_1000": 380.9523809523809,
+      "likes_pro_1000": 333.3333333333333,
       "teilen_speichern_pro_1000": 0
     },
     {
@@ -1279,7 +1300,7 @@
       "saves": 0,
       "follows": 0,
       "profilbesuche": 0,
-      "wiedergabe_s": 2.768,
+      "wiedergabe_s": 2.763,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 7.8125,
       "teilen_speichern_pro_1000": 0
@@ -1307,7 +1328,7 @@
       "saves": 0,
       "follows": 0,
       "profilbesuche": 1,
-      "wiedergabe_s": 3.676,
+      "wiedergabe_s": 3.657,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 14.492753623188406,
       "teilen_speichern_pro_1000": 0
@@ -1391,7 +1412,7 @@
       "saves": 0,
       "follows": 0,
       "profilbesuche": 0,
-      "wiedergabe_s": 4.964,
+      "wiedergabe_s": 4.935,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 7.407407407407407,
       "teilen_speichern_pro_1000": 0
@@ -1531,8 +1552,8 @@
       "saves": 0,
       "follows": null,
       "profilbesuche": null,
-      "wiedergabe_s": 5.721,
-      "wiedergabe_anteil": 0.12713333333333335,
+      "wiedergabe_s": 6.089,
+      "wiedergabe_anteil": 0.13531111111111113,
       "likes_pro_1000": 9.174311926605505,
       "teilen_speichern_pro_1000": 0
     },
@@ -1563,6 +1584,34 @@
       "wiedergabe_anteil": 0.297125,
       "likes_pro_1000": 5.4945054945054945,
       "teilen_speichern_pro_1000": 0
+    },
+    {
+      "id": "2026-11-22-merkur",
+      "datum": "2026-11-22",
+      "titel": "Nach 8 Jahren im All: Europas Sonde ist am Merkur angekommen 🚀",
+      "format": "video",
+      "thema": "welt",
+      "ton": "locker",
+      "uhrzeit": "20 Uhr",
+      "wochentag": "So",
+      "ueberschrift": "lang (>45 Zeichen)",
+      "zahl_im_titel": "mit Zahl",
+      "frage_im_titel": "Aussage",
+      "videolaenge": "über 25 s",
+      "test": "teilen-anreiz",
+      "symbolvideo": "echtes Video",
+      "reichweite": 150,
+      "aufrufe": 169,
+      "likes": 1,
+      "kommentare": 0,
+      "shares": 1,
+      "saves": 0,
+      "follows": null,
+      "profilbesuche": null,
+      "wiedergabe_s": 8.095,
+      "wiedergabe_anteil": 0.19273809523809526,
+      "likes_pro_1000": 6.666666666666667,
+      "teilen_speichern_pro_1000": 6.666666666666667
     }
   ]
 }

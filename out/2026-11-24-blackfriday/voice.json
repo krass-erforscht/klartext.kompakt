@@ -1,0 +1,44 @@
+[
+ {
+  "text": "Siebzig Prozent Rabatt am Black Friday? Oft steckt viel weniger dahinter.",
+  "start": 0.0,
+  "end": 4.8,
+  "score": 0.9
+ },
+ {
+  "text": "Die Stiftung Warentest hat letztes Jahr fünfzehn Produktgruppen geprüft.",
+  "start": 5.25,
+  "end": 10.09,
+  "score": 0.88
+ },
+ {
+  "text": "Nur bei drei davon gab es überhaupt Produkte, die mindestens zwanzig Prozent billiger waren.",
+  "start": 10.54,
+  "end": 16.44,
+  "score": 0.88
+ },
+ {
+  "text": "Was heißt das für dich?",
+  "start": 16.89,
+  "end": 18.49,
+  "score": 1.0
+ },
+ {
+  "text": "Viele Händler rechnen den Rabatt vom Listenpreis des Herstellers aus, den im Laden kaum jemand zahlt.",
+  "start": 18.94,
+  "end": 26.04,
+  "score": 1.0
+ },
+ {
+  "text": "Achte lieber auf den niedrigsten Preis der letzten dreißig Tage. Den muss ein Händler bei Preissenkungen nennen.",
+  "start": 26.49,
+  "end": 33.59,
+  "score": 0.87
+ },
+ {
+  "text": "Und du: am Freitag zuschlagen oder lieber abwarten?",
+  "start": 34.04,
+  "end": 37.84,
+  "score": 1.0
+ }
+]

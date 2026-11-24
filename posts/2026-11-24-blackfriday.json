@@ -1,0 +1,131 @@
+{
+  "id": "2026-11-24-blackfriday",
+  "date": "2026-11-23T09:33:00Z",
+  "category": "Alltag",
+  "topic": "alltag",
+  "tone": "ueberraschend",
+  "format": "video",
+  "test": "kurz-video",
+  "sources": [
+    {
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/wirtschaft/verbraucher/blackweek-preisfallen-100.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/ratgeber/black-friday-cyber-monday-schnaeppchen-anbieter-abzocke-100.html"
+    },
+    {
+      "name": "MDR",
+      "url": "https://www.mdr.de/ratgeber/finanzen/rabatte-aktionen,deals-100.html"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-24-blackfriday.jpg",
+    "credit": "Donald Trung Quoc Don, CC BY-SA 4.0, via Wikimedia Commons",
+    "short": "Black-Friday-Plakat (Archiv 2019), Donald Trung Quoc Don, CC BY-SA 4.0, via Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sale_Black_Friday_at_the_Posttil_poster,_Winschoten_(2019)_04.jpg",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "file": "videos/2026-11-24-blackfriday.mp4",
+    "start": 0,
+    "duration": 31,
+    "credit": "Fotos (Archiv): Donald Trung Quoc Don (CC BY-SA 4.0, Wikimedia Commons), Shixart1985 (CC BY 2.0, Wikimedia Commons), MarkMoz12 (CC BY 2.0, Flickr), Explicatory (CC0, Wikimedia Commons)",
+    "short": "Archivfotos: Donald Trung Quoc Don · Shixart1985 · MarkMoz12 · Explicatory, CC BY-SA/CC BY/CC0, Wikimedia Commons/Flickr",
+    "license": "CC BY-SA 4.0 / CC BY 2.0 / CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Sale_Black_Friday_at_the_Posttil_poster,_Winschoten_(2019)_04.jpg",
+    "symbolisch": true,
+    "headline": "Black Friday: Viele **Rabatte** sind kleiner, als sie aussehen 🏷️",
+    "voice": [
+      "Siebzig Prozent Rabatt am Black Friday? Oft steckt viel weniger dahinter.",
+      "Die Stiftung Warentest hat letztes Jahr fünfzehn Produktgruppen geprüft.",
+      "Nur bei drei davon gab es überhaupt Produkte, die mindestens zwanzig Prozent billiger waren.",
+      "Was heißt das für dich?",
+      "Viele Händler rechnen den Rabatt vom Listenpreis des Herstellers aus, den im Laden kaum jemand zahlt.",
+      "Achte lieber auf den niedrigsten Preis der letzten dreißig Tage. Den muss ein Händler bei Preissenkungen nennen.",
+      "Und du: am Freitag zuschlagen oder lieber abwarten?"
+    ],
+    "voiceText": [
+      "70 % Rabatt am Black Friday? Oft steckt viel weniger dahinter.",
+      "Die Stiftung Warentest hat letztes Jahr 15 Produktgruppen geprüft.",
+      "Nur bei 3 davon gab es überhaupt Produkte, die mindestens 20 % billiger waren.",
+      "Was heißt das für dich?",
+      "Viele Händler rechnen den Rabatt vom Listenpreis des Herstellers aus, den im Laden kaum jemand zahlt.",
+      "Achte lieber auf den niedrigsten Preis der letzten 30 Tage. Den muss ein Händler bei Preissenkungen nennen.",
+      "Und du: am Freitag zuschlagen oder lieber abwarten?"
+    ],
+    "voiceSpeed": 1.2
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "label": "Alltag",
+      "title": "Black Friday: Viele **Rabatte** sind kleiner, als sie aussehen"
+    },
+    {
+      "label": "Was ist passiert?",
+      "title": "Die **Black Week** hat begonnen",
+      "text": [
+        "Händler werben mit 50, 60 oder 70 Prozent Rabatt. Höhepunkt ist der **Black Friday am 27. November**, am 30. folgt der Cyber Monday. Der Handelsverband rechnet mit einem Rekordumsatz von 6,2 Milliarden Euro."
+      ],
+      "image": {
+        "file": "images/2026-11-24-blackfriday-2.jpg",
+        "credit": "Donald Trung Quoc Don, CC BY-SA 4.0, via Wikimedia Commons",
+        "short": "Rotterdam (Archiv 2020), Donald Trung Quoc Don, CC BY-SA 4.0, via Wikimedia Commons",
+        "license": "CC BY-SA 4.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Black_Friday_Sale_sign,_Rotterdam-Centrum,_Rotterdam_(2020)_02.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Die Zahl",
+      "big": "3",
+      "title": "von 15 Produktgruppen hatten echte Rabatte",
+      "text": [
+        "Die Stiftung Warentest prüfte zum Black Friday 2025 die Preise von 15 Produktgruppen. Nur bei **Kopfhörern, Smartwatches und Tablets** war mal etwas mindestens 20 % billiger als in den Monaten davor und danach."
+      ]
+    },
+    {
+      "label": "Für dich",
+      "title": "Der Trick mit dem **Listenpreis**",
+      "text": [
+        "Oft wird der Rabatt von der unverbindlichen Preisempfehlung (UVP) des Herstellers berechnet. Die liegt oft **über dem echten Marktpreis**. Manche heben laut Verbraucherschützern die Preise vorher sogar an."
+      ],
+      "image": {
+        "file": "images/2026-11-24-blackfriday-3.jpg",
+        "credit": "Shixart1985, CC BY 2.0, via Wikimedia Commons",
+        "short": "Shixart1985, CC BY 2.0, via Wikimedia Commons",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Mini_shopping_cart_placed_on_a_table_next_to_a_laptop_in_a_modern_office_setting.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "label": "Merk dir das",
+      "title": "So erkennst du ein **echtes Angebot**",
+      "text": [
+        "Wer mit einer Preissenkung wirbt, muss seinen **niedrigsten Preis der letzten 30 Tage** nennen. Preise mehrere Wochen vergleichen. Bei unbekannten Shops lieber auf Rechnung zahlen, rät die Verbraucherzentrale NRW."
+      ],
+      "image": {
+        "file": "images/2026-11-24-blackfriday-4.jpg",
+        "credit": "Explicatory, CC0, via Wikimedia Commons",
+        "short": "Explicatory, CC0, via Wikimedia Commons",
+        "license": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:GLS_Parcel_locker_(Automated_parcel_machine),_Hungary.jpg",
+        "symbolbild": true,
+        "position": "center"
+      }
+    },
+    {
+      "type": "cta",
+      "label": "Deine Wahl",
+      "title": "Am Freitag zuschlagen oder lieber abwarten? Schreib's in die Kommentare und folge für Nachrichten in 30 Sekunden"
+    }
+  ],
+  "caption": "Black Friday: Viele Rabatte sind kleiner, als sie aussehen. Die Stiftung Warentest fand zum Black Friday 2025 nur bei 3 von 15 Produktgruppen überhaupt Angebote, die mindestens 20 % billiger waren als in den Monaten davor und danach. Oft wird der Rabatt von der UVP berechnet, die über dem echten Marktpreis liegt. Wer mit einer Preissenkung wirbt, muss den niedrigsten Preis der letzten 30 Tage nennen.\n\nUnd du: Am Freitag zuschlagen oder lieber abwarten? 🛒\n\nQuellen: tagesschau, ZDFheute, MDR (mit Zahlen der Stiftung Warentest und des Handelsverbands HDE) · Text und Stimme mit KI erstellt\nFotos (Symbolbilder, Archiv): Donald Trung Quoc Don, CC BY-SA 4.0, via Wikimedia Commons; Shixart1985, CC BY 2.0, via Wikimedia Commons; MarkMoz12, CC BY 2.0, via Flickr; Explicatory, CC0, via Wikimedia Commons\n#nachrichten #blackfriday #blackweek #verbraucher #schnäppchen"
+}
