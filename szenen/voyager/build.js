@@ -25,7 +25,7 @@ const SHOW = [ // Untertitel mit Ziffern
   'Voyager 1 ist laut NASA einen Lichttag von der Erde entfernt.',
   'Rund 25,9 Milliarden Kilometer.',
   'So weit ist noch nie etwas gekommen, das Menschen gebaut haben.',
-  'Gestartet ist sie im September 1977.',
+  'Gestartet ist sie im Jahr 1977.',
   'Seit 2012 fliegt sie durch den interstellaren Raum.',
   'Mit 17 Kilometern pro Sekunde.',
   'Von 11 Messgeräten an Bord laufen nur noch 2.',
