@@ -5,6 +5,12 @@ Status: **bestätigt** (immer anwenden) · **im Test** (abwechselnd anwenden und
 Höchstens 6 Regeln. Eine Regel gilt erst als bestätigt, wenn sie in mindestens 3 Posts mit und 3 ohne getestet wurde und klar besser ist.
 Keine Regel gilt gegen Sorgfalt, Sicherheitsregeln oder Ehrlichkeit (keine reißerischen oder irreführenden Überschriften).
 
+## Ziel bis 08.12.2026 und Themenwahl (Hinweis aus der gemeinsamen Auswertung mit krass.erforscht, 24.11.)
+- Stand 24.11.: Median 112 erreichte Konten pro Post, 5 Follower. Ziel bis 08.12.: **Median ≥ 400 Konten oder +20 Follower**, sonst grundsätzlicher Kurswechsel (mit dem Nutzer).
+- Bester Post bisher: Sport/Person mit Wendung (zverev, 364 Konten). Reine Wirtschafts- und Zahlenmeldungen (Paketpreise, Stromsteuer, Black Friday) liegen um 100.
+- Darum ab 25.11.: 3D-Erklärvideos gezielt für Themen **mit Menschen und Alltagsbezug** („Was heißt das für dich?“, Sport, Personen, Wendung + Bezug zum eigenen Leben + Schlussfrage).
+  Reine Zahlenmeldungen nur, wenn ein klarer persönlicher Nutzen erzählbar ist.
+
 ## Was Instagram laut Fachseiten 2026 belohnt (Montags-Recherche)
 - Teilen per Direktnachricht, Speichern und Wiedergabezeit zählen mehr als Likes.
 - Bei Reels entscheidet der Anfang: Wer in den ersten Sekunden wegwischt, senkt die Verbreitung.
