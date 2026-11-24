@@ -18,6 +18,8 @@ const MOODS = {
   nuetzlich: { ccmixter: ['chill', 'lounge', 'downtempo'], incompetech: /relaxed|calming|bright|uplifting/i, archive: 'chill' },
 };
 const VOCALS = /vocal|singing|singer|rap|spoken|lyrics|acapella/i;
+// Keine Kirchen- und Weihnachtslieder (Sicherheitsregel Religion; passt auch nicht zu Nachrichten)
+const RELIGIOES = /bethlehem|christmas|xmas|\bnoel\b|\bcarol|hymn|church|\bholy\b|silent night|jesus|\bgods?\b|\bangels?\b|gospel|kirche|weihnacht|\badvent\b|ave maria|hallelujah|amazing grace/i;
 
 const lib = fs.existsSync(LIB) ? JSON.parse(fs.readFileSync(LIB)) : [];
 const save = () => fs.writeFileSync(LIB, JSON.stringify(lib, null, 2));
@@ -95,13 +97,13 @@ async function pick(mood, minSec) {
   // Der Ton des Posts (sachlich, ueberraschend, locker) bestimmt die Stimmung der Musik
   mood = TOENE[mood] || mood;
   if (!MOODS[mood]) mood = 'nuetzlich';
-  const usable = lib.filter(t => t.mood === mood && t.seconds >= minSec && fs.existsSync(t.file));
+  const usable = lib.filter(t => t.mood === mood && t.seconds >= minSec && fs.existsSync(t.file) && !RELIGIOES.test(t.title || ''));
   if (usable.length < MIN_PER_MOOD) {
     // Das Internet Archive nur, wenn sonst gar nichts da ist: dort ist nicht sicher erkennbar, ob ein Stück Gesang enthält
     for (const src of usable.length ? [incompetech, ccmixter] : [incompetech, ccmixter, archive]) {
       try {
         const known = new Set(lib.map(t => t.url));
-        const fresh = (await src(mood)).filter(t => !known.has(t.url)).sort(() => Math.random() - 0.5);
+        const fresh = (await src(mood)).filter(t => !known.has(t.url) && !RELIGIOES.test(t.title || '')).sort(() => Math.random() - 0.5);
         for (const t of fresh.slice(0, 3)) {
           try {
             const file = await download(t.url, `${t.source}-${t.artist}-${t.title}`);

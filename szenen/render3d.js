@@ -16,8 +16,15 @@ const { launch } = require('../browser');
   // Dateien über eine Schein-Adresse ausliefern, damit ES-Module funktionieren
   await page.route('http://szene.local/**', route => {
     const name = new URL(route.request().url()).pathname.slice(1);
-    const file = name === 'three.module.min.js' ? path.join(__dirname, '..', 'node_modules', 'three', 'build', 'three.module.min.js') : path.join(dir, name);
-    route.fulfill({ path: file, contentType: file.endsWith('.js') ? 'text/javascript' : file.endsWith('.html') ? 'text/html' : undefined });
+    const three = path.join(__dirname, '..', 'node_modules', 'three');
+    // three.js, Zusatzmodule (three/addons/…), Schriften, Dateien aus dem Repo (repo/images/…) und aus dem Szenen-Ordner
+    const file = name === 'three.module.min.js' ? path.join(three, 'build', 'three.module.min.js')
+      : name.startsWith('addons/') ? path.join(three, 'examples', 'jsm', name.slice(7))
+      : name.startsWith('fonts/') ? path.join(three, 'examples', 'fonts', name.slice(6))
+      : name.startsWith('repo/') ? path.join(__dirname, '..', decodeURIComponent(name.slice(5)))
+      : path.join(dir, decodeURIComponent(name));
+    if (!fs.existsSync(file)) return route.fulfill({ status: 404, body: 'fehlt' });
+    route.fulfill({ path: file, contentType: file.endsWith('.js') ? 'text/javascript' : file.endsWith('.html') ? 'text/html' : file.endsWith('.json') ? 'application/json' : undefined });
   });
   page.on('pageerror', e => console.error('Szene:', e.message));
   await page.goto('http://szene.local/scene.html');

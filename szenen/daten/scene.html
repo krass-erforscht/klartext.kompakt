@@ -1,0 +1,345 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Allgemeine 3D-Datenszene für Nachrichten-Videos (tagesbild.kompakt).
+     Jede Einstellung ("typ") ist ein eigener kleiner 3D-Aufbau mit Kamerafahrt; Daten kommen aus config.json (szene.js).
+     Typen: zahl, balken, anteil, menge, trend, zeitstrahl, erde, foto, datum – Parameter siehe szene.js. -->
+<style>
+  html,body{margin:0;width:720px;height:1280px;overflow:hidden;background:#000;font-family:"DejaVu Sans",Arial,sans-serif}
+  canvas{position:absolute;inset:0}
+  .ov{position:absolute;left:44px;right:44px;color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.75)}
+  #big{top:150px;font-size:86px;font-weight:800;letter-spacing:-.02em;line-height:1;opacity:0}
+  #sub{top:246px;font-size:28px;color:rgba(255,255,255,.88);opacity:0;line-height:1.25}
+  #cap{bottom:330px;text-align:center}
+  #cap span{display:inline-block;background:var(--cap);padding:8px 18px;font-size:30px;font-weight:700;border-radius:4px;text-shadow:none;max-width:600px}
+  #src{bottom:262px;font-size:17px;color:rgba(255,255,255,.72);line-height:1.3}
+  #tag{top:60px;font-size:18px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.75)}
+  #handle{top:60px;text-align:right;font-size:18px;color:rgba(255,255,255,.75)}
+  #flash{position:absolute;inset:0;background:#000;opacity:0}
+</style>
+<script type="importmap">{"imports":{"three":"http://szene.local/three.module.min.js","three/addons/":"http://szene.local/addons/"}}</script>
+</head><body>
+<div id="flash"></div>
+<div id="tag" class="ov">Visualisierung</div>
+<div id="handle" class="ov"></div>
+<div id="big" class="ov"></div>
+<div id="sub" class="ov"></div>
+<div id="cap" class="ov"><span id="capt"></span></div>
+<div id="src" class="ov"></div>
+<script type="module">
+import * as THREE from 'three';
+import { FontLoader } from 'three/addons/loaders/FontLoader.js';
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
+
+const W = 720, H = 1280;
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setSize(W, H); renderer.setPixelRatio(1);
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+document.body.prepend(renderer.domElement);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(40, W / H, 0.05, 5000);
+scene.add(camera);
+// Bild etwas nach oben verschieben: unten stehen Untertitel und Quellen, oben die große Zahl
+camera.setViewOffset(W, H, 0, 60, W, H);
+const HFOV = 2 * Math.atan(Math.tan(THREE.MathUtils.degToRad(20)) * W / H);
+const fitDist = (width, margin = 1.25) => width / 2 / Math.tan(HFOV / 2) * margin;
+// Abstand, damit ein Aufbau mit Breite w und Höhe h in den freien Bildbereich passt (oben große Zahl, unten Untertitel)
+const fit = (w, h, share = 0.4) => Math.max(fitDist(w), h / (share * 2 * Math.tan(THREE.MathUtils.degToRad(20))));
+
+let seed = 11; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+const ease = x => x < 0 ? 0 : x > 1 ? 1 : x * x * (3 - 2 * x);
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+const lerpV = (a, b, k) => new THREE.Vector3().lerpVectors(a, b, k);
+
+const font = await new Promise((ok, err) => new FontLoader().load('http://szene.local/fonts/helvetiker_bold.typeface.json', ok, undefined, err));
+const loadTex = url => new Promise(ok => new THREE.TextureLoader().load(url, t => { t.colorSpace = THREE.SRGBColorSpace; ok(t); }, undefined, () => ok(null)));
+
+let C = { accent: '#e8412c', mark: '#ffd23f', dark: '#0f1b2d' };
+
+// Hintergrund: dunkler Verlauf, leichter Nebel, schwebende Staubteilchen, Boden-Raster
+function gradientTex(top, bottom) {
+  const c = document.createElement('canvas'); c.width = 4; c.height = 512; const g = c.getContext('2d');
+  const gr = g.createLinearGradient(0, 0, 0, 512); gr.addColorStop(0, top); gr.addColorStop(1, bottom); g.fillStyle = gr; g.fillRect(0, 0, 4, 512);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; return t;
+}
+scene.add(new THREE.HemisphereLight(0xbfd4ff, 0x101820, 1.1));
+const key = new THREE.DirectionalLight(0xffffff, 2.4); key.position.set(6, 12, 9); scene.add(key);
+const rim = new THREE.PointLight(0xe8412c, 40, 60, 1.6); rim.position.set(-8, 5, -6); scene.add(rim);
+camera.add(new THREE.PointLight(0xdfe8ff, 0.8, 0, 0));
+
+function glowTex(inner, outer) {
+  const c = document.createElement('canvas'); c.width = c.height = 128;
+  const g = c.getContext('2d'), gr = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+  gr.addColorStop(0, inner); gr.addColorStop(0.3, outer); gr.addColorStop(1, 'rgba(0,0,0,0)');
+  g.fillStyle = gr; g.fillRect(0, 0, 128, 128); return new THREE.CanvasTexture(c);
+}
+const dustGeo = new THREE.BufferGeometry(), DN = 900, dp = new Float32Array(DN * 3);
+for (let i = 0; i < DN; i++) dp.set([(rnd() - .5) * 60, rnd() * 30 - 4, (rnd() - .5) * 60], i * 3);
+dustGeo.setAttribute('position', new THREE.BufferAttribute(dp, 3));
+const dust = new THREE.Points(dustGeo, new THREE.PointsMaterial({ size: 0.09, map: glowTex('rgba(255,255,255,1)', 'rgba(200,220,255,.3)'), transparent: true, opacity: 0.55, depthWrite: false, blending: THREE.AdditiveBlending }));
+scene.add(dust);
+const grid = new THREE.GridHelper(80, 80, 0x3a5a8a, 0x1d2f4d); grid.material.transparent = true; grid.material.opacity = 0.45; scene.add(grid);
+// Sterne nur für die Erde
+const starGeo = new THREE.BufferGeometry(), SN = 5000, sp = new Float32Array(SN * 3);
+for (let i = 0; i < SN; i++) { const r = 800 + rnd() * 1500, th = rnd() * Math.PI * 2, ph = Math.acos(2 * rnd() - 1); sp.set([r * Math.sin(ph) * Math.cos(th), r * Math.cos(ph), r * Math.sin(ph) * Math.sin(th)], i * 3); }
+starGeo.setAttribute('position', new THREE.BufferAttribute(sp, 3));
+const stars = new THREE.Points(starGeo, new THREE.PointsMaterial({ size: 1.8, sizeAttenuation: false, color: 0xdde6ff }));
+scene.add(stars);
+
+// Beschriftung als Sprite (Canvas, kann Umlaute und €)
+function label(text, { size = 64, color = '#fff', bg = null, bold = true, height = 0.6 } = {}) {
+  const c = document.createElement('canvas'), g = c.getContext('2d');
+  g.font = `${bold ? 'bold ' : ''}${size}px "DejaVu Sans", Arial`;
+  const lines = String(text).split('\n'), wpx = Math.max(...lines.map(l => g.measureText(l).width));
+  const pad = bg ? size * 0.4 : size * 0.15;
+  c.width = Math.ceil(wpx + pad * 2); c.height = Math.ceil(lines.length * size * 1.2 + pad * 2);
+  g.font = `${bold ? 'bold ' : ''}${size}px "DejaVu Sans", Arial`;
+  if (bg) { g.fillStyle = bg; g.beginPath(); g.roundRect(0, 0, c.width, c.height, size * 0.2); g.fill(); }
+  g.fillStyle = color; g.textAlign = 'center'; g.textBaseline = 'middle';
+  if (!bg) { g.shadowColor = 'rgba(0,0,0,.8)'; g.shadowBlur = size * 0.25; }
+  lines.forEach((l, i) => g.fillText(l, c.width / 2, pad + size * 0.6 + i * size * 1.2));
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4;
+  const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: t, transparent: true, depthWrite: false, depthTest: false }));
+  const hh = height * lines.length * 1.2 + (bg ? height * 0.8 : 0);
+  s.scale.set(hh * c.width / c.height, hh, 1); s.renderOrder = 10; return s;
+}
+const FONT_OK = s => [...s].every(ch => ch === ' ' || font.data.glyphs[ch]);
+function text3d(str, size, mat) {
+  const g = new TextGeometry(str, { font, size, depth: size * 0.32, curveSegments: 6, bevelEnabled: true, bevelThickness: size * 0.04, bevelSize: size * 0.03, bevelSegments: 3 });
+  g.computeBoundingBox(); const b = g.boundingBox; g.translate(-(b.max.x + b.min.x) / 2, -(b.max.y + b.min.y) / 2, -(b.max.z + b.min.z) / 2);
+  return new THREE.Mesh(g, mat);
+}
+const parseNum = s => { const m = String(s).match(/^([\d.]*\d)(,(\d+))?$/); if (!m) return null; return { v: parseFloat(m[1].replace(/\./g, '') + (m[3] ? '.' + m[3] : '')), d: m[3] ? m[3].length : 0 }; };
+const fmt = (v, d) => v.toLocaleString('de-DE', { minimumFractionDigits: d, maximumFractionDigits: d });
+const metal = (color, emissive = 0) => new THREE.MeshStandardMaterial({ color, metalness: 0.55, roughness: 0.3, emissive, emissiveIntensity: 0.25 });
+
+// ---------- Einstellungen ----------
+const BUILD = {
+  // Große 3D-Zahl, zählt hoch. { wert: "25,9", einheit: "Milliarden km" }
+  zahl(p) {
+    const g = new THREE.Group(), mat = metal(C.mark, C.mark);
+    const num = parseNum(p.wert), size = 1.6;
+    let mesh = null, last = null;
+    const setText = s => { if (s === last) return; last = s; if (mesh) { g.remove(mesh); mesh.geometry.dispose(); } mesh = FONT_OK(s) ? text3d(s, size, mat) : label(s, { size: 120, color: C.mark, height: size }); g.add(mesh); };
+    setText(String(p.wert));
+    const width = Math.max(4, String(p.wert).length * size * 0.85);
+    let unit = null; if (p.einheit) { unit = label(p.einheit, { size: 56, height: 0.55 }); unit.position.y = -size * 1.05; g.add(unit); }
+    const ring = new THREE.Mesh(new THREE.TorusGeometry(width * 0.62, 0.03, 8, 120), new THREE.MeshBasicMaterial({ color: C.accent }));
+    ring.position.z = -1.2; g.add(ring);
+    g.position.y = 3;
+    const d = fit(width + 1.5, size * 2.6);
+    return { group: g, floor: true, update(k, t) {
+      if (num && k < 0.75) setText(fmt(num.v * ease(k / 0.7), num.d)); else setText(String(p.wert));
+      mesh.rotation.y = (1 - ease(k * 1.6)) * -0.9 + Math.sin(t * 0.8) * 0.06;
+      ring.rotation.z = t * 0.3; ring.scale.setScalar(0.8 + 0.2 * ease(k * 2));
+      camera.position.set(Math.sin(k * 0.6 - 0.3) * d * 0.4, 3.6 + k * 0.4, d * (1.12 - 0.12 * k)); camera.lookAt(0, 2.8, 0);
+    } };
+  },
+  // Balken (oder Münzstapel) zum Vergleich. { werte: [{ name, wert, text }], hervor: 1, stil: "muenzen" }
+  balken(p) {
+    const g = new THREE.Group(), ws = p.werte, n = ws.length, max = Math.max(...ws.map(w => w.wert)), gap = 1.7, Hmax = 5.5;
+    const hi = p.hervor ?? ws.findIndex(w => w.wert === max);
+    const bars = ws.map((w, i) => {
+      const x = (i - (n - 1) / 2) * gap, h = Math.max(0.05, w.wert / max * Hmax), col = i === hi ? C.accent : '#9fb3cf';
+      let obj;
+      if (p.stil === 'muenzen') {
+        obj = new THREE.Group(); const coins = Math.max(1, Math.round(h / 0.16)), cm = metal(i === hi ? C.mark : '#c9a54a');
+        for (let c = 0; c < coins; c++) { const m = new THREE.Mesh(new THREE.CylinderGeometry(0.55, 0.55, 0.14, 32), cm); m.position.set((rnd() - .5) * 0.06, 0.08 + c * 0.16, (rnd() - .5) * 0.06); obj.add(m); }
+      } else {
+        obj = new THREE.Mesh(new THREE.BoxGeometry(1.1, 1, 1.1), metal(col, col)); obj.geometry.translate(0, 0.5, 0);
+      }
+      obj.position.x = x; g.add(obj);
+      const top = label(w.text ?? String(w.wert), { size: 64, color: i === hi ? C.mark : '#fff', height: 0.5 }); g.add(top);
+      const name = label(w.name || '', { size: 48, color: '#dfe6f0', height: 0.36 }); name.position.set(x, -0.3, 0.9); g.add(name);
+      return { obj, top, h, x, coins: p.stil === 'muenzen' };
+    });
+    const d = fit(n * gap + 1.2, Hmax + 1.6);
+    return { group: g, floor: true, update(k, t) {
+      bars.forEach((b, i) => {
+        const kk = ease(clamp(k * 1.8 - i * 0.12));
+        if (b.coins) b.obj.children.forEach((c, j) => { c.visible = j < Math.ceil(b.obj.children.length * kk); });
+        else b.obj.scale.y = Math.max(0.001, b.h * kk);
+        b.top.position.set(b.x, b.h * kk + 0.45, 0); b.top.material.opacity = clamp(kk * 3 - 2);
+      });
+      const a = -0.35 + k * 0.7;
+      camera.position.set(Math.sin(a) * d * 0.35, Hmax * 0.5 + 1.5 + k * 0.6, d * 0.95); camera.lookAt(0, Hmax * 0.5 + 0.2, 0);
+    } };
+  },
+  // Anteil als Ring. { prozent: 23, text: "23 %" }
+  anteil(p) {
+    const g = new THREE.Group(), R = 2.4;
+    const back = new THREE.Mesh(new THREE.TorusGeometry(R, 0.38, 24, 120), new THREE.MeshStandardMaterial({ color: 0x2a3a55, metalness: 0.3, roughness: 0.6 }));
+    g.add(back);
+    const mat = metal(C.accent, C.accent); let arc = null, lastA = -1;
+    const lab = label(p.text ?? `${fmt(p.prozent, String(p.prozent).includes('.') ? 1 : 0)} %`, { size: 110, color: C.mark, height: 1.1 }); g.add(lab);
+    g.position.y = 3; g.rotation.z = Math.PI / 2;
+    lab.material.rotation = 0;
+    const d = fitDist(R * 2 + 1.6);
+    return { group: g, floor: true, update(k, t) {
+      const a = Math.max(0.01, Math.PI * 2 * clamp(p.prozent / 100) * ease(k * 1.4));
+      if (Math.abs(a - lastA) > 0.004) { if (arc) { g.remove(arc); arc.geometry.dispose(); } arc = new THREE.Mesh(new THREE.TorusGeometry(R, 0.42, 24, 160, a), mat); arc.scale.x = -1; g.add(arc); lastA = a; }
+      g.rotation.x = -0.35 + k * 0.2; g.rotation.y = Math.sin(t * 0.5) * 0.15;
+      camera.position.set(0, 3.2, d * (1.08 - k * 0.1)); camera.lookAt(0, 3, 0);
+    } };
+  },
+  // Menge: von N Kugeln sind M hervorgehoben. { von: 11, markiert: 2 }
+  menge(p) {
+    const g = new THREE.Group(), N = Math.min(400, p.von), M = Math.min(N, p.markiert), cols = Math.ceil(Math.sqrt(N * 0.75)), s = N > 100 ? 0.5 : N > 30 ? 0.8 : 1.2;
+    const rows = Math.ceil(N / cols), on = metal(C.accent, C.accent), offC = new THREE.Color('#9fb3cf');
+    const balls = [];
+    for (let i = 0; i < N; i++) {
+      const m = new THREE.Mesh(new THREE.SphereGeometry(s * 0.38, 24, 16), i < M ? on : new THREE.MeshStandardMaterial({ color: offC, metalness: 0.4, roughness: 0.4, transparent: true }));
+      m.position.set((i % cols - (cols - 1) / 2) * s, (rows - 1 - Math.floor(i / cols)) * s + s, 0); g.add(m); balls.push(m);
+    }
+    const d = fit(cols * s + 1, rows * s + 0.6);
+    const cy = rows * s / 2 + s * 0.5;
+    return { group: g, floor: true, update(k, t) {
+      balls.forEach((b, i) => { const pop = ease(clamp(k * 3 - i / N * 1.5)); b.scale.setScalar(Math.max(0.001, pop)); if (i >= M) b.material.opacity = 1 - 0.75 * ease(clamp((k - 0.55) * 3)); else b.position.z = 0.5 * ease(clamp((k - 0.55) * 3)); });
+      camera.position.set(Math.sin(k * 0.5 - 0.25) * d * 0.35, cy + 0.8, d * (1.05 - k * 0.08)); camera.lookAt(0, cy, 0);
+    } };
+  },
+  // Verlauf als leuchtende Linie. { werte: [1, 1.2, 2], labels: ["2020", "2023", "2026"], text: "+ 40 %" }
+  trend(p) {
+    const g = new THREE.Group(), ws = p.werte, n = ws.length, min = Math.min(...ws, 0), max = Math.max(...ws), Wd = 7, Hh = 4.5;
+    const pts = ws.map((w, i) => V((i / (n - 1) - 0.5) * Wd, 0.4 + (w - min) / ((max - min) || 1) * Hh, 0));
+    const curve = new THREE.CatmullRomCurve3(pts, false, 'catmullrom', 0.2);
+    const tube = new THREE.Mesh(new THREE.TubeGeometry(curve, 240, 0.09, 12, false), new THREE.MeshBasicMaterial({ color: C.accent })); g.add(tube);
+    const total = tube.geometry.index.count;
+    const dots = pts.map((q, i) => { const m = new THREE.Mesh(new THREE.SphereGeometry(0.18, 20, 14), new THREE.MeshBasicMaterial({ color: i === n - 1 ? C.mark : '#ffffff' })); m.position.copy(q); g.add(m); return m; });
+    const labs = (p.labels || []).map((l, i) => { const s = label(l, { size: 46, color: '#dfe6f0', height: 0.32 }); s.position.set(pts[i].x, -0.3, 0.6); g.add(s); return s; });
+    const head = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex('rgba(255,255,255,1)', 'rgba(232,65,44,.6)'), blending: THREE.AdditiveBlending, depthWrite: false })); head.scale.setScalar(1.2); g.add(head);
+    const end = p.text ? label(p.text, { size: 72, color: C.mark, height: 0.6 }) : null; if (end) { end.position.copy(pts[n - 1]).add(V(-0.6, 0.8, 0)); g.add(end); }
+    const d = fit(Wd + 2.6, Hh + 1.5);
+    return { group: g, floor: true, update(k, t) {
+      const kk = ease(clamp(k * 1.35));
+      tube.geometry.setDrawRange(0, Math.floor(total * kk / 3) * 3);
+      head.position.copy(curve.getPointAt(Math.max(0.001, kk)));
+      dots.forEach((m, i) => m.visible = kk >= i / (n - 1) - 0.01);
+      labs.forEach((s, i) => s.material.opacity = kk >= i / (n - 1) - 0.01 ? 1 : 0);
+      if (end) end.material.opacity = clamp(kk * 4 - 3);
+      camera.position.set(-1 + k * 2, Hh * 0.5 + 1.5, d * 0.95); camera.lookAt(head.position.x * 0.2, Hh * 0.5 + 0.3, 0);
+    } };
+  },
+  // Zeitstrahl. { punkte: [{ jahr: "1977", text: "Start" }, …], aktiv: 2 }
+  zeitstrahl(p) {
+    const g = new THREE.Group(), ps = p.punkte, n = ps.length, gap = 3.2, act = p.aktiv ?? n - 1;
+    const line = new THREE.Mesh(new THREE.BoxGeometry((n - 1) * gap + 3, 0.06, 0.06), new THREE.MeshBasicMaterial({ color: '#6f87ab' })); line.position.set((n - 1) * gap / 2, 2.5, 0); g.add(line);
+    const xs = ps.map((q, i) => {
+      const x = i * gap, a = i === act;
+      const m = new THREE.Mesh(new THREE.SphereGeometry(a ? 0.32 : 0.2, 24, 16), new THREE.MeshBasicMaterial({ color: a ? C.accent : '#dfe6f0' })); m.position.set(x, 2.5, 0); g.add(m);
+      const y = label(q.jahr, { size: 80, color: a ? C.mark : '#fff', height: a ? 0.75 : 0.55 }); y.position.set(x, 3.4, 0); g.add(y);
+      if (q.text) { const tl = label(q.text, { size: 48, color: '#dfe6f0', height: 0.36 }); tl.position.set(x, 1.7, 0); g.add(tl); }
+      return x;
+    });
+    const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex('rgba(255,255,255,1)', 'rgba(232,65,44,.6)'), blending: THREE.AdditiveBlending, depthWrite: false })); glow.position.set(xs[act], 2.5, 0); glow.scale.setScalar(2); g.add(glow);
+    return { group: g, floor: true, update(k, t) {
+      const x = THREE.MathUtils.lerp(xs[Math.max(0, act - 1)] - 0.5, xs[act], ease(k * 1.3));
+      glow.scale.setScalar(1.6 + 0.5 * Math.sin(t * 5) ** 2);
+      const dz = fit(gap * 1.7 + 1, 3); camera.position.set(x + 1.2 - gap * 0.4, 3.4, dz); camera.lookAt(x - gap * 0.4, 2.6, 0);
+    } };
+  },
+  // Erde mit Markierung. { lat: 52.5, lon: 13.4, ort: "Berlin" }
+  erde(p, tex) {
+    const g = new THREE.Group(), R = 3;
+    const earth = new THREE.Mesh(new THREE.SphereGeometry(R, 96, 64), new THREE.MeshStandardMaterial({ map: tex.erde, roughness: 0.85, metalness: 0 })); g.add(earth);
+    const atmo = new THREE.Mesh(new THREE.SphereGeometry(R * 1.04, 64, 48), new THREE.ShaderMaterial({ transparent: true, depthWrite: false, side: THREE.BackSide, blending: THREE.AdditiveBlending,
+      vertexShader: 'varying vec3 n; varying vec3 v; void main(){ n=normalize(normalMatrix*normal); vec4 mv=modelViewMatrix*vec4(position,1.); v=normalize(-mv.xyz); gl_Position=projectionMatrix*mv; }',
+      fragmentShader: 'varying vec3 n; varying vec3 v; void main(){ float f=pow(1.-abs(dot(n,v)),2.5); gl_FragColor=vec4(vec3(.45,.7,1.)*f*1.4, f); }' }));
+    g.add(atmo);
+    const at = (lat, lon, r) => { const ph = (90 - lat) * Math.PI / 180, th = (lon + 180) * Math.PI / 180; return V(-r * Math.sin(ph) * Math.cos(th), r * Math.cos(ph), r * Math.sin(ph) * Math.sin(th)); };
+    const spot = at(p.lat, p.lon, R);
+    const pin = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex('rgba(255,255,255,1)', 'rgba(232,65,44,.8)'), blending: THREE.AdditiveBlending, depthWrite: false })); pin.position.copy(at(p.lat, p.lon, R * 1.01)); g.add(pin);
+    const ring = new THREE.Mesh(new THREE.RingGeometry(0.16, 0.2, 48), new THREE.MeshBasicMaterial({ color: C.accent, transparent: true, side: THREE.DoubleSide })); ring.position.copy(at(p.lat, p.lon, R * 1.005)); ring.lookAt(spot.clone().multiplyScalar(2)); g.add(ring);
+    const lab = p.ort ? label(p.ort, { size: 56, color: '#fff', bg: 'rgba(15,27,45,.85)', height: 0.24 }) : null; if (lab) { lab.position.copy(at(p.lat + 6, p.lon, R * 1.08)); g.add(lab); }
+    g.position.y = 3;
+    const dir = spot.clone().normalize();
+    return { group: g, floor: false, space: true, update(k, t) {
+      const kk = ease(k * 1.2);
+      // Erde dreht sich so, dass der Ort zur Kamera kommt
+      g.rotation.y = (1 - kk) * 1.4;
+      const dist = THREE.MathUtils.lerp(26, fit(R * 2.3, R * 2.3, 0.45), kk);
+      const camDir = dir.clone().applyAxisAngle(V(0, 1, 0), g.rotation.y);
+      camera.position.copy(camDir.multiplyScalar(dist).add(V(0, 3, 0))); camera.lookAt(0, 3, 0);
+      ring.scale.setScalar(1 + 2.5 * ((t * 0.8) % 1)); ring.material.opacity = 1 - ((t * 0.8) % 1);
+      pin.scale.setScalar(0.6 + 0.2 * Math.sin(t * 5) ** 2);
+      if (lab) lab.material.opacity = clamp(kk * 3 - 1.5);
+    } };
+  },
+  // Freies Foto als schwebende Karte im Raum. { bild: "images/x.jpg", symbolbild: true }
+  foto(p, tex) {
+    const g = new THREE.Group(), t0 = tex[p.bild];
+    const img = t0?.image, ar = img ? img.width / img.height : 1.5;
+    const w = ar >= 1 ? 6.2 : 4.6 * ar, h = w / ar;
+    const card = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ map: t0 })); g.add(card);
+    const frame = new THREE.Mesh(new THREE.PlaneGeometry(w + 0.12, h + 0.12), new THREE.MeshBasicMaterial({ color: '#ffffff' })); frame.position.z = -0.02; g.add(frame);
+    // unscharfer Hintergrund aus demselben Bild
+    let bg = null;
+    if (img) { const c = document.createElement('canvas'); c.width = 270; c.height = 480; const x = c.getContext('2d'); x.filter = 'blur(14px) brightness(.45)';
+      const s = Math.max(c.width / img.width, c.height / img.height); x.drawImage(img, (c.width - img.width * s) / 2, (c.height - img.height * s) / 2, img.width * s, img.height * s);
+      const bt = new THREE.CanvasTexture(c); bt.colorSpace = THREE.SRGBColorSpace; bg = new THREE.Mesh(new THREE.PlaneGeometry(40, 71), new THREE.MeshBasicMaterial({ map: bt, depthWrite: false })); bg.position.z = -14; g.add(bg); }
+    g.position.y = 3;
+    const d = fitDist(w + 0.8, 1.05);
+    return { group: g, floor: false, update(k, t) {
+      g.rotation.y = -0.18 + 0.36 * k; g.rotation.x = 0.04 - 0.08 * k;
+      camera.position.set(0, 3, d * (1.08 - 0.12 * ease(k))); camera.lookAt(0, 3, 0);
+    } };
+  },
+  // Kalenderblatt. { tag: "1", monat: "Januar", jahr: "2027" }
+  datum(p) {
+    const g = new THREE.Group();
+    const c = document.createElement('canvas'); c.width = 512; c.height = 560; const x = c.getContext('2d');
+    x.fillStyle = '#f5f6f8'; x.beginPath(); x.roundRect(0, 0, 512, 560, 36); x.fill();
+    x.fillStyle = C.accent; x.beginPath(); x.roundRect(0, 0, 512, 150, [36, 36, 0, 0]); x.fill();
+    x.fillStyle = '#fff'; x.font = 'bold 72px "DejaVu Sans"'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(p.monat, 256, 80);
+    x.fillStyle = '#121826'; x.font = 'bold 260px "DejaVu Sans"'; x.fillText(p.tag, 256, 340);
+    if (p.jahr) { x.fillStyle = '#5b6475'; x.font = 'bold 54px "DejaVu Sans"'; x.fillText(p.jahr, 256, 510); }
+    const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4;
+    const block = new THREE.Mesh(new THREE.BoxGeometry(4, 4.375, 0.5), [new THREE.MeshStandardMaterial({ color: '#d9dde4' }), new THREE.MeshStandardMaterial({ color: '#d9dde4' }), new THREE.MeshStandardMaterial({ color: C.accent }), new THREE.MeshStandardMaterial({ color: '#d9dde4' }), new THREE.MeshStandardMaterial({ map: t, roughness: 0.6 }), new THREE.MeshStandardMaterial({ color: '#d9dde4' })]);
+    g.add(block); g.position.y = 3;
+    return { group: g, floor: true, update(k, tt) {
+      const kk = ease(k * 1.6);
+      block.rotation.set(-0.15 + (1 - kk) * -1.2, (1 - kk) * 0.9 + Math.sin(tt * 0.7) * 0.05, 0);
+      block.position.y = (1 - kk) * 3;
+      const dd = fit(4.4, 4.6); camera.position.set(Math.sin(k * 0.5 - 0.25) * 4, 3.6, dd * (1.06 - 0.06 * k)); camera.lookAt(0, 3, 0);
+    } };
+  },
+};
+
+let cfg = null, shots = [];
+window.setup = async (c) => {
+  cfg = c; C = { ...C, ...(c.colors || {}) };
+  document.documentElement.style.setProperty('--cap', c.capColor || 'rgba(232,65,44,.92)');
+  scene.background = gradientTex(c.bgTop || '#14243d', c.bgBottom || '#03060c');
+  scene.fog = new THREE.Fog(0x050a14, 18, 70);
+  rim.color.set(C.accent);
+  handle.textContent = c.handle || '';
+  const tex = {};
+  if (c.shots.some(s => s.typ === 'erde')) tex.erde = await loadTex('http://szene.local/erde.jpg');
+  for (const s of c.shots) if (s.typ === 'foto' && !tex[s.bild]) tex[s.bild] = await loadTex('http://szene.local/repo/' + encodeURI(s.bild));
+  shots = c.shots.map(s => { const b = BUILD[s.typ]; if (!b) throw new Error('Unbekannter Typ: ' + s.typ); const r = b(s, tex); r.group.visible = false; scene.add(r.group); return { ...s, ...r }; });
+  return true;
+};
+
+window.frame = (t) => {
+  const i = Math.max(0, shots.findIndex(s => t >= s.start && t < s.end)), s = shots[i < 0 ? shots.length - 1 : i];
+  const k = clamp((t - s.start) / Math.max(s.end - s.start, 0.01));
+  shots.forEach(x => x.group.visible = x === s);
+  grid.visible = !!s.floor; stars.visible = !!s.space; dust.visible = !s.space;
+  scene.fog.far = s.space ? 5000 : 70;
+  dust.rotation.y = t * 0.02;
+  s.update(k, t);
+  renderer.render(scene, camera);
+  // kurzer Abblender bei jedem Schnitt
+  flash.style.opacity = s.start > 0 ? clamp(1 - (t - s.start) / 0.18) * 0.85 : 0;
+  // Texte
+  tag.textContent = s.typ === 'foto' ? (s.symbolbild ? 'Symbolbild' : 'Foto') : (cfg.tag || 'Visualisierung');
+  const o = cfg.overlays.find(x => t >= x.start && t < x.end);
+  const fade = o ? Math.min(1, (t - o.start) / 0.3, (o.end - t) / 0.3) : 0;
+  big.textContent = o ? o.big : ''; sub.textContent = o ? o.sub || '' : '';
+  big.style.opacity = sub.style.opacity = fade;
+  const c = cfg.captions.find(x => t >= x.start && t < x.end);
+  capt.textContent = c ? c.text : ''; capt.style.visibility = c ? 'visible' : 'hidden';
+  src.textContent = cfg.source + (s.typ === 'foto' && s.credit ? ` · Foto: ${s.credit}` : s.typ === 'erde' ? ' · Erdbild: NASA Blue Marble' : '');
+};
+window.ready = true;
+</script></body></html>

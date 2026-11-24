@@ -34,6 +34,29 @@ Muster in `data/strategie.md`, Abschnitt „Vorbilder“), nicht im Wechsel – 
   Die Sprachaufnahme dauert ca. 5–15 Minuten. Warnungen der Stimmprüfung lesen; klingt ein Satz falsch, umformulieren und neu bauen.
 - **Zeiten:** Die Läufe liegen so, dass sie sich nicht mit krass.erforscht überschneiden (dessen Läufe: 7:45, 12:15, 18:15, 20:45 Uhr).
 
+## Neues Format: 3D-Erklärvideo (vom Nutzer freigegeben am 2026-11-24) – gilt ab sofort für jeden Post
+
+Vorbild ist das Beispielvideo des Nutzers (3D-Datenvisualisierung, große Zahl oben, Untertitel, Quellen im Bild). Testvideo Voyager
+(`szenen/voyager/`) wurde abgenommen; die Stimme bleibt **Thorsten über Chatterbox** (`stimme/sprechen.py`, Nutzer: „die behalten wir“).
+- Jeder Post ist ein **erzähltes 3D-Video**, gebaut mit **`node szene.js posts/<datei>.json`** (Muster: `beispiel/blackfriday-3d.json`).
+  Es ersetzt `video-reel.js`, `clips.js` und `bilder-video.js` für Posts; Video-Suche (6b) ist nur noch nötig, wenn ein Foto als Szene `foto` gebraucht wird.
+- In der Post-Datei unter `video`: `voice` (ein Satz pro Zeile, Zahlen ausgeschrieben), `voiceText` (dieselben Sätze mit Ziffern), `headline`,
+  und **`szene`: pro Satz genau eine Einstellung** mit `typ`, Parametern, `big` (große Zahl oben) und `sub` (eine Zeile darunter).
+  Typen: `zahl`, `balken` (auch `stil: "muenzen"`), `anteil`, `menge`, `trend`, `zeitstrahl`, `erde`, `foto`, `datum` – Parameter stehen oben in `szene.js`.
+- **Nur echte Zahlen aus den Quellen** in Balken, Ringen, Verläufen. Sind Höhen nur zur Veranschaulichung (keine Zahlen in der Quelle),
+  keine Werte beschriften und `video.szeneHinweis` setzen (z. B. „Münzstapel schematisch“) – das steht dann im Bild.
+- Fotos (`typ: "foto"`) nur aus `find-image.js` mit freier Lizenz, `credit` angeben, `symbolbild: true`, wenn das Foto nicht das Ereignis zeigt.
+- Aufbau: 7–11 Sätze, **30–45 Sekunden**. Erster Satz = stärkste Zahl oder Neugier-Frage, Bild wechselt mit jedem Satz (alle 3–5 s).
+  Letzter Satz: A-oder-B-Frage oder der erste Satz noch einmal (Schleife: Zuschauer sehen das Video ein zweites Mal).
+  Mindestens die Hälfte der Einstellungen mit `big`. Lange Jahreszahlen und große Zahlen in `voice` vermeiden, wo es geht
+  („vor neunundvierzig Jahren“ statt „neunzehnhundertsiebenundsiebzig“): die Stimme verschluckt sie manchmal.
+- **Pflicht vor jedem Post:** `szene.js` hört das fertige Video komplett ab (`stimme/pruefen.py`) und bricht bei Fehlern ab.
+  Nur bei „PRÜFUNG OK“ posten. Danach `out/<id>/pruefung.jpg` (12 Standbilder) **ansehen**: Text lesbar, nichts verdeckt, Szene passt.
+  Bei FEHLER: betroffenen Satz umformulieren, neu bauen (die Stimme wird nur neu aufgenommen, wenn sich der Text ändert).
+- Rechenzeit: Stimme ca. 10 Minuten, 3D-Bild ca. 10 Minuten für 40 s. Gepostet wird wie bisher mit `node publish.js posts/<datei>.json --video`
+  (`szene.js` legt `out/<id>/video-reel.mp4`, `video-music.json` und die Kopie in `docs/v/<id>/` an und trägt `format: "video"` ein).
+- Folien (`slides`) und `node render.js`/`reel.js` sind nicht mehr nötig; `caption` und `sources` wie bisher. Die Caption nennt die Fotos mit Lizenz.
+
 ## Ablauf
 
 A. **Kommentare beantworten** (bei jedem Lauf, nur wenn `KLARTEXT_IG_TOKEN` gesetzt ist):
