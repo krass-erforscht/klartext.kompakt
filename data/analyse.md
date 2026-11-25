@@ -1,7 +1,7 @@
 # Algorithmus-Analyse (2026-11-25)
 
 47 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
-Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
+Gesamtreichweite: 5.280 Konten, Median pro Post: 110.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
@@ -9,8 +9,8 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 - Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).
 - Wochentag: „So“ erreicht im Mittel 145 Konten, „Mi“ nur 57 (8 bzw. 6 Posts).
 - Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (44 bzw. 3 Posts).
-- Getestete Regel (Feld „test“ im Post): „teilen-anreiz“ erreicht im Mittel 122 Konten, „kurz-video“ nur 69,5 (6 bzw. 2 Posts).
-- Zuschau-Anteil und Reichweite: Rangkorrelation 0,2 (schwacher Zusammenhang).
+- Getestete Regel (Feld „test“ im Post): „teilen-anreiz“ erreicht im Mittel 122 Konten, „kurz-video“ nur 75 (6 bzw. 2 Posts).
+- Zuschau-Anteil und Reichweite: Rangkorrelation 0,5 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter).
 
 ## Top 3
 
@@ -21,8 +21,8 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 ## Flop 3
 
 - **So hat sich die Erde seit 1880 erwärmt** (2026-11-07, zusammen, umwelt/sachlich, 7 Uhr): 3 Konten, 1 Likes
-- **Black Friday: Viele Rabatte sind kleiner, als sie aussehen 🏷️** (2026-11-24, video, alltag/ueberraschend, 6 Uhr): 4 Konten, 0 Likes
 - **Inflation sinkt im Oktober auf 2,8 Prozent** (2026-10-31, bilder, geld/sachlich, 18 Uhr): 8 Konten, 3 Likes
+- **Black Friday: Viele Rabatte sind kleiner, als sie aussehen 🏷️** (2026-11-24, video, alltag/ueberraschend, 6 Uhr): 15 Konten, 0 Likes
 
 ## Vergleich nach Merkmalen (Median)
 
@@ -32,7 +32,7 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 |---|---|---|---|---|---|
 | zusammen | 3 | 144 | 14,8 | 1,9 | 5,3 |
 | bilder | 32 | 111 | 27,2 | 1 | 3,3 |
-| video | 12 | 109 | 8,5 | 1,2 | 6 |
+| video | 12 | 109 | 8,5 | 1,2 | 5,9 |
 
 ### Thema
 
@@ -43,7 +43,7 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 | digital | 9 | 109 | 18,8 | 2,1 | 4,1 |
 | welt | 4 | 86 | 28,6 | 2,9 | 5,5 |
 | geld | 4 | 61,5 | 42,5 | 0 | 2,8 |
-| alltag | 5 | 25 | 63,6 | 0 | 3,4 |
+| alltag | 5 | 25 | 59,8 | 0 | 3,4 |
 
 ### Ton
 
@@ -51,7 +51,7 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 |---|---|---|---|---|---|
 | sachlich | 28 | 123 | 16,8 | 1,4 | 3,7 |
 | locker | 5 | 116 | 31 | 2,2 | 3,4 |
-| ueberraschend | 14 | 98 | 26,3 | 0 | 4 |
+| ueberraschend | 14 | 98 | 26,1 | 0 | 3,9 |
 
 ### Uhrzeit
 
@@ -59,7 +59,7 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 |---|---|---|---|---|---|
 | 7 Uhr | 17 | 137 | 18,2 | 0,9 | 3,6 |
 | 20 Uhr | 5 | 135 | 9,2 | 1,5 | 5,9 |
-| 6 Uhr | 4 | 118,5 | 3,3 | 0 | 7,2 |
+| 6 Uhr | 4 | 118,5 | 3,2 | 0 | 5,3 |
 | 12 Uhr | 11 | 108 | 31,9 | 0 | 4 |
 | 16 Uhr | 2 | 104,5 | 9,6 | 4,8 | 5,3 |
 | 18 Uhr | 8 | 52,5 | 45,1 | 4,1 | 2,7 |
@@ -73,28 +73,28 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 | Do | 7 | 115 | 24,9 | 0 | 3,9 |
 | Fr | 6 | 113,5 | 21 | 0 | 3,3 |
 | Sa | 6 | 109,5 | 25,3 | 4,2 | 2,4 |
-| Di | 6 | 106,5 | 13,9 | 0 | 5,7 |
+| Di | 6 | 106,5 | 13,6 | 0 | 5,5 |
 | Mi | 6 | 57 | 45,9 | 0 | 2,8 |
 
 ### Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| lang (>45 Zeichen) | 35 | 112 | 17,2 | 1,2 | 4 |
+| lang (>45 Zeichen) | 35 | 112 | 17,2 | 1,2 | 3,9 |
 | kurz (≤45 Zeichen) | 12 | 107,5 | 29,2 | 0,8 | 2,9 |
 
 ### Zahl in der Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| ohne Zahl | 25 | 112 | 18,5 | 1,3 | 3,6 |
+| ohne Zahl | 25 | 112 | 18,4 | 1,3 | 3,5 |
 | mit Zahl | 22 | 108 | 22,5 | 0,9 | 4,8 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 44 | 113,5 | 19,3 | 1,2 | 3,9 |
+| Aussage | 44 | 113,5 | 19,3 | 1,2 | 3,7 |
 | Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
@@ -103,14 +103,14 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 |---|---|---|---|---|---|
 | bis 15 s | 1 | 393 | 12,7 | 2,5 | 5,2 |
 | 16–25 s | 3 | 144 | 15,2 | 0 | 5,4 |
-| über 25 s | 11 | 107 | 7,5 | 1,5 | 6 |
+| über 25 s | 11 | 107 | 7,4 | 1,5 | 5,9 |
 
 ### Echtes Video oder Symbolvideo
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | echtes Video | 1 | 150 | 6,7 | 6,7 | 8,1 |
-| Symbolvideo | 14 | 109 | 10,3 | 1 | 5,8 |
+| Symbolvideo | 14 | 109 | 10,3 | 1 | 5,5 |
 
 ### Getestete Regel (Feld „test“ im Post)
 
@@ -118,7 +118,7 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 |---|---|---|---|---|---|
 | teilen-anreiz | 6 | 122 | 6,7 | 2,7 | 6 |
 | aussage-titel | 3 | 107 | 8,7 | 0 | 5,9 |
-| kurz-video | 2 | 69,5 | 0 | 0 | 5,1 |
+| kurz-video | 2 | 75 | 0 | 0 | 3,2 |
 
 ## Alle Posts
 
@@ -170,7 +170,7 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 | 2026-11-22 | Nach 8 Jahren im All: Europas Sonde ist am Me | video | 150 | 169 | 1 | 1 | 0 | – | 8,1 s | 19 % |
 | 2026-11-23 | Bayern verliert die Spitze: Dortmund ist neue | video | 135 | 138 | 0 | 0 | 0 | – | 3 s | 9 % |
 | 2026-11-23 | Klimagipfel ohne Einigung: Kohle, Öl und Gas  | video | 102 | 110 | 1 | 0 | 1 | – | 5,2 s | 12 % |
-| 2026-11-24 | Black Friday: Viele Rabatte sind kleiner, als | video | 4 | 7 | 0 | 0 | 0 | – | 7,3 s | 24 % |
+| 2026-11-24 | Black Friday: Viele Rabatte sind kleiner, als | video | 15 | 21 | 0 | 0 | 0 | – | 3,5 s | 11 % |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.
@@ -203,3 +203,4 @@ Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 - 2026-11-24 (morgens): Der Zverev-Post bleibt mit 364 Konten und 11,9 s Zuschaudauer das beste Stimm-Video; Merkur (Welt, echte ESA-Bilder) liegt bei 150 Konten und 8,1 s, BVB bei 134 Konten, aber nur 3,0 s. Heute Alltag (zum Weiterlernen, bisher schwächster Schwerpunkt mit Ø 29,5) mit einem Verbraucher-Thema, das fast alle betrifft: Black Friday, viele Rabatte sind kleiner als sie aussehen (Stiftung Warentest: nur 3 von 15 Produktgruppen mit echten 20-%-Rabatten). Kurzes Video (~30 s, `kurz-video`), Einstieg mit einer Zahl als Frage („Siebzig Prozent Rabatt? Oft steckt viel weniger dahinter.“), aus Fotos geschnitten (Wikimedia-Videos gedrosselt). Hypothese: Ein Nutzwert-Thema, das gerade jeden betrifft, hebt Alltag deutlich über seinen bisherigen Schnitt (über 100 Konten nach 24 h) und bringt erstmals Speichern; Stichprobe 1.
 - 2026-11-24 (mittags): Schaltsekunde-Post (Welt, sachlich, ~40-s-Video aus NASA-/ESO-Material, `teilen-anreiz` mit „Schick das jemandem, der immer auf die Sekunde pünktlich sein will“) um 11:02 Uhr veröffentlicht. Der Black-Friday-Post vom Morgen hat nach gut 4 Stunden erst wenige Konten, aber schon 7,3 s Zuschaudauer (BVB: 3,0 s) – ein Zahlen-Frage-Einstieg scheint länger zu halten als eine Sportmeldung ohne Überraschung (Stichprobe 1, Zahlen jung). Klimagipfel steht in den Daten noch bei 0 (vermutlich noch nicht aktualisiert). Hypothese für morgen: Ein Einstieg mit einer verblüffenden Alltagstatsache („Eine Minute mit 61 Sekunden?“) bringt mehr als 8 s Zuschaudauer, ähnlich Merkur (8,1 s); Vergleich nach 24 h, Stichprobe 1.
 - 2026-11-25 (morgens): Schaltsekunde (Welt, ~40 s, `teilen-anreiz`) liegt nach rund 18 Stunden bei 132 Konten und 11,0 s Zuschaudauer – fast so lange geschaut wie Zverev (11,9 s); der Einstieg mit verblüffender Alltagstatsache („Eine Minute mit 61 Sekunden?“) hat also gehalten, die Hypothese vom Vortag bestätigt sich vorsichtig (Stichprobe 1). Klimagipfel kam auf 102 Konten, 5,2 s, aber die erste Speicherung seit Langem. Black Friday steht in den Daten weiter bei 4 Konten (Stand von gestern 9:41 Uhr, offenbar nicht aktualisiert). Heute erstmals ein 3D-Erklärvideo: Alltag (zum Weiterlernen) mit dem digitalen Führerschein, der Ende November in der i-Kfz-App starten soll – ein Thema mit direktem Nutzen für Millionen Autofahrer, Frage-Einstieg („Führerschein zu Hause vergessen?“), ~30 s (`kurz-video`). Hypothese: Ein Nutzwert-Thema, das fast jeden Erwachsenen betrifft, bringt im 3D-Format mehr als 8 s Zuschaudauer und hebt Alltag über 100 Konten; Stichprobe 1.
+- 2026-11-25 (mittags, Vorbereitung für spät): Mittags war nicht dran (heute morgens und spät); der Spät-Post ist vorbereitet. Der Führerschein-Post (erstes 3D-Video) ist erst wenige Stunden alt, Zahlen folgen. Gewählt wurde Sport (stärkster Schwerpunkt, Median 137,5) mit der überraschendsten Sport-Wende des Tages: Der Sportgerichtshof CAS gibt Senegal den Afrika-Cup-Titel zurück, den der Verband im März Marokko zugesprochen hatte (Sportschau, ZDFheute, DW). 3D-Video ~38 s mit Hin-und-her-Geschichte (1:0 → 3:0 → 1:0) und A-oder-B-Frage „Platz oder grüner Tisch?“, `teilen-anreiz` in der Caption. Hypothese: Eine Geschichte mit Wende und klarem Streitpunkt (ohne Parteipolitik) bringt mehr Kommentare als reine Ergebnis-Meldungen (bisher fast immer 0); Stichprobe 1.

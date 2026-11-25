@@ -1,0 +1,150 @@
+{
+  "id": "2026-11-25-afrikacup",
+  "date": "2026-11-24T15:07:00Z",
+  "category": "Sport",
+  "topic": "sport",
+  "tone": "locker",
+  "format": "video",
+  "test": "teilen-anreiz",
+  "vorbereitet": true,
+  "sources": [
+    {
+      "name": "Sportschau",
+      "url": "https://www.sportschau.de/fussball/cas-urteil-senegal-erhaelt-afrika-cup-titel-zurueck,cas-afrika-cup-senegal-100.html"
+    },
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/sport/fussball-cas-urteil-afrika-cup-titel-doch-an-senegal-100.html"
+    },
+    {
+      "name": "Deutsche Welle",
+      "url": "https://www.dw.com/de/senegal-ist-afrika-cup-sieger-cas-kippt-marokkos-triumph/a-80036065"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-25-afrikacup.jpg",
+    "credit": "Ben Sutherland, CC BY 2.0, via Flickr",
+    "short": "Ben Sutherland, CC BY 2.0, via Flickr",
+    "license": "CC BY 2.0",
+    "page": "https://www.flickr.com/photos/60179301@N00/15891069254",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "headline": "Senegal ist wieder **Afrikameister** – 10 Monate nach dem Finale ⚽",
+    "voiceSpeed": 1.2,
+    "voice": [
+      "Senegal ist wieder Afrikameister – zehn Monate nach dem Finale.",
+      "Im Januar schlägt Senegal im Endspiel Marokko mit eins zu null.",
+      "Kurz vor Schluss gibt es Elfmeter für Marokko. Senegals Team geht aus Protest vom Platz.",
+      "Das Spiel ruht minutenlang, dann verschießt Marokko den Elfmeter.",
+      "In der Verlängerung trifft Senegal zum Sieg.",
+      "Doch im März die Wende: Der afrikanische Fußballverband wertet das Spiel drei zu null für Marokko.",
+      "Jetzt hat der Internationale Sportgerichtshof das gekippt, und zwar einstimmig.",
+      "Der Grund: Nur der Schiedsrichter entscheidet über einen Abbruch, und er ließ weiterspielen.",
+      "Marokko will sich weiter wehren.",
+      "Was zählt für dich: der Sieg auf dem Platz oder am grünen Tisch?"
+    ],
+    "voiceText": [
+      "Senegal ist wieder Afrikameister – 10 Monate nach dem Finale.",
+      "Im Januar schlägt Senegal im Endspiel Marokko mit 1:0.",
+      "Kurz vor Schluss gibt es Elfmeter für Marokko. Senegals Team geht aus Protest vom Platz.",
+      "Das Spiel ruht minutenlang, dann verschießt Marokko den Elfmeter.",
+      "In der Verlängerung trifft Senegal zum Sieg.",
+      "Doch im März die Wende: Der afrikanische Fußballverband wertet das Spiel 3:0 für Marokko.",
+      "Jetzt hat der Internationale Sportgerichtshof das gekippt, und zwar einstimmig.",
+      "Der Grund: Nur der Schiedsrichter entscheidet über einen Abbruch, und er ließ weiterspielen.",
+      "Marokko will sich weiter wehren.",
+      "Was zählt für dich: der Sieg auf dem Platz oder am grünen Tisch?"
+    ],
+    "szene": [
+      {
+        "typ": "foto",
+        "bild": "images/2026-11-25-afrikacup.jpg",
+        "symbolbild": true,
+        "credit": "Ben Sutherland, CC BY 2.0 (Afrika-Cup 2015)",
+        "big": "Titel zurück",
+        "sub": "Senegal ist wieder Afrikameister"
+      },
+      {
+        "typ": "zahl",
+        "wert": "1:0",
+        "einheit": "Senegal – Marokko",
+        "big": "Finale",
+        "sub": "18. Januar 2026 in Rabat, nach Verlängerung"
+      },
+      {
+        "typ": "foto",
+        "bild": "images/2026-11-25-afrikacup-2.jpg",
+        "symbolbild": true,
+        "credit": "Ben Sutherland, CC BY 2.0 (Afrika-Cup 2015)",
+        "big": "Elfmeter",
+        "sub": "Senegals Team geht aus Protest vom Platz"
+      },
+      {
+        "typ": "zahl",
+        "wert": "0",
+        "einheit": "Tore per Elfmeter",
+        "big": "verschossen",
+        "sub": "nach langer Unterbrechung"
+      },
+      {
+        "typ": "zahl",
+        "wert": "1:0",
+        "einheit": "nach Verlängerung",
+        "big": "Sieg für Senegal",
+        "sub": "Tor in der Verlängerung"
+      },
+      {
+        "typ": "zahl",
+        "wert": "3:0",
+        "einheit": "für Marokko gewertet",
+        "big": "März 2026",
+        "sub": "Berufungsinstanz des Verbands CAF"
+      },
+      {
+        "typ": "foto",
+        "bild": "images/2026-11-25-afrikacup-3.jpg",
+        "symbolbild": false,
+        "credit": "Fanny Schertzer, CC BY 3.0",
+        "big": "3 von 3 Richtern",
+        "sub": "Sportgerichtshof CAS: einstimmig für Senegal"
+      },
+      {
+        "typ": "menge",
+        "von": 1,
+        "markiert": 1,
+        "big": "Regel 5.2",
+        "sub": "Nur der Schiedsrichter entscheidet über Abbruch"
+      },
+      {
+        "typ": "zeitstrahl",
+        "punkte": [
+          {
+            "jahr": "Jan",
+            "text": "1:0 Senegal"
+          },
+          {
+            "jahr": "März",
+            "text": "3:0 Marokko"
+          },
+          {
+            "jahr": "Nov",
+            "text": "1:0 Senegal"
+          }
+        ],
+        "aktiv": 2,
+        "big": "",
+        "sub": ""
+      },
+      {
+        "typ": "zahl",
+        "wert": "?",
+        "einheit": "Platz oder grüner Tisch?",
+        "big": "",
+        "sub": ""
+      }
+    ]
+  },
+  "caption": "Afrika-Cup: Senegal ist wieder Afrikameister – zehn Monate nach dem Finale. ⚽\n\nIm Januar gewann Senegal das Endspiel gegen Marokko 1:0 nach Verlängerung, obwohl seine Spieler nach einem Elfmeter für Marokko zwischenzeitlich aus Protest den Platz verlassen hatten. Im März wertete die Berufungsinstanz des afrikanischen Verbands CAF das Spiel 3:0 für Marokko. Jetzt hat der Internationale Sportgerichtshof CAS einstimmig entschieden: Der Titel geht zurück an Senegal. Marokko will dagegen vorgehen.\n\nWas zählt für dich: der Sieg auf dem Platz oder am grünen Tisch? Schick das jemandem, mit dem du das Finale geschaut hast. 👀\n\nQuellen: Sportschau, ZDFheute, Deutsche Welle (24.11.2026)\nText und Stimme mit KI erstellt.\nFotos (Symbolbilder, Afrika-Cup 2015): Ben Sutherland, CC BY 2.0, via Flickr. Foto CAS: Fanny Schertzer, CC BY 3.0, via Wikimedia Commons.\n\n#nachrichten #afrikacup #senegal #marokko #fußball"
+}

@@ -1441,7 +1441,7 @@
       "ig_reels_avg_watch_time": 11885,
       "ig_reels_video_view_total_time": 4326161
     },
-    "statsAt": "2026-11-24T09:41:33.327Z"
+    "statsAt": "2026-11-25T09:41:34.517Z"
   },
   {
     "id": "2026-11-22-merkur",
@@ -1493,7 +1493,7 @@
       "ig_reels_avg_watch_time": 2972,
       "ig_reels_video_view_total_time": 401245
     },
-    "statsAt": "2026-11-24T09:41:33.615Z"
+    "statsAt": "2026-11-25T09:41:34.717Z"
   },
   {
     "id": "2026-11-23-klimagipfel",
@@ -1535,16 +1535,16 @@
     "mediaId": "18121365631795722",
     "format": "video",
     "stats": {
-      "reach": 4,
+      "reach": 15,
       "likes": 0,
       "comments": 0,
       "shares": 0,
       "saved": 0,
-      "views": 7,
-      "ig_reels_avg_watch_time": 7322,
-      "ig_reels_video_view_total_time": 36610
+      "views": 21,
+      "ig_reels_avg_watch_time": 3476,
+      "ig_reels_video_view_total_time": 59101
     },
-    "statsAt": "2026-11-24T09:41:33.815Z"
+    "statsAt": "2026-11-25T09:41:34.956Z"
   },
   {
     "id": "2026-11-24-schaltsekunde",
@@ -1581,6 +1581,17 @@
       "https://www.adac.de/verkehr/rund-um-den-fuehrerschein/aktuelles/digitaler-fuehrerschein/"
     ],
     "mediaId": "18157957945536964",
-    "format": "video"
+    "format": "video",
+    "stats": {
+      "reach": 24,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "views": 27,
+      "ig_reels_avg_watch_time": 3045,
+      "ig_reels_video_view_total_time": 73103
+    },
+    "statsAt": "2026-11-25T09:41:35.169Z"
   }
 ]
