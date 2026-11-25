@@ -1,13 +1,13 @@
 {
-  "datum": "2026-11-24T10:02:27.530Z",
+  "datum": "2026-11-25T05:17:20.181Z",
   "hinweise": [
     "Thema: „sport“ erreicht im Mittel 137,5 Konten, „alltag“ nur 29,5 (14 bzw. 4 Posts).",
     "Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).",
     "Wochentag: „So“ erreicht im Mittel 145 Konten, „Mi“ nur 57 (8 bzw. 6 Posts).",
-    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115,5 Konten, „Frage“ nur 34 (42 bzw. 3 Posts).",
-    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,4 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter)."
+    "Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (43 bzw. 3 Posts).",
+    "Zuschau-Anteil und Reichweite: Rangkorrelation 0,5 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter)."
   ],
-  "watchCorr": 0.4181818181818182,
+  "watchCorr": 0.4636363636363636,
   "vergleich": [
     {
       "merkmal": "format",
@@ -19,15 +19,7 @@
           "reichweite": 144,
           "likes_pro_1000": 14.814814814814815,
           "teilen_speichern_pro_1000": 1.8518518518518519,
-          "wiedergabe_s": 5.307
-        },
-        {
-          "wert": "video",
-          "posts": 10,
-          "reichweite": 122,
-          "likes_pro_1000": 8.447043534762832,
-          "teilen_speichern_pro_1000": 0.649772579597141,
-          "wiedergabe_s": 5.9755
+          "wiedergabe_s": 5.2989999999999995
         },
         {
           "wert": "bilder",
@@ -36,6 +28,14 @@
           "likes_pro_1000": 27.237354085603112,
           "teilen_speichern_pro_1000": 0.9727626459143969,
           "wiedergabe_s": 3.2735000000000003
+        },
+        {
+          "wert": "video",
+          "posts": 11,
+          "reichweite": 109,
+          "likes_pro_1000": 8.531383302864107,
+          "teilen_speichern_pro_1000": 1.2187690432663012,
+          "wiedergabe_s": 5.862
         }
       ]
     },
@@ -53,11 +53,11 @@
         },
         {
           "wert": "umwelt",
-          "posts": 10,
-          "reichweite": 116.5,
-          "likes_pro_1000": 18.75,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 4.85
+          "posts": 11,
+          "reichweite": 115,
+          "likes_pro_1000": 18.00327332242226,
+          "teilen_speichern_pro_1000": 0.8183306055646482,
+          "wiedergabe_s": 5.026999999999999
         },
         {
           "wert": "digital",
@@ -73,7 +73,7 @@
           "reichweite": 86,
           "likes_pro_1000": 28.57142857142857,
           "teilen_speichern_pro_1000": 2.857142857142857,
-          "wiedergabe_s": 5.5455000000000005
+          "wiedergabe_s": 5.5375
         },
         {
           "wert": "geld",
@@ -99,11 +99,11 @@
       "gruppen": [
         {
           "wert": "sachlich",
-          "posts": 27,
-          "reichweite": 127,
-          "likes_pro_1000": 16.963528413910094,
-          "teilen_speichern_pro_1000": 1.1309018942606728,
-          "wiedergabe_s": 3.6479999999999997
+          "posts": 28,
+          "reichweite": 123,
+          "likes_pro_1000": 16.76284693597142,
+          "teilen_speichern_pro_1000": 1.3740038472107723,
+          "wiedergabe_s": 3.657
         },
         {
           "wert": "locker",
@@ -161,11 +161,11 @@
         },
         {
           "wert": "16 Uhr",
-          "posts": 1,
-          "reichweite": 107,
-          "likes_pro_1000": 9.345794392523365,
-          "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.456
+          "posts": 2,
+          "reichweite": 104.5,
+          "likes_pro_1000": 9.569377990430622,
+          "teilen_speichern_pro_1000": 4.784688995215311,
+          "wiedergabe_s": 5.33
         },
         {
           "wert": "18 Uhr",
@@ -191,11 +191,11 @@
         },
         {
           "wert": "Mo",
-          "posts": 7,
+          "posts": 8,
           "reichweite": 135,
-          "likes_pro_1000": 14.005602240896359,
-          "teilen_speichern_pro_1000": 1.8674136321195145,
-          "wiedergabe_s": 3.963
+          "likes_pro_1000": 13.640238704177323,
+          "teilen_speichern_pro_1000": 2.557544757033248,
+          "wiedergabe_s": 4.449
         },
         {
           "wert": "Do",
@@ -245,11 +245,11 @@
       "gruppen": [
         {
           "wert": "lang (>45 Zeichen)",
-          "posts": 33,
-          "reichweite": 115,
-          "likes_pro_1000": 17.458279845956355,
-          "teilen_speichern_pro_1000": 1.0269576379974326,
-          "wiedergabe_s": 3.917
+          "posts": 34,
+          "reichweite": 113.5,
+          "likes_pro_1000": 17.262947210407805,
+          "teilen_speichern_pro_1000": 1.2509382036527394,
+          "wiedergabe_s": 3.94
         },
         {
           "wert": "kurz (≤45 Zeichen)",
@@ -267,11 +267,11 @@
       "gruppen": [
         {
           "wert": "ohne Zahl",
-          "posts": 23,
-          "reichweite": 119,
-          "likes_pro_1000": 18.799472295514512,
-          "teilen_speichern_pro_1000": 0.9894459102902375,
-          "wiedergabe_s": 3.493
+          "posts": 24,
+          "reichweite": 115.5,
+          "likes_pro_1000": 18.506700701978303,
+          "teilen_speichern_pro_1000": 1.2763241863433312,
+          "wiedergabe_s": 3.5244999999999997
         },
         {
           "wert": "mit Zahl",
@@ -289,11 +289,11 @@
       "gruppen": [
         {
           "wert": "Aussage",
-          "posts": 42,
-          "reichweite": 115.5,
-          "likes_pro_1000": 19.55362433339917,
-          "teilen_speichern_pro_1000": 0.9875567845151096,
-          "wiedergabe_s": 3.657
+          "posts": 43,
+          "reichweite": 115,
+          "likes_pro_1000": 19.36108422071636,
+          "teilen_speichern_pro_1000": 1.1616650532429815,
+          "wiedergabe_s": 3.787
         },
         {
           "wert": "Frage",
@@ -323,15 +323,15 @@
           "reichweite": 144,
           "likes_pro_1000": 15.217391304347826,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 5.458
+          "wiedergabe_s": 5.442
         },
         {
           "wert": "über 25 s",
-          "posts": 9,
-          "reichweite": 109,
-          "likes_pro_1000": 7.34094616639478,
-          "teilen_speichern_pro_1000": 0.8156606851549756,
-          "wiedergabe_s": 5.9755
+          "posts": 10,
+          "reichweite": 108,
+          "likes_pro_1000": 7.530120481927711,
+          "teilen_speichern_pro_1000": 1.5060240963855422,
+          "wiedergabe_s": 5.862
         }
       ]
     },
@@ -349,11 +349,11 @@
         },
         {
           "wert": "Symbolvideo",
-          "posts": 12,
-          "reichweite": 122,
-          "likes_pro_1000": 10.368066355624675,
-          "teilen_speichern_pro_1000": 0.5184033177812338,
-          "wiedergabe_s": 5.849
+          "posts": 13,
+          "reichweite": 109,
+          "likes_pro_1000": 10.3397341211226,
+          "teilen_speichern_pro_1000": 0.9847365829640572,
+          "wiedergabe_s": 5.6525
         }
       ]
     },
@@ -362,20 +362,20 @@
       "name": "Getestete Regel (Feld „test“ im Post)",
       "gruppen": [
         {
-          "wert": "teilen-anreiz",
-          "posts": 5,
-          "reichweite": 135,
-          "likes_pro_1000": 6.191950464396285,
-          "teilen_speichern_pro_1000": 1.5479876160990713,
-          "wiedergabe_s": 6.089
-        },
-        {
           "wert": "kurz-video",
           "posts": 1,
           "reichweite": 135,
           "likes_pro_1000": 0,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 2.972
+        },
+        {
+          "wert": "teilen-anreiz",
+          "posts": 6,
+          "reichweite": 122,
+          "likes_pro_1000": 6.684491978609626,
+          "teilen_speichern_pro_1000": 2.6737967914438503,
+          "wiedergabe_s": 5.969
         },
         {
           "wert": "aussage-titel",
@@ -1364,7 +1364,7 @@
       "saves": 0,
       "follows": 0,
       "profilbesuche": 0,
-      "wiedergabe_s": 5.458,
+      "wiedergabe_s": 5.442,
       "wiedergabe_anteil": null,
       "likes_pro_1000": 13.888888888888888,
       "teilen_speichern_pro_1000": 0
@@ -1648,6 +1648,34 @@
       "wiedergabe_anteil": 0.092875,
       "likes_pro_1000": 0,
       "teilen_speichern_pro_1000": 0
+    },
+    {
+      "id": "2026-11-23-klimagipfel",
+      "datum": "2026-11-23",
+      "titel": "Klimagipfel ohne Einigung: Kohle, Öl und Gas standen nicht mal im Text 🌍",
+      "format": "video",
+      "thema": "umwelt",
+      "ton": "sachlich",
+      "uhrzeit": "16 Uhr",
+      "wochentag": "Mo",
+      "ueberschrift": "lang (>45 Zeichen)",
+      "zahl_im_titel": "ohne Zahl",
+      "frage_im_titel": "Aussage",
+      "videolaenge": "über 25 s",
+      "test": "teilen-anreiz",
+      "symbolvideo": "Symbolvideo",
+      "reichweite": 102,
+      "aufrufe": 110,
+      "likes": 1,
+      "kommentare": 0,
+      "shares": 0,
+      "saves": 1,
+      "follows": null,
+      "profilbesuche": null,
+      "wiedergabe_s": 5.204,
+      "wiedergabe_anteil": 0.12390476190476189,
+      "likes_pro_1000": 9.803921568627452,
+      "teilen_speichern_pro_1000": 9.803921568627452
     }
   ]
 }

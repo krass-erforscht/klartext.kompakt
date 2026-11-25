@@ -1,0 +1,63 @@
+{
+  "id": "2026-11-25-fuehrerschein",
+  "date": "2026-11-24T05:14:00Z",
+  "category": "Alltag",
+  "topic": "alltag",
+  "tone": "ueberraschend",
+  "format": "video",
+  "test": "kurz-video",
+  "sources": [
+    {
+      "name": "ZDFheute",
+      "url": "https://www.zdfheute.de/ratgeber/fuehrerschein-digitaler-fuehrerschein-i-kfz-app-smartphone-100.html"
+    },
+    {
+      "name": "ADAC",
+      "url": "https://www.adac.de/verkehr/rund-um-den-fuehrerschein/aktuelles/digitaler-fuehrerschein/"
+    }
+  ],
+  "image": {
+    "file": "images/2026-11-25-fuehrerschein.jpg",
+    "credit": "Dennis Cortés, CC0, via Wikimedia Commons",
+    "short": "Dennis Cortés, CC0, via Wikimedia Commons",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_smartphone_in_hand_(Unsplash).jpg",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "headline": "Führerschein aufs **Handy**: Ende November soll es losgehen 📱",
+    "voiceSpeed": 1.2,
+    "voice": [
+      "Führerschein zu Hause vergessen? Bald soll dein Handy reichen.",
+      "Ende November soll der digitale Führerschein in der kostenlosen i-Kfz-App starten.",
+      "Bei Kontrollen in Deutschland kannst du dann dein Smartphone statt der Plastikkarte zeigen.",
+      "Was heißt das für dich?",
+      "Du brauchst deinen Personalausweis mit Online-Funktion, die PIN dazu und ein Handy mit NFC.",
+      "Achtung: Im Ausland gilt die App vorerst nicht. Dort brauchst du weiter die Karte.",
+      "Mitmachen ist freiwillig, die Plastikkarte bleibt gültig.",
+      "Und du: Führerschein aufs Handy oder lieber die Karte?"
+    ],
+    "voiceText": [
+      "Führerschein zu Hause vergessen? Bald soll dein Handy reichen.",
+      "Ende November soll der digitale Führerschein in der kostenlosen i-Kfz-App starten.",
+      "Bei Kontrollen in Deutschland kannst du dann dein Smartphone statt der Plastikkarte zeigen.",
+      "Was heißt das für dich?",
+      "Du brauchst deinen Personalausweis mit Online-Funktion, die PIN dazu und ein Handy mit NFC.",
+      "Achtung: Im Ausland gilt die App vorerst nicht. Dort brauchst du weiter die Karte.",
+      "Mitmachen ist freiwillig, die Plastikkarte bleibt gültig.",
+      "Und du: Führerschein aufs Handy oder lieber die Karte?"
+    ],
+    "szene": [
+      { "typ": "foto", "bild": "images/2026-11-25-fuehrerschein.jpg", "symbolbild": true, "credit": "Dennis Cortés, CC0, via Wikimedia Commons", "big": "Handy statt Karte", "sub": "digitaler Führerschein kommt" },
+      { "typ": "datum", "tag": "Ende", "monat": "November", "jahr": "2026", "big": "Ende November", "sub": "Start in der i-Kfz-App geplant" },
+      { "typ": "foto", "bild": "images/2026-11-25-fuehrerschein-2.jpg", "symbolbild": true, "credit": "Till Krech, CC BY 2.0, via Wikimedia Commons", "big": "Kontrolle", "sub": "Smartphone vorzeigen reicht (in Deutschland)" },
+      { "typ": "zahl", "wert": "?", "einheit": "Was heißt das für dich?", "big": "", "sub": "" },
+      { "typ": "menge", "von": 3, "markiert": 3, "big": "3 Dinge", "sub": "Ausweis mit Online-Funktion · PIN · NFC-Handy" },
+      { "typ": "erde", "lat": 51.2, "lon": 10.4, "ort": "Deutschland", "big": "nur in Deutschland", "sub": "im Ausland weiter die Karte mitnehmen" },
+      { "typ": "zahl", "wert": "freiwillig", "einheit": "Karte bleibt gültig", "big": "freiwillig", "sub": "Kartenführerschein bleibt gültig" },
+      { "typ": "foto", "bild": "images/2026-11-25-fuehrerschein.jpg", "symbolbild": true, "credit": "Dennis Cortés, CC0, via Wikimedia Commons", "big": "", "sub": "" }
+    ]
+  },
+  "caption": "Digitaler Führerschein: Ende November soll er in der kostenlosen i-Kfz-App des Kraftfahrt-Bundesamts starten. Bei Kontrollen in Deutschland soll dann das Smartphone reichen, einen genauen Starttag gibt es noch nicht. Du brauchst einen Personalausweis mit Online-Funktion und PIN, ein NFC-fähiges Handy (ab iOS 17 bzw. Android 12) und deinen Kartenführerschein. Im Ausland gilt die App vorerst nicht, mitmachen ist freiwillig.\n\nUnd du: Führerschein aufs Handy oder lieber die Karte? 🚗\n\nQuellen: ZDFheute (mit Angaben des ADAC), ADAC · Text und Stimme mit KI erstellt\nFotos (Symbolbilder): Dennis Cortés, CC0, via Wikimedia Commons; Till Krech, CC BY 2.0, via Wikimedia Commons\n#nachrichten #führerschein #digitalerführerschein #autofahren #ikfz"
+}

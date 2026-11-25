@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "2026-11-24T09:41:33.959Z",
+  "aktualisiert": "2026-11-25T05:17:20.095Z",
   "ranking": [
     {
       "gruppe": "thema:digital",
@@ -30,6 +30,13 @@
       "follower": 0
     },
     {
+      "gruppe": "uhrzeit:16",
+      "posts": 2,
+      "punkte": 2.92,
+      "reichweite": 105,
+      "follower": 0
+    },
+    {
       "gruppe": "format:bilder",
       "posts": 26,
       "punkte": 2.81,
@@ -51,13 +58,6 @@
       "follower": 0
     },
     {
-      "gruppe": "thema:welt",
-      "posts": 2,
-      "punkte": 2.69,
-      "reichweite": 147,
-      "follower": 0
-    },
-    {
       "gruppe": "uhrzeit:7",
       "posts": 16,
       "punkte": 2.48,
@@ -65,10 +65,17 @@
       "follower": 0
     },
     {
+      "gruppe": "thema:umwelt",
+      "posts": 10,
+      "punkte": 2.13,
+      "reichweite": 122,
+      "follower": 0
+    },
+    {
       "gruppe": "ton:sachlich",
-      "posts": 24,
-      "punkte": 2.06,
-      "reichweite": 146,
+      "posts": 26,
+      "punkte": 2.09,
+      "reichweite": 144,
       "follower": 0
     },
     {
@@ -86,10 +93,10 @@
       "follower": 0
     },
     {
-      "gruppe": "thema:umwelt",
-      "posts": 9,
-      "punkte": 1.82,
-      "reichweite": 124,
+      "gruppe": "thema:welt",
+      "posts": 3,
+      "punkte": 1.8,
+      "reichweite": 142,
       "follower": 0
     },
     {
@@ -101,16 +108,9 @@
     },
     {
       "gruppe": "format:video",
-      "posts": 10,
-      "punkte": 1.18,
-      "reichweite": 154,
-      "follower": 0
-    },
-    {
-      "gruppe": "uhrzeit:16",
-      "posts": 1,
-      "punkte": 0.93,
-      "reichweite": 107,
+      "posts": 12,
+      "punkte": 1.39,
+      "reichweite": 148,
       "follower": 0
     },
     {
@@ -125,6 +125,13 @@
       "posts": 3,
       "punkte": 0.18,
       "reichweite": 200,
+      "follower": 0
+    },
+    {
+      "gruppe": "uhrzeit:11",
+      "posts": 1,
+      "punkte": 0,
+      "reichweite": 132,
       "follower": 0
     }
   ]
