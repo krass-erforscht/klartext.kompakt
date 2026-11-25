@@ -1593,5 +1593,19 @@
       "ig_reels_video_view_total_time": 73103
     },
     "statsAt": "2026-11-25T09:41:35.169Z"
+  },
+  {
+    "id": "2026-11-25-afrikacup",
+    "postedAt": "2026-11-25T19:01:20.726Z",
+    "topic": "sport",
+    "tone": "locker",
+    "sourceUrl": "https://www.sportschau.de/fussball/cas-urteil-senegal-erhaelt-afrika-cup-titel-zurueck,cas-afrika-cup-senegal-100.html",
+    "sourceUrls": [
+      "https://www.sportschau.de/fussball/cas-urteil-senegal-erhaelt-afrika-cup-titel-zurueck,cas-afrika-cup-senegal-100.html",
+      "https://www.zdfheute.de/sport/fussball-cas-urteil-afrika-cup-titel-doch-an-senegal-100.html",
+      "https://www.dw.com/de/senegal-ist-afrika-cup-sieger-cas-kippt-marokkos-triumph/a-80036065"
+    ],
+    "mediaId": "18122370676967139",
+    "format": "video"
   }
 ]
