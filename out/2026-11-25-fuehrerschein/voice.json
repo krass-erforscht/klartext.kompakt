@@ -1,0 +1,50 @@
+[
+ {
+  "text": "Den Führerschein zu Hause vergessen? Bald soll dein Handy reichen.",
+  "start": 0.0,
+  "end": 4.28,
+  "score": 0.85
+ },
+ {
+  "text": "Ende November soll der digitale Führerschein in einer App des Bundes starten.",
+  "start": 4.73,
+  "end": 10.45,
+  "score": 0.87
+ },
+ {
+  "text": "Bei Kontrollen in Deutschland kannst du dann dein Smartphone statt der Plastikkarte zeigen.",
+  "start": 10.9,
+  "end": 16.08,
+  "score": 1.0
+ },
+ {
+  "text": "Was heißt das für dich?",
+  "start": 16.53,
+  "end": 18.01,
+  "score": 1.0
+ },
+ {
+  "text": "Du brauchst deinen Personalausweis mit Online-Funktion, die PIN dazu und ein Handy mit NFC.",
+  "start": 18.46,
+  "end": 25.52,
+  "score": 0.92
+ },
+ {
+  "text": "Aber: Im Ausland gilt die App vorerst nicht. Dort brauchst du weiter die Karte.",
+  "start": 25.97,
+  "end": 31.61,
+  "score": 0.86
+ },
+ {
+  "text": "Die App ist kostenlos, und mitmachen ist freiwillig.",
+  "start": 32.06,
+  "end": 35.8,
+  "score": 0.86
+ },
+ {
+  "text": "Und du: Führerschein aufs Handy oder lieber die Karte?",
+  "start": 36.25,
+  "end": 39.95,
+  "score": 1.0
+ }
+]

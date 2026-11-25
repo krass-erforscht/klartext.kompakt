@@ -61,16 +61,16 @@
         "typ": "zeitstrahl",
         "punkte": [
           {
-            "jahr": "Nov. 2025",
-            "text": "Fahrzeugschein digital"
+            "jahr": "2025",
+            "text": "Fahrzeugschein"
           },
           {
-            "jahr": "Ende Nov. 2026",
-            "text": "Führerschein digital"
+            "jahr": "2026",
+            "text": "Führerschein"
           },
           {
-            "jahr": "bis 2030",
-            "text": "EU-weit geplant"
+            "jahr": "2030",
+            "text": "EU-weit"
           }
         ],
         "aktiv": 1,
@@ -125,7 +125,7 @@
     ],
     "credit": "eigene 3D-Visualisierung; Erdbild: NASA Blue Marble (Public Domain); Foto: Dennis Cortés, CC0, via Wikimedia Commons; Foto: Till Krech, CC BY 2.0, via Wikimedia Commons; Foto: Dennis Cortés, CC0, via Wikimedia Commons",
     "license": "eigene Erstellung",
-    "duration": 35.1,
+    "duration": 34,
     "file": "out/2026-11-25-fuehrerschein/video-reel.mp4"
   },
   "caption": "Digitaler Führerschein: Ende November soll er in der kostenlosen i-Kfz-App des Kraftfahrt-Bundesamts starten. Bei Kontrollen in Deutschland soll dann das Smartphone reichen, einen genauen Starttag gibt es noch nicht. Du brauchst einen Personalausweis mit Online-Funktion und PIN, ein NFC-fähiges Handy (ab iOS 17 bzw. Android 12) und deinen Kartenführerschein. Im Ausland gilt die App vorerst nicht, mitmachen ist freiwillig.\n\nUnd du: Führerschein aufs Handy oder lieber die Karte? 🚗\n\nQuellen: ZDFheute (mit Angaben des ADAC), ADAC · Text und Stimme mit KI erstellt\nFotos (Symbolbilder): Dennis Cortés, CC0, via Wikimedia Commons; Till Krech, CC BY 2.0, via Wikimedia Commons\n#nachrichten #führerschein #digitalerführerschein #autofahren #ikfz"

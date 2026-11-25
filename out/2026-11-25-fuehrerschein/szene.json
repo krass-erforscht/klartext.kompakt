@@ -1,0 +1,277 @@
+{
+ "duration": 34.04166666666667,
+ "fps": 30,
+ "shots": [
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-25-fuehrerschein.jpg",
+   "symbolbild": true,
+   "credit": "Dennis Cortés, CC0, via Wikimedia Commons",
+   "big": "Handy statt Karte",
+   "sub": "digitaler Führerschein kommt",
+   "start": 0,
+   "end": 3.8916666666666675
+  },
+  {
+   "typ": "zeitstrahl",
+   "punkte": [
+    {
+     "jahr": "2025",
+     "text": "Fahrzeugschein"
+    },
+    {
+     "jahr": "2026",
+     "text": "Führerschein"
+    },
+    {
+     "jahr": "2030",
+     "text": "EU-weit"
+    }
+   ],
+   "aktiv": 1,
+   "big": "Ende November",
+   "sub": "Start in der i-Kfz-App geplant",
+   "start": 3.8916666666666675,
+   "end": 9.033333333333335
+  },
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-25-fuehrerschein-2.jpg",
+   "symbolbild": true,
+   "credit": "Till Krech, CC BY 2.0, via Wikimedia Commons",
+   "big": "Kontrolle",
+   "sub": "Smartphone vorzeigen reicht (in Deutschland)",
+   "start": 9.033333333333335,
+   "end": 13.725000000000003
+  },
+  {
+   "typ": "zahl",
+   "wert": "?",
+   "einheit": "Was heißt das für dich?",
+   "big": "",
+   "sub": "",
+   "start": 13.725000000000003,
+   "end": 15.333333333333336
+  },
+  {
+   "typ": "menge",
+   "von": 3,
+   "markiert": 3,
+   "big": "3 Dinge",
+   "sub": "Ausweis mit Online-Funktion · PIN · NFC-Handy",
+   "start": 15.333333333333336,
+   "end": 21.591666666666665
+  },
+  {
+   "typ": "erde",
+   "lat": 51.2,
+   "lon": 10.4,
+   "ort": "Deutschland",
+   "big": "nur in Deutschland",
+   "sub": "im Ausland weiter die Karte mitnehmen",
+   "start": 21.591666666666665,
+   "end": 26.666666666666668
+  },
+  {
+   "typ": "zahl",
+   "wert": "0 €",
+   "einheit": "kostenlos und freiwillig",
+   "big": "0 Euro",
+   "sub": "freiwillig · die Karte bleibt gültig",
+   "start": 26.666666666666668,
+   "end": 30.158333333333335
+  },
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-25-fuehrerschein.jpg",
+   "symbolbild": true,
+   "credit": "Dennis Cortés, CC0, via Wikimedia Commons",
+   "big": "",
+   "sub": "",
+   "start": 30.158333333333335,
+   "end": 34.04166666666667
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0.15,
+   "end": 3.8916666666666675,
+   "big": "Handy statt Karte",
+   "sub": "digitaler Führerschein kommt"
+  },
+  {
+   "start": 4.091666666666668,
+   "end": 9.033333333333335,
+   "big": "Ende November",
+   "sub": "Start in der i-Kfz-App geplant"
+  },
+  {
+   "start": 9.233333333333334,
+   "end": 13.725000000000003,
+   "big": "Kontrolle",
+   "sub": "Smartphone vorzeigen reicht (in Deutschland)"
+  },
+  {
+   "start": 15.533333333333335,
+   "end": 21.591666666666665,
+   "big": "3 Dinge",
+   "sub": "Ausweis mit Online-Funktion · PIN · NFC-Handy"
+  },
+  {
+   "start": 21.791666666666664,
+   "end": 26.666666666666668,
+   "big": "nur in Deutschland",
+   "sub": "im Ausland weiter die Karte mitnehmen"
+  },
+  {
+   "start": 26.866666666666667,
+   "end": 30.158333333333335,
+   "big": "0 Euro",
+   "sub": "freiwillig · die Karte bleibt gültig"
+  }
+ ],
+ "captions": [
+  {
+   "text": "Den Führerschein zu Hause",
+   "start": 0.15,
+   "end": 1.5653439153439153
+  },
+  {
+   "text": "vergessen?",
+   "start": 1.5653439153439153,
+   "end": 2.1314814814814813
+  },
+  {
+   "text": "Bald soll dein Handy",
+   "start": 2.1314814814814813,
+   "end": 3.2637566137566134
+  },
+  {
+   "text": "reichen.",
+   "start": 3.2637566137566134,
+   "end": 3.7166666666666663
+  },
+  {
+   "text": "Ende November soll der",
+   "start": 4.091666666666668,
+   "end": 5.48988888888889
+  },
+  {
+   "text": "digitale Führerschein in einer",
+   "start": 5.48988888888889,
+   "end": 7.396555555555556
+  },
+  {
+   "text": "App des Bundes starten.",
+   "start": 7.396555555555556,
+   "end": 8.858333333333334
+  },
+  {
+   "text": "Bei Kontrollen in Deutschland",
+   "start": 9.233333333333334,
+   "end": 10.655871212121212
+  },
+  {
+   "text": "kannst du dann dein",
+   "start": 10.655871212121212,
+   "end": 11.587878787878788
+  },
+  {
+   "text": "Smartphone statt der Plastikkarte",
+   "start": 11.587878787878788,
+   "end": 13.206628787878786
+  },
+  {
+   "text": "zeigen.",
+   "start": 13.206628787878786,
+   "end": 13.549999999999999
+  },
+  {
+   "text": "Was heißt das für",
+   "start": 13.925000000000002,
+   "end": 14.878030303030306
+  },
+  {
+   "text": "dich?",
+   "start": 14.878030303030306,
+   "end": 15.158333333333335
+  },
+  {
+   "text": "Du brauchst deinen Personalausweis",
+   "start": 15.533333333333335,
+   "end": 17.806439393939392
+  },
+  {
+   "text": "mit Online-Funktion,",
+   "start": 17.806439393939392,
+   "end": 19.143560606060603
+  },
+  {
+   "text": "die PIN dazu und",
+   "start": 19.143560606060603,
+   "end": 20.213257575757574
+  },
+  {
+   "text": "ein Handy mit NFC.",
+   "start": 20.213257575757574,
+   "end": 21.416666666666664
+  },
+  {
+   "text": "Aber:",
+   "start": 21.791666666666664,
+   "end": 22.104999999999997
+  },
+  {
+   "text": "Im Ausland gilt die",
+   "start": 22.104999999999997,
+   "end": 23.295666666666666
+  },
+  {
+   "text": "App vorerst nicht.",
+   "start": 23.295666666666666,
+   "end": 24.423666666666666
+  },
+  {
+   "text": "Dort brauchst du weiter",
+   "start": 24.423666666666666,
+   "end": 25.865
+  },
+  {
+   "text": "die Karte.",
+   "start": 25.865,
+   "end": 26.491666666666667
+  },
+  {
+   "text": "Die App ist kostenlos,",
+   "start": 26.866666666666667,
+   "end": 28.21111111111111
+  },
+  {
+   "text": "und mitmachen ist freiwillig.",
+   "start": 28.21111111111111,
+   "end": 29.983333333333327
+  },
+  {
+   "text": "Und du:",
+   "start": 30.358333333333334,
+   "end": 30.773397435897436
+  },
+  {
+   "text": "Führerschein aufs Handy oder",
+   "start": 30.773397435897436,
+   "end": 32.433653846153845
+  },
+  {
+   "text": "lieber die Karte?",
+   "start": 32.433653846153845,
+   "end": 33.44166666666667
+  }
+ ],
+ "handle": "@tagesbild.kompakt",
+ "colors": {
+  "accent": "#e8412c",
+  "mark": "#ffd23f"
+ },
+ "capColor": "rgba(232,65,44,.92)",
+ "source": "Quellen: ZDFheute, ADAC"
+}
