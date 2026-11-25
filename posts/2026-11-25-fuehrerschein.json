@@ -29,35 +29,104 @@
     "headline": "Führerschein aufs **Handy**: Ende November soll es losgehen 📱",
     "voiceSpeed": 1.2,
     "voice": [
-      "Führerschein zu Hause vergessen? Bald soll dein Handy reichen.",
-      "Ende November soll der digitale Führerschein in der kostenlosen i-Kfz-App starten.",
+      "Den Führerschein zu Hause vergessen? Bald soll dein Handy reichen.",
+      "Ende November soll der digitale Führerschein in einer App des Bundes starten.",
       "Bei Kontrollen in Deutschland kannst du dann dein Smartphone statt der Plastikkarte zeigen.",
       "Was heißt das für dich?",
       "Du brauchst deinen Personalausweis mit Online-Funktion, die PIN dazu und ein Handy mit NFC.",
-      "Achtung: Im Ausland gilt die App vorerst nicht. Dort brauchst du weiter die Karte.",
-      "Mitmachen ist freiwillig, die Plastikkarte bleibt gültig.",
+      "Aber: Im Ausland gilt die App vorerst nicht. Dort brauchst du weiter die Karte.",
+      "Die App ist kostenlos, und mitmachen ist freiwillig.",
       "Und du: Führerschein aufs Handy oder lieber die Karte?"
     ],
     "voiceText": [
-      "Führerschein zu Hause vergessen? Bald soll dein Handy reichen.",
-      "Ende November soll der digitale Führerschein in der kostenlosen i-Kfz-App starten.",
+      "Den Führerschein zu Hause vergessen? Bald soll dein Handy reichen.",
+      "Ende November soll der digitale Führerschein in einer App des Bundes starten.",
       "Bei Kontrollen in Deutschland kannst du dann dein Smartphone statt der Plastikkarte zeigen.",
       "Was heißt das für dich?",
       "Du brauchst deinen Personalausweis mit Online-Funktion, die PIN dazu und ein Handy mit NFC.",
-      "Achtung: Im Ausland gilt die App vorerst nicht. Dort brauchst du weiter die Karte.",
-      "Mitmachen ist freiwillig, die Plastikkarte bleibt gültig.",
+      "Aber: Im Ausland gilt die App vorerst nicht. Dort brauchst du weiter die Karte.",
+      "Die App ist kostenlos, und mitmachen ist freiwillig.",
       "Und du: Führerschein aufs Handy oder lieber die Karte?"
     ],
     "szene": [
-      { "typ": "foto", "bild": "images/2026-11-25-fuehrerschein.jpg", "symbolbild": true, "credit": "Dennis Cortés, CC0, via Wikimedia Commons", "big": "Handy statt Karte", "sub": "digitaler Führerschein kommt" },
-      { "typ": "datum", "tag": "Ende", "monat": "November", "jahr": "2026", "big": "Ende November", "sub": "Start in der i-Kfz-App geplant" },
-      { "typ": "foto", "bild": "images/2026-11-25-fuehrerschein-2.jpg", "symbolbild": true, "credit": "Till Krech, CC BY 2.0, via Wikimedia Commons", "big": "Kontrolle", "sub": "Smartphone vorzeigen reicht (in Deutschland)" },
-      { "typ": "zahl", "wert": "?", "einheit": "Was heißt das für dich?", "big": "", "sub": "" },
-      { "typ": "menge", "von": 3, "markiert": 3, "big": "3 Dinge", "sub": "Ausweis mit Online-Funktion · PIN · NFC-Handy" },
-      { "typ": "erde", "lat": 51.2, "lon": 10.4, "ort": "Deutschland", "big": "nur in Deutschland", "sub": "im Ausland weiter die Karte mitnehmen" },
-      { "typ": "zahl", "wert": "freiwillig", "einheit": "Karte bleibt gültig", "big": "freiwillig", "sub": "Kartenführerschein bleibt gültig" },
-      { "typ": "foto", "bild": "images/2026-11-25-fuehrerschein.jpg", "symbolbild": true, "credit": "Dennis Cortés, CC0, via Wikimedia Commons", "big": "", "sub": "" }
-    ]
+      {
+        "typ": "foto",
+        "bild": "images/2026-11-25-fuehrerschein.jpg",
+        "symbolbild": true,
+        "credit": "Dennis Cortés, CC0, via Wikimedia Commons",
+        "big": "Handy statt Karte",
+        "sub": "digitaler Führerschein kommt"
+      },
+      {
+        "typ": "zeitstrahl",
+        "punkte": [
+          {
+            "jahr": "Nov. 2025",
+            "text": "Fahrzeugschein digital"
+          },
+          {
+            "jahr": "Ende Nov. 2026",
+            "text": "Führerschein digital"
+          },
+          {
+            "jahr": "bis 2030",
+            "text": "EU-weit geplant"
+          }
+        ],
+        "aktiv": 1,
+        "big": "Ende November",
+        "sub": "Start in der i-Kfz-App geplant"
+      },
+      {
+        "typ": "foto",
+        "bild": "images/2026-11-25-fuehrerschein-2.jpg",
+        "symbolbild": true,
+        "credit": "Till Krech, CC BY 2.0, via Wikimedia Commons",
+        "big": "Kontrolle",
+        "sub": "Smartphone vorzeigen reicht (in Deutschland)"
+      },
+      {
+        "typ": "zahl",
+        "wert": "?",
+        "einheit": "Was heißt das für dich?",
+        "big": "",
+        "sub": ""
+      },
+      {
+        "typ": "menge",
+        "von": 3,
+        "markiert": 3,
+        "big": "3 Dinge",
+        "sub": "Ausweis mit Online-Funktion · PIN · NFC-Handy"
+      },
+      {
+        "typ": "erde",
+        "lat": 51.2,
+        "lon": 10.4,
+        "ort": "Deutschland",
+        "big": "nur in Deutschland",
+        "sub": "im Ausland weiter die Karte mitnehmen"
+      },
+      {
+        "typ": "zahl",
+        "wert": "0 €",
+        "einheit": "kostenlos und freiwillig",
+        "big": "0 Euro",
+        "sub": "freiwillig · die Karte bleibt gültig"
+      },
+      {
+        "typ": "foto",
+        "bild": "images/2026-11-25-fuehrerschein.jpg",
+        "symbolbild": true,
+        "credit": "Dennis Cortés, CC0, via Wikimedia Commons",
+        "big": "",
+        "sub": ""
+      }
+    ],
+    "credit": "eigene 3D-Visualisierung; Erdbild: NASA Blue Marble (Public Domain); Foto: Dennis Cortés, CC0, via Wikimedia Commons; Foto: Till Krech, CC BY 2.0, via Wikimedia Commons; Foto: Dennis Cortés, CC0, via Wikimedia Commons",
+    "license": "eigene Erstellung",
+    "duration": 35.1,
+    "file": "out/2026-11-25-fuehrerschein/video-reel.mp4"
   },
   "caption": "Digitaler Führerschein: Ende November soll er in der kostenlosen i-Kfz-App des Kraftfahrt-Bundesamts starten. Bei Kontrollen in Deutschland soll dann das Smartphone reichen, einen genauen Starttag gibt es noch nicht. Du brauchst einen Personalausweis mit Online-Funktion und PIN, ein NFC-fähiges Handy (ab iOS 17 bzw. Android 12) und deinen Kartenführerschein. Im Ausland gilt die App vorerst nicht, mitmachen ist freiwillig.\n\nUnd du: Führerschein aufs Handy oder lieber die Karte? 🚗\n\nQuellen: ZDFheute (mit Angaben des ADAC), ADAC · Text und Stimme mit KI erstellt\nFotos (Symbolbilder): Dennis Cortés, CC0, via Wikimedia Commons; Till Krech, CC BY 2.0, via Wikimedia Commons\n#nachrichten #führerschein #digitalerführerschein #autofahren #ikfz"
 }
