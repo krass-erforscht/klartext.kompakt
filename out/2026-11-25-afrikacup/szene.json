@@ -1,0 +1,325 @@
+{
+ "duration": 42.958333333333336,
+ "fps": 30,
+ "shots": [
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-25-afrikacup.jpg",
+   "symbolbild": true,
+   "credit": "Ben Sutherland, CC BY 2.0 (Afrika-Cup 2015)",
+   "big": "Titel zurück",
+   "sub": "Senegal ist wieder Afrikameister",
+   "start": 0,
+   "end": 4.2250000000000005
+  },
+  {
+   "typ": "zahl",
+   "wert": "1:0",
+   "einheit": "Senegal – Marokko",
+   "big": "Finale",
+   "sub": "18. Januar 2026 in Rabat, nach Verlängerung",
+   "start": 4.2250000000000005,
+   "end": 8.683333333333335
+  },
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-25-afrikacup-2.jpg",
+   "symbolbild": true,
+   "credit": "Ben Sutherland, CC BY 2.0 (Afrika-Cup 2015)",
+   "big": "Elfmeter",
+   "sub": "Senegal geht aus Protest vom Platz",
+   "start": 8.683333333333335,
+   "end": 13.591666666666669
+  },
+  {
+   "typ": "zahl",
+   "wert": "0",
+   "einheit": "Tore per Elfmeter",
+   "big": "verschossen",
+   "sub": "nach langer Unterbrechung",
+   "start": 13.591666666666669,
+   "end": 18.066666666666666
+  },
+  {
+   "typ": "zahl",
+   "wert": "1:0",
+   "einheit": "nach Verlängerung",
+   "big": "Sieg für Senegal",
+   "sub": "Tor in der Verlängerung",
+   "start": 18.066666666666666,
+   "end": 21.008333333333333
+  },
+  {
+   "typ": "zahl",
+   "wert": "3:0",
+   "einheit": "für Marokko gewertet",
+   "big": "März 2026",
+   "sub": "Berufungsinstanz des Verbands CAF",
+   "start": 21.008333333333333,
+   "end": 26.083333333333332
+  },
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-25-afrikacup-3.jpg",
+   "symbolbild": false,
+   "credit": "Fanny Schertzer, CC BY 3.0",
+   "big": "3 von 3 Richtern",
+   "sub": "CAS: einstimmig für Senegal",
+   "start": 26.083333333333332,
+   "end": 31.091666666666665
+  },
+  {
+   "typ": "menge",
+   "von": 1,
+   "markiert": 1,
+   "big": "Regel 5.2",
+   "sub": "Nur der Schiedsrichter entscheidet über Abbruch",
+   "start": 31.091666666666665,
+   "end": 36.15
+  },
+  {
+   "typ": "erde",
+   "lat": 46.5,
+   "lon": 6.6,
+   "ort": "Lausanne",
+   "big": "Nächster Schritt?",
+   "sub": "Marokko kann noch vors Schweizer Bundesgericht",
+   "start": 36.15,
+   "end": 38.541666666666664
+  },
+  {
+   "typ": "zahl",
+   "wert": "?",
+   "einheit": "Platz oder grüner Tisch?",
+   "big": "",
+   "sub": "",
+   "start": 38.541666666666664,
+   "end": 42.958333333333336
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0.15,
+   "end": 4.2250000000000005,
+   "big": "Titel zurück",
+   "sub": "Senegal ist wieder Afrikameister"
+  },
+  {
+   "start": 4.425000000000001,
+   "end": 8.683333333333335,
+   "big": "Finale",
+   "sub": "18. Januar 2026 in Rabat, nach Verlängerung"
+  },
+  {
+   "start": 8.883333333333335,
+   "end": 13.591666666666669,
+   "big": "Elfmeter",
+   "sub": "Senegal geht aus Protest vom Platz"
+  },
+  {
+   "start": 13.791666666666668,
+   "end": 18.066666666666666,
+   "big": "verschossen",
+   "sub": "nach langer Unterbrechung"
+  },
+  {
+   "start": 18.266666666666666,
+   "end": 21.008333333333333,
+   "big": "Sieg für Senegal",
+   "sub": "Tor in der Verlängerung"
+  },
+  {
+   "start": 21.208333333333332,
+   "end": 26.083333333333332,
+   "big": "März 2026",
+   "sub": "Berufungsinstanz des Verbands CAF"
+  },
+  {
+   "start": 26.28333333333333,
+   "end": 31.091666666666665,
+   "big": "3 von 3 Richtern",
+   "sub": "CAS: einstimmig für Senegal"
+  },
+  {
+   "start": 31.291666666666664,
+   "end": 36.15,
+   "big": "Regel 5.2",
+   "sub": "Nur der Schiedsrichter entscheidet über Abbruch"
+  },
+  {
+   "start": 36.35,
+   "end": 38.541666666666664,
+   "big": "Nächster Schritt?",
+   "sub": "Marokko kann noch vors Schweizer Bundesgericht"
+  }
+ ],
+ "captions": [
+  {
+   "text": "Senegal ist wieder Afrikameister",
+   "start": 0.15,
+   "end": 2.2652542372881355
+  },
+  {
+   "text": "– 10 Monate nach",
+   "start": 2.2652542372881355,
+   "end": 3.3228813559322035
+  },
+  {
+   "text": "dem Finale.",
+   "start": 3.3228813559322035,
+   "end": 4.05
+  },
+  {
+   "text": "Im Januar schlägt Senegal",
+   "start": 4.425000000000001,
+   "end": 6.388141025641026
+  },
+  {
+   "text": "im Endspiel Marokko mit",
+   "start": 6.388141025641026,
+   "end": 8.194230769230769
+  },
+  {
+   "text": "1:0.",
+   "start": 8.194230769230769,
+   "end": 8.508333333333333
+  },
+  {
+   "text": "Dann bekommt Marokko einen",
+   "start": 8.883333333333335,
+   "end": 10.497945205479454
+  },
+  {
+   "text": "Elfmeter,",
+   "start": 10.497945205479454,
+   "end": 11.056849315068494
+  },
+  {
+   "text": "und Senegal geht aus",
+   "start": 11.056849315068494,
+   "end": 12.298858447488584
+  },
+  {
+   "text": "Protest vom Platz.",
+   "start": 12.298858447488584,
+   "end": 13.416666666666666
+  },
+  {
+   "text": "Das Spiel ruht minutenlang,",
+   "start": 13.791666666666668,
+   "end": 15.548809523809524
+  },
+  {
+   "text": "dann verschießt Marokko den",
+   "start": 15.548809523809524,
+   "end": 17.30595238095238
+  },
+  {
+   "text": "Elfmeter.",
+   "start": 17.30595238095238,
+   "end": 17.891666666666666
+  },
+  {
+   "text": "In der Verlängerung trifft",
+   "start": 18.266666666666666,
+   "end": 19.81860465116279
+  },
+  {
+   "text": "Senegal zum Sieg.",
+   "start": 19.81860465116279,
+   "end": 20.833333333333332
+  },
+  {
+   "text": "Im März dann die",
+   "start": 21.208333333333332,
+   "end": 22.347727272727273
+  },
+  {
+   "text": "Wende:",
+   "start": 22.347727272727273,
+   "end": 22.775
+  },
+  {
+   "text": "Der Verband wertet das",
+   "start": 22.775,
+   "end": 24.341666666666665
+  },
+  {
+   "text": "Spiel 3:0 für Marokko.",
+   "start": 24.341666666666665,
+   "end": 25.90833333333333
+  },
+  {
+   "text": "Jetzt hat der Internationale",
+   "start": 26.28333333333333,
+   "end": 27.96818181818182
+  },
+  {
+   "text": "Sportgerichtshof das gekippt,",
+   "start": 27.96818181818182,
+   "end": 29.713203463203463
+  },
+  {
+   "text": "und zwar einstimmig.",
+   "start": 29.713203463203463,
+   "end": 30.916666666666668
+  },
+  {
+   "text": "Der Grund:",
+   "start": 31.291666666666664,
+   "end": 31.817883895131086
+  },
+  {
+   "text": "Nur der Schiedsrichter entscheidet",
+   "start": 31.817883895131086,
+   "end": 33.60702247191011
+  },
+  {
+   "text": "über einen Abbruch,",
+   "start": 33.60702247191011,
+   "end": 34.60683520599251
+  },
+  {
+   "text": "und er ließ weiterspielen.",
+   "start": 34.60683520599251,
+   "end": 35.975
+  },
+  {
+   "text": "Marokko will das Urteil",
+   "start": 36.35,
+   "end": 37.75555555555556
+  },
+  {
+   "text": "anfechten.",
+   "start": 37.75555555555556,
+   "end": 38.366666666666674
+  },
+  {
+   "text": "Was zählt für dich:",
+   "start": 38.74166666666667,
+   "end": 39.868169398907106
+  },
+  {
+   "text": "der Sieg auf dem",
+   "start": 39.868169398907106,
+   "end": 40.816803278688525
+  },
+  {
+   "text": "Platz oder am grünen",
+   "start": 40.816803278688525,
+   "end": 42.0025956284153
+  },
+  {
+   "text": "Tisch?",
+   "start": 42.0025956284153,
+   "end": 42.358333333333334
+  }
+ ],
+ "handle": "@tagesbild.kompakt",
+ "colors": {
+  "accent": "#e8412c",
+  "mark": "#ffd23f"
+ },
+ "capColor": "rgba(232,65,44,.92)",
+ "source": "Quellen: Sportschau, ZDFheute, Deutsche Welle"
+}
