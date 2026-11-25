@@ -1,15 +1,16 @@
 # Algorithmus-Analyse (2026-11-25)
 
-46 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
-Gesamtreichweite: 5.265 Konten, Median pro Post: 111.
+47 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
+Gesamtreichweite: 5.269 Konten, Median pro Post: 110.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
 
-- Thema: „sport“ erreicht im Mittel 137,5 Konten, „alltag“ nur 29,5 (14 bzw. 4 Posts).
+- Thema: „sport“ erreicht im Mittel 137,5 Konten, „alltag“ nur 25 (14 bzw. 5 Posts).
 - Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).
 - Wochentag: „So“ erreicht im Mittel 145 Konten, „Mi“ nur 57 (8 bzw. 6 Posts).
-- Frage oder Aussage: „Aussage“ erreicht im Mittel 115 Konten, „Frage“ nur 34 (43 bzw. 3 Posts).
-- Zuschau-Anteil und Reichweite: Rangkorrelation 0,5 (deutlicher Zusammenhang – Videos, die bis zum Ende geschaut werden, verbreiten sich weiter).
+- Frage oder Aussage: „Aussage“ erreicht im Mittel 113,5 Konten, „Frage“ nur 34 (44 bzw. 3 Posts).
+- Getestete Regel (Feld „test“ im Post): „teilen-anreiz“ erreicht im Mittel 122 Konten, „kurz-video“ nur 69,5 (6 bzw. 2 Posts).
+- Zuschau-Anteil und Reichweite: Rangkorrelation 0,2 (schwacher Zusammenhang).
 
 ## Top 3
 
@@ -20,8 +21,8 @@ Gesamtreichweite: 5.265 Konten, Median pro Post: 111.
 ## Flop 3
 
 - **So hat sich die Erde seit 1880 erwärmt** (2026-11-07, zusammen, umwelt/sachlich, 7 Uhr): 3 Konten, 1 Likes
+- **Black Friday: Viele Rabatte sind kleiner, als sie aussehen 🏷️** (2026-11-24, video, alltag/ueberraschend, 6 Uhr): 4 Konten, 0 Likes
 - **Inflation sinkt im Oktober auf 2,8 Prozent** (2026-10-31, bilder, geld/sachlich, 18 Uhr): 8 Konten, 3 Likes
-- **Elterngeld soll zum ersten Mal steigen** (2026-10-28, bilder, geld/sachlich, 18 Uhr): 21 Konten, 7 Likes
 
 ## Vergleich nach Merkmalen (Median)
 
@@ -31,7 +32,7 @@ Gesamtreichweite: 5.265 Konten, Median pro Post: 111.
 |---|---|---|---|---|---|
 | zusammen | 3 | 144 | 14,8 | 1,9 | 5,3 |
 | bilder | 32 | 111 | 27,2 | 1 | 3,3 |
-| video | 11 | 109 | 8,5 | 1,2 | 5,9 |
+| video | 12 | 109 | 8,5 | 1,2 | 6 |
 
 ### Thema
 
@@ -42,7 +43,7 @@ Gesamtreichweite: 5.265 Konten, Median pro Post: 111.
 | digital | 9 | 109 | 18,8 | 2,1 | 4,1 |
 | welt | 4 | 86 | 28,6 | 2,9 | 5,5 |
 | geld | 4 | 61,5 | 42,5 | 0 | 2,8 |
-| alltag | 4 | 29,5 | 65,1 | 0 | 2,5 |
+| alltag | 5 | 25 | 63,6 | 0 | 3,4 |
 
 ### Ton
 
@@ -50,7 +51,7 @@ Gesamtreichweite: 5.265 Konten, Median pro Post: 111.
 |---|---|---|---|---|---|
 | sachlich | 28 | 123 | 16,8 | 1,4 | 3,7 |
 | locker | 5 | 116 | 31 | 2,2 | 3,4 |
-| ueberraschend | 13 | 109 | 26,4 | 0 | 4 |
+| ueberraschend | 14 | 98 | 26,3 | 0 | 4 |
 
 ### Uhrzeit
 
@@ -58,7 +59,7 @@ Gesamtreichweite: 5.265 Konten, Median pro Post: 111.
 |---|---|---|---|---|---|
 | 7 Uhr | 17 | 137 | 18,2 | 0,9 | 3,6 |
 | 20 Uhr | 5 | 135 | 9,2 | 1,5 | 5,9 |
-| 6 Uhr | 3 | 135 | 3,3 | 0 | 7,2 |
+| 6 Uhr | 4 | 118,5 | 3,3 | 0 | 7,2 |
 | 12 Uhr | 11 | 108 | 31,9 | 0 | 4 |
 | 16 Uhr | 2 | 104,5 | 9,6 | 4,8 | 5,3 |
 | 18 Uhr | 8 | 52,5 | 45,1 | 4,1 | 2,7 |
@@ -72,28 +73,28 @@ Gesamtreichweite: 5.265 Konten, Median pro Post: 111.
 | Do | 7 | 115 | 24,9 | 0 | 3,9 |
 | Fr | 6 | 113,5 | 21 | 0 | 3,3 |
 | Sa | 6 | 109,5 | 25,3 | 4,2 | 2,4 |
-| Di | 5 | 107 | 14 | 0 | 5,6 |
+| Di | 6 | 106,5 | 13,9 | 0 | 5,7 |
 | Mi | 6 | 57 | 45,9 | 0 | 2,8 |
 
 ### Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| lang (>45 Zeichen) | 34 | 113,5 | 17,3 | 1,3 | 3,9 |
+| lang (>45 Zeichen) | 35 | 112 | 17,2 | 1,2 | 4 |
 | kurz (≤45 Zeichen) | 12 | 107,5 | 29,2 | 0,8 | 2,9 |
 
 ### Zahl in der Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| ohne Zahl | 24 | 115,5 | 18,5 | 1,3 | 3,5 |
+| ohne Zahl | 25 | 112 | 18,5 | 1,3 | 3,6 |
 | mit Zahl | 22 | 108 | 22,5 | 0,9 | 4,8 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 43 | 115 | 19,4 | 1,2 | 3,8 |
+| Aussage | 44 | 113,5 | 19,3 | 1,2 | 3,9 |
 | Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
@@ -102,22 +103,22 @@ Gesamtreichweite: 5.265 Konten, Median pro Post: 111.
 |---|---|---|---|---|---|
 | bis 15 s | 1 | 393 | 12,7 | 2,5 | 5,2 |
 | 16–25 s | 3 | 144 | 15,2 | 0 | 5,4 |
-| über 25 s | 10 | 108 | 7,5 | 1,5 | 5,9 |
+| über 25 s | 11 | 107 | 7,5 | 1,5 | 6 |
 
 ### Echtes Video oder Symbolvideo
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | echtes Video | 1 | 150 | 6,7 | 6,7 | 8,1 |
-| Symbolvideo | 13 | 109 | 10,3 | 1 | 5,7 |
+| Symbolvideo | 14 | 109 | 10,3 | 1 | 5,8 |
 
 ### Getestete Regel (Feld „test“ im Post)
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| kurz-video | 1 | 135 | 0 | 0 | 3 |
 | teilen-anreiz | 6 | 122 | 6,7 | 2,7 | 6 |
 | aussage-titel | 3 | 107 | 8,7 | 0 | 5,9 |
+| kurz-video | 2 | 69,5 | 0 | 0 | 5,1 |
 
 ## Alle Posts
 
@@ -169,6 +170,7 @@ Gesamtreichweite: 5.265 Konten, Median pro Post: 111.
 | 2026-11-22 | Nach 8 Jahren im All: Europas Sonde ist am Me | video | 150 | 169 | 1 | 1 | 0 | – | 8,1 s | 19 % |
 | 2026-11-23 | Bayern verliert die Spitze: Dortmund ist neue | video | 135 | 138 | 0 | 0 | 0 | – | 3 s | 9 % |
 | 2026-11-23 | Klimagipfel ohne Einigung: Kohle, Öl und Gas  | video | 102 | 110 | 1 | 0 | 1 | – | 5,2 s | 12 % |
+| 2026-11-24 | Black Friday: Viele Rabatte sind kleiner, als | video | 4 | 7 | 0 | 0 | 0 | – | 7,3 s | 24 % |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.

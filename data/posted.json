@@ -1569,5 +1569,18 @@
       "ig_reels_video_view_total_time": 1491616
     },
     "statsAt": "2026-11-25T05:17:19.996Z"
+  },
+  {
+    "id": "2026-11-25-fuehrerschein",
+    "postedAt": "2026-11-25T05:52:34.006Z",
+    "topic": "alltag",
+    "tone": "ueberraschend",
+    "sourceUrl": "https://www.zdfheute.de/ratgeber/fuehrerschein-digitaler-fuehrerschein-i-kfz-app-smartphone-100.html",
+    "sourceUrls": [
+      "https://www.zdfheute.de/ratgeber/fuehrerschein-digitaler-fuehrerschein-i-kfz-app-smartphone-100.html",
+      "https://www.adac.de/verkehr/rund-um-den-fuehrerschein/aktuelles/digitaler-fuehrerschein/"
+    ],
+    "mediaId": "18157957945536964",
+    "format": "video"
   }
 ]
