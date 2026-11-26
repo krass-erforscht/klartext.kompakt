@@ -1618,5 +1618,20 @@
       "ig_reels_video_view_total_time": 478321
     },
     "statsAt": "2026-11-26T05:17:39.002Z"
+  },
+  {
+    "id": "2026-11-26-hera",
+    "postedAt": "2026-11-26T05:39:31.312Z",
+    "topic": "welt",
+    "tone": "sachlich",
+    "sourceUrl": "https://www.tagesschau.de/wissen/sonde-hera-asteroid-100.html",
+    "sourceUrls": [
+      "https://www.tagesschau.de/wissen/sonde-hera-asteroid-100.html",
+      "https://www.n-tv.de/wissen/Sonde-sendet-Bild-von-bombardiertem-Asteroiden-id31576673.html",
+      "https://www.heise.de/news/Weltraumsonde-Hera-entdeckt-hunderte-Mini-Asteroiden-rund-um-Dimorphos-11538102.html",
+      "https://www.deutschlandfunk.de/weit-mehr-als-eine-wissenschaftliche-sensation-esa-veroeffentlicht-bilder-der-raumsonde-hera-von-ast-106.html"
+    ],
+    "mediaId": "18028641800865438",
+    "format": "video"
   }
 ]
