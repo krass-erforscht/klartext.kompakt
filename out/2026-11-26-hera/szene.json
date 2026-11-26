@@ -1,0 +1,290 @@
+{
+ "duration": 40.00833333333333,
+ "fps": 30,
+ "shots": [
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-26-hera.jpg",
+   "symbolbild": true,
+   "credit": "Illustration: NASA/JPL, Public Domain",
+   "big": "Stadion-Krater",
+   "sub": "im Asteroiden Dimorphos (ca. 150 m groß)",
+   "start": 0,
+   "end": 6.675000000000001
+  },
+  {
+   "typ": "zeitstrahl",
+   "punkte": [
+    {
+     "jahr": "2022",
+     "text": "DART-Einschlag"
+    },
+    {
+     "jahr": "2026",
+     "text": "Hera-Bilder"
+    }
+   ],
+   "aktiv": 0,
+   "big": "2022",
+   "sub": "Einschlag mit über 22.000 km/h",
+   "start": 6.675000000000001,
+   "end": 12.166666666666668
+  },
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-26-hera-2.jpg",
+   "symbolbild": true,
+   "credit": "Illustration: ESA, CC BY-SA 3.0 IGO",
+   "big": "",
+   "sub": "",
+   "start": 12.166666666666668,
+   "end": 17.958333333333332
+  },
+  {
+   "typ": "zahl",
+   "wert": "42.000",
+   "einheit": "erdnahe Objekte bekannt",
+   "big": "42.000",
+   "sub": "erdnahe Objekte kennt man laut DLR",
+   "start": 17.958333333333332,
+   "end": 19.5
+  },
+  {
+   "typ": "balken",
+   "werte": [
+    {
+     "name": "vorher",
+     "wert": 716,
+     "text": "11 h 56"
+    },
+    {
+     "name": "nachher",
+     "wert": 683,
+     "text": "11 h 23"
+    }
+   ],
+   "hervor": 1,
+   "big": "−33 Min",
+   "sub": "Umlaufzeit um den großen Asteroiden",
+   "start": 19.5,
+   "end": 25.625
+  },
+  {
+   "typ": "erde",
+   "lat": 49.87,
+   "lon": 8.65,
+   "ort": "Darmstadt",
+   "big": "Abwehr-Test",
+   "sub": "Hera wird aus Darmstadt gesteuert",
+   "start": 25.625,
+   "end": 29.883333333333336
+  },
+  {
+   "typ": "foto",
+   "bild": "images/2026-11-26-hera-3.jpg",
+   "symbolbild": true,
+   "credit": "Hubble-Aufnahme 2022: NASA, ESA, D. Jewitt, CC BY 4.0",
+   "big": "Hunderte",
+   "sub": "unerwartete Brocken um die Asteroiden",
+   "start": 29.883333333333336,
+   "end": 33.391666666666666
+  },
+  {
+   "typ": "zahl",
+   "wert": "0",
+   "einheit": "auf Kurs zur Erde",
+   "big": "0",
+   "sub": "bekannte Asteroiden auf Kollisionskurs (DLR)",
+   "start": 33.391666666666666,
+   "end": 40.00833333333333
+  }
+ ],
+ "overlays": [
+  {
+   "start": 0.15,
+   "end": 6.675000000000001,
+   "big": "Stadion-Krater",
+   "sub": "im Asteroiden Dimorphos (ca. 150 m groß)"
+  },
+  {
+   "start": 6.875000000000001,
+   "end": 12.166666666666668,
+   "big": "2022",
+   "sub": "Einschlag mit über 22.000 km/h"
+  },
+  {
+   "start": 18.15833333333333,
+   "end": 19.5,
+   "big": "42.000",
+   "sub": "erdnahe Objekte kennt man laut DLR"
+  },
+  {
+   "start": 19.7,
+   "end": 25.625,
+   "big": "−33 Min",
+   "sub": "Umlaufzeit um den großen Asteroiden"
+  },
+  {
+   "start": 25.825,
+   "end": 29.883333333333336,
+   "big": "Abwehr-Test",
+   "sub": "Hera wird aus Darmstadt gesteuert"
+  },
+  {
+   "start": 30.083333333333336,
+   "end": 33.391666666666666,
+   "big": "Hunderte",
+   "sub": "unerwartete Brocken um die Asteroiden"
+  },
+  {
+   "start": 33.59166666666667,
+   "end": 40.00833333333333,
+   "big": "0",
+   "sub": "bekannte Asteroiden auf Kollisionskurs (DLR)"
+  }
+ ],
+ "captions": [
+  {
+   "text": "Eine Raumsonde hat einen",
+   "start": 0.15,
+   "end": 1.8247252747252747
+  },
+  {
+   "text": "Krater so groß wie",
+   "start": 1.8247252747252747,
+   "end": 3.080769230769231
+  },
+  {
+   "text": "ein Fußballstadion in einen",
+   "start": 3.080769230769231,
+   "end": 4.964835164835165
+  },
+  {
+   "text": "Asteroiden geschlagen.",
+   "start": 4.964835164835165,
+   "end": 6.5
+  },
+  {
+   "text": "Vor 4 Jahren krachte",
+   "start": 6.875000000000001,
+   "end": 8.186965811965813
+  },
+  {
+   "text": "die NASA-Sonde DART mit",
+   "start": 8.186965811965813,
+   "end": 9.695726495726497
+  },
+  {
+   "text": "Absicht in den Asteroiden",
+   "start": 9.695726495726497,
+   "end": 11.335683760683763
+  },
+  {
+   "text": "Dimorphos.",
+   "start": 11.335683760683763,
+   "end": 11.991666666666669
+  },
+  {
+   "text": "Erste Bilder der europäischen",
+   "start": 12.366666666666667,
+   "end": 14.092857142857142
+  },
+  {
+   "text": "Sonde Hera zeigen jetzt:",
+   "start": 14.092857142857142,
+   "end": 15.521428571428569
+  },
+  {
+   "text": "Eine ganze Seite ist",
+   "start": 15.521428571428569,
+   "end": 16.71190476190476
+  },
+  {
+   "text": "wie plattgedrückt.",
+   "start": 16.71190476190476,
+   "end": 17.783333333333328
+  },
+  {
+   "text": "Was heißt das für",
+   "start": 18.15833333333333,
+   "end": 19.059848484848484
+  },
+  {
+   "text": "dich?",
+   "start": 19.059848484848484,
+   "end": 19.325
+  },
+  {
+   "text": "Der Stoß hat die",
+   "start": 19.7,
+   "end": 20.72222222222222
+  },
+  {
+   "text": "Bahn des Asteroiden verändert,",
+   "start": 20.72222222222222,
+   "end": 22.63888888888889
+  },
+  {
+   "text": "er braucht für eine",
+   "start": 22.63888888888889,
+   "end": 23.852777777777778
+  },
+  {
+   "text": "Runde 33 Minuten weniger.",
+   "start": 23.852777777777778,
+   "end": 25.45
+  },
+  {
+   "text": "So könnte man die",
+   "start": 25.825,
+   "end": 26.705222222222222
+  },
+  {
+   "text": "Erde eines Tages vor",
+   "start": 26.705222222222222,
+   "end": 27.740777777777776
+  },
+  {
+   "text": "einem gefährlichen Einschlag schützen.",
+   "start": 27.740777777777776,
+   "end": 29.708333333333332
+  },
+  {
+   "text": "Überraschend kreisen dort aber",
+   "start": 30.083333333333336,
+   "end": 31.676553672316388
+  },
+  {
+   "text": "auch Hunderte kleine Brocken.",
+   "start": 31.676553672316388,
+   "end": 33.21666666666667
+  },
+  {
+   "text": "Gerade ist übrigens kein",
+   "start": 33.59166666666667,
+   "end": 35.109057971014494
+  },
+  {
+   "text": "bekannter Asteroid auf Kurs",
+   "start": 35.109057971014494,
+   "end": 36.8161231884058
+  },
+  {
+   "text": "zur Erde.",
+   "start": 36.8161231884058,
+   "end": 37.38514492753623
+  },
+  {
+   "text": "Beeindruckend oder beunruhigend?",
+   "start": 37.38514492753623,
+   "end": 39.40833333333333
+  }
+ ],
+ "handle": "@tagesbild.kompakt",
+ "colors": {
+  "accent": "#e8412c",
+  "mark": "#ffd23f"
+ },
+ "capColor": "rgba(232,65,44,.92)",
+ "source": "Quellen: tagesschau, n-tv, heise online, Deutschlandfunk"
+}
