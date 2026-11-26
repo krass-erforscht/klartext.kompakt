@@ -49,6 +49,7 @@ Aus der YouTube-Auswertung von krass.erforscht (240 meistgesehene deutsche Wisse
 - Verglichen wird die Reichweite im Verhältnis zum Median des Formats. Stand 2026-11-16: morgens 1,2×, mittags 0,89×, abends 0,48×, spät noch ungetestet.
 
 ## Verlauf
+- 2026-11-26 (morgens): Keine Regeländerung (Afrika-Cup-Post noch keine 24 h alt, `kurz-video` weiter mit zu wenigen Zahlen). Hera/Dimorphos-Post (Welt/Weltraum statt Digital: starke Geschichte, 6 Redaktionen + ESA; Digital-Kandidaten schwach) mit `kurz-video` im Test (~30 s, ohne Teil-Aufforderung; letzter Post hatte `teilen-anreiz`).
 - 2026-11-25 (mittags, Vorbereitung für spät): Keine Regeländerung (Führerschein-Post noch keine 24 h alt). Afrika-Cup-Post (Sport, laut schwerpunkt.js beste Reichweite; CAS gibt Senegal den Titel zurück, Sportschau + ZDFheute + DW) mit `teilen-anreiz` im Test, ~38 s statt kurz (Morgen-Post hatte `kurz-video`).
 - 2026-11-25 (morgens): Keine Regeländerung (`kurz-video` erst 1 Post mit Zahlen, `teilen-anreiz` ohne messbares Teilen). Erster Post im neuen 3D-Format: digitaler Führerschein (Alltag, laut schwerpunkt.js zum Weiterlernen dran; ZDFheute + ADAC, Start „soll“ Ende November), ~30 s mit `kurz-video` im Test, ohne Teil-Aufforderung (letzter Post hatte `teilen-anreiz`).
 - 2026-11-24 (mittags): Keine Regeländerung (Black-Week-Post noch keine 24 h alt). Schaltsekunde abgeschafft (Welt, laut schwerpunkt.js zum Weiterlernen dran; tagesschau + Euronews) mit `teilen-anreiz` im Test, ~36 s statt kurz (Morgen-Post hatte `kurz-video`).

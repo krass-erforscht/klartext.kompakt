@@ -1,0 +1,67 @@
+{
+  "id": "2026-11-26-hera",
+  "date": "2026-11-25T17:30:00Z",
+  "category": "Weltraum",
+  "topic": "welt",
+  "tone": "sachlich",
+  "format": "video",
+  "test": "kurz-video",
+  "sources": [
+    { "name": "tagesschau", "url": "https://www.tagesschau.de/wissen/sonde-hera-asteroid-100.html" },
+    { "name": "n-tv (dpa)", "url": "https://www.n-tv.de/wissen/Sonde-sendet-Bild-von-bombardiertem-Asteroiden-id31576673.html" },
+    { "name": "heise online", "url": "https://www.heise.de/news/Weltraumsonde-Hera-entdeckt-hunderte-Mini-Asteroiden-rund-um-Dimorphos-11538102.html" },
+    { "name": "Deutschlandfunk", "url": "https://www.deutschlandfunk.de/weit-mehr-als-eine-wissenschaftliche-sensation-esa-veroeffentlicht-bilder-der-raumsonde-hera-von-ast-106.html" }
+  ],
+  "image": {
+    "file": "images/2026-11-26-hera.jpg",
+    "credit": "NASA/JPL (Illustration), Public Domain",
+    "short": "Illustration: NASA/JPL, Public Domain",
+    "license": "Public Domain",
+    "page": "https://images.nasa.gov/details/PIA25329",
+    "symbolbild": true,
+    "position": "center"
+  },
+  "video": {
+    "headline": "Neue Bilder: Sonde schlug **stadiongroßen Krater** in Asteroiden ☄️",
+    "voiceSpeed": 1.2,
+    "voice": [
+      "Eine Raumsonde hat einen Krater so groß wie ein Fußballstadion in einen Asteroiden geschlagen.",
+      "Vor vier Jahren krachte die Nasa-Sonde Dart mit Absicht in den Asteroiden Dimorphos.",
+      "Erste Bilder der europäischen Sonde Hera zeigen jetzt: Eine ganze Seite ist wie plattgedrückt.",
+      "Was heißt das für dich?",
+      "Der Stoß hat die Bahn des Asteroiden verändert, er braucht für eine Runde dreiunddreißig Minuten weniger.",
+      "So könnte man die Erde eines Tages vor einem gefährlichen Einschlag schützen.",
+      "Überraschend kreisen dort aber auch Hunderte kleine Brocken.",
+      "Gerade ist übrigens kein bekannter Asteroid auf Kurs zur Erde. Beeindruckend oder beunruhigend?"
+    ],
+    "voiceText": [
+      "Eine Raumsonde hat einen Krater so groß wie ein Fußballstadion in einen Asteroiden geschlagen.",
+      "Vor 4 Jahren krachte die NASA-Sonde DART mit Absicht in den Asteroiden Dimorphos.",
+      "Erste Bilder der europäischen Sonde Hera zeigen jetzt: Eine ganze Seite ist wie plattgedrückt.",
+      "Was heißt das für dich?",
+      "Der Stoß hat die Bahn des Asteroiden verändert, er braucht für eine Runde 33 Minuten weniger.",
+      "So könnte man die Erde eines Tages vor einem gefährlichen Einschlag schützen.",
+      "Überraschend kreisen dort aber auch Hunderte kleine Brocken.",
+      "Gerade ist übrigens kein bekannter Asteroid auf Kurs zur Erde. Beeindruckend oder beunruhigend?"
+    ],
+    "szene": [
+      { "typ": "foto", "bild": "images/2026-11-26-hera.jpg", "symbolbild": true, "credit": "Illustration: NASA/JPL, Public Domain",
+        "big": "Stadion-Krater", "sub": "im Asteroiden Dimorphos (ca. 150 m groß)" },
+      { "typ": "zeitstrahl", "punkte": [ { "jahr": "2022", "text": "DART-Einschlag" }, { "jahr": "2026", "text": "Hera-Bilder" } ], "aktiv": 0,
+        "big": "2022", "sub": "Einschlag mit über 22.000 km/h" },
+      { "typ": "foto", "bild": "images/2026-11-26-hera-2.jpg", "symbolbild": true, "credit": "Illustration: ESA, CC BY-SA 3.0 IGO",
+        "big": "", "sub": "" },
+      { "typ": "zahl", "wert": "42.000", "einheit": "erdnahe Objekte bekannt",
+        "big": "42.000", "sub": "erdnahe Objekte kennt man laut DLR" },
+      { "typ": "balken", "werte": [ { "name": "vorher", "wert": 716, "text": "11 h 56" }, { "name": "nachher", "wert": 683, "text": "11 h 23" } ], "hervor": 1,
+        "big": "−33 Min", "sub": "Umlaufzeit um den großen Asteroiden" },
+      { "typ": "erde", "lat": 49.87, "lon": 8.65, "ort": "Darmstadt",
+        "big": "Abwehr-Test", "sub": "Hera wird aus Darmstadt gesteuert" },
+      { "typ": "foto", "bild": "images/2026-11-26-hera-3.jpg", "symbolbild": true, "credit": "Hubble-Aufnahme 2022: NASA, ESA, D. Jewitt, CC BY 4.0",
+        "big": "Hunderte", "sub": "unerwartete Brocken um die Asteroiden" },
+      { "typ": "zahl", "wert": "0", "einheit": "auf Kurs zur Erde",
+        "big": "0", "sub": "bekannte Asteroiden auf Kollisionskurs (DLR)" }
+    ]
+  },
+  "caption": "Asteroid Dimorphos: Eine NASA-Sonde hat einen Krater so groß wie ein Fußballstadion hineingeschlagen. Das zeigen die ersten Bilder der europäischen Sonde Hera, die die ESA am Mittwoch vorgestellt hat. Der Test von 2022 soll zeigen, wie man die Erde vor gefährlichen Asteroiden schützen könnte: Dimorphos braucht seitdem rund 33 Minuten weniger für eine Runde um seinen großen Partner Didymos. Überraschung: Hunderte kleine Brocken kreisen um die beiden. Auf Kollisionskurs mit der Erde ist laut DLR derzeit kein bekanntes Objekt.\n\nBeeindruckend oder beunruhigend – was denkst du? ☄️\n\nQuellen: tagesschau, n-tv/dpa, heise online, Deutschlandfunk (mit Angaben von ESA und DLR) · Text und Stimme mit KI erstellt\nBilder: Illustration NASA/JPL, Public Domain; Illustration ESA, CC BY-SA 3.0 IGO, via Wikimedia Commons; Hubble-Aufnahme (Symbolbild, 2022) NASA, ESA, D. Jewitt, CC BY 4.0, via ESA/Hubble; Erdbild NASA Blue Marble, Public Domain\n#nachrichten #weltraum #asteroid #esa #nasa"
+}

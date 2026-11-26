@@ -1,5 +1,5 @@
 {
-  "datum": "2026-11-25T19:01:25.804Z",
+  "datum": "2026-11-26T05:17:39.185Z",
   "hinweise": [
     "Thema: „sport“ erreicht im Mittel 137,5 Konten, „alltag“ nur 25 (14 bzw. 5 Posts).",
     "Uhrzeit: „7 Uhr“ erreicht im Mittel 137 Konten, „18 Uhr“ nur 52,5 (17 bzw. 8 Posts).",
@@ -26,7 +26,7 @@
           "wert": "bilder",
           "posts": 32,
           "reichweite": 111,
-          "likes_pro_1000": 27.237354085603112,
+          "likes_pro_1000": 26.913099870298314,
           "teilen_speichern_pro_1000": 0.9727626459143969,
           "wiedergabe_s": 3.2735000000000003
         },
@@ -80,7 +80,7 @@
           "wert": "geld",
           "posts": 4,
           "reichweite": 61.5,
-          "likes_pro_1000": 42.471042471042466,
+          "likes_pro_1000": 38.61003861003861,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 2.8085
         },
@@ -102,7 +102,7 @@
           "wert": "sachlich",
           "posts": 29,
           "reichweite": 127,
-          "likes_pro_1000": 16.17608061522143,
+          "likes_pro_1000": 15.910898965791567,
           "teilen_speichern_pro_1000": 1.3259082471492973,
           "wiedergabe_s": 3.859
         },
@@ -150,7 +150,7 @@
           "reichweite": 132,
           "likes_pro_1000": 0,
           "teilen_speichern_pro_1000": 0,
-          "wiedergabe_s": 11.049
+          "wiedergabe_s": 11.087
         },
         {
           "wert": "6 Uhr",
@@ -180,7 +180,7 @@
           "wert": "18 Uhr",
           "posts": 8,
           "reichweite": 52.5,
-          "likes_pro_1000": 45.08196721311476,
+          "likes_pro_1000": 43.0327868852459,
           "teilen_speichern_pro_1000": 4.0983606557377055,
           "wiedergabe_s": 2.6545
         }
@@ -242,7 +242,7 @@
           "wert": "Mi",
           "posts": 6,
           "reichweite": 57,
-          "likes_pro_1000": 45.91836734693878,
+          "likes_pro_1000": 43.36734693877551,
           "teilen_speichern_pro_1000": 0,
           "wiedergabe_s": 2.808
         }
@@ -264,7 +264,7 @@
           "wert": "kurz (≤45 Zeichen)",
           "posts": 12,
           "reichweite": 107.5,
-          "likes_pro_1000": 29.17981072555205,
+          "likes_pro_1000": 28.391167192429023,
           "teilen_speichern_pro_1000": 0.7886435331230284,
           "wiedergabe_s": 2.854
         }
@@ -278,7 +278,7 @@
           "wert": "ohne Zahl",
           "posts": 26,
           "reichweite": 115.5,
-          "likes_pro_1000": 17.677537336177995,
+          "likes_pro_1000": 17.37275220969217,
           "teilen_speichern_pro_1000": 1.2191405059433098,
           "wiedergabe_s": 3.5244999999999997
         },
@@ -300,7 +300,7 @@
           "wert": "Aussage",
           "posts": 45,
           "reichweite": 115,
-          "likes_pro_1000": 18.82530120481928,
+          "likes_pro_1000": 18.637048192771083,
           "teilen_speichern_pro_1000": 1.1295180722891567,
           "wiedergabe_s": 3.787
         },
@@ -415,7 +415,7 @@
       "symbolvideo": null,
       "reichweite": 21,
       "aufrufe": 16,
-      "likes": 7,
+      "likes": 6,
       "kommentare": 5,
       "shares": 0,
       "saves": 0,
@@ -423,7 +423,7 @@
       "profilbesuche": 0,
       "wiedergabe_s": 2.854,
       "wiedergabe_anteil": null,
-      "likes_pro_1000": 333.3333333333333,
+      "likes_pro_1000": 285.7142857142857,
       "teilen_speichern_pro_1000": 0
     },
     {
@@ -1737,8 +1737,8 @@
       "saves": 0,
       "follows": null,
       "profilbesuche": null,
-      "wiedergabe_s": 11.049,
-      "wiedergabe_anteil": 0.29076315789473683,
+      "wiedergabe_s": 11.087,
+      "wiedergabe_anteil": 0.29176315789473684,
       "likes_pro_1000": 0,
       "teilen_speichern_pro_1000": 0
     }

@@ -1,6 +1,6 @@
-# Algorithmus-Analyse (2026-11-25)
+# Algorithmus-Analyse (2026-11-26)
 
-48 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-16: +0).
+48 Posts ausgewertet (mind. 1 Tag alt). Follower: 5 (seit 2026-11-22: -1).
 Gesamtreichweite: 5.412 Konten, Median pro Post: 111.
 
 ## Deutlichste Unterschiede (Hinweise, noch wenig Daten)
@@ -31,7 +31,7 @@ Gesamtreichweite: 5.412 Konten, Median pro Post: 111.
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | zusammen | 3 | 144 | 14,8 | 1,9 | 5,3 |
-| bilder | 32 | 111 | 27,2 | 1 | 3,3 |
+| bilder | 32 | 111 | 26,9 | 1 | 3,3 |
 | video | 13 | 109 | 7,8 | 1,1 | 5,9 |
 
 ### Thema
@@ -42,14 +42,14 @@ Gesamtreichweite: 5.412 Konten, Median pro Post: 111.
 | welt | 5 | 132 | 20,7 | 2,1 | 5,6 |
 | umwelt | 11 | 115 | 18 | 0,8 | 5 |
 | digital | 9 | 109 | 18,8 | 2,1 | 4,1 |
-| geld | 4 | 61,5 | 42,5 | 0 | 2,8 |
+| geld | 4 | 61,5 | 38,6 | 0 | 2,8 |
 | alltag | 5 | 25 | 59,8 | 0 | 3,4 |
 
 ### Ton
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| sachlich | 29 | 127 | 16,2 | 1,3 | 3,9 |
+| sachlich | 29 | 127 | 15,9 | 1,3 | 3,9 |
 | locker | 5 | 116 | 31 | 2,2 | 3,4 |
 | ueberraschend | 14 | 98 | 26,1 | 0 | 3,9 |
 
@@ -59,11 +59,11 @@ Gesamtreichweite: 5.412 Konten, Median pro Post: 111.
 |---|---|---|---|---|---|
 | 7 Uhr | 17 | 137 | 18,2 | 0,9 | 3,6 |
 | 20 Uhr | 5 | 135 | 9,2 | 1,5 | 5,9 |
-| 11 Uhr | 1 | 132 | 0 | 0 | 11 |
+| 11 Uhr | 1 | 132 | 0 | 0 | 11,1 |
 | 6 Uhr | 4 | 118,5 | 3,2 | 0 | 5,3 |
 | 12 Uhr | 11 | 108 | 31,9 | 0 | 4 |
 | 16 Uhr | 2 | 104,5 | 9,6 | 4,8 | 5,3 |
-| 18 Uhr | 8 | 52,5 | 45,1 | 4,1 | 2,7 |
+| 18 Uhr | 8 | 52,5 | 43 | 4,1 | 2,7 |
 
 ### Wochentag
 
@@ -75,27 +75,27 @@ Gesamtreichweite: 5.412 Konten, Median pro Post: 111.
 | Fr | 6 | 113,5 | 21 | 0 | 3,3 |
 | Sa | 6 | 109,5 | 25,3 | 4,2 | 2,4 |
 | Di | 7 | 107 | 10,8 | 0 | 5,6 |
-| Mi | 6 | 57 | 45,9 | 0 | 2,8 |
+| Mi | 6 | 57 | 43,4 | 0 | 2,8 |
 
 ### Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
 | lang (>45 Zeichen) | 36 | 113,5 | 16,7 | 1,2 | 3,9 |
-| kurz (≤45 Zeichen) | 12 | 107,5 | 29,2 | 0,8 | 2,9 |
+| kurz (≤45 Zeichen) | 12 | 107,5 | 28,4 | 0,8 | 2,9 |
 
 ### Zahl in der Überschrift
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| ohne Zahl | 26 | 115,5 | 17,7 | 1,2 | 3,5 |
+| ohne Zahl | 26 | 115,5 | 17,4 | 1,2 | 3,5 |
 | mit Zahl | 22 | 108 | 22,5 | 0,9 | 4,8 |
 
 ### Frage oder Aussage
 
 | Ausprägung | Posts | Reichweite (Median) | Likes je 1000 erreichte | Teilen+Speichern je 1000 | Ø geschaut im Reel (s) |
 |---|---|---|---|---|---|
-| Aussage | 45 | 115 | 18,8 | 1,1 | 3,8 |
+| Aussage | 45 | 115 | 18,6 | 1,1 | 3,8 |
 | Frage | 3 | 34 | 60 | 0 | 3,4 |
 
 ### Videolänge
@@ -125,7 +125,7 @@ Gesamtreichweite: 5.412 Konten, Median pro Post: 111.
 
 | Datum | Titel | Format | Reichweite | Aufrufe | Likes | Shares | Saves | Follows | Ø geschaut | Anteil geschaut |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-28 | Elterngeld soll zum ersten Mal steigen | bilder | 21 | 16 | 7 | 0 | 0 | 0 | 2,9 s | – |
+| 2026-10-28 | Elterngeld soll zum ersten Mal steigen | bilder | 21 | 16 | 6 | 0 | 0 | 0 | 2,9 s | – |
 | 2026-10-29 | Apple bringt das erste MacBook mit Touchscree | bilder | 112 | 14 | 4 | 0 | 0 | 0 | 3,5 s | – |
 | 2026-10-29 | Tankrabatt: Kommen die 17 Cent wirklich bei d | bilder | 23 | 14 | 4 | 0 | 0 | 0 | 3,4 s | – |
 | 2026-10-30 | Wetter zum Wochenende: Nebel, Wolken und kühl | video | 207 | 216 | 4 | 0 | 0 | – | 3,6 s | 18 % |
@@ -172,7 +172,7 @@ Gesamtreichweite: 5.412 Konten, Median pro Post: 111.
 | 2026-11-23 | Bayern verliert die Spitze: Dortmund ist neue | video | 135 | 138 | 0 | 0 | 0 | – | 3 s | 9 % |
 | 2026-11-23 | Klimagipfel ohne Einigung: Kohle, Öl und Gas  | video | 102 | 110 | 1 | 0 | 1 | – | 5,2 s | 12 % |
 | 2026-11-24 | Black Friday: Viele Rabatte sind kleiner, als | video | 15 | 21 | 0 | 0 | 0 | – | 3,5 s | 11 % |
-| 2026-11-24 | Die Schaltsekunde wird abgeschafft – das ände | video | 132 | 145 | 0 | 0 | 0 | – | 11 s | 29 % |
+| 2026-11-24 | Die Schaltsekunde wird abgeschafft – das ände | video | 132 | 145 | 0 | 0 | 0 | – | 11,1 s | 29 % |
 
 ## Erkenntnisse
 - 2026-11-10: Erste Auswertung. Sport und Umwelt führen bei der Reichweite, Geld und Welt liegen deutlich zurück. Das erste echte Video (Format video) erreichte 207 Konten, mehr als Bilder-Posts (Ø 89), aber nur 1 Post. Follower-Zahlen fehlen noch in den Daten (alle 0). Hypothese: weitere Video-Posts testen, ob Reels dauerhaft mehr Nicht-Follower erreichen.
